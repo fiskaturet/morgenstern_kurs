@@ -54,10 +54,10 @@
     const primaryBtn = document.querySelector('[data-cta="primary"]');
     if (primaryBtn) {
       if (state.completed.length === 0) {
-        primaryBtn.textContent = 'Start med dag 1 →';
+        primaryBtn.textContent = 'Start med økt 1 →';
         primaryBtn.href = 'dag-1.html';
       } else if (next) {
-        primaryBtn.textContent = `Fortsett med dag ${next} →`;
+        primaryBtn.textContent = `Fortsett med økt ${next} →`;
         primaryBtn.href = `dag-${next}.html`;
       } else {
         primaryBtn.textContent = 'Åpne oppslagsverket →';
@@ -78,7 +78,7 @@
     // Progresjonstelling
     const progressText = document.querySelector('[data-progress-text]');
     if (progressText) {
-      progressText.textContent = `${state.completed.length} av ${TOTAL_DAYS} dager fullført`;
+      progressText.textContent = `${state.completed.length} av ${TOTAL_DAYS} økter fullført`;
     }
   }
 
@@ -98,7 +98,7 @@
         const dot = document.createElement('a');
         dot.className = 'progress-dot';
         dot.href = `dag-${i}.html`;
-        dot.title = `Dag ${i}`;
+        dot.title = `Økt ${i}`;
         if (state.completed.includes(i)) dot.classList.add('done');
         if (i === currentDay) dot.classList.add('current');
         strip.appendChild(dot);

@@ -1,6 +1,6 @@
 # Reklameforståelse — et krasjkurs fra Morgenstern
 
-Et 13-dagers krasjkurs i reklameforståelse, bygget på Les Binet & Peter Field, Byron Sharp, Rory Sutherland og Robert Cialdini.
+Et krasjkurs i reklameforståelse over 13 økter, bygget på Les Binet & Peter Field, Byron Sharp, Rory Sutherland og Robert Cialdini.
 
 Utviklet av Anders Muurman Holm, kreativ leder i Morgenstern.
 
@@ -9,10 +9,11 @@ Utviklet av Anders Muurman Holm, kreativ leder i Morgenstern.
 Statisk HTML/CSS/JS. Ingen build-steg, ingen avhengigheter.
 
 - `index.html` — kursoversikt
-- `dag-1.html` til `dag-13.html` — kapitlene
+- `dag-1.html` til `dag-13.html` — kapitlene (filnavn beholdes for stabile lenker; UI sier «økt»)
 - `oppslag.html` — ordliste
 - `styles.css` — Morgenstern-stil med Söhne, fargesignatur per del
 - `app.js` — progresjon i localStorage, quiz, sjekklister
+- `feedback.js` — feedback-widget for forslag fra leserne (Formspree)
 - `assets/` — Söhne-fonter, Morgenstern-logo, illustrasjoner
 
 ## Lokal preview

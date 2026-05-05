@@ -317,6 +317,23 @@ hr {
   line-height: 1.65;
 }
 
+/* Signatur i intro-seksjon */
+.signature {
+  margin-top: var(--space-lg);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
+.signature-role {
+  display: inline-block;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  margin-left: 0.85rem;
+}
+
 /* Forsidens illustrasjon */
 .home-illustration {
   display: block;
