@@ -15,14 +15,14 @@
   <meta property="og:locale" content="nb_NO" />
   <meta property="og:site_name" content="Reklameforståelse — Morgenstern" />
   <meta property="og:title" content="Økt 2 — Merkebygging og aktivering · Reklameforståelse" />
-  <meta property="og:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet & Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
+  <meta property="og:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
   <meta property="og:url" content="https://reklameforstaelse.morgenstern.no/dag-2" />
   <meta property="og:image" content="https://reklameforstaelse.morgenstern.no/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Økt 2 — Merkebygging og aktivering · Reklameforståelse" />
-  <meta name="twitter:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet & Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
+  <meta name="twitter:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
   <meta name="twitter:image" content="https://reklameforstaelse.morgenstern.no/og-image.jpg" />
 </head>
 <body data-part="2">
@@ -76,6 +76,448 @@
       <h3>Den lange jobben: merkebygging</h3>
       <p>Merkebygging er reklame som bygger merket opp over tid i hodet på folk. Målgruppen er alle som kan komme til å kjøpe i kategorien en gang i framtiden — de fleste av dem er ikke i en kjøpssituasjon akkurat nå.</p>
       <p>Hvor mange skal egentlig kjøpe en bil eller bytte bank AKKURAT NÅ? Nesten ingen.</p>
+<!--
+  Drop-in kalkulator: Kjøpsøyeblikk
+  Lim hele blokken inn i en HTML-side. CSS og JS er skopet til .kalk-* for
+  å unngå kollisjoner. Bruker Morgenstern-tokens fra styles.css (--part-color,
+  --part-soft, --rule, --text, --text-muted) og arver fargesignatur per økt.
+-->
+<section class="section kalk" aria-labelledby="kalk-tittel">
+
+  <h2 id="kalk-tittel">Kjøpsøyeblikk-kalkulator <span class="badge">interaktiv</span></h2>
+  <p class="kalk-intro">Beveg slidere for å se hvor mange kjøpsøyeblikk en kategori produserer per dag, uke, måned og år — og hvor stor andel din merkevare henter ut. Sharp i tall.</p>
+
+  <div class="kalk-base">
+    <span class="kalk-base-label">Norske husholdninger</span>
+    <span class="kalk-base-val">2&nbsp;650&nbsp;000</span>
+  </div>
+
+  <h3 class="kalk-section-title">Kategori</h3>
+
+  <div class="kalk-row">
+    <label for="kalk-pen">Kategoripenetrasjon</label>
+    <input type="range" id="kalk-pen" min="5" max="100" step="1" value="60" aria-describedby="kalk-pen-out" />
+    <output for="kalk-pen" class="kalk-val" id="kalk-pen-out">60 %</output>
+  </div>
+
+  <div class="kalk-freq">
+    <span class="kalk-freq-label">Kjøpsfrekvens</span>
+    <div class="kalk-toggle" role="tablist" aria-label="Tidsenhet for kjøpsfrekvens">
+      <button type="button" class="kalk-tbtn is-active" data-freq="week" role="tab" aria-selected="true">Ukentlig</button>
+      <button type="button" class="kalk-tbtn" data-freq="month" role="tab" aria-selected="false">Månedlig</button>
+      <button type="button" class="kalk-tbtn" data-freq="year" role="tab" aria-selected="false">Årlig</button>
+    </div>
+    <div class="kalk-row">
+      <input type="range" id="kalk-freq" min="0.25" max="7" step="0.25" value="1.5" aria-label="Antall kjøp i valgt tidsenhet" aria-describedby="kalk-freq-out" />
+      <output for="kalk-freq" class="kalk-val" id="kalk-freq-out">1,5 per uke</output>
+    </div>
+  </div>
+
+  <h3 class="kalk-section-title">Din merkevare</h3>
+
+  <div class="kalk-row">
+    <label for="kalk-share">Markedsandel</label>
+    <input type="range" id="kalk-share" min="1" max="80" step="1" value="15" aria-describedby="kalk-share-out" />
+    <output for="kalk-share" class="kalk-val" id="kalk-share-out">15 %</output>
+  </div>
+
+  <h3 class="kalk-section-title">Andel av husholdninger som er i markedet</h3>
+  <div class="kalk-cards kalk-cards--soft">
+    <div class="kalk-card">
+      <div class="kalk-card-label">På en gitt dag</div>
+      <div class="kalk-card-value" id="kalk-incat-day">—</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">I en gitt uke</div>
+      <div class="kalk-card-value" id="kalk-incat-week">—</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">I en gitt måned</div>
+      <div class="kalk-card-value" id="kalk-incat-month">—</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">I et gitt år</div>
+      <div class="kalk-card-value" id="kalk-incat-year">—</div>
+    </div>
+  </div>
+
+  <h3 class="kalk-section-title">Kjøpsøyeblikk totalt i kategorien</h3>
+  <div class="kalk-cards kalk-cards--neutral">
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per dag</div>
+      <div class="kalk-card-value" id="kalk-total-day">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per uke</div>
+      <div class="kalk-card-value" id="kalk-total-week">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per måned</div>
+      <div class="kalk-card-value" id="kalk-total-month">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per år</div>
+      <div class="kalk-card-value" id="kalk-total-year">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+  </div>
+
+  <h3 class="kalk-section-title">Din merkevares andel av kjøpsøyeblikkene</h3>
+  <div class="kalk-cards kalk-cards--brand">
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per dag</div>
+      <div class="kalk-card-value" id="kalk-brand-day">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per uke</div>
+      <div class="kalk-card-value" id="kalk-brand-week">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per måned</div>
+      <div class="kalk-card-value" id="kalk-brand-month">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+    <div class="kalk-card">
+      <div class="kalk-card-label">Per år</div>
+      <div class="kalk-card-value" id="kalk-brand-year">—</div>
+      <div class="kalk-card-sub">kjøpsøyeblikk</div>
+    </div>
+  </div>
+
+  <p class="kalk-footnote">Modellen forutsetter jevn frekvensfordeling og at penetrasjon er konstant over året. Pedagogisk forenklet — bruk tallene som retning, ikke fasit.</p>
+
+</section>
+
+<style>
+  /* ============================================================
+     Kjøpsøyeblikk-kalkulator — Morgenstern
+     Skopet til .kalk for å unngå kollisjoner med resten av sida.
+     Arver --part-color, --part-soft osv. fra body[data-part]
+     ============================================================ */
+  .kalk { padding-top: var(--space-md); }
+  .kalk h2 { /* arver default */ }
+
+  .kalk-intro {
+    color: var(--text-muted);
+    margin: 0 0 var(--space-lg);
+    max-width: 38rem;
+  }
+
+  .kalk-base {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: 0.85rem 1.1rem;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: #FBFAF7;
+    margin-bottom: var(--space-lg);
+  }
+  .kalk-base-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .kalk-base-val {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .kalk-section-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin: var(--space-lg) 0 var(--space-sm);
+  }
+
+  /* ---------- Rad: label + slider + verdi ---------- */
+  .kalk-row {
+    display: grid;
+    grid-template-columns: 14rem 1fr 5rem;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+  .kalk-row label {
+    font-size: 0.95rem;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .kalk-val {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--part-color);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  @media (max-width: 640px) {
+    .kalk-row { grid-template-columns: 1fr 4rem; gap: 0.5rem var(--space-sm); }
+    .kalk-row label { grid-column: 1 / -1; margin-bottom: 0; }
+    .kalk-row input[type="range"] { grid-column: 1 / 2; }
+    .kalk-row .kalk-val { grid-column: 2 / 3; }
+  }
+
+  /* ---------- Slider ---------- */
+  .kalk input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    background: var(--rule);
+    border-radius: 999px;
+    outline: none;
+    cursor: pointer;
+  }
+  .kalk input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background: var(--part-color);
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    box-shadow: 0 0 0 1px var(--part-color);
+    cursor: pointer;
+    transition: transform 80ms ease;
+  }
+  .kalk input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.15);
+  }
+  .kalk input[type="range"]::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    background: var(--part-color);
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    box-shadow: 0 0 0 1px var(--part-color);
+    cursor: pointer;
+  }
+  .kalk input[type="range"]:focus-visible {
+    outline: 3px solid var(--part-soft);
+    outline-offset: 4px;
+  }
+
+  /* ---------- Frekvens-bolk med toggle ---------- */
+  .kalk-freq { margin-bottom: var(--space-md); }
+  .kalk-freq-label {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: var(--space-sm);
+  }
+  .kalk-toggle {
+    display: inline-flex;
+    gap: 0;
+    margin-bottom: var(--space-md);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 2px;
+    background: var(--white);
+  }
+  .kalk-tbtn {
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.45rem 1rem;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 120ms, color 120ms;
+  }
+  .kalk-tbtn:hover { color: var(--text); }
+  .kalk-tbtn.is-active {
+    background: var(--part-color);
+    color: var(--white);
+  }
+  .kalk-tbtn:focus-visible {
+    outline: 2px solid var(--part-color);
+    outline-offset: 2px;
+  }
+
+  /* ---------- Kort-grid ---------- */
+  .kalk-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.4rem;
+    margin-bottom: var(--space-md);
+  }
+  @media (max-width: 540px) {
+    .kalk-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  .kalk-card {
+    padding: 0.6rem 0.65rem;
+    border-radius: 3px;
+    min-width: 0;
+  }
+  .kalk-card-label {
+    font-size: 0.68rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin-bottom: 0.35rem;
+    white-space: nowrap;
+  }
+  .kalk-card-value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+  }
+  @media (min-width: 540px) and (max-width: 700px) {
+    .kalk-card-value { font-size: 0.95rem; }
+  }
+  @media (min-width: 900px) {
+    .kalk-card-value { font-size: 1.2rem; }
+  }
+  .kalk-card-sub {
+    font-size: 0.7rem;
+    color: var(--text-subtle);
+    margin-top: 0.15rem;
+    white-space: nowrap;
+  }
+  .kalk-card-sub {
+    font-size: 0.78rem;
+    color: var(--text-subtle);
+    margin-top: 0.15rem;
+  }
+
+  /* Variant: soft (cream-tonet, kontekst) */
+  .kalk-cards--soft .kalk-card {
+    background: var(--cream);
+  }
+  .kalk-cards--soft .kalk-card-label { color: var(--text-muted); }
+  .kalk-cards--soft .kalk-card-value { color: var(--text); }
+
+  /* Variant: neutral (hvit med rule, totaltall) */
+  .kalk-cards--neutral .kalk-card {
+    background: var(--white);
+    border: 1px solid var(--rule);
+  }
+
+  /* Variant: brand (part-soft bg, part-color tall — punchline) */
+  .kalk-cards--brand .kalk-card {
+    background: var(--part-soft);
+  }
+  .kalk-cards--brand .kalk-card-value {
+    color: var(--part-color);
+  }
+  .kalk-cards--brand .kalk-card-label {
+    color: var(--part-color);
+    opacity: 0.85;
+  }
+
+  .kalk-footnote {
+    font-size: 0.82rem;
+    color: var(--text-subtle);
+    font-style: italic;
+    margin-top: var(--space-md);
+    max-width: 38rem;
+  }
+</style>
+
+<script>
+  (function () {
+    'use strict';
+    const HUSHOLDNINGER = 2650000;
+    let freqMode = 'week';
+
+    const freqConfig = {
+      week:  { min: 0.25, max: 7,   step: 0.25, default: 1.5,  label: v => fmt2(v) + ' per uke',   toWeekly: v => v },
+      month: { min: 0.25, max: 30,  step: 0.25, default: 6,    label: v => fmt2(v) + ' per måned', toWeekly: v => v / 4.33 },
+      year:  { min: 1,    max: 365, step: 1,    default: 78,   label: v => Math.round(v) + ' per år', toWeekly: v => v / 52 }
+    };
+
+    const $ = id => document.getElementById(id);
+    const fmtN = n => Math.round(n).toLocaleString('nb-NO');
+    const fmt2 = n => n.toLocaleString('nb-NO', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    const fmtPct = n => n.toLocaleString('nb-NO', {minimumFractionDigits: 1, maximumFractionDigits: 1}) + ' %';
+
+    function setFreqMode(mode) {
+      freqMode = mode;
+      document.querySelectorAll('.kalk-tbtn').forEach(b => {
+        const isActive = b.getAttribute('data-freq') === mode;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      const cfg = freqConfig[mode];
+      const el = $('kalk-freq');
+      el.min = cfg.min;
+      el.max = cfg.max;
+      el.step = cfg.step;
+      el.value = cfg.default;
+      update();
+    }
+
+    function update() {
+      const pen     = parseFloat($('kalk-pen').value) / 100;
+      const freqRaw = parseFloat($('kalk-freq').value);
+      const share   = parseFloat($('kalk-share').value) / 100;
+      const cfg     = freqConfig[freqMode];
+
+      $('kalk-freq-out').textContent  = cfg.label(freqRaw);
+      $('kalk-pen-out').textContent   = (pen * 100).toFixed(0) + ' %';
+      $('kalk-share-out').textContent = (share * 100).toFixed(0) + ' %';
+
+      const buyers = HUSHOLDNINGER * pen;
+      const freqPerWeek = cfg.toWeekly(freqRaw);
+      const freqPerDay  = freqPerWeek / 7;
+
+      const pDay   = Math.min(freqPerDay, 1);
+      const pWeek  = Math.min(freqPerWeek, 1);
+      const pMonth = Math.min(freqPerWeek * 4.33, 1);
+      const pYear  = Math.min(freqPerWeek * 52, 1);
+
+      $('kalk-incat-day').textContent   = fmtPct(pen * pDay   * 100);
+      $('kalk-incat-week').textContent  = fmtPct(pen * pWeek  * 100);
+      $('kalk-incat-month').textContent = fmtPct(pen * pMonth * 100);
+      $('kalk-incat-year').textContent  = fmtPct(pen * pYear  * 100);
+
+      const totalDay   = buyers * freqPerDay;
+      const totalWeek  = buyers * freqPerWeek;
+      const totalMonth = totalWeek * 4.33;
+      const totalYear  = totalWeek * 52;
+
+      $('kalk-total-day').textContent   = fmtN(totalDay);
+      $('kalk-total-week').textContent  = fmtN(totalWeek);
+      $('kalk-total-month').textContent = fmtN(totalMonth);
+      $('kalk-total-year').textContent  = fmtN(totalYear);
+
+      $('kalk-brand-day').textContent   = fmtN(totalDay   * share);
+      $('kalk-brand-week').textContent  = fmtN(totalWeek  * share);
+      $('kalk-brand-month').textContent = fmtN(totalMonth * share);
+      $('kalk-brand-year').textContent  = fmtN(totalYear  * share);
+    }
+
+    // Init
+    document.querySelectorAll('.kalk-tbtn').forEach(b => {
+      b.addEventListener('click', () => setFreqMode(b.getAttribute('data-freq')));
+    });
+    ['kalk-pen', 'kalk-freq', 'kalk-share'].forEach(id => {
+      $(id).addEventListener('input', update);
+    });
+    update();
+  })();
+</script>
+
       <p>Heldigvis er hukommelsen tålmodig. En reklame du så for seks måneder siden kan påvirke et valg du tar i dag, uten at du klarer å knytte reklamen direkte til valget. Det er også derfor merkebygging er vanskelig å måle på kort sikt. Den jobben du betaler for lønner seg ikke før lenge etter fakturaen er betalt.</p>
       <p>Den beste reklamen virker utrolig lenge. Zalo-reklame fra 90-tallet gir fortsatt effekt. Selv om både byrå, konsept og alle ansatte i Orkla er byttet ut for lengst.</p>
       <h3>Hvorfor skillet er praktisk viktig</h3>
