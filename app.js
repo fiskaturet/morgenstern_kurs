@@ -1,10 +1,14 @@
 /* Reklameforståelse — progresjonssporing
- * Lagrer i localStorage. Per enhet. Ingen backend.
+ * Lagrer i localStorage, keyed per innlogget e-post (per enhet).
  */
 (function () {
   'use strict';
 
-  const STORAGE_KEY = 'reklameforstaelse.v1';
+  const USER_KEY = 'reklameforstaelse.user.email';
+  const userEmail = localStorage.getItem(USER_KEY);
+  const STORAGE_KEY = userEmail
+    ? 'reklameforstaelse.v1.' + userEmail
+    : 'reklameforstaelse.v1';
   const TOTAL_DAYS = 13;
 
   function readState() {
@@ -281,15 +285,34 @@
     }
   }
 
+  /* ---------- Footer: vis innlogget e-post + logg ut ---------- */
+  function hydrateUserStrip() {
+    const emailEl = document.querySelector('[data-user-email]');
+    if (emailEl && userEmail) emailEl.textContent = userEmail;
+
+    const logoutEl = document.querySelector('[data-logout]');
+    if (logoutEl) {
+      logoutEl.addEventListener('click', (e) => {
+        e.preventDefault();
+        try {
+          localStorage.removeItem(USER_KEY);
+        } catch (err) { /* ignore */ }
+        window.location.href = 'login.html';
+      });
+    }
+  }
+
   /* ---------- Init ---------- */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
       hydrateHome();
       hydrateLesson();
+      hydrateUserStrip();
     });
   } else {
     hydrateHome();
     hydrateLesson();
+    hydrateUserStrip();
   }
 
   // Eksporter for debug og eksport-funksjon senere

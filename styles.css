@@ -979,6 +979,121 @@ hr {
 }
 .site-footer a:hover { color: var(--part-color); text-decoration-color: var(--part-color); }
 
+/* ---------- Login-side ---------- */
+.login-body {
+  background: var(--cream);
+  min-height: 100vh;
+  margin: 0;
+}
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+}
+.login-card {
+  max-width: 26rem;
+  width: 100%;
+  text-align: center;
+  background: var(--white);
+  padding: var(--space-xl) var(--space-lg);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 2px 0 rgba(26,26,26,0.04);
+}
+.login-mark img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: var(--space-md);
+}
+.login h1 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--space-xs);
+  color: var(--text);
+}
+.login-sub {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 0.95rem;
+  margin: 0 0 var(--space-xl);
+}
+.login-form {
+  text-align: left;
+  margin-bottom: var(--space-lg);
+}
+.login-form label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-sm);
+}
+.login-form input {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--white);
+  color: var(--text);
+  margin-bottom: var(--space-md);
+  box-sizing: border-box;
+}
+.login-form input:focus {
+  outline: 2px solid var(--coral);
+  outline-offset: -1px;
+  border-color: var(--coral);
+}
+.login-form button {
+  width: 100%;
+  padding: 0.8rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+}
+.login-form button:hover { filter: brightness(1.15); }
+.login-error {
+  margin-top: var(--space-md);
+  padding: 0.7rem 0.9rem;
+  background: rgba(221, 107, 110, 0.10);
+  border-left: 3px solid var(--coral);
+  color: var(--text);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  text-align: left;
+}
+.login-foot {
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+  margin: 0;
+}
+
+/* ---------- Innlogget-bruker i footer ---------- */
+.user-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+.user-strip .user-email {
+  color: var(--text-muted);
+  font-style: italic;
+}
+.user-strip .logout-link {
+  cursor: pointer;
+}
+
 /* Liten illustrasjon i Anders-kommentaren / oppslag (sjelden) */
 .spot-illustration {
   width: 8rem;

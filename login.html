@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logg inn · Reklameforståelse</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+</head>
+<body class="login-body">
+
+<main class="login">
+  <div class="login-card">
+
+    <div class="login-mark">
+      <img src="assets/logo/logo-primary-black.png" alt="Morgenstern" />
+    </div>
+
+    <h1>Reklameforståelse</h1>
+    <p class="login-sub">— et krasjkurs fra Morgenstern</p>
+
+    <form id="login-form" class="login-form" novalidate>
+      <label for="email">Logg inn med Morgenstern-adresse</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        autocomplete="email"
+        autofocus
+        placeholder="navn@morgenstern.no"
+      />
+      <button type="submit" class="btn">Logg inn</button>
+      <div id="login-error" class="login-error" hidden></div>
+    </form>
+
+    <p class="login-foot">Kurset er kun tilgjengelig for ansatte i Morgenstern.</p>
+
+  </div>
+</main>
+
+<script>
+  (function () {
+    'use strict';
+    var ALLOWED = /@(mrgn|morgenstern)\.no$/i;
+    var KEY = 'reklameforstaelse.user.email';
+    var form = document.getElementById('login-form');
+    var input = document.getElementById('email');
+    var errorEl = document.getElementById('login-error');
+
+    function getReturnUrl() {
+      var params = new URLSearchParams(window.location.search);
+      var ret = params.get('return') || 'index.html';
+      // Sikkerhetsnett — bare relative URL-er
+      if (/^https?:/i.test(ret) || ret.indexOf('//') === 0) ret = 'index.html';
+      return ret;
+    }
+
+    // Allerede logget inn? Send rett videre.
+    if (localStorage.getItem(KEY)) {
+      window.location.replace(getReturnUrl());
+      return;
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var email = (input.value || '').trim().toLowerCase();
+      if (!ALLOWED.test(email)) {
+        errorEl.textContent = 'Beklager, du har ikke tilgang til dette kurset. Ta kontakt med Morgenstern.';
+        errorEl.hidden = false;
+        input.focus();
+        input.select();
+        return;
+      }
+      try {
+        localStorage.setItem(KEY, email);
+      } catch (err) {
+        errorEl.textContent = 'Klarte ikke å lagre innloggingen i nettleseren. Sjekk at du ikke kjører i privat modus.';
+        errorEl.hidden = false;
+        return;
+      }
+      window.location.replace(getReturnUrl());
+    });
+  })();
+</script>
+
+</body>
+</html>

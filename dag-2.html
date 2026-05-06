@@ -3,6 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script>
+    (function () {
+      if (location.pathname.split('/').pop() === 'login.html') return;
+      try {
+        if (!localStorage.getItem('reklameforstaelse.user.email')) {
+          var here = (location.pathname.split('/').pop() || '') + location.search;
+          location.replace('login.html?return=' + encodeURIComponent(here));
+        }
+      } catch (e) { /* localStorage utilgjengelig */ }
+    })();
+  </script>
   <title>Økt 2 — Merkebygging og aktivering · Reklameforståelse</title>
   <link rel="stylesheet" href="styles.css" />
 
@@ -666,7 +678,7 @@
 
 <footer class="site-footer">
   <div>Morgenstern · <a href="https://morgenstern.no">morgenstern.no</a></div>
-  <div>Versjon 0.7 — utkast</div>
+  <div class="user-strip"><span class="user-email" data-user-email>—</span> · <a href="#" class="logout-link" data-logout>Logg ut</a></div>
 </footer>
 
 <script src="app.js"></script>

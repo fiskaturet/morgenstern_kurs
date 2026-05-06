@@ -327,10 +327,11 @@
   function openModal() {
     quoteEl.textContent = currentSelection;
     commentEl.value = '';
-    // Pre-fill navn/epost hvis husket
+    // Pre-fill navn/epost: foretrekk innlogget e-post, fall tilbake til husket
     try {
       nameEl.value = localStorage.getItem(STORAGE_KEY_NAME) || '';
-      emailEl.value = localStorage.getItem(STORAGE_KEY_EMAIL) || '';
+      var loggedIn = localStorage.getItem('reklameforstaelse.user.email');
+      emailEl.value = loggedIn || localStorage.getItem(STORAGE_KEY_EMAIL) || '';
     } catch (e) { /* ignore */ }
     overlay.classList.add('is-open');
     setTimeout(() => commentEl.focus(), 50);
