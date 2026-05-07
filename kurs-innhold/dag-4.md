@@ -79,38 +79,38 @@ Bruk listen når du vurderer om en idé spiller riktig på følelser eller argum
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva fant Binet og Field om emosjonell vs rasjonell reklame?
+### Q1. Hva fant Binet & Field om emosjonell vs rasjonell reklame?
 
-- [ ] Rasjonell reklame har større langsiktig effekt enn emosjonell
-- [x] Emosjonell reklame har omtrent dobbelt så stor langsiktig effekt på markedsandel som rasjonell reklame
-- [ ] Emosjonell og rasjonell reklame virker like godt
-- [ ] Rasjonell reklame fungerer bare på TV
+- [ ] At rasjonell reklame skårer høyere på likability men lavere på langsiktig effekt
+- [x] At primært emosjonelt innhold gir cirka dobbelt så stor langsiktig effekt på markedsandel
+- [ ] At forskjellen forsvinner når man kontrollerer for mediebudsjett og kanalmiks
+- [ ] At begge typer virker like godt — det handler bare om hva man velger å måle
 
-> Funnet i IPA-databanken er at primært emosjonelt innhold gir cirka dobbelt så stor langsiktig effekt på markedsandel. Effekten er størst på merkebygging og mindre på aktivering.
+> Funnet er stort og robust. Emosjonelt innhold legger igjen et kraftigere avtrykk i hukommelsen, og hukommelsen er det som styrer fremtidige valg.
 
-### Q2. Hva betyr «emosjonell reklame» i Binet og Fields rammeverk?
+### Q2. En kunde sier «vi vil ha en kampanje som forklarer USPene tydelig». Hva er den mest presise innvendingen i B&F-ånd?
 
-- [ ] At reklamen må få noen til å gråte
-- [ ] At reklamen må være kort og rask
-- [x] Reklame som primært skaper en følelse — humor, varme, overraskelse, skjønnhet, glede — i stedet for å argumentere
-- [ ] Reklame uten produkt
+- [ ] USP-fokus virker bare i lavinvolveringskategorier som FMCG og småelektronikk
+- [ ] USP-er er foreldede konsepter etter at sosiale medier endret reklame
+- [x] USP-fokus er primært rasjonelt — det gir typisk svakere langsiktig effekt enn følelsesbygging
+- [ ] USP-er må vises minst tre ganger i samme reklame for å feste seg hos mottakeren
 
-> Emosjonell reklame er ikke synonymt med trist eller dramatisk. Humor, varme og overraskelse teller like mye som rørende øyeblikk.
+> Det er ikke at USP-er er feil. Det er at de gjør den kortsiktige jobben — aktivering — godt, og den langsiktige jobben — merkebygging — dårlig. Du må vite hvilken jobb du har valgt.
 
-### Q3. Når er rasjonell reklame riktig valg?
+### Q3. Hva betyr «emosjonell reklame» i B&F sin forstand?
 
-- [ ] Aldri — emosjonell reklame slår rasjonell uansett
-- [x] I aktivering, der oppgaven er å gi noen en konkret grunn til å handle nå
-- [ ] Bare i B2B
-- [ ] Bare for premium-produkter
+- [ ] Reklame som primært får mottakeren til å gråte eller bli rørt på en synlig måte
+- [x] Reklame som primært skaper en følelse — humor, varme, overraskelse — i stedet for å argumentere
+- [ ] Reklame som henvender seg til kvinnelige målgrupper i kategorier som mote og skjønnhet
+- [ ] Reklame uten produktdemonstrasjon, pris eller kjøpsoppfordring i selve filmen
 
-> Rasjonell reklame har sin plass i aktivering: pris, tilbud, tilgjengelighet. I merkebygging er emosjonell reklame som regel mer effektiv.
+> Den vanligste misforståelsen er at «emosjonelt» betyr trist eller dramatisk. Humor er emosjonelt. Skjønnhet er emosjonelt. Overraskelse er emosjonelt. Motsetningen er ikke kjølig, men argumenterende.
 
-### Q4. Hva er en relevant kritikk av emosjonell-rasjonell-skillet?
+### Q4. Når er rasjonell reklame riktig valg?
 
-- [ ] At det er forbudt å bruke følelser i reklame
-- [ ] At rasjonell reklame ikke finnes
-- [x] At skillet ikke alltid er skarpt — gode kampanjer kan gjøre begge deler — og at klassifiseringen i IPA-databanken bygger på vurderinger som kan variere
-- [ ] At Binet og Field aldri publiserte tallene
+- [ ] I merkebygging der man vil bygge minner som varer over flere år
+- [ ] I bilkampanjer rettet mot førstegangskjøpere under tretti år gamle
+- [ ] Aldri — emosjonell reklame slår rasjonell på alle parametre uansett
+- [x] I aktivering — der jobben er å gi noen som allerede vurderer en grunn til å handle nå
 
-> En god reklame kan være både emosjonell og rasjonell, og klassifisering i etterkant er en vurdering. Funnene er robuste som mønster, men enkeltkampanjer er ikke alltid lett å plassere.
+> «0 % rente til 30. juni» er en god aktiveringsreklame. Den trenger ikke følelser — den trenger en konkret grunn. Det er ikke noe galt med rasjonalitet, så lenge du vet hvilken jobb du har valgt.

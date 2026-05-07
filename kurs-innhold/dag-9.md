@@ -75,38 +75,38 @@ Bruk listen når du vurderer mediestrategi eller produksjonsbudsjett.
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva mener Sutherland (og Spence) med et «kostbart signal»?
+### Q1. Hva mener Sutherland med et «kostbart signal»?
 
-- [ ] At reklame skal være dyrest mulig
-- [x] At et signal kun fungerer som ærlig informasjon når det koster noe å produsere — ellers kan det ikke skilles fra fri påstand
-- [ ] At reklame koster mer enn folk tror
-- [ ] At dyre produkter selges bedre
+- [ ] At reklame skal være så dyr som overhodet mulig for å virke effektivt
+- [ ] At signaler i naturen og økonomi alltid har samme funksjon på samme måte
+- [ ] At signaler må gjentas mange ganger før de blir kostbare nok til å betyr noe
+- [x] At et signal kun fungerer som ærlig informasjon når det koster avsenderen noe å produsere
 
-> Spence vant Nobelprisen i 2001 for denne ideen. Et signal må koste avsenderen noe (tid, ressurser, omdømmerisiko) for å være troverdig. Uten kostnad — ingen mening.
+> Spence vant Nobelprisen for ideen i 2001. Det som er gratis å produsere, er gratis å ignorere. Et vitnemål, en påfuglhale, en TV-kampanje — alle bærer mening fordi de har kostet noe.
 
-### Q2. Hvilken merkebyggings-effekt har en stor TV-kampanje, ifølge signalteorien?
+### Q2. Et merke vurderer å bytte 90 % av TV-budsjettet til programmatic display for å nå samme rekkevidde billigere. Hva er den mest presise signalteoretiske innvendingen?
 
-- [ ] Den når flere mennesker enn digital reklame
-- [x] Selve det at merket har råd til å være der signaliserer alvor og varighet — utover det reklamen sier
-- [ ] Den er mer underholdende enn andre kanaler
-- [ ] Den er rimeligere per visning
+- [ ] Display fungerer ikke godt for emosjonell reklame med komplekse fortellinger
+- [ ] Programmatic er for komplisert å håndtere internt uten betydelig kompetanse
+- [ ] TV når flere mennesker per tusen visninger enn display gjennomsnittlig sett
+- [x] Programmatic display ser ikke ut til å ha kostet noe — signalet om at merket investerer seriøst forsvinner
 
-> Reklamen sender to budskap: ett gjennom det den sier, og ett gjennom at den åpenbart har kostet penger å lage og kjøpe. Det andre er ofte den viktigste merkebyggings-effekten.
+> Rekkevidde er bare den ene halvparten av det reklamen gjør. Den andre halvparten er signalet om at merket *eksisterer på alvor*. Programmatic kan levere visninger, men sjelden den følelsen.
 
-### Q3. Hvorfor sliter performance- og programmatisk reklame med signalene?
+### Q3. Hvilken merkebyggings-effekt har en stor TV-kampanje, ifølge signalteorien?
 
-- [ ] Fordi den er ulovlig
-- [ ] Fordi den ikke har lyd
-- [x] Fordi den er smal, billig og lite synlig — den ser ikke ut til å ha kostet noe, og signaliserer derfor lite om merkets seriøsitet
-- [ ] Fordi den ikke kan vise produktbilder
+- [ ] At kostprisen for visning blir lavere enn ved digital reklame i sammenlignbare formater
+- [ ] At underholdningsverdien gir mottakeren en god opplevelse av merket og dets verdier
+- [ ] At TV-formatet tvinger fram bedre kreativ produksjon enn andre kanaler
+- [x] At selve det at merket har råd til å være der, signaliserer alvor og varighet — utover det reklamen sier
 
-> Performance-reklame fungerer ofte godt for kortsiktig konvertering, men sender svake signaler. Den ser usynlig og rimelig ut, og bygger sjelden samme «merket finnes på alvor»-følelse som en stor merkebyggings-kampanje gjør.
+> Reklamen sender to budskap. Ett gjennom det den faktisk sier. Og ett gjennom at den åpenbart har kostet penger å lage og kjøpe. Det andre er ofte den viktigste merkebyggings-effekten.
 
-### Q4. Hva er en relevant kritikk av signalteorien anvendt på reklame?
+### Q4. Hva er en gyldig innvending mot signalteori i moderne reklame?
 
-- [ ] At Spence aldri eksisterte
-- [ ] At Zahavi snakket om sjiraffer, ikke påfugler
-- [x] At det er vanskelig å skille signaleffekt fra budskapseffekt empirisk, og at signaler kan slå feil vei i noen kategorier
-- [ ] At naturen ikke har relevans for reklame
+- [ ] At Spence aldri faktisk har vunnet Nobelprisen for ideen om signaler
+- [ ] At signaler bare fungerer i biologi, ikke i menneskeskapte markeder
+- [ ] At programmatic reklame kompenserer ved å være mer treffsikker per visning
+- [x] At det er empirisk vanskelig å skille effekten av signalet fra effekten av selve budskapet
 
-> Signalisering er en plausibel og ofte sterk mekanisme, men ikke alltid målbar — og ikke alltid virksom på samme måte. I noen kategorier signaliserer billig produksjon ekthet, ikke svakhet.
+> Signalering er en plausibel og ofte sterk mekanisme — men direkte måling er mangelfull. Vi vet ikke alltid hvor mye av effekten som kommer fra hva merket sier, og hvor mye fra det at merket overhodet er der.

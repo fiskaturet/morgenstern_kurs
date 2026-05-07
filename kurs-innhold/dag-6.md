@@ -79,38 +79,38 @@ Bruk listen når du vurderer merkets visuelle og auditive uttrykk i en kampanje.
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva er fysisk tilgjengelighet, ifølge Sharp?
+### Q1. Hva er fysisk tilgjengelighet i Sharps forstand?
 
-- [ ] At produktet finnes i fysiske butikker, ikke bare på nett
-- [x] At merket er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe — i butikk, på nett, i app, der enn kunden er
-- [ ] At produktet er rimelig nok til at folk har råd
-- [ ] At reklamen er synlig i mange kanaler
+- [ ] At produktet er priset lavt nok til at flertallet i målgruppen har råd til det
+- [ ] At reklamen har høy frekvens i flere kanaler samtidig over en lengre periode
+- [ ] At merket har god distribusjon i de største butikkjedene i markedet
+- [x] At merket er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe det
 
-> Fysisk tilgjengelighet handler om kjøpsmuligheten i øyeblikket. Det inkluderer butikkhyller, nettsider, søkesynlighet, app-installasjoner — alle flatene der noen kan ta steget fra ønske til kjøp.
+> Fysisk tilgjengelighet handler om kjøpsmuligheten i øyeblikket — i butikk, på nett, i app, der enn kunden er. Pris og distribusjon er deler av det, men ikke hele bildet.
 
-### Q2. Hva er en distinkt merkemarkør?
+### Q2. Hva er en distinkt merkemarkør, ifølge Sharp og Romaniuk?
 
-- [ ] Et patentert produkt
-- [ ] En unik smak eller funksjon ingen andre har
-- [x] Et visuelt eller auditivt element — farge, font, lyd, karakter — som lar kunden kjenne igjen merket umiddelbart, uten å lese navnet
-- [ ] En slogan som beskriver produktets fordeler
+- [ ] En unik produktegenskap som ingen konkurrent har klart å replikere ennå
+- [ ] En slogan som beskriver merkets primære fordel for målgruppen tydelig
+- [x] Et visuelt eller auditivt element som lar mottakeren kjenne igjen merket umiddelbart
+- [ ] Et patent som beskytter merkets visuelle identitet juridisk i markedet
 
-> Distinkte merkemarkører handler om gjenkjennelse, ikke om budskap. Coca-Cola-rød, Toblerones form og McDonalds gule M er klassiske eksempler.
+> Det handler om gjenkjenning, ikke om mening. Coca-Cola-rød, Toblerones form, McDonalds gule M — alle gjenkjennes på et halvt sekund uten at navnet trenger å nevnes.
 
-### Q3. Hva er den vanligste feilen merker gjør med sine distinkte merkemarkører?
+### Q3. Et merke har skiftet visuell identitet hvert annet år i et tiår, og bruker nå millioner på enda en ny logo. Hvilken Sharp/Romaniuk-innvending er sterkest?
 
-- [x] Å bytte dem ut for ofte, slik at gjenkjennelsen ikke får tid til å feste seg
-- [ ] Å bruke dem så ofte at folk blir lei
-- [ ] Å patentere dem
-- [ ] Å lage dem for billige
+- [ ] Logoer påvirker ikke salg — kun produktets ytelse gjør det over tid
+- [ ] En ny logo må være radikalt annerledes for å bli husket av målgruppen
+- [ ] Logoendringer er bare nødvendig hvert femte år for å holde merket friskt
+- [x] Eierskap til merkemarkører bygges over år og rives ned på øyeblikk; konstant skifte gir aldri gjenkjennelsen tid til å feste seg
 
-> Eierskap til en distinkt merkemarkør bygges over år, men rives ned på et øyeblikk. Et merke som bytter visuelt grep ofte, slipper aldri å starte gjenkjennelsesarbeidet på nytt.
+> Hver omstart koster merket all den investeringen som lå i den gamle markøren. Et merke som bytter «look» annethvert år, ender med å være et merke ingen kjenner igjen.
 
-### Q4. Hva er en relevant kritikk av Sharp og Romaniuks rammeverk for distinkte merkemarkører?
+### Q4. Hva er en relevant kritikk av rammeverket for distinkte merkemarkører?
 
-- [ ] At distinkte merkemarkører ikke har noen effekt
-- [ ] At det er ulovlig å bruke samme logo over flere år
-- [x] At rammeverket sier lite om når en distinkt merkemarkør bør oppdateres, og at «gjenkjennelig» ikke alltid er det samme som «virker»
-- [ ] At Sharp og Romaniuk aldri har skrevet om dette
+- [ ] At merkemarkører ikke har målbar effekt på salg eller markedsandel
+- [ ] At rammeverket bare gjelder logoer, ikke andre visuelle elementer
+- [ ] At Romaniuk og Sharp er uenige om hvilken vekt markørene skal ha
+- [x] At «gjenkjennelig» ikke alltid er det samme som «virker» — en markør uten meningsbærende kobling jobber dårligere
 
-> Konsistens er en robust anbefaling, men ikke en absolutt regel. Rammeverket gir lite veiledning på når et eldre uttrykk bør pensjoneres, og kritikere mener at gjenkjennelse alene er en for tynn definisjon av hva en visuell identitet skal gjøre.
+> Sharp og Romaniuk insisterer på at distinktivitet er nok. Kritikere mener mening fortsatt teller — en markør som folk forstår *hvorfor* finnes, jobber sterkere enn en som bare er gjenkjennelig.

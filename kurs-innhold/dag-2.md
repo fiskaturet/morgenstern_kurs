@@ -96,38 +96,38 @@ Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den sk
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva skiller merkebygging fra aktivering, ifølge Binet og Field?
+### Q1. Hva er forskjellen mellom merkebygging og aktivering, slik Binet & Field bruker begrepene?
 
-- [ ] Merkebygging er digital, aktivering er tradisjonell
-- [ ] Merkebygging er for B2B, aktivering er for B2C
-- [x] Merkebygging bygger hukommelse for framtidige kjøp; aktivering konverterer eksisterende etterspørsel til salg nå
-- [ ] Aktivering er billigere enn merkebygging
+- [ ] Merkebygging er emosjonell reklame, aktivering er rasjonelle salgsbudskap
+- [ ] Merkebygging dekker langsiktig mediekjøp, aktivering dekker kortsiktig
+- [x] Merkebygging skaper hukommelse for fremtidige kjøp; aktivering omsetter eksisterende interesse til salg nå
+- [ ] Merkebygging måles på markedsandel, aktivering måles på antall klikk
 
-> De to jobbene jobber på ulike tidshorisonter og mot ulike målgrupper. Merkebygging bygger hukommelse hos folk som ikke er i markedet akkurat nå. Aktivering snakker til de som allerede vurderer å kjøpe.
+> Det vanligste avsporet er å tenke kanal eller tone. Skillet er hvilken jobb reklamen gjør i hjernen til mottakeren — bygger den et minne for senere, eller henter den ut interesse som allerede er der?
 
-### Q2. Hvorfor har reklamebudsjettene en tendens til å drifte mot aktivering over tid?
+### Q2. Et merke kutter all merkebygging i fire kvartaler for å maksimere kortsiktige resultater. Hva forutsier Binet & Field?
 
-- [ ] Fordi aktivering er kreativt mer tilfredsstillende
-- [x] Fordi aktivering er lettere å måle og lettere å forsvare i møter
-- [ ] Fordi merkebygging er ulovlig i flere kategorier
-- [ ] Fordi forbrukerne ikke lenger responderer på emosjonell reklame
+- [x] Aktiveringen blir gradvis dyrere, og effekten flater ut etter hvert som merket svekkes
+- [ ] Salget faller umiddelbart fordi alle kampanjer mister kraft samtidig
+- [ ] Markedsandelen øker først, så faller den etter omtrent tolv måneder
+- [ ] Effekten holder seg lik — bare fordelingen mellom kanaler endres seg
 
-> Målbarhet styrer ofte budsjettet. Over tid flytter penger seg dit rapporteringen er enklest, selv når det langsiktig gir dårligere resultater.
+> Aktivering høster mental tilgjengelighet som merkebygging har sådd. Slutt å så, og du høster fortsatt en stund — men avlingen blir mindre og dyrere for hver sesong.
 
-### Q3. Hvorfor er merkebygging vanskelig å måle på kort sikt?
+### Q3. Hvorfor er merkebygging vanskeligere å måle enn aktivering på kort sikt?
 
-- [x] Effekten viser seg først når noen faktisk er i en kjøpssituasjon, måneder eller år etter eksponeringen
-- [ ] Fordi merkebygging ikke gir noen målbare effekter
-- [ ] Fordi attribusjonsverktøy ikke virker på TV
-- [ ] Fordi målgruppene er for små til å gi statistisk signifikans
+- [ ] Merkebygging gir ingen målbare effekter — tallene må alltid estimeres skjønnsmessig
+- [ ] Aktivering bruker bedre attribusjonsverktøy enn det som finnes for merkebygging
+- [x] Effekten viser seg først når mottakeren faktisk havner i en kjøpssituasjon — ofte måneder senere
+- [ ] Merkebygging styres av kvalitative metoder, aktivering av kvantitative analyser
 
-> Merkebygging bygger assosiasjoner og mental tilgjengelighet som påvirker senere valg. Tidsforsinkelsen mellom reklame og respons gjør at kortsiktig måling undervurderer effekten.
+> Tidsforsinkelsen er hele utfordringen. Merkebygging produserer minner som blir aktivert i et fremtidig valg du ikke kan måle direkte mot kampanjen som plantet det.
 
-### Q4. Hva er en vanlig kritikk av å anvende Binet og Fields rammeverk ukritisk?
+### Q4. Hva er en gyldig kritikk av å anvende Binet & Fields rammeverk ukritisk?
 
-- [ ] Rammeverket er utviklet av svensker
-- [x] Dataene er primært britiske, FMCG-tunge, og fra før dagens digitale landskap.
-- [ ] Rammeverket tar ikke hensyn til pris
-- [ ] Rammeverket er bare relevant for TV-reklame
+- [ ] At britiske data ikke kan overføres til norske forbrukere i det hele tatt
+- [ ] At rammeverket bare er testet på TV og ikke på digitale kanaler i det hele tatt
+- [x] At skillet mellom merkebygging og aktivering kan bli for binært — gode kampanjer gjør ofte begge
+- [ ] At merkebygging ikke kan måles, så hele 60/40-tankegangen er ren spekulasjon
 
-> IPA-dataene er solide, men kontekstavhengige. B2B, høyinvolvering, nye digitale kategorier og andre markeder kan ha andre balanser. Binet og Field selv har nyansert dette i senere publikasjoner.
+> Skillet er nyttig i et møte, men kan bli en tvangstrøye i kreativ utvikling. En film kan både bygge merket og drive et klikk — å kreve at hver enhet velger én jobb gir noen ganger dårligere reklame.

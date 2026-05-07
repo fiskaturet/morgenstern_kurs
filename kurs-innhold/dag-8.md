@@ -88,36 +88,36 @@ Bruk listen når du vurderer en idé som lener seg på et psykologisk grep.
 
 ### Q1. Hva mener Sutherland med «psyko-logikk»?
 
-- [ ] At reklame skal være psykologisk manipulerende
-- [x] Logikken slik hjernen faktisk fungerer — basert på følelser, kontekst og snarveier — i motsetning til hvordan en analytiker antar den fungerer
-- [ ] At kun psykologer kan lage god reklame
-- [ ] At all reklame må bygge på Kahnemans System 1/2
+- [ ] Bruk av psykologisk segmentering i mediekjøp og målretting
+- [ ] En markedsføringsmodell hentet fra Daniel Kahnemans System 1/2-rammeverk
+- [x] Logikken slik hjernen faktisk fungerer — på følelser og snarveier — i motsetning til hvordan en analytiker antar
+- [ ] Den disiplinen som studerer kognitiv dissonans hos forbrukere i kjøpsprosessen
 
-> Psyko-logikk er Sutherlands kortform for adferdsøkonomi anvendt på reklame. Poenget er at logikk og psykologi ofte trekker i motsatt retning — og at psykologien som regel vinner i selve valgøyeblikket.
+> Psyko-logikk er Sutherlands kortform for «hjernen sin egen logikk». Den følger ikke regnearkets regler — og når den og logikken trekker i motsatt retning, vinner psyko-logikken som regel i selve valgøyeblikket.
 
-### Q2. Hva er felles for Underground-tavlene og Dyson-eksemplene?
+### Q2. Et togbusselskap har problemer med klager om forsinkelser. Tradisjonell logikk sier «øk frekvensen». Hvordan ville Sutherland tenkt?
 
-- [ ] At begge bruker digital teknologi
-- [ ] At begge handler om transport
-- [x] At de løser et opplevd problem (usikkerhet, oppfattet kvalitet) på en måte som ikke følger den åpenbare «mer er bedre»-logikken — og er billigere og mer effektive enn den
-- [ ] At de bygger på Kahnemans System 1/2
+- [ ] Senke prisene midlertidig som kompensasjon for opplevd ulempe
+- [ ] Investere i bedre togmateriell og raskere skinner over flere år
+- [ ] Bytte navn på selskapet for å distansere seg fra det dårlige ryktet
+- [x] Vurdere om det opplevde problemet er ventetiden eller usikkerheten — og kanskje løse det andre først
 
-> Underground-tavlene løste opplevd ventetid uten å øke togfrekvensen. Dyson-sylinderen gjorde at folk *følte* at støvsugingen virket. Begge er psyko-logiske løsninger som jobber bedre enn de logiske alternativene.
+> London Underground-eksemplet er klassisk: digitale tavler som viste ventetid kuttet klagene dramatisk uten at togene ble mer pålitelige. Det egentlige problemet var aldri ventetiden — det var ikke å vite hvor lenge man måtte vente.
 
-### Q3. Hvorfor er kontekst viktig, ifølge Sutherland?
+### Q3. Hvorfor er kontekst sentralt i Sutherlands tenkning?
 
-- [ ] Fordi reklame må tilpasses kanalen
-- [x] Fordi samme produkt oppleves ulikt avhengig av rammen det presenteres i — kontekst er en del av selve produktopplevelsen
-- [ ] Fordi unge og eldre tolker reklame ulikt
-- [ ] Fordi prisen alltid bestemmer opplevelsen
+- [ ] Fordi reklame må være tilpasset den spesifikke kanalen den vises i
+- [ ] Fordi kontekst bestemmer prissetting i ulike kjøpsituasjoner og segmenter
+- [ ] Fordi mottakerens demografi avgjør hvor effektivt budskapet faktisk treffer
+- [x] Fordi samme produkt oppleves ulikt avhengig av rammen — kontekst er en del av selve produktopplevelsen
 
-> Kaffe i porselen vs kaffe i pappkopp er det samme produktet, men oppleves som ulike. Hjernen smaker konteksten, ikke bare innholdet. Reklamens viktigste jobb er ofte å sette riktig ramme.
+> Kaffe i porselen og kaffe i pappkopp er det samme produktet, men forskjellige opplevelser. Hjernen smaker konteksten, ikke bare innholdet. Reklamens viktigste jobb er ofte å sette riktig ramme.
 
-### Q4. Hva er en relevant kritikk av Sutherlands tilnærming?
+### Q4. Hva er en gyldig kritikk av Sutherlands tilnærming?
 
-- [ ] At adferdsøkonomi aldri har eksistert
-- [ ] At Sutherland ikke har skrevet bok
-- [x] At metoden er løs og anekdotisk, og at flere klassiske adferdsøkonomi-studier har hatt replikasjonsproblemer
-- [ ] At psykologi er forbudt i markedsføring
+- [ ] At adferdsøkonomi er en ren akademisk øvelse uten anvendelig praktisk nytte
+- [ ] At Sutherlands eksempler er hentet utelukkende fra britiske kampanjer fra 90-tallet
+- [ ] At Sutherland ikke skiller mellom merkebygging og aktivering på en tydelig måte
+- [x] At metoden er anekdotisk og at flere klassiske psykologi-studier har slitt i replikasjon
 
-> Sutherlands rammeverk er inspirerende, men vanskelig å lære bort som metode. Og enkelte av de psykologiske studiene som ofte siteres, har vist seg vanskelige å replikere — så vi bør være forsiktige med å bruke dem som «bevis».
+> Sutherland er en mester i fortelling, men «finn en psyko-logisk innsikt» er ikke en oppskrift. Og deler av adferdsøkonomien han bygger på, har vist seg vanskelig å replikere — så enkeltstudier bør behandles med skepsis.

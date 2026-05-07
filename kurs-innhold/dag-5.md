@@ -77,38 +77,38 @@ Bruk listen når du vurderer en kampanje som har som jobb å bygge mental tilgje
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva beskriver Byron Sharp som den viktigste jobben reklame gjør?
+### Q1. Hva mener Sharp er den viktigste jobben reklame gjør?
 
-- [ ] Å overbevise kunder om at produktet er bedre enn konkurrentenes
-- [x] Å gjøre merkevaren mentalt tilgjengelig — slik at den dukker opp i hodet i kjøpssituasjonen
-- [ ] Å bygge lojalitet hos eksisterende kunder slik at de kjøper oftere
-- [ ] Å levere relevant budskap til de vanligste brukssituasjonene
+- [ ] Å overbevise kunden om at produktet er bedre enn konkurrentenes alternativer
+- [ ] Å bygge dypere lojalitet hos eksisterende kunder så de kjøper oftere over tid
+- [x] Å gjøre merket mentalt tilgjengelig — slik at det dukker opp i hodet i kjøpsøyeblikket
+- [ ] Å fortelle en historie som gjør merket relevant for en bestemt målgruppe
 
-> Mental tilgjengelighet handler om at merket *kommer til* kunden uoppfordret. Argumenter for produktet er sekundære. De andre svaralternativene peker på sekundære effekter (lojalitet, relevans) eller misforståelser av hva reklamens primærjobb er.
+> Sharp snur intuisjonen. Reklamens primærjobb er ikke å overtale, men å plante merket i hukommelsen så det dukker opp uoppfordret når kunden står i butikken. Argumenter er sekundært.
 
-### Q2. Hva er forskjellen mellom en kategori-inngangsport og "den vanligste brukssituasjonen"?
+### Q2. Et brusmerke vurderer to konsepter. A: en familie på kjøkkenet til middag. B: en gjeng som åpner termoflasken under en lang biltur. Hvilket er sterkest i Sharp/Romaniuks forstand?
 
-- [ ] Ingenting — det er samme konsept med ulike navn
-- [x] Inngangsport er en psykologisk assosiasjon som trigger tanken på kategorien; brukssituasjon er bare det folk faktisk gjør oftest
-- [ ] Brukssituasjon er et markedsføringsbegrep, inngangsport er et psykologisk
-- [ ] Inngangsport brukes bare for B2B, brukssituasjon for B2C
+- [ ] A — kjøkkenet er den vanligste brukssituasjonen og dermed mest relevant
+- [ ] A — det er en mer relatabel ramme for flertallet av mottakerne
+- [ ] B — det er mer overraskende, og overraskelse selger merker bedre
+- [x] B — det knytter merket til en ny kategori-inngangsport og bygger mental tilgjengelighet bredere
 
-> Dette er det mest misforståtte skillet i hele kapitlet. En brusmerkevare vokser ved å være til stede i mange inngangsporter (tørst, festkveld, biltur, matpakke), snarere enn ved å vise den samme brukssituasjonen om igjen.
+> Den vanligste brukssituasjonen er allerede dekket i hukommelsen. Vekst kommer fra å koble merket til *flere* utløsende øyeblikk. Bilturen åpner en ny port; familien-på-kjøkkenet bare reparerer en gammel.
 
-### Q3. Hva er en vanlig feil når merkevarer prøver å bygge mental tilgjengelighet?
+### Q3. Hva er forskjellen mellom en kategori-inngangsport og en brukssituasjon?
 
-- [ ] Å bruke samme distinkte merkemarkører konsekvent over flere år
-- [x] Å vise den vanligste brukssituasjonen og kalle det "relevant"
-- [ ] Å koble merkevaren til flere kategori-inngangsporter
-- [ ] Å nå lette kunder med bred rekkevidde
+- [ ] En inngangsport er digital, en brukssituasjon er fysisk og romlig
+- [ ] En inngangsport gjelder B2B-markeder, en brukssituasjon gjelder B2C
+- [x] En inngangsport er en psykologisk trigger som peker mot kategorien; en brukssituasjon er en faktisk bruksanledning
+- [ ] En inngangsport viser produktet, en brukssituasjon viser merket i kontekst
 
-> Relevans er ikke det samme som ordinært. Reklame som viser "familie på kjøkkenet" er teknisk relevant, men den bygger sjelden nye mentale koblinger og blir raskt usynlig.
+> Dette er det mest misforståtte skillet i hele Sharp-stoffet. «Tørst etter trening» er en inngangsport — en assosiasjon. Å vise noen som drikker brus er ikke det samme som å skape den.
 
-### Q4. Hva er hovedargumentet mot å anvende Sharps rammeverk ukritisk på B2B-kategorier?
+### Q4. Et nisjemerke for craftøl vurderer Sharps råd om bredde-først. Hva er den mest gyldige nyanseringen?
 
-- [ ] B2B-beslutninger tas av én person, ikke en familie
-- [ ] B2B-kjøp er for sjeldne til å måles med Sharps metoder
-- [x] I B2B er byttekostnadene ofte høye og beslutninger mer bevisste — lojalitet og vurderingsprosess veier tyngre enn i FMCG
-- [ ] Sharp dekker ikke digital markedsføring
+- [ ] Sharp har feil — utfordrere skal alltid bygge bredt fra dag én
+- [ ] Bredde fungerer bare i kategorier med svært høy kjøpsfrekvens
+- [ ] Sharp gjelder bare for FMCG og kan ikke anvendes på drikke-kategorier
+- [x] Sharps mønster gjelder etablerte merker; utfordrere bygger ofte tett lojalitet i en nisje først
 
-> Sharps empiri er hovedsakelig fra raske, vanebaserte kjøp. Når byttekostnader er høye og vurderingen er grundig, endres regnestykket: lojalitet veier mer, og "penetrasjon over lojalitet"-rådet må nyanseres.
+> Sharps lover er beskrivelser av hvordan store merker har vokst. Små merker som ennå ikke har en posisjon å bygge fra, må ofte starte motsatt vei — dypt før bredt — for siden å gå bredere.

@@ -74,36 +74,36 @@ Bruk listen når du sitter med en idé som lener seg på alkemi.
 
 ### Q1. Hva er Sutherlands viktigste praktiske verktøy?
 
-- [ ] En modell med fire kvadranter
-- [x] Spørsmålet «hva ville den irrasjonelle løsningen vært her?» — som tvinger oss til å vurdere alternativer ut over det logisk åpenbare
-- [ ] En sjekkliste basert på Kahnemans System 1/2
-- [ ] En matematisk formel for psyko-logikk
+- [ ] En sjekkliste i fire trinn for kreativ utvikling og idévurdering
+- [ ] En modell som rangerer kategorier etter hvor mye rasjonalitet de tåler
+- [ ] En matematisk formel for å beregne psykologisk effekt i kampanjer
+- [x] Spørsmålet «hva ville den irrasjonelle løsningen vært her?» — som åpner for ikke-åpenbare grep
 
-> Sutherland tilbyr ikke en oppskrift. Men han tilbyr et spørsmål som forskyver tenkningen vekk fra regnearket og over på det som faktisk får folk til å handle.
+> Sutherland tilbyr ikke en oppskrift. Men spørsmålet hans tvinger tenkningen vekk fra regnearket og over på det som faktisk får folk til å handle. Det logiske er sjelden originalt — det forutsigbare er sjelden minneverdig.
 
-### Q2. Hvilke kategorier har Sutherland mest å si til?
+### Q2. Et bilmerke vil kommunisere at deres elbil har lengst rekkevidde i klassen. Hvilken alkemi-tilnærming ville Sutherland anbefalt?
 
-- [ ] Bare luksusvarer
-- [x] Kategorier hvor produkter er funksjonelt like — bank, forsikring, telekom, FMCG — der psykologien avgjør valget mer enn produktet selv
-- [ ] Kun B2B
-- [ ] Bare digitale produkter
+- [ ] Lag en spec-tabell som sammenligner rekkevidden direkte med fem konkurrenter
+- [ ] Vis batteripakken i nærbilde for å fremheve teknologien bak rekkevidden
+- [ ] Senk prisen midlertidig for å vinne markedsandel raskt før konkurrentene reagerer
+- [x] Endre rammen — fortell heller en historie som får rekkevidden til å føles tryggere, ikke bare lenger
 
-> Når produktene er like, er det psyko-logikken som skiller. Når produktet faktisk er meningsfullt forskjellig, betyr alkemi mindre.
+> Tall vinner regneark, ikke hjerter. Sutherlands grep er å spørre hva *opplevelsen* av rekkevidde er — som regel handler det om trygghet, ikke om kilometer. Reframing slår spec-tabell.
 
-### Q3. Hva er forskjellen på «produktet» og «konteksten» i alkemi-tenkning?
+### Q3. Hva er forskjellen mellom «produktet» og «konteksten» i Sutherlands tenkning?
 
-- [ ] Produktet er fysisk, konteksten er digital
-- [x] Du trenger ofte ikke gjøre produktet bedre — det kan holde å gjøre rammen rikere, og hjernen oppfatter konteksten som en del av produktet
-- [ ] Konteksten er reklamen, produktet er det du selger
-- [ ] Konteksten betyr bare salgskanalen
+- [ ] Produktet er det fysiske, konteksten er det digitale på nettsider og apper
+- [ ] Produktet selges, konteksten er bare innpakning som ikke teller for kunden
+- [ ] Konteksten er reklamen, produktet er det merket faktisk leverer i butikken
+- [x] Konteksten er en del av produktopplevelsen — du trenger ikke gjøre produktet bedre hvis rammen rundt det blir rikere
 
-> Sutherlands poeng: en kaffe i porselen og en kaffe i pappkopp er ulike opplevelser, selv om kaffen er identisk. Reklamens jobb er ofte å bygge konteksten, ikke å forbedre produktet.
+> Hjernen smaker, ser, hører konteksten — ikke bare produktet. En kaffe i porselen oppleves som en bedre kaffe. Reklamens jobb er ofte å levere konteksten, ikke å forbedre produktet.
 
-### Q4. Hva er en relevant kritikk av alkemi som metode?
+### Q4. Hva er en gyldig kritikk av alkemi som metode?
 
-- [ ] At Sutherland ikke har gitt eksempler
-- [x] At det er vanskelig å skille godt brudd fra dårlig brudd, og at alkemiske grep har kort holdbarhet før konkurrentene kopierer
-- [ ] At alkemi er forbudt i markedsføring
-- [ ] At kontraintuitivitet aldri virker
+- [ ] At Sutherland selv har avvist begrepet i nyere intervjuer og bøker
+- [ ] At alkemiske grep aldri kan bevises empirisk i markedsundersøkelser
+- [ ] At metoden er begrenset til kategorier med produktpris over titusen kroner
+- [x] At det er vanskelig å skille godt brudd fra dårlig, og at gode grep kopieres raskt av konkurrenter
 
-> Alkemi er kraftfullt, men ikke en garanti. Et brudd må være forankret i kategori-forståelse, og en innsikt som virker i dag kan være standard om to år.
+> Alkemi er kraftfullt, men ikke en garanti. Et brudd må være forankret i kategori-forståelse — ellers blir det bare rart. Og en innsikt som virker i dag kan være standard om to år.

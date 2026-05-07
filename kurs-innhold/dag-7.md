@@ -76,36 +76,36 @@ Bruk listen når du vurderer en strategi eller kampanje som har vekst som mål.
 
 ### Q1. Hva er hovedbudskapet i Sharps «penetrasjon over lojalitet»?
 
-- [ ] Lojale kunder er ikke verdt noe
-- [x] Vekst kommer i hovedsak fra å nå flere kunder, ikke fra å få eksisterende kunder til å kjøpe oftere
-- [ ] Lojalitetsprogrammer er forbudt etter Sharps rammeverk
-- [ ] Penetrasjon betyr lavere pris
+- [ ] At lojale kunder er økonomisk mindre verdt enn nye kunder over tid
+- [x] At vekst i hovedsak kommer fra å nå flere kunder, ikke fra å få eksisterende kunder til å kjøpe oftere
+- [ ] At lojalitetsprogrammer skader merket og bør avvikles fra de fleste kategorier
+- [ ] At penetrasjon og lojalitet er to ulike navn på det samme underliggende fenomenet
 
-> Sharps funn er at de fleste merker vokser ved å nå flere kunder. Lojalitetsforskjellen mellom store og små merker er liten — lojalitet følger størrelse mer enn den driver den.
+> Sharp snur den klassiske marketing-intuisjonen. Lojalitet følger størrelse mer enn det driver den. Vil du vokse, må du jakte penetrasjon — ikke pleie de få.
 
 ### Q2. Hva er Double Jeopardy?
 
-- [ ] At store merker straffes med høyere skatt
-- [ ] At små merker må betale mer for medieplass
-- [x] At små merker både har færre kunder og litt mindre lojale kunder enn store merker — to ulemper i samme pakke
-- [ ] At kjøpsfrekvens er omvendt proporsjonal med markedsandel
+- [ ] At store merker må betale dobbelt så mye for medieplass som mindre konkurrenter
+- [ ] At merker som taper markedsandel mister både penetrasjon og lojalitet samtidig
+- [x] At små merker har færre kunder OG litt mindre lojale kunder enn store merker — to ulemper i samme pakke
+- [ ] At dobbelttesting i markedsundersøkelser ofte gir motstridende resultater for samme merke
 
-> Double Jeopardy ble beskrevet av Andrew Ehrenberg på 60-tallet, og er en av de mest robuste lovmessighetene i forbrukeratferd. Lojalitet og størrelse henger sammen, men størrelse er den drivende variabelen.
+> Andrew Ehrenberg dokumenterte mønsteret på 60-tallet, og det er en av de mest robuste lovmessighetene i forbrukeradferd. Lojalitetsforskjellen er liten — men den finnes, og den straffer små merker dobbelt.
 
-### Q3. Hvem står for hovedparten av salget i de fleste merker, ifølge Sharp?
+### Q3. En markedsdirektør vil bygge et lojalitetsprogram for å løfte salget med 30 %. Hva er den mest presise Sharp-innvendingen?
 
-- [ ] De mest lojale kundene
-- [x] Lette kunder — folk som kjøper merket sjelden
-- [ ] Yngre kunder under 30
-- [ ] Kunder rekruttert via lojalitetsprogrammer
+- [ ] Lojalitetsprogrammer fungerer bare i FMCG, ikke i tjenester eller B2B
+- [ ] Lojalitetsprogrammer må kombineres med priskutt og rabatter for å virke
+- [x] Programmet pleier eksisterende kunder, men vekst kommer sjelden derfra — penetrasjon må bygges bredere
+- [ ] Lojalitetsprogrammer er regulert i nyere markedsføringslovgivning og bør unngås
 
-> Hovedparten av salget i de fleste merker kommer fra lette kunder som kjøper sjelden. Disse må nås gjennom bred reklame som bygger mental tilgjengelighet over tid.
+> Lojalitetsprogrammer kan være fine til kundepleie og redusert churn — men det er sjelden de som driver vekst. Salgsmål på 30 % uten penetrasjons-strategi er sjelden realistisk.
 
-### Q4. Hva er en relevant kritikk av «penetrasjon over lojalitet»?
+### Q4. Et forsikringsmerke spør om Sharps råd gjelder dem like sterkt som FMCG. Hva er det mest balanserte svaret?
 
-- [ ] At Sharp aldri har publisert resultatene
-- [x] At kategorier med høye byttekostnader (forsikring, bank, B2B) oppfører seg annerledes enn FMCG, og at rådet kan misforstås som «ignorer eksisterende kunder»
-- [ ] At lojalitet aldri har eksistert som fenomen
-- [ ] At Double Jeopardy ikke er empirisk testet
+- [ ] Ja — Sharps lover er universelle og gjelder alle kategorier likt uansett
+- [ ] Nei — forsikring oppfører seg helt annerledes og Sharp kan ignoreres trygt
+- [ ] Nei — Sharp har eksplisitt sagt at finansielle tjenester er unntatt fra reglene
+- [x] Delvis — i kategorier med høye byttekostnader teller lojalitet mer, men penetrasjon driver fortsatt vekst
 
-> I kategorier med høye byttekostnader teller lojalitet mer. Og det viktige skillet er at Sharp ikke sier «ignorer kundene dine» — han sier at vekst sjelden kommer derfra.
+> Forsikring, bank, B2B-systemer — alt med høye byttekostnader gjør lojalitet relativt mer verdt enn i FMCG. Men Sharps grunnlogikk holder: vekst kommer fortsatt primært fra nye kunder.

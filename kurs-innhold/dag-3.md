@@ -83,38 +83,38 @@ Bruk listen når du vurderer en plan eller en kampanje, ikke en enkelt idé.
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva sier 60/40-regelen?
+### Q1. En lavprisaktør i en moden kategori vurderer å kjøre 80 % aktivering og 20 % merkebygging. Hva sier B&F om dette?
 
-- [ ] At 60 % av reklamen skal være på TV og 40 % digitalt
-- [x] At cirka 60 % av reklamebudsjettet bør gå til merkebygging og 40 % til aktivering, som et gjennomsnittlig utgangspunkt
-- [ ] At 60 % av reklamen skal være rasjonell og 40 % emosjonell
-- [ ] At 60 % av kampanjene bør vinne effektpriser
+- [ ] Det er optimal fordeling for utfordrere som skal hente markedsandel raskt
+- [ ] Det er forsvarlig så lenge salgsvolum kan måles og rapporteres direkte
+- [x] Det vil sannsynligvis sulteforve merket — utfordrere trenger særlig høy merkebyggingsandel
+- [ ] Det treffer godt med snittet i IPA-databanken på tvers av kategorier
 
-> 60/40 er en budsjettfordeling, ikke en kanal- eller tone-fordeling. Tallet kommer fra IPA-databanken og beskriver det forholdet som i gjennomsnitt har gitt størst effekt over tid.
+> Utfordrere har lite mental tilgjengelighet å høste fra. Skal de vokse, må de først bygge minner — uten det er aktivering bare å skvise en sitron med få dråper i.
 
-### Q2. Hvilken kategori har Binet og Field foreslått en høyere merkebyggingsandel for?
+### Q2. 60/40-regelen handler primært om hva?
 
-- [x] B2B og høyinvolverings-kategorier
-- [ ] Mat-på-døra og impulsprodukter
-- [ ] Online-only og e-handel
-- [ ] Lavprisbutikker
+- [ ] Hvor stor andel av reklamen som skal være på betalt vs. eid mediekanal
+- [x] Hvordan reklamebudsjettet over tid bør fordeles mellom merkebygging og aktivering
+- [ ] Hvor stor andel av kampanjen som skal være kreativ vs. mediekostnad
+- [ ] Hvor mange varianter av et budskap som bør produseres per kanal
 
-> I *Effectiveness in Context* (2018) anbefaler Binet og Field en høyere merkebyggingsandel for B2B og høyinvolveringskategorier, fordi beslutningssyklusene er lange og mye av effekten ligger i mental tilgjengelighet hos folk som ikke er i markedet akkurat nå.
+> Tallet handler om budsjettfordeling over tid — typisk et år. Ikke om hver kampanje, ikke om kanalvalg, ikke om kreativ tone. Det er enkelt nok til å huske og presist nok til å være nyttig.
 
-### Q3. Hvorfor er det problematisk å bruke 60/40 som en fast formel?
+### Q3. Et SaaS-selskap som selger til store bedrifter kommer fra en aktiveringstung mediemiks. Hva ville B&F sannsynligvis anbefale?
 
-- [ ] Fordi tallet er foreldet og ikke lenger gjelder
-- [x] Fordi det er et gjennomsnitt på tvers av kategorier, og din kategori kan ha en annen optimal balanse
-- [ ] Fordi merkebygging ikke kan måles
-- [ ] Fordi 60/40 bare gjelder for TV-reklame
+- [ ] En 50/50-balanse — de digitale flatene gir like resultater som tradisjonelle
+- [ ] Fokuser på aktivering — B2B krever rask konvertering og kort vurderingstid
+- [x] Høyere merkebyggingsandel, opp mot 70/30 eller 80/20 i favør av merkebygging
+- [ ] Hold merkebygging på 30 % og test gradvis oppover i påfølgende kvartaler
 
-> Tallet er et utgangspunkt, ikke en lov. Binet og Field har selv publisert kategorijusteringer. Riktig bruk er å bruke 60/40 som referanse for et bevisst valg, ikke som en regel man følger blindt.
+> B2B er klassisk høy-involvering med lange beslutningsløp. Mye av effekten ligger i å være mentalt tilgjengelig hos folk som ikke er i markedet *akkurat* nå — men som blir det om åtte måneder.
 
-### Q4. Hva er en relevant kritikk av IPA-databankens datagrunnlag?
+### Q4. Hva er en relevant innvending mot å bruke 60/40 som fasit?
 
-- [ ] At den bare inneholder norske kampanjer
-- [x] At den består av kampanjer innsendt til en effektpris, og dermed er et skjevt utvalg dominert av store FMCG- og finansielle merker
-- [ ] At den er hemmelig og ikke kan etterprøves
-- [ ] At den bare dekker tre kampanjer
+- [ ] At dataene er hemmeligholdt og ikke kan etterprøves uavhengig av IPA
+- [ ] At britiske mediekostnader gjør tallet ugyldig for det norske markedet
+- [x] At det er et gjennomsnitt på tvers av kategorier — din kategori kan ha en helt annen optimal balanse
+- [ ] At aktivering har blitt så mye mer effektiv at tallet egentlig er foreldet
 
-> IPA-databanken er solid, men ikke et tilfeldig utvalg. Den representerer kampanjer som ble sendt inn til en konkurranse, og det skjevdriver resultatene mot kategorier som er overrepresentert i konkurransen.
+> 60/40 er en god startsamtale, ikke en konklusjon. Spørsmålet er ikke «traff vi tallet?» men «hvorfor mener vi at vår fordeling er riktig for vår situasjon?»

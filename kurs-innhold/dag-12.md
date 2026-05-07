@@ -84,38 +84,38 @@ Bruk listen når du vurderer hvordan Cialdinis prinsipper anvendes i en kampanje
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hva er hovedidéen i *Pre-Suasion*?
+### Q1. Hva er hovedidéen i Pre-Suasion?
 
-- [ ] At reklame skal være kortere
-- [x] At rammen og oppmerksomheten rett før et budskap leveres ofte er like avgjørende som selve budskapet — den som setter rammen, har vunnet halve jobben
-- [ ] At alle reklamer må starte med et spørsmål
-- [ ] At digital reklame slår TV
+- [ ] At Cialdini har erstattet de seks opprinnelige prinsippene med syv nye etter 30 år
+- [ ] At reklame skal komme i en bestemt rekkefølge: visuelle, følelser, så argument
+- [ ] At digital reklame har gjort tradisjonell overtalelse foreldet i moderne markeder
+- [x] At rammen og oppmerksomheten rett før budskapet leveres er like avgjørende som selve budskapet
 
-> «Hjelpsom person»-eksperimentet er typisk: et innledende spørsmål forhåndsstiller hjernen, og selve forespørselen blir mye mer sannsynlig å bli innfridd. Pre-suasion er denne forhåndsstillingen, og kontekst er en del av kampanjen.
+> «Hjelpsom person»-eksperimentet er typisk: et innledende spørsmål forhåndsstiller hjernen, og selve forespørselen blir mye mer sannsynlig å bli innfridd. Den som setter rammen, har vunnet halve jobben.
 
 ### Q2. Hva er det syvende prinsippet, Unity?
 
-- [ ] Et nytt navn for sympati
-- [x] Tendensen til å lytte mer velvillig til folk vi opplever som *en del av oss* — familie, klan, nabolag, fans av samme lag — sterkere enn vanlig sympati
-- [ ] At alle reklamer må vise sammenhold
-- [ ] En markedsføringsmodell for partier
+- [ ] Et nytt navn for det opprinnelige sympati-prinsippet i en moderne forklaring
+- [ ] Tendensen til å foretrekke merker som markedsfører seg samlet og koordinert
+- [ ] En modell som forklarer politiske valgkamper gjennom merkevareteoretiske rammeverk
+- [x] Følelsen av å være «en av oss» med avsenderen — sterkere enn vanlig sympati
 
-> Unity er sterkere enn sympati. Sympati er «jeg liker deg». Unity er «du er en av oss». Et merke som lykkes med Unity har en form for tillit kjøpte budskap ikke kan matche.
+> Sympati er «jeg liker deg». Unity er «du er en av oss». Familien, nabolaget, fans av samme lag — når en avsender oppfattes som *innenfor* gruppa, vurderes budskapet annerledes, mer velvillig.
 
-### Q3. Hvor i moderne markedsføring ser man Cialdinis prinsipper sterkest i bruk?
+### Q3. Et merke vil bygge en sterk Unity-effekt mot en avgrenset målgruppe. Hva er den mest treffsikre strategien?
 
-- [ ] Bare i bok-bransjen
-- [x] I e-handel (knapphet, sosial validering), B2B (autoritet), innholdsmarkedsføring (gjensidighet), konvertering (forpliktelse) og influencer (sympati, unity) — prinsippene er innebygd i de fleste digitale taktikker
-- [ ] Bare i avispapir
-- [ ] Aldri i Norge
+- [ ] Lag eksklusive tilbud spesifikt for medlemmer av målgruppen, tidsbegrenset
+- [ ] Bruk influencere som ligner målgruppen, men som faktisk selger andre merker
+- [ ] Senk prisen kun for målgruppen i en kortvarig kampanjeperiode på flere kanaler
+- [x] Vis at merket faktisk lever inne i målgruppens hverdag — ikke at det henvender seg til den utenfra
 
-> Cialdini er den mest brukte taktiske referansen i digital markedsføring. Spørsmålet er ikke om prinsippene brukes, men om de brukes ærlig og strategisk eller som engangs-grep.
+> Unity kan ikke kjøpes. Det må vises. Et merke som tydelig kjenner detaljene i målgruppens liv — språk, ritualer, indre vitser — oppfattes som en av dem. Et merke som bare henvender seg utenfra, er bare en annonsør.
 
-### Q4. Hva er en relevant kritikk av å lene seg tungt på Cialdini i en kampanjestrategi?
+### Q4. Hva er en gyldig innvending mot å lene seg tungt på Cialdini i en kampanjestrategi?
 
-- [ ] At Cialdini er forbudt i Norge
-- [ ] At prinsippene aldri har eksistert
-- [x] At prinsippene gir taktiske grep, ikke merkebygging over tid — og at de like lett kan brukes manipulerende som ærlig, særlig i digital markedsføring
-- [ ] At Pre-Suasion er en TV-serie
+- [ ] At Cialdini er forbudt brukt som referanse i nordisk markedsføring etter 2020
+- [ ] At de syv prinsippene ikke er testet utenfor amerikansk forbrukerkontekst
+- [ ] At Pre-Suasion-prinsippene har erstattet de opprinnelige seks helt og holdent
+- [x] At prinsippene gir taktiske grep — ikke merkebygging over tid — og lett kan brukes manipulerende
 
-> Cialdini er sterk i selve overtalelsesøyeblikket. Sharp og Binet/Field er sterkere på langsiktig merkebygging. En god mediestrategi balanserer de tre.
+> Cialdini er sterk i selve overtalelsesøyeblikket. Sharp og Binet/Field er sterkere på langsiktig merkebygging. En god strategi balanserer de tre — Cialdini som taktisk lag på toppen, ikke som hele rammeverket.

@@ -104,38 +104,38 @@ Bruk listen når du vurderer en idé eller kampanje som lener seg på en overtal
 
 4 spørsmål. Velg ett svar per spørsmål. Du får fasit og forklaring når du har svart på alle.
 
-### Q1. Hvor mange prinsipper beskriver Cialdini i *Influence* (1984)?
+### Q1. Hvor mange prinsipper beskriver Cialdini i den opprinnelige Influence (1984)?
 
-- [ ] Tre
-- [ ] Fire
-- [x] Seks: gjensidighet, forpliktelse og konsistens, sosial validering, autoritet, sympati og knapphet
-- [ ] Ti
+- [ ] Tre — gjensidighet, sympati og autoritet i grunnform
+- [ ] Fire — pluss knapphet og forpliktelse over de tre første
+- [ ] Syv — inkludert fellesskap (Unity) som det sjuende prinsippet
+- [x] Seks — gjensidighet, forpliktelse, sosial validering, autoritet, sympati, knapphet
 
-> Et syvende prinsipp — Unity — kom først i *Pre-Suasion* (2016). De seks klassiske er kjernen.
+> De seks klassiske er kjernen i Influence fra 1984. Et syvende prinsipp — Unity / fellesskap — kom først i Pre-Suasion fra 2016.
 
-### Q2. Hva er sosial validering, ifølge Cialdini?
+### Q2. Et hotell vil få flere gjester til å gjenbruke håndklær. Hvilken formulering vil Cialdini anbefale?
 
-- [ ] At reklame må være politisk korrekt
-- [x] Tendensen til å se etter hva andre gjør i usikre situasjoner — og kopiere — særlig når «andre» ligner oss
-- [ ] At anmeldelser må være skrevet av eksperter
-- [ ] At reklame skal være gratis å se
+- [ ] «Hjelp miljøet — gjenbruk håndkleet ditt for en bedre fremtid»
+- [ ] «For hver dag du gjenbruker, donerer vi ti kroner til Røde Kors»
+- [ ] «Vask og brett selv om du har sjampoflekker — det går bra»
+- [x] «Våre gjester på dette hotellet gjenbruker oftest håndklær — bli med dem»
 
-> Hotellhåndklær-eksempelet er klassisk: «de fleste gjester på dette hotellet gjenbruker håndklær» virker mye sterkere enn ren miljøretorikk.
+> Den klassiske studien viste at sosial validering slo miljøretorikk dramatisk. Folk kopierer adferden til de som ligner dem selv — og «andre gjester på samme hotell» er en mer relevant referansegruppe enn «menneskeheten».
 
-### Q3. Hvilket prinsipp ligger bak utløpsdatoer og «kun 12 igjen»-meldinger?
+### Q3. Hva er sosial validering i Cialdinis forstand?
 
-- [ ] Autoritet
-- [ ] Sympati
-- [x] Knapphet — det vi ikke kan få, oppfattes som mer attraktivt
-- [ ] Gjensidighet
+- [ ] Tendensen til å like merker som samfunnet anerkjenner formelt og bredt
+- [ ] Bruken av kjendiser i reklame for å bygge troverdighet rundt et merke
+- [ ] Den prosessen der et merke får offentlig sertifisering eller godkjenning
+- [x] Tendensen til å se hva andre — særlig de som ligner oss — gjør i usikre situasjoner, og kopiere
 
-> Knapphet kan være ekte (faktisk lavt antall) eller iscenesatt (falske nedtellinger). Den ene bygger merket. Den andre river det ned over tid.
+> Det er hjernens lateste snarvei. Når vi er usikre, lar vi flokken bestemme — og flokken som teller mest, er den som ligner oss. Derfor virker testimonialer fra «folk som meg» sterkere enn fra eksperter.
 
-### Q4. Hva er en relevant kritikk av Cialdinis rammeverk?
+### Q4. Et e-handelsmerke vurderer en «kun 12 igjen!»-melding. Hva er den viktigste etiske/strategiske vurderingen?
 
-- [ ] At Cialdini ikke har skrevet bok
-- [x] At flere av studiene har replikasjonsproblemer, at prinsippene fungerer best som engangs-grep heller enn vekstmotorer, og at de like lett kan brukes til lurmakeri som til ærlig overtalelse
-- [ ] At ingen av prinsippene fungerer
-- [ ] At Cialdini er forbudt i Norge
+- [ ] Antallet bør justeres dynamisk basert på dagens trafikkmønster og konvertering
+- [ ] Meldingen må vises i rødt for å trigge knapphets-følelsen mest effektivt
+- [ ] Knapphet fungerer bare i fysiske kategorier, ikke i digitale produkter
+- [x] Om det faktisk er 12 igjen — falsk knapphet bygger merket ned over tid, selv om det øker konvertering nå
 
-> Hovedmønstrene står seg, men kritikkverdige punkter finnes. Kombinert med Sharp og Binet/Field gir Cialdini sterkest verdi som taktisk lag på toppen av en strategisk merkebyggings-plan.
+> Cialdinis prinsipper kan brukes ærlig eller manipulerende. Falsk knapphet er en av de vanligste manipulerende variantene — og den ene gangen kunden oppdager at det aldri var 12 igjen, har du tapt mer enn én konvertering.
