@@ -1,0 +1,50 @@
+name: Render lessons from MD
+
+on:
+  push:
+    paths:
+      - 'kurs-innhold/**'
+      - 'render_lessons.py'
+      - 'requirements.txt'
+      - '.github/workflows/render.yml'
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    if: ${{ !contains(github.event.head_commit.message, 'Auto-render') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent koden
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer avhengigheter
+        run: pip install -r requirements.txt
+
+      - name: Rendre HTML fra MD
+        run: python render_lessons.py
+
+      - name: Commit rendret HTML hvis noe har endret seg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dag-*.html
+          if git diff --staged --quiet; then
+            echo "Ingen HTML-endringer å committe."
+          else
+            git commit -m "Auto-render: HTML fra MD-endringer"
+            git push
+          fi
