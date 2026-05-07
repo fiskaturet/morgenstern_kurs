@@ -56,11 +56,11 @@ Det er en del av grunnen til at vi som regel argumenterer for å sentrere store 
 
 ## Kritikk av teorien
 
-**Det er vanskelig å bevise hva som er «signal» og hva som er «innhold».** Empirisk er det krevende å skille effekten av signaleringen fra effekten av selve budskapet. Sutherland og andre lener seg ofte på naturanaloger og økonomisk teori, men direkte måling i reklame er mangelfull.
+**Det er vanskelig å bevise hva som er «signal» og hva som er «innhold».** Empirisk er det krevende å skille effekten av signaler fra effekten av selve budskapet. Sutherland og andre lener seg ofte på naturanaloger og økonomisk teori, men direkte måling i reklame er mangelfull.
 
 **Stadig mer av medieforbruket er sosialt.** Når en stor andel av merkets reklame ses i målrettede sosiale medier, blir den sosiale dimensjonen av signalet svakere. Et signal må observeres av mange for å fungere som signal.
 
-**Signaler kan slå feil vei.** En for «dyr» reklame i feil kategori kan signalisere desperasjon eller arroganse, ikke trygghet. En billig produksjon kan i noen kategorier (DIY, håndverk, autentisitet) signalisere ekthet. Signalering er ikke en garantert kraft — det er en mekanisme som virker forskjellig avhengig av kontekst.
+**Signaler kan slå feil vei.** En for «dyr» reklame i feil kategori kan signalisere desperasjon eller arroganse, ikke trygghet. En billig produksjon kan i noen kategorier (DIY, håndverk, autentisitet) signalisere ekthet. Signalisering er ikke en garantert kraft — det er en mekanisme som virker forskjellig avhengig av kontekst.
 
 ## Sjekkliste for idévurdering
 
@@ -93,14 +93,14 @@ Bruk listen når du vurderer mediestrategi eller produksjonsbudsjett.
 
 > Reklamen sender to budskap: ett gjennom det den sier, og ett gjennom at den åpenbart har kostet penger å lage og kjøpe. Det andre er ofte den viktigste merkebyggings-effekten.
 
-### Q3. Hvorfor sliter performance- og programmatisk reklame med signalering?
+### Q3. Hvorfor sliter performance- og programmatisk reklame med signalene?
 
 - [ ] Fordi den er ulovlig
 - [ ] Fordi den ikke har lyd
 - [x] Fordi den er smal, billig og lite synlig — den ser ikke ut til å ha kostet noe, og signaliserer derfor lite om merkets seriøsitet
 - [ ] Fordi den ikke kan vise produktbilder
 
-> Performance-reklame fungerer ofte godt for kortsiktig konvertering, men dårlig for signalering. Den ser usynlig og rimelig ut, og bygger sjelden samme «merket finnes på alvor»-følelse som en stor merkebyggings-kampanje gjør.
+> Performance-reklame fungerer ofte godt for kortsiktig konvertering, men sender svake signaler. Den ser usynlig og rimelig ut, og bygger sjelden samme «merket finnes på alvor»-følelse som en stor merkebyggings-kampanje gjør.
 
 ### Q4. Hva er en relevant kritikk av signalteorien anvendt på reklame?
 
@@ -109,4 +109,4 @@ Bruk listen når du vurderer mediestrategi eller produksjonsbudsjett.
 - [x] At det er vanskelig å skille signaleffekt fra budskapseffekt empirisk, og at signaler kan slå feil vei i noen kategorier
 - [ ] At naturen ikke har relevans for reklame
 
-> Signalering er en plausibel og ofte sterk mekanisme, men ikke alltid målbar — og ikke alltid virksom på samme måte. I noen kategorier signaliserer billig produksjon ekthet, ikke svakhet.
+> Signalisering er en plausibel og ofte sterk mekanisme, men ikke alltid målbar — og ikke alltid virksom på samme måte. I noen kategorier signaliserer billig produksjon ekthet, ikke svakhet.

@@ -18,7 +18,7 @@ prev:
   title: "Penetrasjon over lojalitet"
 next:
   day: 9
-  title: "Signalering og kostbare signaler"
+  title: "Kostbare signaler"
 ---
 
 ## Lesning
