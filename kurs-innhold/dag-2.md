@@ -131,3 +131,4 @@ Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den sk
 - [ ] At merkebygging ikke kan måles, så hele 60/40-tankegangen er ren spekulasjon
 
 > Skillet er nyttig i et møte, men kan bli en tvangstrøye i kreativ utvikling. En film kan både bygge merket og drive et klikk — å kreve at hver enhet velger én jobb gir noen ganger dårligere reklame.
+
