@@ -86,7 +86,7 @@ Bruk listen når du vurderer en kampanje som har som jobb å bygge mental tilgje
 
 > Sharp snur intuisjonen. Reklamens primærjobb er ikke å overtale, men å plante merket i hukommelsen så det dukker opp uoppfordret når kunden står i butikken. Argumenter er sekundært.
 
-### Q2. Et brusmerke vurderer to konsepter. A: en familie på kjøkkenet til middag. B: en gjeng som åpner termoflasken under en lang biltur. Hvilket er sterkest i Sharp/Romaniuks forstand?
+### Q2. Et brusmerke vurderer to konsepter. A: en familie på kjøkkenet til middag. B: En gjeng ungdommer på en lang biltur. Hvilket er sterkest i Sharp/Romaniuks forstand?
 
 - [ ] A — kjøkkenet er den vanligste brukssituasjonen og dermed mest relevant
 - [ ] A — det er en mer relatabel ramme for flertallet av mottakerne
