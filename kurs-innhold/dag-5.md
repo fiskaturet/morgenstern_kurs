@@ -33,7 +33,7 @@ For å bygge mental tilgjengelighet må en merkevare kobles til *kategori-inngan
 
 For en brusprodusent kan det være «tørst etter trening», «en pizza på fredagskvelden», eller en «lang bilreise». Hver av disse er en inngangsport til kategorien "brus", og hver av dem er en mulighet for merkevaren til å være den som dukker opp først.
 
-Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo større blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
+Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo sterkere blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
 
 (CLAUDE: SETT INN ILLUSTRASJON AV MIND MAP SOM FÅR FREM POENGET OM CATEGORY ENTRY POINTS)
 
