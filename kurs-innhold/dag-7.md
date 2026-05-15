@@ -21,7 +21,7 @@ next:
 
 ## Lesning
 
-«Vi skal bygge lojalitet» var en vanlig brief for 10 år siden. Logikken er forførende: det er billigere å holde på en eksisterende kunde enn å skaffe en ny, og lojale kunder snakker pent om merket og bærer veksten. Sharp har vist at den logikken er feil (stort sett).
+«Vi skal bygge lojalitet» var en vanlig brief for 10 år siden. Logikken er forførende: det er billigere å holde på en eksisterende kunde enn å skaffe en ny, og lojale kunder snakker pent om merket og bærer veksten. Sharp hevder at den logikken er feil (stort sett).
 
 Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kommer fra å nå flere kunder — ikke fra å få eksisterende kunder til å kjøpe oftere. Når et merke vokser, vokser det først og fremst gjennom *penetrasjon* - altså hvor stor andel av kundene i markedet som kjøper av nettop deg. Lojalitet følger med på lasset, men er sjelden motoren.
 
