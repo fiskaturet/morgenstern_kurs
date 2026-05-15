@@ -29,7 +29,7 @@ Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kom
 
 Andrew Ehrenberg beskrev allerede på 60-tallet et mønster han kalte *Double Jeopardy*. Små merker skades dobbelt: de har færre kunder, og de få kundene de har, kjøper litt sjeldnere enn kundene til store merker. Store merker har det motsatte mønsteret — flere kunder, og litt høyere kjøpsfrekvens.
 
-Det viktige er at lojalitetsforskjellen er liten. Den store forskjellen er hvor mange kunder du har. Hvis et Cola har ti ganger så mange kunder som Oskar Sylte, er kjøpsfrekvensen kanskje 30–50 % høyere — ikke ti ganger høyere.
+Det viktige er at lojalitetsforskjellen er liten. Den store forskjellen er hvor mange kunder du har. Hvis Coca Cola har ti ganger så mange kunder som Oskar Sylte, er kjøpsfrekvensen kanskje 30–50 % høyere — ikke ti ganger høyere.
 
 Konsekvensen er at hvis du vil at merket skal vokse, må du jakte på nye kunder.
 ### Hvem driver salget?
