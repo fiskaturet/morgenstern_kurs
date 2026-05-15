@@ -89,7 +89,7 @@ Rammeverket har vært dominerende i over ti år, men tåler nyansering.
 Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den skal gjøre.
 
 - [ ] Er det avklart om ideen primært skal bygge merkevaren, aktivere salg, eller begge deler?
-- [ ] Har vi mål som passer til den jobben ideen gjør?
+- [ ] Passer ideen til målene om er satt?
 - [ ] Hvis det er merkebygging: har vi bred nok rekkevidde til at hukommelsen får noe å jobbe med?
 - [ ] Hvis det er aktivering: finnes det en merkevare vi kan aktivere på, eller prøver vi å konvertere folk som ikke kjenner oss?
 
