@@ -40,7 +40,7 @@ Det motsatte av emosjonelt er «argumenterende». Reklamen som forklarer at vask
 
 Følelser binder minner.  Hjernen lagrer ting med følelse på en annen måte enn ting uten følelse. En film med varme eller humor får et avtrykk som varer; en argumenterende voiceover forsvinner inn det ene øret og ut det andre.
 
-Emosjonell reklame slipper unna kritisk analyse. Dette poenget er viktig. Vi argumenterer ikke mot følelser, så vi unnslipper den kritiske tanken. Når noen påstår noe i et argument, vil refleksen være å lure på om påstanden er sann. I en film som får deg til å smile, smiler du også. Følelser hacker den kritiske sansen vår.
+Emosjonell reklame slipper unna kritisk analyse. Dette poenget er viktig. Vi argumenterer ikke mot følelser, så vi unnslipper den kritiske tanken. Når noen påstår noe er refleksen vår å lure på om påstanden er sann. I en film som får deg til å smile, smiler du også. Følelser hacker den kritiske sansen vår.
 
 Til sist: emosjonell reklame skiller seg ut. Den som spiller på følelser har lettere for å bli husket. Det bygger mental tilgjengelighet.
 
