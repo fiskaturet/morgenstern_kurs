@@ -24,7 +24,7 @@ Og så svarer vi kanskje noe om engasjement, eller oppmerksomhet. Men for mange 
 
 Vi som lager, kjøper og måler reklame mangler et felles rammeverk å vurdere ideer mot. Det som kunne vært en fruktbar diskusjon om kvalitet, ender i en diskusjon om preferanse - ispedd masse misforståelser.
 
-Dette kurset går gjennom fire relevante bøker, av forfattere som stadig name droppes i møter. Etter kurset er vi bedre på å forstå hvorfor gode ideer er gode, og hva vi må si for å få de gjennomført.
+Dette kurset går gjennom fire relevante bøker, av forfattere som stadig nevnes i møter. Etter kurset er vi bedre på å forstå hvorfor gode ideer er gode, og hva vi må si for å få de gjennomført.
 ### Hvorfor disse fire bøkene
 Hver av de fire bøkene dekker ulike spørsmål.
 
