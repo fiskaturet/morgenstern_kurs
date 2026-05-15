@@ -96,7 +96,7 @@ Bruk listen når du vurderer en plan eller en kampanje, ikke en enkelt idé.
 
 - [ ] Hvor stor andel av reklamen som skal være på betalt vs. eid mediekanal
 - [x] Hvordan reklamebudsjettet over tid bør fordeles mellom merkebygging og aktivering
-- [ ] Hvor stor andel av kampanjen som skal være kreativ vs. mediekostnad
+- [ ] Hvor stor andel av kampanjebudsjettet som skal brukes kreativt vs. på medier
 - [ ] Hvor mange varianter av et budskap som bør produseres per kanal
 
 > Tallet handler om budsjettfordeling over tid — typisk et år. Ikke om hver kampanje, ikke om kanalvalg, ikke om kreativ tone. Det er enkelt nok til å huske og presist nok til å være nyttig.
