@@ -64,7 +64,7 @@ Det er ofte rundt dette punktet konflikt kan oppstå mellom kunde og byrå. Å k
 
 **Datagrunnlaget er igjen FMCG-tungt.** Mange av eksemplene Sharp og Romaniuk bruker — Tony the Tiger, røde Coca-Cola-bokser, KitKat — kommer fra kategorier der raske, gjenkjennelige merker betyr mye. I kategorier der valget tar tid og kunden aktivt vurderer flere alternativer, betyr distinkte merkemarkører også mye, men sannsynligvis ikke på samme måte.
 
-**«Konsistens er konge» kan bli en sovepute.** Konsistens over tid er et reelt og robust funn. Men det kan også brukes som unnskyldning for å aldri tørre noe nytt. Et merke som har vært visuelt konsistent i 20 år er ikke garantert relevant — det kan også være på vei ut. Sharp gir lite veiledning på når en distinkt merkemarkør bør oppdateres, og når den bør holdes urørt.
+**«Konsistens over alt!» kan bli en sovepute.** Verdien av å være konsekvent over tid er et reelt og robust funn. Men det kan også brukes som unnskyldning for å aldri tørre noe nytt. Et merke som har vært visuelt konsekvente i 20 år er ikke garantert relevans — det kan også være på vei ut. Sharp gir lite veiledning på når en distinkt merkemarkør bør oppdateres, og når den bør holdes urørt.
 
 ## Sjekkliste for idévurdering
 
