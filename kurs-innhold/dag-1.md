@@ -18,9 +18,9 @@ next:
 ## Lesning
 Ideer er rare greier og kan være vanskelige å snakke om. Begrepene vi bruker brukes ofte ulikt av ulike mennesker. Det som er «merkevarebyggende» for én er helt tradisjonell salgsreklame for en annen. 
 
-Hvorfor skal vi pakke det inn?, spør en kunde. Kan vi ikke bare snakke om produktet - rett frem?
+"Hvorfor skal vi pakke det inn? Kan vi ikke bare snakke om produktet - rett frem?"
 
-Og så svarer du kanskje noe om engasjement, eller oppmerksomhet. Men for kunden høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport. 
+Og så svarer vi kanskje noe om engasjement, eller oppmerksomhet. Men for mange høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport. 
 
 Vi som lager, kjøper og måler reklame mangler et felles rammeverk å vurdere ideer mot. Det som kunne vært en fruktbar diskusjon om kvalitet, ender i en diskusjon om preferanse - ispedd masse misforståelser.
 
