@@ -27,7 +27,7 @@ Verdens beste merkebygging hjelper lite om produktet ikke står i hylla. Verdens
 
 ### Hva fysisk tilgjengelighet egentlig er
 
-Det handler ikke bare om butikkhyller. Fysisk tilgjengelighet er alle stedene en kunde kan møte produktet ditt: butikker, nettsider, app-stores, hotellresepsjoner, automater, søkemotorer osv.
+Fysisk tilgjengelighet er mer enn butikkhyller. Fysisk tilgjengelighet er alle stedene en kunde kan møte produktet ditt:  nettsider, app-stores, hotellresepsjoner, automater, søkemotorer osv.
 
 Et merke er fysisk tilgjengelig når det er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe det. Coca-Cola finnes i kiosker, kantiner, restauranter, automater, hotellminibarer osv. Cola er sjelden langt unna en tørst person. Cola har god fysisk tilgjengelighet.
 
