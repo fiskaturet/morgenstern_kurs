@@ -50,7 +50,7 @@ Jenni Romaniuk (og Sharp) mener den nest vanligste feilen er å gjøre distinkte
 ::: anders-kommentar
 Merkemarkører må tas på alvor. Men det er to fallgruber å være obs på. 
 
-Den ene er å være redd for å gjenta seg selv. Vi som lager reklame har sett vår egen logo og hørt vår egen jingle hundre ganger. Derfor blir den kjedelig for oss lenge før den begynner å fungere for kunden. Det er en yrkesskade. En distinkt merkemarkør må gjentas til kjedsommelighet før den begynner å feste seg hos folk. På FINN.no har vi ALLTID lydlogo i reklamen. Vi bruker ALLTID samme blåfarge og ALLTID samme font. Tidligere var også katten ALLTID med, men denne er tonet ned på grunn av utenforliggende greier. 
+Den ene er å være redd for å gjenta seg selv. Vi som lager reklame har sett vår egen logo og hørt vår egen jingle hundre ganger. Derfor blir den kjedelig for oss lenge før den begynner å fungere for mottakeren. Det er en yrkesskade. En distinkt merkemarkør må gjentas til kjedsommelighet før den begynner å feste seg hos folk. På FINN.no har vi ALLTID lydlogo i reklamen. Vi bruker ALLTID samme blåfarge og ALLTID samme font. Tidligere var også katten ALLTID med, men denne er tonet ned på grunn av utenforliggende greier. 
 
 Den andre feilen er å utvikle en slags markør-mani. I denne typen reklame blir det *eneste* viktige å få frem en markør. Det kommer i veien for emosjonene og historiefortellingen- som Binet og Field har bevist er avgjørende for effekt. Du starter neppe samtaler med å skrike navnet ditt gjentatte ganger. Markører må som alt annet benyttes med takt og tone. 
 
