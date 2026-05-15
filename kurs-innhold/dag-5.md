@@ -57,7 +57,7 @@ Tendensen til å vise "det ordinære" i stedet for «noe dramatisk interessant»
 
 Sharps rammeverk er bygget på flere tiår med kjøpsdata, mest fra FMCG-kategorier som sjampo, brus, kaffe og vaskemidler. Det er en styrke, men også en begrensning.
 
-**En sterk assosiasjon slår ti svake.** For Sharp handler mental tilgjengelighet i praksis om volum: flere inngangsporter gir et større merke. Rory Sutherland ville innvendt at én emosjonelt ladet kobling ofte er mer verdifull enn ti svake. Sharp sier lite om hva som skiller en kobling som fester seg fra en som glir ut. Mer om dette på økt 8.
+**En sterk assosiasjon slår ti svake.** For Sharp handler mental tilgjengelighet i praksis om volum: flere inngangsporter gir et større merke. Rory Sutherland ville innvendt at én emosjonelt ladet kobling ofte er mer verdifull enn ti svake. Sharp sier lite om hva som skiller en kobling som fester seg fra en som glemmes. Mer om dette på økt 8.
 
 **B2B og høy-involverings-kategorier oppfører seg annerledes.** Empirien til Sharp er ofte basert på raske, vanebaserte kjøp. I kategorier med høye byttekostnader — regnskapssystem, forsikring, bank, bil og bolig — veier lojalitet tyngre. Beslutninger tas mer bevisst, og vurderingsprosessen er lengre. Å anvende Sharps rammeverk ukritisk på slike kategorier kan gi misvisende råd.
 
