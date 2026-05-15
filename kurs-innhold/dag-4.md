@@ -2,7 +2,7 @@
 day: 4
 part: "Del 2 · Les Binet & Peter Field · The Long and the Short of It"
 duration: "15 minutter"
-title: "Emosjonell og rasjonell kommunikasjon"
+title: "Emosjonell eller rasjonell kommunikasjon?"
 principle: >
   Følelser bygger merker. Argumenter aktiverer salg.
 primary_source:
@@ -25,7 +25,7 @@ next:
 
 Vi har lært at vi må bygge merkevare. I denne økten handler det om hvordan.
 
-Binet og Fields funn på dette punktet er like enkelt som det er ubehagelig for mange annonsører: emosjonell reklame slår rasjonell reklame over tid. Og ikke bare litt.
+Binet og Fields funn på dette punktet er like enkelt som det er ubehagelig for mange annonsører: emosjonell reklame slår argumenterende reklame over tid. Og ikke bare litt.
 
 I IPA-databanken har kampanjer med primært emosjonelt innhold cirka dobbelt så stor langsiktig effekt på markedsandel som kampanjer med primært rasjonelt innhold.
 ### Hva «emosjonell» faktisk betyr
