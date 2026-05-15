@@ -45,6 +45,7 @@ Merkebygging er reklame som bygger merket opp over tid i hodet på folk. Målgru
 
 Hvor mange skal egentlig kjøpe en bil eller bytte bank AKKURAT NÅ? Nesten ingen.
 
+Her kan du leke med en kalkulator. Hvor mange skal egentlig kjøpe det du selger AKKURAT nå? 
 ::: kalkulator-kjopsoyeblikk :::
 
 Heldigvis er hukommelsen tålmodig. En reklame du så for seks måneder siden kan påvirke et valg du tar i dag, uten at du klarer å knytte reklamen direkte til valget. Det er også derfor merkebygging er vanskelig å måle på kort sikt. Den jobben du betaler for lønner seg ikke før lenge etter fakturaen er betalt. 
