@@ -58,7 +58,7 @@ Dette kapittelet handler mer om marketing enn reklame, men er avgjørende å for
 
 **«Penetrasjon over lojalitet» kan misforstås som «ignorer kundene dine».** Sharp sier ikke at man skal drite i eksisterende kunder. Han sier at *veksten* sjelden kommer derfra. Skillet er viktig. Pleie av eksisterende kunder gir verdi (gjenkjøp, anbefaling, redusert churn), men det er ikke det samme som vekst.
 
-**Utfordrermerker bygger ofte motsatt.** Små merker som vokser i en nisje (håndbryggerier, high fashion, spesialverktøy) bygger ofte ekte lojalitet i en liten gruppe først, og utvider seg gradvis utover. Sharps råd om bredde-først passer for etablerte merker, men kan være feil for en utfordrer som ennå ikke har en posisjon å bygge fra.
+**Utfordrermerker bygger ofte motsatt.** Små merker som vokser i en nisje (lokale ysterier og småskala matprodusenter, high fashion, spesialverktøy) bygger ofte ekte lojalitet i en liten gruppe først, og utvider seg gradvis utover. Sharps råd om bredde-først passer for etablerte merker, men kan være feil for en utfordrer som ennå ikke har en posisjon å bygge fra.
 
 ## Sjekkliste for idévurdering
 
