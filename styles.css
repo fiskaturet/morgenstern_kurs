@@ -66,6 +66,12 @@
   --rule: #E8E4DC;
   --rule-strong: #1A1A1A;
 
+  /* Quiz-semantikk: alltid grønt for riktig, rødt for feil, uavhengig av kategori */
+  --quiz-correct: #2F8855;
+  --quiz-correct-soft: rgba(136, 200, 150, 0.20);
+  --quiz-wrong: #B5413E;
+  --quiz-wrong-soft: rgba(221, 107, 110, 0.10);
+
   /* Per-del fargesignatur (default = coral) */
   --part-color: var(--coral);
   --part-on-color: var(--white);
@@ -680,14 +686,17 @@ hr {
 .quiz-item.graded .quiz-options label { cursor: default; }
 .quiz-item.graded .quiz-options label:hover { border-color: var(--rule); }
 .quiz-options label.is-answer {
-  border-color: var(--part-color);
-  background: var(--part-soft);
+  border-color: var(--quiz-correct);
+  background: var(--quiz-correct-soft);
 }
-.quiz-options label.is-answer input[type="radio"] { border-color: var(--part-color); }
+.quiz-options label.is-answer input[type="radio"] { border-color: var(--quiz-correct); }
+.quiz-options label.is-answer input[type="radio"]:checked::after { background: var(--quiz-correct); }
 .quiz-options label.is-correct {
-  border-color: var(--part-color);
-  background: var(--part-soft);
+  border-color: var(--quiz-correct);
+  background: var(--quiz-correct-soft);
 }
+.quiz-options label.is-correct input[type="radio"] { border-color: var(--quiz-correct); }
+.quiz-options label.is-correct input[type="radio"]:checked::after { background: var(--quiz-correct); }
 .quiz-options label.is-correct::after {
   content: "✓ riktig";
   margin-left: auto;
@@ -696,27 +705,27 @@ hr {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--part-color);
+  color: var(--quiz-correct);
   align-self: center;
 }
 .quiz-options label.is-wrong {
-  border-color: var(--text-subtle);
-  background: transparent;
+  border-color: var(--quiz-wrong);
+  background: var(--quiz-wrong-soft);
   color: var(--text-muted);
   text-decoration: line-through;
-  text-decoration-color: var(--text-subtle);
+  text-decoration-color: var(--quiz-wrong);
 }
-.quiz-options label.is-wrong input[type="radio"] { border-color: var(--text-subtle); }
-.quiz-options label.is-wrong input[type="radio"]:checked::after { background: var(--text-subtle); }
+.quiz-options label.is-wrong input[type="radio"] { border-color: var(--quiz-wrong); }
+.quiz-options label.is-wrong input[type="radio"]:checked::after { background: var(--quiz-wrong); }
 .quiz-options label.is-wrong::after {
-  content: "ditt svar";
+  content: "✗ ditt svar";
   margin-left: auto;
   font-family: var(--sans);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--text-muted);
+  color: var(--quiz-wrong);
   text-decoration: none;
   align-self: center;
 }
