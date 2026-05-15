@@ -2,7 +2,7 @@
 day: 7
 part: "Del 3 · Byron Sharp · How Brands Grow"
 duration: "15 minutter"
-title: "Penetrasjon over lojalitet"
+title: "Penetrasjon er viktigere enn lojalitet"
 principle: >
   Merker vokser ved å nå flere kunder, ikke ved å få eksisterende kunder til å kjøpe oftere.
 primary_source:
@@ -23,7 +23,7 @@ next:
 
 «Vi skal bygge lojalitet» var en vanlig brief for 10 år siden. Logikken er forførende: det er billigere å holde på en eksisterende kunde enn å skaffe en ny, og lojale kunder snakker pent om merket og bærer veksten. Sharp har vist at den logikken er feil (stort sett).
 
-Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kommer fra å nå flere kunder — ikke fra å få eksisterende kunder til å kjøpe oftere. Når et merke vokser, vokser det først og fremst gjennom *penetrasjon*. Lojalitet følger med på lasset, men er sjelden motoren.
+Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kommer fra å nå flere kunder — ikke fra å få eksisterende kunder til å kjøpe oftere. Når et merke vokser, vokser det først og fremst gjennom *penetrasjon* - altså hvor stor andel av kundene i markedet som kjøper av nettop deg. Lojalitet følger med på lasset, men er sjelden motoren.
 
 ### Double Jeopardy
 
