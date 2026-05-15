@@ -60,7 +60,7 @@ Det er ofte rundt dette punktet konflikt kan oppstå mellom kunde og byrå. Å k
 
 ## Kritikk av teorien
 
-**«Distinctive» og «kjent» er ikke det samme.** Sharp og Romaniuk insisterer på at distinkte merkemarkører ikke trenger å være meningsbærende — de trenger bare å være gjenkjennelige. Kritikere mener dette gir en for tynn forståelse av hvordan visuell identitet faktisk virker. En markør som bare er gjenkjennelig, men som ikke står for noe, jobber dårligere enn en markør som har mening.
+**«Distinctive» og «kjent» er ikke det samme.** Sharp og Romaniuk insisterer på at distinkte merkemarkører ikke trenger å bety noe spesielt — de trenger kun å være gjenkjennelige. Kritikere mener dette gir en for tynn forståelse av hvordan visuell identitet faktisk virker. En markør som bare er gjenkjennelig, men som ikke står for noe, jobber dårligere enn en markør som har mening.
 
 **Datagrunnlaget er igjen FMCG-tungt.** Mange av eksemplene Sharp og Romaniuk bruker — Tony the Tiger, røde Coca-Cola-bokser, KitKat — kommer fra kategorier der raske, gjenkjennelige merker betyr mye. I kategorier der valget tar tid og kunden aktivt vurderer flere alternativer, betyr distinkte merkemarkører også mye, men sannsynligvis ikke på samme måte.
 
