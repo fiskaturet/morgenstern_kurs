@@ -31,17 +31,17 @@ Mental tilgjengelighet er motoren i merkevarevekst, og et av de mest misforståt
 
 For å bygge mental tilgjengelighet må en merkevare kobles til *kategori-inngangsporter* — de situasjonene, behovene eller øyeblikkene som får noen til å tenke på kategorien. 
 
-For en brusprodusent kan det være «tørst etter trening», «en pizza på fredagskvelden», eller en «lang bilreise». Hver av disse er en inngangsport til kategorien "brus", og hver av dem er en mulighet for merkevaren til å være den som dukker opp først.
+For en brusprodusent kan det være «henge med guttegjengen», «pizza med familien», eller en «lang bilreise». Hver av disse er en inngangsport til kategorien "brus", og hver av dem er en mulighet for merkevaren til å være den som dukker opp først.
 
 Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo sterkere blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
 
 (CLAUDE: SETT INN ILLUSTRASJON AV MIND MAP SOM FÅR FREM POENGET OM CATEGORY ENTRY POINTS)
 
-### Der vi trår feil
+### Der vi kan trår feil
 
-Dessverre ender jakten på relevant inngangsport ofte i reklame som dramatiserer *den vanligste brukssituasjonen*. Det skaper forutsigbar og kjedelig reklame. Da ender vi med lav oppmerksomhet og dårlig effekt. En inngangsport er en psykologisk assosiasjon — alt som trigger tanken på kategorien. IKKE den mest åpenbare brukssituasjonen du klarer å komme på. 
+Noen ganger ender jakten på relevant inngangsport i reklame som dramatiserer *den vanligste brukssituasjonen*. Det kan skape forutsigbar og kjedelig reklame. En inngangsport er en psykologisk assosiasjon — alt som trigger tanken på kategorien. IKKE alltid den mest åpenbare brukssituasjonen vi klarer å komme på. 
 
-Konsekvensen er at mye reklame viser den vanligste brukssituasjonen — en familie på fire på kjøkkenet — og kaller det "relevant". Det kan være relevant, men det er sjelden minneverdig, og det trener ikke hjernen til å koble merkevaren til nye inngangsporter. Relevans trenger ikke være kjedelig. 
+Mye reklame viser den vanligste brukssituasjonen — en familie på fire på kjøkkenet. Det kan være relevant, men det er sjelden minneverdig, og det trener ikke hjernen til å koble merkevaren til nye inngangsporter. Relevans trenger ikke være kjedelig. 
 
 ::: anders-kommentar
 La oss si at du skal lage reklame for kredittkort. 
