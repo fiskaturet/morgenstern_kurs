@@ -243,6 +243,39 @@ def render_section_blocks(body: str, day_part: int) -> dict:
     return sections
 
 
+YT_PATTERNS = [
+    re.compile(r'^https?://(?:www\.)?youtube\.com/watch\?[^\s]*?v=([A-Za-z0-9_-]{6,})[^\s]*$'),
+    re.compile(r'^https?://youtu\.be/([A-Za-z0-9_-]{6,})(?:\?[^\s]*)?$'),
+    re.compile(r'^https?://(?:www\.)?youtube\.com/shorts/([A-Za-z0-9_-]{6,})(?:\?[^\s]*)?$'),
+]
+
+
+def parse_youtube_url(line: str):
+    """Returner video-ID hvis linja er en bar YouTube-URL, ellers None."""
+    line = line.strip()
+    for pat in YT_PATTERNS:
+        m = pat.match(line)
+        if m:
+            return m.group(1)
+    return None
+
+
+def render_video_embed(video_id: str, caption: str = '') -> str:
+    """Bygg responsiv iframe + valgfri figcaption."""
+    src = f'https://www.youtube-nocookie.com/embed/{video_id}'
+    parts = ['      <figure class="video-embed">']
+    parts.append(
+        f'        <div class="video-frame">'
+        f'<iframe src="{src}" title="Video" '
+        f'allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+        f'allowfullscreen loading="lazy"></iframe></div>'
+    )
+    if caption:
+        parts.append(f'        <figcaption>{inline_md(caption)}</figcaption>')
+    parts.append('      </figure>')
+    return '\n'.join(parts)
+
+
 def render_paragraphs_with_specials(body: str) -> str:
     """
     Render markdown body med:
@@ -266,7 +299,8 @@ def render_paragraphs_with_specials(body: str) -> str:
             continue
 
         # Forfatter-notat (parentes-kommentarer og CALUDE/SETT INN-instruksjoner) — droppes
-        if (stripped.startswith('(CALUDE:') or
+        if (stripped.startswith('(CLAUDE:') or
+            stripped.startswith('(CALUDE:') or
             stripped.startswith('(SETT INN') or
             stripped.startswith('(Embed') or
             stripped.startswith('(SETT_INN')):
@@ -276,6 +310,25 @@ def render_paragraphs_with_specials(body: str) -> str:
                 i += 1
             if i < len(lines):
                 i += 1  # spis avslutningen
+            continue
+
+        # YouTube-URL alene på en linje → video-embed
+        # Hvis linja rett under er en kursiv-paragraf (*..*), brukes den som figcaption.
+        yt_id = parse_youtube_url(stripped)
+        if yt_id:
+            caption = ''
+            # Sjekk neste ikke-tomme linje
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                nxt = lines[j].strip()
+                m_cap = re.match(r'^\*([^\*].*?)\*$', nxt)
+                if m_cap:
+                    caption = m_cap.group(1).strip()
+                    i = j  # hopp forbi caption-linja
+            out.append(render_video_embed(yt_id, caption))
+            i += 1
             continue
 
         # h3
@@ -329,8 +382,9 @@ def render_paragraphs_with_specials(body: str) -> str:
             if (not nxt or
                 nxt.startswith('### ') or nxt.startswith('## ') or
                 nxt.startswith(':::') or
-                nxt.startswith('(CALUDE:') or nxt.startswith('(SETT INN') or
+                nxt.startswith('(CLAUDE:') or nxt.startswith('(CALUDE:') or nxt.startswith('(SETT INN') or
                 nxt.startswith('(Embed') or nxt.startswith('(SETT_INN') or
+                parse_youtube_url(nxt) is not None or
                 nxt.startswith('- ') or nxt.startswith('> ')):
                 break
             para_lines.append(nxt)
