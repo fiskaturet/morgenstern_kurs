@@ -87,7 +87,7 @@ Bruk listen når du vurderer en plan eller en kampanje, ikke en enkelt idé.
 
 - [ ] Det er optimal fordeling for utfordrere som skal hente markedsandel raskt
 - [ ] Det er forsvarlig så lenge salgsvolum kan måles og rapporteres direkte
-- [x] Det vil sannsynligvis sulteforve merket — utfordrere trenger særlig høy merkebyggingsandel
+- [x] Det vil sannsynligvis sulteforer merket — utfordrere trenger særlig høy merkebyggingsandel
 - [ ] Det treffer godt med snittet i IPA-databanken på tvers av kategorier
 
 > Utfordrere har lite mental tilgjengelighet å høste fra. Skal de vokse, må de først bygge minner — uten det er aktivering bare å skvise en sitron med få dråper i.

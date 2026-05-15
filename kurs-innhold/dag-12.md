@@ -25,7 +25,7 @@ I 2016 ga Cialdini ut *Pre-Suasion*, en oppfølger som hadde modnet i ham over t
 
 ### Den styrende oppmerksomheten
 
-Cialdini bruker et eksempel fra et eksperiment. To grupper skulle overtales til å bli med i en undersøkelse. Den ene gruppa ble enkelt og greit spurt om de ville delta. Den andre gruppa fikk først spørsmålet «Vil du beskrive deg selv som en hjelpsom person?». De fleste i denne grippa svarte ja. Deltakelsen var dramatisk høyere i gruppa som hadde beskrevet seg selv som hjelpsomme. 
+Cialdini bruker et eksempel fra et eksperiment. To grupper skulle overtales til å bli med i en undersøkelse. Den ene gruppa ble enkelt og greit spurt om de ville delta. Den andre gruppa fikk først spørsmålet «Vil du beskrive deg selv som en hjelpsom person?». De fleste i denne gruppa svarte ja. Deltakelsen var dramatisk høyere i gruppa som hadde beskrevet seg selv som hjelpsomme. 
 
 Har du først beskrevet deg selv som «hjelpsom» er hjernen forhåndsstilt på å være konsistent.
 
@@ -34,13 +34,13 @@ For reklame er dette sentralt. En kontekst — en plassering, et kanalvalg, en l
 Ta «Mandag» for FINN. Er du først med på at *jobben suger*, er du forhåndsprimet til å være mer positiv til å kikke deg om etter noe annet. 
 ### Det syvende prinsippet — Unity
 
-I *Pre-Suasion* introduserer Cialdini et syvende prinsipp utover de seks klassiske: **Felleskap**. Vi er sterkest påvirket av folk vi opplever som «oss» — familien, nabolaget, fans av samme fotballlag, vi som ikke liker koriander. 
+I *Pre-Suasion* introduserer Cialdini et syvende prinsipp utover de seks klassiske: **Fellesskap**. Vi er sterkest påvirket av folk vi opplever som «oss» — familien, nabolaget, fans av samme fotballag, vi som ikke liker koriander. 
 
-Felleskap er sterkere enn sympati. Sympati er «jeg liker deg». Felleskap er «du er en av oss». Når en avsender oppfattes som *innenfor* gruppa, vurderes budskapet annerledes — mer velvillig, mindre kritisk.
+Fellesskap er sterkere enn sympati. Sympati er «jeg liker deg». Fellesskap er «du er en av oss». Når en avsender oppfattes som *innenfor* gruppa, vurderes budskapet annerledes — mer velvillig, mindre kritisk.
 
 Et eksempel her kan kanskje være «Hun investerer». En avgrenset gruppe, med et felles mål - som DNB ble en naturlig del av. 
 
-I reklame kan dette felleskaps-prinsippet forklare hvorfor noen merker lykkes med å koble seg til en kulturell identitet. PowerOffice sin «to-minutter» samler ledere og folk med personal-ansvar til et «vi».  
+I reklame kan dette fellesskaps-prinsippet forklare hvorfor noen merker lykkes med å koble seg til en kulturell identitet. PowerOffice sin «to-minutter» samler ledere og folk med personal-ansvar til et «vi».  
 ### Hvordan Cialdini brukes i moderne reklame
 
 Hvis vi ser på markedsføring i 2026 med Cialdini-briller, er prinsippene synlige overalt:
@@ -59,7 +59,7 @@ Influencer-marketing er i kjernen et **sympati**- og **unity**-spill — vi like
 ::: anders-kommentar
 Briefene vi jobber på er ofte utålmodige med å få frem et konkret budskap. «Hva skal vi si?» er spørsmålet over alle spørsmål. Cialdinis pre-suasion minner oss om at det ikke alltid er riktig rekkefølge.
 
-Morgenstern-reklame er (helt ubevist) en refleksjon av dette. «Hvordan kan vi komme med en relevant innsikt målgruppen kan kjenne seg igjen i?» er ofte et godt utgangspunkt for reklame som benytter prinsippet om pre-suasion. 
+Morgenstern-reklame er (helt ubevisst) en refleksjon av dette. «Hvordan kan vi komme med en relevant innsikt målgruppen kan kjenne seg igjen i?» er ofte et godt utgangspunkt for reklame som benytter prinsippet om pre-suasion. 
 
 :::
 

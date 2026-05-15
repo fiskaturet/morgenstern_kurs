@@ -48,7 +48,7 @@ Til sist: emosjonell reklame skiller seg ut. Den som spiller på følelser har l
 
 Rasjonell reklame har sin plass. Vi må bare være bevisst på at den gjør en annen jobb. Aktivering er ofte rasjonell, og skal være det: «0 % rente til 30. juni», «50 % avslag denne uka», «åpent til 22 hele helgen». Du trenger ikke å fremkalle følelser for å selge en is på en sommerdag.
 
-I høyinvolveringsbeslutninger — bil, bolig, B2B-systemer — har rasjonelle argumenter også en plass, men sjelden i den primære reklamen. De hører hjemme på nettsiden, i salgsmøtet, i tilbudsbrevet. . Argumentene fungerer på de som allerede vurderer. Massekom-reklame skal få deg til å vurdere. 
+I høyinvolveringsbeslutninger — bil, bolig, B2B-systemer — har rasjonelle argumenter også en plass, men sjelden i den primære reklamen. De hører hjemme på nettsiden, i salgsmøtet, i tilbudsbrevet. Argumentene fungerer på de som allerede vurderer. Massekom-reklame skal få deg til å vurdere. 
 
 ::: anders-kommentar
 Reklamen som får deg til å føle funker best.
@@ -65,7 +65,7 @@ Husk også at «emosjonell» ikke skal leses som «trist».:::
 
 **Kategorien har noe å si.** I noen kategorier er kunden genuint på leting etter informasjon. Medisinske produkter, nisjeteknologi — her kan rasjonelle argumenter spille en større rolle, særlig sent i kjøpsreisen. 60/40-regelen og emosjonell-rasjonell-funnet trekker i samme retning, men ikke i alle kategorier like sterkt.
 
-**«Emosjonell reklame virker» er blitt en klisjé.** Mange byråer har de siste ti årene laget reklame som er emosjonell på en bestemt måte: klippet til musikk, slow motion, poetisk voice, et nært menneskelig øyeblikk, en kort tagline. Vi må være orginale - ikke bare emosjonelle.
+**«Emosjonell reklame virker» er blitt en klisjé.** Mange byråer har de siste ti årene laget reklame som er emosjonell på en bestemt måte: klippet til musikk, slow motion, poetisk voice, et nært menneskelig øyeblikk, en kort tagline. Vi må være originale - ikke bare emosjonelle.
 ## Sjekkliste for idévurdering
 
 Bruk listen når du vurderer om en idé spiller riktig på følelser eller argumenter.

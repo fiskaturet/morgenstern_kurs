@@ -35,7 +35,7 @@ For en brusprodusent kan det være «tørst etter trening», «en pizza på fred
 
 Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo større blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
 
-(CALUDE: SETT INN ILLUSTRASJON AV MIND MAP SOM FÅR FREM POENGET OM CATEGORY ENTRY POINTS)
+(CLAUDE: SETT INN ILLUSTRASJON AV MIND MAP SOM FÅR FREM POENGET OM CATEGORY ENTRY POINTS)
 
 ### Der vi trår feil
 

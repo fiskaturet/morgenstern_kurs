@@ -39,7 +39,7 @@ Et krasjkurs i reklameforståelse over 13 økter, bygget på Binet & Field, Byro
 **Eyebrow:** 13 økter · 15 minutter per økt
 **Tittel:** Et felles språk
 for god reklame.
-**Tagline:** Bygget på fire bøker mange referer til men færre har lest ferdig.
+**Tagline:** Bygget på fire bøker mange refererer til men færre har lest ferdig.
 
 ### CTA-knapper på hero
 - Primær: Start med økt 1 →

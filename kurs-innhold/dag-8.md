@@ -61,7 +61,7 @@ Et merke som selger forsikring kan vinne mer på å vise hvor enkelt det er å s
 ::: anders-kommentar
 «Vi vil ha en kampanje som viser og forklarer USPene våre.»
 
-Sutherlands hjelper oss utfordre denne briefen. Mennesker er mer enn  logiskk.
+Sutherland hjelper oss å utfordre denne briefen. Mennesker er mer enn logikk.
 
 Det betyr ikke at fakta er irrelevant. Men det betyr at fakta sjelden er nok. Følelser kommer først. Argumentasjon kommer etterpå. Reklame som glemmer dette, jobber i motbakke.
 :::
@@ -72,7 +72,7 @@ Det betyr ikke at fakta er irrelevant. Men det betyr at fakta sjelden er nok. F�
 
 **Adferdsøkonomien har replikasjonsproblemer.** Mange av de klassiske eksperimentene Sutherland bygger på er ulike studier basert på Kahnemans System 1/2-teori. Disse eksperimentene har ikke alltid gjort det så bra i replikasjonsstudier. Det betyr ikke at psyko-logikk er feil. Men det betyr at vi bør være forsiktige med å bruke enkelte studier som «bevis».
 
-**Og alltid tenkte kontraintuitivt er ikke en strategi.** Sutherland-elskere kan ende opp med å løfte fram det fiffige og kontraintuitive som svaret på alt. Ofte jobber konsistens og bredde bedre enn kontraintuitive enkeltgrep. 
+**Å alltid tenke kontraintuitivt er ikke en strategi.** Sutherland-elskere kan ende opp med å løfte fram det fiffige og kontraintuitive som svaret på alt. Ofte jobber konsistens og bredde bedre enn kontraintuitive enkeltgrep. 
 ## Sjekkliste for idévurdering
 
 Bruk listen når du vurderer en idé som lener seg på et psykologisk grep.

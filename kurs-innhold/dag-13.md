@@ -40,7 +40,7 @@ Spørsmålet tvinger oss til å sjekke om kampanjen er bred nok, distinktivt nok
 
 **Er det noe irrasjonelt spennende her? Snakker reklamen til psyko-logikken, ikke bare til excel-arket?**
 
-Sutherland minner oss om at folk velger med følelser og elsker ta snarveier. En reklame som bare argumenterer slår ikke gjennom.
+Sutherland minner oss om at folk velger med følelser og elsker å ta snarveier. En reklame som bare argumenterer slår ikke gjennom.
 
 Spørsmålet tvinger oss til å sjekke om kampanjen forstår *hvordan* mennesker faktisk velger i kategorien — og ikke bare hva merket gjerne skal få sagt om seg selv. Hva er det opplevde problemet, ikke det logiske?
 

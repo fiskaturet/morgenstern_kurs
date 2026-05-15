@@ -4,7 +4,7 @@ part: "Del 2 · Les Binet & Peter Field · The Long and the Short of It"
 duration: "15 minutter"
 title: "Merkebygging og aktivering"
 principle: >
-  Reklamens to oppgaver:. Bygge merkevare og aktivere salg.
+  Reklamens to oppgaver: Bygge merkevare og aktivere salg.
 primary_source:
   title: "The Long and the Short of It"
   meta: "Les Binet & Peter Field, 2013"
@@ -23,13 +23,13 @@ next:
 
 Volkswagen kjører to typer reklame samtidig. 
 
-Den ene er en TV-film om en gutt i Darth Wader drakt. Det går 40 sekunder før vi se en bil. Gutten opplever magien i Volkswagen innovasjoner. Lite info, mye følelse.
+Den ene er en TV-film om en gutt i Darth Vader-drakt. Det går 40 sekunder før vi ser en bil. Gutten opplever magien i Volkswagens innovasjoner. Lite info, mye følelse.
 
 (Embed denne så den kan spilles av direkte: https://www.youtube.com/watch?v=qpL_DcT6ko8
 
-Den andre er en Facebook-annonse som sier «0 % rente til 30. juni». Den første selger ikke en eneste bil – i dag. Den andre selger mange, det ser du på statistikken. Men om to år er det gutten i Darth Wader drakt som gjør at 20% flere vurderer Volkswagen som neste bil.
+Den andre er en Facebook-annonse som sier «0 % rente til 30. juni». Den første selger ikke en eneste bil – i dag. Den andre selger mange, det ser du på statistikken. Men om to år er det gutten i Darth Vader-drakt som gjør at 20% flere vurderer Volkswagen som neste bil.
 
-Eksempelet illustrer poenget i Les Binet og Peter Fields *The Long and the Short of It*. Den «korte jobben» er å aktive: gjøre etterspørsel som allerede finnes om til kjøp. 
+Eksempelet illustrerer poenget i Les Binet og Peter Fields *The Long and the Short of It*. Den «korte jobben» er å aktivere: gjøre etterspørsel som allerede finnes om til kjøp. 
 
 Den lange jobben er merkebygging: å skape assosiasjoner i hukommelsen som gjør at merket blir vurdert, foretrukket og valgt en gang i framtiden.
 
@@ -60,7 +60,7 @@ De to jobbene forsterker hverandre. Merkevarebygging gjør aktivering billigere,
 
 Aktivering uten merkebygging fungerer i en periode, men blir dyrere og dyrere jo lengre man sulteforer merkevaren. Du ender med å tømme merkevaren, og veien tilbake kan bli lang og dyr.
 
-Binet og Field viser dette gjennom IPA Databank (litt som en bank over Norske ANFO/Stella-case). Den inneholder resultater fra flere hundre britiske kampanjer gjennom flere tiår. Kampanjer som balanserer de to jobbene slår både de som bare fokuserer på aktivering og de som bare fokuserer på merkebygging.
+Binet og Field viser dette gjennom IPA Databank (litt som en bank over norske ANFO/Stella-case). Den inneholder resultater fra flere hundre britiske kampanjer gjennom flere tiår. Kampanjer som balanserer de to jobbene slår både de som bare fokuserer på aktivering og de som bare fokuserer på merkebygging.
 
 (SETT INN BILDE AV GRAF FRA LONG SHORT SOM ILLUSTRER BOTHISM)
 
@@ -110,7 +110,7 @@ Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den sk
 - [x] Aktiveringen blir gradvis dyrere, og effekten flater ut etter hvert som merket svekkes
 - [ ] Salget faller umiddelbart fordi alle kampanjer mister kraft samtidig
 - [ ] Markedsandelen øker først, så faller den etter omtrent tolv måneder
-- [ ] Effekten holder seg lik — bare fordelingen mellom kanaler endres seg
+- [ ] Effekten holder seg lik — bare fordelingen mellom kanaler endrer seg
 
 > Aktivering høster mental tilgjengelighet som merkebygging har sådd. Slutt å så, og du høster fortsatt en stund — men avlingen blir mindre og dyrere for hver sesong.
 

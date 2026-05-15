@@ -29,7 +29,7 @@ Verdens beste merkebygging hjelper lite om produktet ikke står i hylla. Verdens
 
 Det handler ikke bare om butikkhyller. Fysisk tilgjengelighet er alle stedene en kunde kan møte produktet ditt: butikker, nettsider, app-stores, hotellresepsjoner, automater, søkemotorer osv.
 
-Et merke er fysisk tilgjengelig når det er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe det. Coca-Cola finnes i kiosker, kantiner, restauranter, automater, hotellminibarer isv Cola er sjelden langt unna en tørst person. Cola har god fysisk tilgjengelighet.
+Et merke er fysisk tilgjengelig når det er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe det. Coca-Cola finnes i kiosker, kantiner, restauranter, automater, hotellminibarer osv. Cola er sjelden langt unna en tørst person. Cola har god fysisk tilgjengelighet.
 
 For et online merke er fysisk tilgjengelighet at du står høyt nok i søkeresultatet, at appen er installert eller at betaling er lett å gjennomføre.
 ### Distinkte merkemarkører
@@ -45,7 +45,7 @@ Mange bytter ut sine egne distinkte merkemarkører jevnlig — ny font, nytt vis
 
 Eierskap til en distinkt merkemarkør bygges over tid, og rives ned på et øyeblikk. Et merke som bytter «look» hvert annet år, ender med å være et merke ingen kan kjenne igjen umiddelbart. Da må reklamen jobbe mye hardere for å oppnå samme effekt.
 
-Jenny Romaniuk (og Sharp) mener den nest vanligste feilen er å gjøre distinkte merkemarkører så subtile at de ikke fungerer. Logoen i hjørnet i tre sekunder på slutten av filmen er ikke en distinkt merkemarkør. Det er en signatur. En distinkt merkemarkør skal være til stede tidlig, ofte og tydelig nok til at hjernen kobler det til merket før kjøpsbeslutningen.
+Jenni Romaniuk (og Sharp) mener den nest vanligste feilen er å gjøre distinkte merkemarkører så subtile at de ikke fungerer. Logoen i hjørnet i tre sekunder på slutten av filmen er ikke en distinkt merkemarkør. Det er en signatur. En distinkt merkemarkør skal være til stede tidlig, ofte og tydelig nok til at hjernen kobler det til merket før kjøpsbeslutningen.
 
 ::: anders-kommentar
 Merkemarkører må tas på alvor. Men det er to fallgruber å være obs på. 

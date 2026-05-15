@@ -25,17 +25,17 @@ next:
 
 Vi kommuniserer gjennom to primære ting: Det vi sier. Og det vi signaliserer. 
 
-Begge er viktige, men vi har en tendens til å overvurdere første: — selinformasjonen og selve budskapet. Sutherlands argument, lånt fra økonomen Michael Spence (Nobelpris i 2001) og biologen Amotz Zahavi, er at *signalet* selve eksistensen av reklamen sender ofte er viktigere enn det reklamen prøver å si. 
+Begge er viktige, men vi har en tendens til å overvurdere det første — selve informasjonen og selve budskapet. Sutherlands argument, lånt fra økonomen Michael Spence (Nobelpris i 2001) og biologen Amotz Zahavi, er at *signalet* selve eksistensen av reklamen sender ofte er viktigere enn det reklamen prøver å si. 
 
 ### Kostbare signaler
 
 Spence beskriver hvordan signaler bare betyr noe når de er dyre å produsere. Et vitnemål fra et prestisjeuniversitet signaliserer kompetanse, ikke fordi pensum er nyttig, men fordi det å fullføre utdanningen har kostet deg år av livet ditt.
 
-Zahavi observerte det samme i naturen. Påfuglens enorme hale gjør den til en latterlig fugl og som er enkel og oppdage for rovdyr. Men nettopp derfor er den et ærlig signal: en hannfugl som klarer seg med en så urimelig hale må være sterk nok til å overleve med den. Det er et signal til påfugl-hunnen om at HER har du mannfolk å satse på. Hvis halen ikke var en enorm ulempe, hadde signalet vært verdiløst.
+Zahavi observerte det samme i naturen. Påfuglens enorme hale gjør den til en latterlig fugl som er enkel å oppdage for rovdyr. Men nettopp derfor er den et ærlig signal: en hannfugl som klarer seg med en så urimelig hale må være sterk nok til å overleve med den. Det er et signal til påfugl-hunnen om at HER har du mannfolk å satse på. Hvis halen ikke var en enorm ulempe, hadde signalet vært verdiløst.
 
 ### Reklame som kostbart signal
 
-Anvendt på reklame: en plakat på Karl Johan, en 90 sekunder på kino — alle vet at det koster. Et godt manus, en god skuespiller - godt håndverk - alt dette koster. Alt dette koster. Og det sender et tydelig signal: Vi er her, vi planlegger å være her lenge, vi tror produktet vårt og er villige til  investere mye.
+Anvendt på reklame: en plakat på Karl Johan, en 90 sekunder på kino — alle vet at det koster. Et godt manus, en god skuespiller - godt håndverk - alt dette koster. Alt dette koster. Og det sender et tydelig signal: Vi er her, vi planlegger å være her lenge, vi tror på produktet vårt og er villige til å investere mye.
 
 Tilsvarende: billig, slurvete reklame sender et signal om at merkevaren er fjollete.
 ### Hvor har signalene blitt av?
@@ -51,7 +51,7 @@ Det enkle svaret: en TV-spot på riksdekkende kanal bærer signaler. Et lite ban
 
 Halve jobben er  faktisk å si «vi er her, vi er investert i dette, vi er ikke et flyktig merke».
 
-Det er en del av grunnen til at vi som regel argumenterer for å sentrere store kampanjer rundt minst én sterk, kostbar enhet — et konsept, ofte i form av levende bilder. .  
+Det er en del av grunnen til at vi som regel argumenterer for å sentrere store kampanjer rundt minst én sterk, kostbar enhet — et konsept, ofte i form av levende bilder.  
 :::
 
 ## Kritikk av teorien
@@ -79,7 +79,7 @@ Bruk listen når du vurderer mediestrategi eller produksjonsbudsjett.
 
 - [ ] At reklame skal være så dyr som overhodet mulig for å virke effektivt
 - [ ] At signaler i naturen og økonomi alltid har samme funksjon på samme måte
-- [ ] At signaler må gjentas mange ganger før de blir kostbare nok til å betyr noe
+- [ ] At signaler må gjentas mange ganger før de blir kostbare nok til å bety noe
 - [x] At et signal kun fungerer som ærlig informasjon når det koster avsenderen noe å produsere
 
 > Spence vant Nobelprisen for ideen i 2001. Det som er gratis å produsere, er gratis å ignorere. Et vitnemål, en påfuglhale, en TV-kampanje — alle bærer mening fordi de har kostet noe.

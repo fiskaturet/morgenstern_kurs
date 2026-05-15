@@ -38,7 +38,7 @@ Et annet funn fra Sharp og Ehrenberg-Bass-instituttet: i de fleste merker står 
 
 Det betyr at en kampanje som primært snakker til «fans» treffer for få mennesker. En kampanje som klarer å være til stede for de mange som kjøper sjelden, treffer mye bedre.
 
-Den logikken er et slag i ansiktet på reklame-instinktet: å snakke «intimit» til en avgrenset målgruppe man «kjenner». Sharps råd er det motsatte: snakk bredt til flest mulig mennesker som *kan finne på* å kjøpe deg.
+Den logikken er et slag i ansiktet på reklame-instinktet: å snakke «intimt» til en avgrenset målgruppe man «kjenner». Sharps råd er det motsatte: snakk bredt til flest mulig mennesker som *kan finne på* å kjøpe deg.
 
 ::: kalkulator-kjopsoyeblikk :::
 
@@ -51,7 +51,7 @@ Hvis brorparten av salget kommer fra folk som kjøper én gang i året, må merk
 Lojalitetsprogrammer er sjelden en vekstmotor. De kan være en bra kundepleieordning og holde på folk som allerede er kunder. Men de skaper ikke vekst i markedsandel, fordi de ikke når nye kunder.
 
 ::: anders-kommentar
-Dette kapitellet handler mer om marketing enn reklame, men er avgjørende å forstå – også for oss som skal lage ideer. Det er veldig fristende å lage lojalitets-ideer, men i følge Sharp – kanskje sjelden riktig. 
+Dette kapittelet handler mer om marketing enn reklame, men er avgjørende å forstå – også for oss som skal lage ideer. Det er veldig fristende å lage lojalitets-ideer, men i følge Sharp – kanskje sjelden riktig. 
 :::
 
 ## Kritikk av teorien

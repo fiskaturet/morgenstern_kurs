@@ -21,9 +21,9 @@ next:
 
 ## Lesning
 
-På 70-tallet ville Robert Cialdini finne hvordan selgere EGENTLIG klarte overbevise folk til å kjøpe. Han tok seg en rekke selgerjobber, infiltrere ulike miljøer og intervjuer et bredt spekter av kilder. 
+På 70-tallet ville Robert Cialdini finne hvordan selgere EGENTLIG klarte å overbevise folk til å kjøpe. Han tok seg en rekke selgerjobber, infiltrerte ulike miljøer og intervjuet et bredt spekter av kilder. 
 
-Boka *Influence* (1984) destillerte funnene hans ned i seks prinsipper. De er ikke triks, men kognitive snarveier hjernen bruker for å slippe tenke. Hjernen er svært lat – noe som er grunnen til at markedsføring funker. 
+Boka *Influence* (1984) destillerte funnene hans ned i seks prinsipper. De er ikke triks, men kognitive snarveier hjernen bruker for å slippe å tenke. Hjernen er svært lat – noe som er grunnen til at markedsføring funker. 
 
  
 De fleste av oss bruker disse prinsippene daglig - og de blir kontinuerlig brukt mot oss selv.
@@ -36,7 +36,7 @@ Det første prinsippet: Folk har en sterk, iboende trang til å gjengjelde tjene
 
 ### 2 · Forpliktelse og konsistens (Commitment & Consistency)
 
-Når vi først velger (for eksempel: jeg liker ikke Trance!) tendenserer vi mot å være konsistente til dette valget - mye lenger enn det som er rasjonelt. Konsistens ses på som noe positivt («folk vet hvor de har meg. Jeg står for det jeg mener!». Meeen, det kan også brukes mot oss. 
+Når vi først velger (for eksempel: jeg liker ikke Trance!) tenderer vi mot å være konsistente til dette valget - mye lenger enn det som er rasjonelt. Konsistens ses på som noe positivt («folk vet hvor de har meg. Jeg står for det jeg mener!»). Meeen, det kan også brukes mot oss. 
 
 Klassisk eksempel: en Verisure selger ringer. Han spør «Anders, du er opptatt av sikkerhet for familien din, ikke sant?». Jeg svarer ja. Når han senere tilbyr et alarmsystem er det litt vanskeligere for meg å si nei. Jeg sa jo akkurat at jeg var opptatt av sikkerhet. Jeg kan ikke vakle nå!
 
@@ -52,13 +52,13 @@ Lapp 1: «Våre gjester er i Norgestoppen på gjenbruk av håndkler. Tusen takk!
 
 Lapp 2: «Tenk på miljøet, gjenbruk håndkle ditt». 
 
-Lapp én er langt mer effektiv. Det er sosial validering i praksis. «Jeg er som de andre gjestene. Jeg gjenbruker selfølgelig håndkle». 
+Lapp én er langt mer effektiv. Det er sosial validering i praksis. «Jeg er som de andre gjestene. Jeg gjenbruker selvfølgelig håndkle». 
 
 I reklame er sosial validering grunnen til  «testimonials», og kampanjer ala «250 000 kunder har allerede valgt oss!» fungerer godt. 
 
 ### 4 · Autoritet (Authority)
 
-Folk er lytter til personer som ser ut som eksperter. Titler, arbeidstøy, kontekst eller ... bare alder.
+Folk lytter til personer som ser ut som eksperter. Titler, arbeidstøy, kontekst eller ... bare alder.
 
 Klassisk eksempel: en fyr i hvit legefrakk anbefaler en tannpasta. Vi vurderer rådet annerledes enn om samme person hadde stått i hettegenser.
 

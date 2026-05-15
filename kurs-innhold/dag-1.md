@@ -16,11 +16,11 @@ next:
 ---
 
 ## Lesning
-Ideer er rare greier og kan være vanskelige å snakke om. Begrepene vi bruker brukes ofte ulikr av ulike mennesker. Det som er «merkevarebyggende» for én er helt tradsisjonell salgsreklame for en annen. 
+Ideer er rare greier og kan være vanskelige å snakke om. Begrepene vi bruker brukes ofte ulikt av ulike mennesker. Det som er «merkevarebyggende» for én er helt tradisjonell salgsreklame for en annen. 
 
 Hvorfor skal vi pakke det inn?, spør en kunde. Kan vi ikke bare snakke om produktet - rett frem?
 
-Også svarer du kanskje noe om engasjement, eller oppmerksomhet. Men for kunden høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport. 
+Og så svarer du kanskje noe om engasjement, eller oppmerksomhet. Men for kunden høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport. 
 
 Vi som lager, kjøper og måler reklame mangler et felles rammeverk å vurdere ideer mot. Det som kunne vært en fruktbar diskusjon om kvalitet, ender i en diskusjon om preferanse - ispedd masse misforståelser.
 
@@ -41,7 +41,7 @@ Fire bøker, fire perspektiver. De er ikke enige om alt, og i dette kurset bruke
 
 Før vi begynner: teorier er ikke oppskrifter. Og en idé kan fortsatt være dårlig, selv om du gjør alt «riktig».
 
-**Empiri gir deg gjennomsnitt. God reklame må slå snittet.** Teoriene i disse bøkene er bygget på mønstre over mange kampanjer og kategorier. De forutsier hva som sannsynligvis skjer, men forteller deg aldri hvordan du faktisk lager en idé som overrasker positivt. Folk velger Morgenstern for å knuse snittet. Ikke for å få noe forutsigbart gjennomsnittelig.
+**Empiri gir deg gjennomsnitt. God reklame må slå snittet.** Teoriene i disse bøkene er bygget på mønstre over mange kampanjer og kategorier. De forutsier hva som sannsynligvis skjer, men forteller deg aldri hvordan du faktisk lager en idé som overrasker positivt. Folk velger Morgenstern for å knuse snittet. Ikke for å få noe forutsigbart gjennomsnittlig.
 
 **Teorier ser bakover.** Teorier bygger på det som har skjedd, ikke på det som kunne skjedd om noen tok en sjanse. Hvis alle bruker samme rammeverk, står bransjen i fare for å lage reklame som er gjennomsnittlig. Tenk bare på hvor mye maskoter vi har fått de siste tre årene. Røde okser, blå kuer, skalla østfoldinger, animerte østfoldinger osv osv. Om alle skal ha en distinkt markør-karakter, er resultatet forutsigbart.
 

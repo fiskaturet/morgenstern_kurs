@@ -27,9 +27,9 @@ Sutherlands bok er full av eksempler. Det er en del av sjarmen og en del av frus
 
 Alkemi handler om å forvandle noe vanlig til noe verdifullt. Tre grep dukker ofte opp i Sutherlands eksempler.
 
-**Reframe the problem.** Det instinktivt riktige er å akseptere problemet slik kunden har forumlert det. Alkemi begynner med å spørre om problemet egentlig er riktig definert. London Underground eksempelet er godt. Det gjorde ikke ventetiden kortere, men fjernet usikkerheten. Det holdt. 
+**Reframe the problem.** Det instinktivt riktige er å akseptere problemet slik kunden har formulert det. Alkemi begynner med å spørre om problemet egentlig er riktig definert. London Underground eksempelet er godt. Det gjorde ikke ventetiden kortere, men fjernet usikkerheten. Det holdt. 
 
-**Endre konteksten– ikke produktet.** Du trenger ikke nødvendigvis å gjøre selve produktet bedre. Det kan være billigere og mer effektivt å endre rammen. En kaffe i porselenskopp, en bok i en pen eske, en bil der døren lukkes med en tilfredstillende lyd. Sutherland kaller dette «engineering of perception».
+**Endre konteksten– ikke produktet.** Du trenger ikke nødvendigvis å gjøre selve produktet bedre. Det kan være billigere og mer effektivt å endre rammen. En kaffe i porselenskopp, en bok i en pen eske, en bil der døren lukkes med en tilfredsstillende lyd. Sutherland kaller dette «engineering of perception».
 
 **Snu antakelsen på hodet.** Hvis alle gjør X, kan den beste ideen være å gjøre det Y. Dyson valgte gjennomsiktig sylinder da resten av bransjen skjulte støvet. Et merke som tør å gjøre det motsatte av kategorien kan ofte vinne oppmerksomhet uten å bruke mer penger.
 
@@ -40,9 +40,9 @@ Sutherland argumenterer for at alkemi er særlig nyttig der pris og funksjon nes
 I kategorier hvor produktet faktisk er meningsfullt forskjellig, betyr alkemi mindre. Hvis du selger et nytt medikament som faktisk er bedre, trenger du ikke en alkemisk innpakning — du trenger god dokumentasjon. Men i de fleste reklame-relevante kategorier er produktene mer like enn de er forskjellige, og alkemi kan være nyttig.
 ### Det praktiske spørsmålet
 
-Sutherlands viktigste verktøy er ett enkelt spørsmål: «Hvordan ville en irrasjonelle løsningen sett ut?»
+Sutherlands viktigste verktøy er ett enkelt spørsmål: «Hvordan ville den irrasjonelle løsningen sett ut?»
 
-Sopørsmålet tvinger deg ut av regnearket og inn i hva som faktisk får mennesker til å velge. En brief sier «forklar fordelene ved produktet». Det irrasjonelle svaret er kanskje å droppe forklaringen og lage en sang folk husker i fem år.
+Spørsmålet tvinger deg ut av regnearket og inn i hva som faktisk får mennesker til å velge. En brief sier «forklar fordelene ved produktet». Det irrasjonelle svaret er kanskje å droppe forklaringen og lage en sang folk husker i fem år.
 
 Dette handler ikke om  å være tullete, men å lage plass til forslag som ikke ser logiske ut ved første øyekast — fordi det logiske ofte er det forutsigbare.
 
@@ -51,7 +51,7 @@ Det vi gjør i kreativ utvikling kan oversettes til Sutherland-språk slik: vi p
 
 Det beste med vår jobb er å få  spille rollen som sympatisk fremmed: en som ikke aksepterer kategoriens premisser. Da tør man å foreslå ulogiske løsninger, som virker fordi de bryter mønsteret.
 
-Det fungerer ikke alltid. Noen ganger er kategoriens logikk faktisk riktig. Men prøv alltid – da unngår vi å hoppe rett til en åpenbare løsning.
+Det fungerer ikke alltid. Noen ganger er kategoriens logikk faktisk riktig. Men prøv alltid – da unngår vi å hoppe rett til en åpenbar løsning.
 :::
 
 ## Kritikk av teorien
