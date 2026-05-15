@@ -61,7 +61,7 @@ Sharps rammeverk er bygget på flere tiår med kjøpsdata, mest fra FMCG-kategor
 
 **B2B og høy-involverings-kategorier oppfører seg annerledes.** Empirien til Sharp er ofte basert på raske, vanebaserte kjøp. I kategorier med høye byttekostnader — regnskapssystem, forsikring, bank, bil og bolig — veier lojalitet tyngre. Beslutninger tas mer bevisst, og vurderingsprosessen er lengre. Å anvende Sharps rammeverk ukritisk på slike kategorier kan gi misvisende råd.
 
-**Utfordrermerker vokser ofte motsatt vei.** Vekstmønsteret Sharp beskriver, bredde først og dybde senere, passer etablerte merker. Utfordrermerker bygger ofte tett lojalitet i en nisje først, og utvider gradvis utover. Jobber du for et lite merke med høy interesse, som craftøl, spesialverktøy eller nisjemote, kan Sharp mislede strategien din. 
+**Utfordrermerker vokser ofte motsatt vei.** Vekstmønsteret Sharp beskriver, bredde først og dybde senere, passer etablerte merker. Utfordrermerker bygger ofte tett lojalitet i en nisje først, og utvider gradvis utover. Jobber du for et lite merke med høy interesse, som golfutstyr, spesialverktøy eller nisjemote, kan Sharp mislede strategien din. 
 
 
 ## Sjekkliste for idévurdering
