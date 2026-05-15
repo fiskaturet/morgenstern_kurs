@@ -51,7 +51,7 @@ Rasjonell reklame har sin plass. Vi må bare være bevisst på at den gjør en a
 I høyinvolveringsbeslutninger — bil, bolig, B2B-systemer — har rasjonelle argumenter også en plass, men sjelden i den primære reklamen. De hører hjemme på nettsiden, i salgsmøtet, i tilbudsbrevet. Argumentene fungerer på de som allerede vurderer. Massekom-reklame skal få deg til å vurdere. 
 
 ::: anders-kommentar
-Reklamen som får deg til å føle funker best.
+Reklamen som får deg til å føle funker ofte best.
 
 Likegyldighet er oppmerksomhetens fiende. Og uten oppmerksomhet kan vi ikke skape effekt.  
 
