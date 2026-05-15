@@ -117,7 +117,7 @@ Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den sk
 
 ### Q3. Hvorfor er merkebygging vanskeligere å måle enn aktivering på kort sikt?
 
-- [ ] Merkebygging gir ingen målbare effekter — tallene må alltid estimeres skjønnsmessig
+- [ ] Merkevarebygging gir ingen målbare effekter — tallene må alltid estimeres skjønnsmessig
 - [ ] Aktivering bruker bedre attribusjonsverktøy enn det som finnes for merkebygging
 - [x] Effekten viser seg først når mottakeren faktisk havner i en kjøpssituasjon — ofte måneder senere
 - [ ] Merkebygging styres av kvalitative metoder, aktivering av kvantitative analyser
