@@ -21,7 +21,7 @@ next:
 
 ## Lesning
 
-Tenk på forrige gang du skulle velge oppvaskmiddel i butikken. Hvor lang tid tok det? Mer enn to sekunder? Du trakk neppe frem et regneark over smak, pris og kvaliteter — du tok den som dukket opp i hodet ditt først. Zalo. 
+Tenk på forrige gang du skulle velge oppvaskmiddel i butikken. Hvor lang tid tok det? Mer enn to sekunder? Du trakk neppe frem et regneark over lukt, pris og kvaliteter — du tok den som dukket opp i hodet ditt først. Zalo. 
 
 Dette er *mental tilgjengelighet*: sannsynligheten for at en merkevare dukker opp, uoppfordret, i øyeblikket du trenger en. Byron Sharp beskriver det i *How Brands Grow* som den viktigste jobben reklame gjør, og grunnen er enkel: de fleste kjøpsbeslutninger tas raskt og med lav innsats.
 
