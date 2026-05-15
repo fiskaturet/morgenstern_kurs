@@ -101,7 +101,7 @@ Bruk listen når du vurderer en plan eller en kampanje, ikke en enkelt idé.
 
 > Tallet handler om budsjettfordeling over tid — typisk et år. Ikke om hver kampanje, ikke om kanalvalg, ikke om kreativ tone. Det er enkelt nok til å huske og presist nok til å være nyttig.
 
-### Q3. Et SaaS-selskap som selger til store bedrifter kommer fra en aktiveringstung mediemiks. Hva ville B&F sannsynligvis anbefale?
+### Q3. Et regnskapssystem som selger til store bedrifter kommer fra en aktiveringstung mediemiks. Hva ville B&F sannsynligvis anbefale?
 
 - [ ] En 50/50-balanse — de digitale flatene gir like resultater som tradisjonelle
 - [ ] Fokuser på aktivering — B2B krever rask konvertering og kort vurderingstid
