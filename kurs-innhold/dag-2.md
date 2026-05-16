@@ -25,7 +25,8 @@ Volkswagen kjører to typer reklame samtidig.
 
 Den ene er en TV-film om en gutt i Darth Vader-drakt. Det går 40 sekunder før vi ser en bil. Gutten opplever magien i Volkswagens innovasjoner. Lite info, mye følelse.
 
-(Embed denne så den kan spilles av direkte: https://www.youtube.com/watch?v=qpL_DcT6ko8
+https://www.youtube.com/watch?v=qpL_DcT6ko8
+*Volskwagen Starwars*
 
 Den andre er en Facebook-annonse som sier «0 % rente til 30. juni». Den første selger ikke en eneste bil – i dag. Den andre selger mange, det ser du på statistikken. Men om to år er det gutten i Darth Vader-drakt som gjør at 20% flere vurderer Volkswagen som neste bil.
 
