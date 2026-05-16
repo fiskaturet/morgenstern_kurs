@@ -71,6 +71,9 @@ Klassisk eksempel: Tupperware-fester selger fordi du kjøper fra vennen din, ikk
 
 I reklame er sympati en viktig grunn til at vi bruker humor. En reklame som får deg til å smile, har aktivert sympati før budskapet leveres.
 
+https://www.youtube.com/watch?v=C_8TGTKdrlY
+*DNB — "Noen har flaks" (2011). Alle liker Clooney - så alle liker reklamen.*
+
 ### 6 · Knapphet (Scarcity)
 
 Det vi ikke får tak i, blir automatisk attraktivt. Knapphet kan være tidsbasert («tilbudet varer til midnatt»), volumbasert («kun 12 igjen!»), eller sosialt («bli en av de ytterst få som eier dette!»).
