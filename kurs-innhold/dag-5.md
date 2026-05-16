@@ -38,6 +38,10 @@ Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo fle
 ![Mind map med et merke i sentrum og seks ulike kategori-inngangsporter rundt seg, koblet med tynne linjer](assets/illustrasjon-inngangsporter.svg)
 *Inngangsporter for en brusprodusent. Jo flere situasjoner som leder tanken til merket, jo oftere blir det hentet fram — og jo større blir det over tid.*
 
+https://www.youtube.com/watch?v=FqrTEQ_1h68
+*Ingangsporten  her er vel noe slikt som «så enkelt at du kan søke kjapt mellom slagene , selv på jobben". Settingen gjør det relativt minneverdig.*
+
+
 ### Der vi kan trår feil
 
 Noen ganger ender jakten på relevant inngangsport i reklame som dramatiserer *den vanligste brukssituasjonen*. Det kan skape forutsigbar og kjedelig reklame. En inngangsport er en psykologisk assosiasjon — alt som trigger tanken på kategorien. IKKE alltid den mest åpenbare brukssituasjonen vi klarer å komme på. 
