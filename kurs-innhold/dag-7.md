@@ -25,6 +25,12 @@ next:
 
 Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kommer fra å nå flere kunder — ikke fra å få eksisterende kunder til å kjøpe oftere. Når et merke vokser, vokser det først og fremst gjennom *penetrasjon* - altså hvor stor andel av kundene i markedet som kjøper av nettop deg. Lojalitet følger med på lasset, men er sjelden motoren.
 
+https://www.youtube.com/watch?v=M7FIvfx5J10
+*I stedet for å gå presist mot noen tusen beslutningstakere, tok Volvo Trucks tak i et popkulturelt fenomen og lagde en reklame som traff over 100 millioner mennesker.*
+
+
+
+
 ### Double Jeopardy
 
 Andrew Ehrenberg beskrev allerede på 60-tallet et mønster han kalte *Double Jeopardy*. Små merker skades dobbelt: de har færre kunder, og de få kundene de har, kjøper litt sjeldnere enn kundene til store merker. Store merker har det motsatte mønsteret — flere kunder, og litt høyere kjøpsfrekvens.
