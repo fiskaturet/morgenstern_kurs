@@ -63,6 +63,10 @@ Folk lytter til personer som ser ut som eksperter. Titler, arbeidstøy, kontekst
 Klassisk eksempel: en fyr i hvit legefrakk anbefaler en tannpasta. Vi vurderer rådet annerledes enn om samme person hadde stått i hettegenser.
 
 I reklame er autoritet rasjonalet bak ekspertanbefalinger, sertifiseringer, og mange redaksjonelle samarbeid.
+
+https://www.youtube.com/watch?v=P2MjqdPWkEs
+*Denne filmen fra Miller Lite er et eksempel på hvordan reklame ikke bare bruker, men også leker med ideen om at folk lytter til eksperter. Mennene i hvite frakker framstår ved første øyekast som seriøse forskere, den type autoritetspersoner vi kjenner fra reklame for alt fra tannkrem til teknologi. Bekledning, kroppsspråk og setting signaliserer kompetanse og troverdighet, men er samtidig så overdrevne at vi raskt forstår at filmen er ironisk. Reklamen later som om «ekspertene» skal gi budskapet vitenskapelig legitimitet, men bruker ekspertrollen humoristisk og selvbevisst. På den måten skaper filmen et fellesskap med publikum gjennom meta-kommunikasjon: «Vi vet at dere vet hvordan reklame prøver å påvirke dere». Miller Lite bruker autoritetsgrepet ved å la reklamen parodiere det.*
+
 ### 5 · Sympati (Liking)
 
 Vi sier oftere *ja* til folk vi liker. Tre faktorer driver sympati: likhet (vi liker folk som ligner på oss), komplimenter (vi liker folk som liker oss), og samarbeid (vi liker folk som jobber sammen med oss mot et felles mål).
