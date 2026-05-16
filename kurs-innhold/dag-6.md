@@ -40,6 +40,8 @@ Distinkte markører er mer enn logo. Det kan være karakterer (svært populært 
 
 Distinkte merkemarkører er på en måte mental tilgjengelighet gjort fysisk. Når noen ser den røde fargen i øyekroken og tenker «Coca-Cola» før de leser noe som helst, er det fordi merket har bygd opp et eierskap til den fargen i hukommelsen.
 
+SETT INN HEINZ-BILDE!
+
 ### Hvorfor roter vi med markørene?
 Mange bytter ut sine egne distinkte merkemarkører jevnlig — ny font, nytt visuelt grep, ny musikk, ny karakter — kanskje fordi noen internt mener det er «på tide med en oppfriskning». 
 
