@@ -35,7 +35,8 @@ For en brusprodusent kan det være «henge med guttegjengen», «pizza med famil
 
 Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo sterkere blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
 
-(CLAUDE: SETT INN ILLUSTRASJON AV MIND MAP SOM FÅR FREM POENGET OM CATEGORY ENTRY POINTS)
+![Mind map med et merke i sentrum og seks ulike kategori-inngangsporter rundt seg, koblet med tynne linjer](assets/illustrasjon-inngangsporter.svg)
+*Inngangsporter for en brusprodusent. Jo flere situasjoner som leder tanken til merket, jo oftere blir det hentet fram — og jo større blir det over tid.*
 
 ### Der vi kan trår feil
 

@@ -243,6 +243,29 @@ def render_section_blocks(body: str, day_part: int) -> dict:
     return sections
 
 
+MD_IMAGE_PATTERN = re.compile(r'^!\[([^\]]*)\]\(([^\)\s]+)\)\s*$')
+
+
+def parse_md_image(line: str):
+    """Returner (alt, src) hvis linja er en ren markdown-bilde-referanse, ellers None."""
+    m = MD_IMAGE_PATTERN.match(line.strip())
+    if m:
+        return m.group(1), m.group(2)
+    return None
+
+
+def render_illustration(alt: str, src: str, caption: str = '') -> str:
+    """Bygg figure med bilde og valgfri figcaption."""
+    alt_escaped = html_module.escape(alt, quote=True)
+    src_escaped = html_module.escape(src, quote=True)
+    parts = ['      <figure class="illustration">']
+    parts.append(f'        <img src="{src_escaped}" alt="{alt_escaped}" loading="lazy" />')
+    if caption:
+        parts.append(f'        <figcaption>{inline_md(caption)}</figcaption>')
+    parts.append('      </figure>')
+    return '\n'.join(parts)
+
+
 YT_PATTERNS = [
     re.compile(r'^https?://(?:www\.)?youtube\.com/watch\?[^\s]*?v=([A-Za-z0-9_-]{6,})[^\s]*$'),
     re.compile(r'^https?://youtu\.be/([A-Za-z0-9_-]{6,})(?:\?[^\s]*)?$'),
@@ -331,6 +354,25 @@ def render_paragraphs_with_specials(body: str) -> str:
             i += 1
             continue
 
+        # Markdown-bilde alene på en linje → illustrasjon-figure
+        # Samme caption-mønster som video.
+        img_match = parse_md_image(stripped)
+        if img_match:
+            alt, src = img_match
+            caption = ''
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                nxt = lines[j].strip()
+                m_cap = re.match(r'^\*([^\*].*?)\*$', nxt)
+                if m_cap:
+                    caption = m_cap.group(1).strip()
+                    i = j
+            out.append(render_illustration(alt, src, caption))
+            i += 1
+            continue
+
         # h3
         if stripped.startswith('### '):
             out.append(f'      <h3>{inline_md(stripped[4:])}</h3>')
@@ -385,6 +427,7 @@ def render_paragraphs_with_specials(body: str) -> str:
                 nxt.startswith('(CLAUDE:') or nxt.startswith('(CALUDE:') or nxt.startswith('(SETT INN') or
                 nxt.startswith('(Embed') or nxt.startswith('(SETT_INN') or
                 parse_youtube_url(nxt) is not None or
+                parse_md_image(nxt) is not None or
                 nxt.startswith('- ') or nxt.startswith('> ')):
                 break
             para_lines.append(nxt)

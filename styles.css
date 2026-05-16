@@ -632,6 +632,28 @@ hr {
   line-height: 1.45;
 }
 
+/* ---------- Illustrasjon ---------- */
+.illustration {
+  margin: var(--space-lg) 0;
+  text-align: center;
+}
+.illustration img,
+.illustration svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.illustration figcaption {
+  margin-top: var(--space-sm);
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  text-align: left;
+}
+
+
 /* ---------- Prøve (multiple choice) ---------- */
 .quiz {
   background: var(--white);
