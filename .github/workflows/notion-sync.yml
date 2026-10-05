@@ -31,7 +31,7 @@ jobs:
       - name: Hent innhold fra Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID || '6d9ff434f88d432fb953bfef4bdb6a5f' }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
         run: python notion_sync.py pull
 
       - name: Rendre HTML

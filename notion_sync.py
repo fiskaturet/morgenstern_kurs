@@ -3,11 +3,12 @@
 Notion <-> kurs-innhold/*.md
 
   python notion_sync.py pull      # Notion -> kurs-innhold/dag-N.md (brukes av GitHub Action)
+  python notion_sync.py setup ID  # lag «Økter»-databasen + redigeringsguide under Notion-siden ID
   python notion_sync.py import    # kurs-innhold/dag-N.md -> Notion (engangs-migrering)
 
 Miljøvariabler:
   NOTION_TOKEN        Notion internal integration secret (databasen må være delt med integrasjonen)
-  NOTION_DATABASE_ID  ID til «Økter»-databasen
+  NOTION_DATABASE_ID  (valgfri) ID til «Økter»-databasen. Ellers finnes den på navn.
 
 Format-mapping (Notion-blokk <-> MD):
   heading_2 / heading_3        <->  ## / ###
@@ -38,6 +39,10 @@ API = 'https://api.notion.com/v1'
 NOTION_VERSION = '2022-06-28'
 COMMENT_ICON = '💬'
 DIRECTIVE_ICON = '🧩'
+DB_TITLE = 'Økter'
+PARTS = ['Del 1 · Fundamentet', 'Del 2 · Les Binet & Peter Field · The Long and the Short of It',
+         'Del 3 · Byron Sharp · How Brands Grow', 'Del 4 · Rory Sutherland · Alchemy',
+         'Del 5 · Robert Cialdini · Influence', 'Del 6 · Syntese']
 
 
 # ----------------------------------------------------------------------
@@ -68,11 +73,22 @@ def api(method, path, body=None):
             sys.exit(f'Notion API {e.code}: {e.read().decode()[:500]}')
 
 
+_DB = None
+
+
 def db_id():
-    d = os.environ.get('NOTION_DATABASE_ID')
-    if not d:
-        sys.exit('NOTION_DATABASE_ID mangler')
-    return d
+    """NOTION_DATABASE_ID, ellers databasen «Økter» som integrasjonen har tilgang til."""
+    global _DB
+    if _DB:
+        return _DB
+    _DB = os.environ.get('NOTION_DATABASE_ID')
+    if not _DB:
+        r = api('POST', '/search', {'query': DB_TITLE, 'filter': {'property': 'object', 'value': 'database'}})
+        hits = [d for d in r['results'] if ''.join(t['plain_text'] for t in d.get('title', [])) == DB_TITLE]
+        if not hits:
+            sys.exit(f'Fant ingen database «{DB_TITLE}». Kjør «python notion_sync.py setup <side-id>» først.')
+        _DB = hits[0]['id']
+    return _DB
 
 
 # ----------------------------------------------------------------------
@@ -273,6 +289,42 @@ def cmd_import():
         print(f'Importerte økt {day}: {fm["title"]} ({len(blocks)} blokker)')
 
 
+GUIDE_MD = """**Slik redigerer du kurset.** Hver økt er en side i databasen «Økter». Bare sider med status **Publisert** går ut på nettsiden. Nettsiden oppdateres automatisk innen et kvarter.
+## Faste seksjoner på hver økt
+- **Lesning**: hovedteksten. Bruk overskrift 3 for mellomtitler.
+- **Sjekkliste for idévurdering**: avkrysningsliste (ikke huk av).
+- **Prøve**: én intro-linje, så overskrift 3 «Q1. Spørsmål?», fire avkrysningsalternativer der det riktige er huket av, og et sitat med forklaringen.
+- **Kritikk av teorien**: vanlig tekst.
+## Spesialblokker
+- **Anders-kommentar**: en callout med 💬-ikon.
+- **Kalkulator**: en callout med 🧩-ikon og teksten kalkulator-kjopsoyeblikk.
+- **YouTube-video**: lim inn lenken alene på en linje (kursiv linje rett under blir bildetekst).
+- **Bilde fra nettsiden**: skriv ![alt-tekst](assets/filnavn.svg) alene på en linje.
+- **Notater som ikke skal publiseres**: start linjen med (CLAUDE: …)."""
+
+
+def cmd_setup(parent):
+    api('PATCH', f'/blocks/{parent}/children', {'children': md_body_to_blocks(GUIDE_MD)})
+    db = api('POST', '/databases', {
+        'parent': {'type': 'page_id', 'page_id': parent},
+        'title': [{'type': 'text', 'text': {'content': DB_TITLE}}],
+        'is_inline': True,
+        'properties': {
+            'Tittel': {'title': {}},
+            'Økt': {'number': {}},
+            'Del': {'select': {'options': [{'name': p} for p in PARTS]}},
+            'Status': {'select': {'options': [{'name': 'Publisert', 'color': 'green'},
+                                              {'name': 'Utkast', 'color': 'gray'}]}},
+            'Varighet': {'rich_text': {}},
+            'Prinsipp': {'rich_text': {}},
+            'Hovedkilde': {'rich_text': {}},
+            'Hovedkilde info': {'rich_text': {}},
+            'Relatert': {'rich_text': {}},
+            'Sist endret': {'last_edited_time': {}},
+        }})
+    print(f"Opprettet databasen «{DB_TITLE}»: {db['id']}")
+
+
 # ----------------------------------------------------------------------
 # Notion -> MD (pull)
 # ----------------------------------------------------------------------
@@ -424,4 +476,7 @@ def cmd_pull():
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'pull'
-    {'pull': cmd_pull, 'import': cmd_import}[cmd]()
+    if cmd == 'setup':
+        cmd_setup(sys.argv[2])
+    else:
+        {'pull': cmd_pull, 'import': cmd_import}[cmd]()
