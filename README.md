@@ -6,16 +6,17 @@ Utviklet av Anders Muurman Holm, kreativ leder i Morgenstern.
 
 ## Stack
 
-Statisk HTML/CSS/JS. Ingen runtime-avhengigheter. MD-til-HTML rendres av en GitHub Action ved hver push.
+Statisk HTML/CSS/JS. Ingen runtime-avhengigheter. Innholdet redigeres i Notion. En GitHub Action henter det, skriver Markdown og rendrer HTML.
 
 ```
-kurs-innhold/      ← kilde (Markdown). Rediger her.
+kurs-innhold/      ← generert fra Notion (ikke rediger direkte)
   dag-1.md … dag-13.md
   kurs-tekster.md  ← chrome-tekster (footer, login, navigasjon m.m.)
 
-render_lessons.py  ← MD → HTML (kjøres av GitHub Action)
+notion_sync.py     ← Notion → MD (pull) / MD → Notion (import, engangs)
+render_lessons.py  ← MD → HTML
 requirements.txt   ← pyyaml
-.github/workflows/render.yml  ← CI-action
+.github/workflows/notion-sync.yml  ← synk hvert kvarter + manuell knapp
 
 Resten ved repo-rot:
   dag-1.html … dag-13.html  ← generert (ikke rediger manuelt)
@@ -28,13 +29,16 @@ Resten ved repo-rot:
 
 ## Slik redigerer du innhold
 
-### Kapittel-innhold (Økt 1–13)
+### Kapittel-innhold (Økt 1–13) — i Notion
 
-Rediger `kurs-innhold/dag-N.md` direkte på github.com (blyant-ikon → commit).
-GitHub Action rendrer ny HTML automatisk og committer tilbake innen ~30 sek.
-Vercel deployer ny versjon innen ~30 sek etter det. **Total: ~1 minutt fra commit til live.**
+Rediger i Notion: siden **«Reklameforståelse – kursinnhold»** → databasen **Økter**. Én side per økt.
 
-`kurs-innhold/dag-N.html` skal aldri redigeres manuelt — endringene blir overskrevet ved neste render.
+- Bare sider med status **Publisert** går ut. Sett **Utkast** for å jobbe uten å publisere.
+- Action-en *Synk fra Notion* kjører hvert kvarter, eller manuelt: *Actions → Synk fra Notion → Run workflow*. Den skriver `kurs-innhold/dag-N.md`, rendrer HTML og pusher. Vercel deployer.
+- Forrige/neste-lenker regnes ut fra økt-nummer.
+- `kurs-innhold/*.md` og `dag-N.html` overskrives ved synk — ikke rediger dem direkte.
+
+Oppsett: repo-secret `NOTION_TOKEN` (Notion internal integration med tilgang til kursiden). Database-ID kan overstyres med repo-variabelen `NOTION_DATABASE_ID`.
 
 ### Chrome-tekster (forsiden, oppslag, login, footer)
 
@@ -69,14 +73,14 @@ Vercel auto-deployer fra `main`-branchen. Ingen manuelle steg.
 
 ## Markdown-formatet
 
-Hver `dag-N.md` har:
+Hver `dag-N.md` har (Notion-ekvivalent i parentes):
 
-- **YAML-frontmatter** (day, part, duration, title, principle, primary_source, related, prev, next)
+- **YAML-frontmatter** (database-feltene: Økt, Del, Varighet, Tittel, Prinsipp, Hovedkilde, Relatert)
 - **`## Lesning`** — brødtekst med `### h3`-underseksjoner
-- **`::: anders-kommentar :::`** — egen blokk for Anders-kommentaren
-- **`::: kalkulator-kjopsoyeblikk :::`** — drop-in kalkulator (Økt 2 og 7)
+- **`::: anders-kommentar :::`** — egen blokk for Anders-kommentaren (callout med 💬)
+- **`::: kalkulator-kjopsoyeblikk :::`** — drop-in kalkulator (callout med 🧩 og teksten `kalkulator-kjopsoyeblikk`)
 - **`## Kritikk av teori(en)`** — kritikk-paragrafer
-- **`## Sjekkliste`** — punkter med `- [ ]`
-- **`## Prøve`** — quiz-format (`### Q1.` + `- [ ]`/`- [x]` + `> forklaring`)
+- **`## Sjekkliste`** — punkter med `- [ ]` (to-do)
+- **`## Prøve`** — quiz-format (`### Q1.` + `- [ ]`/`- [x]` + `> forklaring`; to-do huket = riktig svar, sitatblokk = forklaring)
 
 Rendreren håndterer norsk-typografi (em-dash, kursive ord, smarte sitattegn).

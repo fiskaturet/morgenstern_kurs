@@ -1,0 +1,50 @@
+name: Synk fra Notion
+
+# Henter publiserte økter fra Notion, rendrer HTML og pusher.
+# Vercel deployer automatisk når main endres.
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # hvert kvarter
+  workflow_dispatch:          # «Run workflow»-knappen i GitHub
+  repository_dispatch:
+    types: [notion-publish]   # for evt. webhook/knapp senere
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notion-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Hent innhold fra Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID || '6d9ff434f88d432fb953bfef4bdb6a5f' }}
+        run: python notion_sync.py pull
+
+      - name: Rendre HTML
+        run: python render_lessons.py
+
+      - name: Commit og push hvis noe er endret
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kurs-innhold dag-*.html
+          if git diff --staged --quiet; then
+            echo "Ingen endringer i Notion."
+          else
+            git commit -m "Notion-synk: oppdatert kursinnhold"
+            git push
+          fi
