@@ -23,9 +23,9 @@ next:
 
 ## Lesning
 
-Vi kommuniserer gjennom to primære ting: Det vi sier. Og det vi signaliserer. 
+Vi kommuniserer gjennom to primære ting: Det vi sier. Og det vi signaliserer.
 
-Begge er viktige, men vi har en tendens til å overvurdere det første — selve informasjonen og selve budskapet. Sutherlands argument, lånt fra økonomen Michael Spence (Nobelpris i 2001) og biologen Amotz Zahavi, er at *signalet* selve eksistensen av reklamen sender ofte er viktigere enn det reklamen prøver å si. 
+Begge er viktige, men vi har en tendens til å overvurdere det første — selve informasjonen og selve budskapet. Sutherlands argument, lånt fra økonomen Michael Spence (Nobelpris i 2001) og biologen Amotz Zahavi, er at *signalet* selve eksistensen av reklamen sender ofte er viktigere enn det reklamen prøver å si.
 
 ### Kostbare signaler
 
@@ -38,6 +38,7 @@ Zahavi observerte det samme i naturen. Påfuglens enorme hale gjør den til en l
 Anvendt på reklame: en plakat på Karl Johan, en 90 sekunder på kino — alle vet at det koster. Et godt manus, en god skuespiller - godt håndverk - alt dette koster. Alt dette koster. Og det sender et tydelig signal: Vi er her, vi planlegger å være her lenge, vi tror på produktet vårt og er villige til å investere mye.
 
 Tilsvarende: billig, slurvete reklame sender et signal om at merkevaren er fjollete.
+
 ### Hvor har signalene blitt av?
 
 I en tid hvor reklame i økende grad kjøpes per klikk, per visning, per segment, blir signaleffekten stadig svakere. En programmatisk bannerannonse på en obskur side er teknisk sett en reklame, men den signaliserer ingenting. Den ser ikke ut til å ha kostet noe.
@@ -47,11 +48,11 @@ Det betyr ikke at performance-medier er verdiløse. Det betyr at en performance-
 ::: anders-kommentar
 «Hvorfor kjøper vi TV når vi kan få samme rekkevidde digitalt for halve prisen?». «Hvorfor må en filmproduksjon koste én million per dag?»
 
-Det enkle svaret: en TV-spot på riksdekkende kanal bærer signaler. Et lite banner gjør ikke det. 
+Det enkle svaret: en TV-spot på riksdekkende kanal bærer signaler. Et lite banner gjør ikke det.
 
 Halve jobben er  faktisk å si «vi er her, vi er investert i dette, vi er ikke et flyktig merke».
 
-Det er en del av grunnen til at vi som regel argumenterer for å sentrere store kampanjer rundt minst én sterk, kostbar enhet — et konsept, ofte i form av levende bilder.  
+Det er en del av grunnen til at vi som regel argumenterer for å sentrere store kampanjer rundt minst én sterk, kostbar enhet — et konsept, ofte i form av levende bilder.
 :::
 
 ## Kritikk av teorien

@@ -15,7 +15,7 @@ related:
     meta: "Richard Shotton, 2018"
 prev:
   day: 7
-  title: "Penetrasjon over lojalitet"
+  title: "Penetrasjon er viktigere enn lojalitet"
 next:
   day: 9
   title: "Kostbare signaler"
@@ -35,7 +35,7 @@ Sutherland låner et begrep fra adferdsøkonomien: *psycho-logic*. Det er logikk
 
 To eksempler kan illustrere forskjellen.
 
-Det første gjelder London Underground på 90-tallet. Klagene på upålitelige tog vokste seg store, og den åpenbare logiske løsningen var å gjøre togene mer pålitelige. Som vi kjenner fra eget VY – DET er lettere sagt enn gjort. 
+Det første gjelder London Underground på 90-tallet. Klagene på upålitelige tog vokste seg store, og den åpenbare logiske løsningen var å gjøre togene mer pålitelige. Som vi kjenner fra eget VY – DET er lettere sagt enn gjort.
 
 Det de gjorde i stedet var å sette opp digitale tavler som viste hvor mange minutter det var igjen til neste tog. Antall klager falt dramatisk. Togene var like upålitelige som før, men *opplevd ventetid* gikk markant ned. Det egentlige problemet var ikke ventetiden — men usikkerheten. Sutherland bruker eksempelet til å vise at en psyko-logisk løsning ofte koster en brøkdel av den logiske, og virker bedre.
 
@@ -51,7 +51,8 @@ Dette er ikke selvbedrag. Det er å hacke hvordan smaksopplevelser faktisk funge
 
 For reklame betyr det at det vi *sier* om produktet ofte teller mindre enn rammen vi plasserer produktet i. Tar du et premium bilde av produktet ditt – oppleves produktet premium. Ser bildet av samme produkt billig ut, oppleves produktet som billig.
 
-Dette poenget er særlig relevant i dag, hvor fotopptak kuttes til fordel for stock eller generativ KI. Kanskje de ørkesløse opptakene av tabletops og ostestrekk faktisk hadde noe for seg? Kanskje billig UGC-innhold skader merkevaren vår mer enn alle likerklikkene viser? 
+Dette poenget er særlig relevant i dag, hvor fotopptak kuttes til fordel for stock eller generativ KI. Kanskje de ørkesløse opptakene av tabletops og ostestrekk faktisk hadde noe for seg? Kanskje billig UGC-innhold skader merkevaren vår mer enn alle likerklikkene viser?
+
 ### Hva betyr dette i praksis?
 
 Sutherlands råd er forsiktig formulert: ikke automatisk konkluder med det logiske. Spør heller «hva er det irrasjonelle valget her?» Ofte ligger nøkkelen til en god idé i å snu en antakelse på hodet.
@@ -72,7 +73,8 @@ Det betyr ikke at fakta er irrelevant. Men det betyr at fakta sjelden er nok. F�
 
 **Adferdsøkonomien har replikasjonsproblemer.** Mange av de klassiske eksperimentene Sutherland bygger på er ulike studier basert på Kahnemans System 1/2-teori. Disse eksperimentene har ikke alltid gjort det så bra i replikasjonsstudier. Det betyr ikke at psyko-logikk er feil. Men det betyr at vi bør være forsiktige med å bruke enkelte studier som «bevis».
 
-**Å alltid tenke kontraintuitivt er ikke en strategi.** Sutherland-elskere kan ende opp med å løfte fram det fiffige og kontraintuitive som svaret på alt. Ofte jobber konsistens og bredde bedre enn kontraintuitive enkeltgrep. 
+**Å alltid tenke kontraintuitivt er ikke en strategi.** Sutherland-elskere kan ende opp med å løfte fram det fiffige og kontraintuitive som svaret på alt. Ofte jobber konsistens og bredde bedre enn kontraintuitive enkeltgrep.
+
 ## Sjekkliste for idévurdering
 
 Bruk listen når du vurderer en idé som lener seg på et psykologisk grep.

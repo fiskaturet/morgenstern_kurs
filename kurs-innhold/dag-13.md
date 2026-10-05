@@ -11,7 +11,8 @@ primary_source:
 prev:
   day: 12
   title: "Overtalelsens kunst"
-next: null
+next:
+  day: null
 ---
 
 ## Lesning

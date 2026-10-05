@@ -16,16 +16,19 @@ next:
 ---
 
 ## Lesning
-Ideer er rare greier og kan være vanskelige å snakke om. Begrepene vi bruker brukes ofte ulikt av ulike mennesker. Det en kaller «merkevarebyggende» vil andre kalle tradisjonell salgsreklame. 
+
+Ideer er rare greier og kan være vanskelige å snakke om. Begrepene vi bruker brukes ofte ulikt av ulike mennesker. Det en kaller «merkevarebyggende» vil andre kalle tradisjonell salgsreklame.
 
 "Hvorfor skal vi pakke det inn? Kan vi ikke bare snakke om produktet - rett frem?" er et vanlig spørsmål i møter.
 
-Og vi svarer kanskje noe vagt om engasjement, eller oppmerksomhet. Men for mange høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport. 
+Og vi svarer kanskje noe vagt om engasjement, eller oppmerksomhet. Men for mange høres dette bare ut som en dyr omvei. De vil ha salg. Aller helst før neste kvartalsrapport.
 
 Vi som lager, kjøper og måler reklame mangler et felles rammeverk å vurdere ideer mot. Det som kunne vært en fruktbar diskusjon om kvalitet, ender i en diskusjon om preferanse - ispedd masse misforståelser.
 
 Dette kurset går gjennom fire relevante bøker, av forfattere som stadig nevnes i møter. Etter kurset er vi bedre på å forstå hvorfor gode ideer er gode, og hva vi må si for å få de gjennomført.
+
 ### Hvorfor disse fire bøkene
+
 Hver av de fire bøkene dekker ulike spørsmål.
 
 Les Binet og Peter Fields *The Long and the Short of It* svarer på «hva kan vi bevise at funker over tid?». Forfatterne har analysert hundrevis av kampanjer fra det britiske IPA-arkivet (britenes ANFO Effekt). Hovedfunnet er at langsiktig merkebygging slår kortsiktig aktivering på både salg og margin, men at begge deler trengs.
@@ -37,6 +40,7 @@ Rory Sutherlands *Alchemy* svarer på «hvorfor er ikke mennesker rasjonelle?».
 Robert Cialdinis *Influence* svarer på «hva får mennesker til å si ja?». Svaret er at vi tar de fleste valg på autopilot, og at hjernen lener seg på et lite sett kognitive snarveier — gjensidighet, sosial validering, autoritet, sympati, knapphet, forpliktelse — som god reklame forstår å aktivere.
 
 Fire bøker, fire perspektiver. De er ikke enige om alt, og i dette kurset bruker vi uenighetene til å skjerpe vår egen dømmekraft.
+
 ## Kritikk av teori
 
 Før vi begynner: teorier er ikke oppskrifter. Og en idé kan fortsatt være dårlig, selv om du gjør alt «riktig».

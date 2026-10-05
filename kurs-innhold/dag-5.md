@@ -13,7 +13,7 @@ related:
     meta: "Anders Muurman Holm — innlegg om 'inngangsport' vs. 'vanligste brukssituasjon'"
 prev:
   day: 4
-  title: "Emosjonell og rasjonell kommunikasjon"
+  title: "Emosjonell eller rasjonell kommunikasjon?"
 next:
   day: 6
   title: "Fysisk tilgjengelighet og distinkte merkemarkører"
@@ -21,7 +21,7 @@ next:
 
 ## Lesning
 
-Tenk på forrige gang du skulle velge oppvaskmiddel i butikken. Hvor lang tid tok det? Mer enn to sekunder? Du trakk neppe frem et regneark over lukt, pris og kvaliteter — du tok den som dukket opp i hodet ditt først. Zalo. 
+Tenk på forrige gang du skulle velge oppvaskmiddel i butikken. Hvor lang tid tok det? Mer enn to sekunder? Du trakk neppe frem et regneark over lukt, pris og kvaliteter — du tok den som dukket opp i hodet ditt først. Zalo.
 
 Dette er *mental tilgjengelighet*: sannsynligheten for at en merkevare dukker opp, uoppfordret, i øyeblikket du trenger en. Byron Sharp beskriver det i *How Brands Grow* som den viktigste jobben reklame gjør, og grunnen er enkel: de fleste kjøpsbeslutninger tas raskt og med lav innsats.
 
@@ -29,33 +29,34 @@ Mental tilgjengelighet er motoren i merkevarevekst, og et av de mest misforståt
 
 ### Kategori-inngangsporter
 
-For å bygge mental tilgjengelighet må en merkevare kobles til *kategori-inngangsporter* — de situasjonene, behovene eller øyeblikkene som får noen til å tenke på kategorien. 
+For å bygge mental tilgjengelighet må en merkevare kobles til *kategori-inngangsporter* — de situasjonene, behovene eller øyeblikkene som får noen til å tenke på kategorien.
 
 For en brusprodusent kan det være «henge med guttegjengen», «pizza med familien», eller en «lang bilreise». Hver av disse er en inngangsport til kategorien "brus", og hver av dem er en mulighet for merkevaren til å være den som dukker opp først.
 
 Jenni Romaniuk, Sharps medforfatter, har utviklet begrepet. Hennes poeng: jo flere inngangsporter en merkevare er knyttet til i hukommelsen, jo oftere blir den hentet fram — og jo sterkere blir den over tid. Et merke som bare kobles til én inngangsport, blir et merke som sjelden kommer opp i tankene.
 
 ![Mind map med et merke i sentrum og seks ulike kategori-inngangsporter rundt seg, koblet med tynne linjer](assets/illustrasjon-inngangsporter.svg)
+
 *Inngangsporter for en brusprodusent. Jo flere situasjoner som leder tanken til merket, jo oftere blir det hentet fram — og jo større blir det over tid.*
 
 https://www.youtube.com/watch?v=FqrTEQ_1h68
-*Ingangsporten  her er vel noe slikt som «så enkelt at du kan søke kjapt mellom slagene , selv på jobben". Settingen gjør det relativt minneverdig.*
 
+*Ingangsporten  her er vel noe slikt som «så enkelt at du kan søke kjapt mellom slagene , selv på jobben". Settingen gjør det relativt minneverdig.*
 
 ### Der vi kan trår feil
 
-Noen ganger ender jakten på relevant inngangsport i reklame som dramatiserer *den vanligste brukssituasjonen*. Det kan skape forutsigbar og kjedelig reklame. En inngangsport er en psykologisk assosiasjon — alt som trigger tanken på kategorien. IKKE alltid den mest åpenbare brukssituasjonen vi klarer å komme på. 
+Noen ganger ender jakten på relevant inngangsport i reklame som dramatiserer *den vanligste brukssituasjonen*. Det kan skape forutsigbar og kjedelig reklame. En inngangsport er en psykologisk assosiasjon — alt som trigger tanken på kategorien. IKKE alltid den mest åpenbare brukssituasjonen vi klarer å komme på.
 
-Mye reklame viser den vanligste brukssituasjonen — en familie på fire på kjøkkenet. Det kan være relevant, men det er sjelden minneverdig, og det trener ikke hjernen til å koble merkevaren til nye inngangsporter. Relevans trenger ikke være kjedelig. 
+Mye reklame viser den vanligste brukssituasjonen — en familie på fire på kjøkkenet. Det kan være relevant, men det er sjelden minneverdig, og det trener ikke hjernen til å koble merkevaren til nye inngangsporter. Relevans trenger ikke være kjedelig.
 
 ::: anders-kommentar
-La oss si at du skal lage reklame for kredittkort. 
+La oss si at du skal lage reklame for kredittkort.
 
-Den mest åpenbare brukssituasjonen for et kredittkort er at du er i butikken og mangler penger. Eller at du sitter hjemme med en bunke regninger og river deg i håret. 
+Den mest åpenbare brukssituasjonen for et kredittkort er at du er i butikken og mangler penger. Eller at du sitter hjemme med en bunke regninger og river deg i håret.
 
-Klarer vi komme på noe mer interessant og relevant? En uforutsett bilreparasjon er en mer emosjonelt ladet inngangsport — og kanskje et bedre koblingspunkt mellom minne og merke. 
+Klarer vi komme på noe mer interessant og relevant? En uforutsett bilreparasjon er en mer emosjonelt ladet inngangsport — og kanskje et bedre koblingspunkt mellom minne og merke.
 
-Tendensen til å vise "det ordinære" i stedet for «noe dramatisk interessant» er en direkte konsekvens av å ikke forstå mental tilgjengelighet. Kjedelig reklame er dårlig reklame — fordi oppmerksomhet er forutsetningen for all effekt. 
+Tendensen til å vise "det ordinære" i stedet for «noe dramatisk interessant» er en direkte konsekvens av å ikke forstå mental tilgjengelighet. Kjedelig reklame er dårlig reklame — fordi oppmerksomhet er forutsetningen for all effekt.
 :::
 
 ## Kritikk av teorien
@@ -66,8 +67,7 @@ Sharps rammeverk er bygget på flere tiår med kjøpsdata, mest fra FMCG-kategor
 
 **B2B og høy-involverings-kategorier oppfører seg annerledes.** Empirien til Sharp er ofte basert på raske, vanebaserte kjøp. I kategorier med høye byttekostnader — regnskapssystem, forsikring, bank, bil og bolig — veier lojalitet tyngre. Beslutninger tas mer bevisst, og vurderingsprosessen er lengre. Å anvende Sharps rammeverk ukritisk på slike kategorier kan gi misvisende råd.
 
-**Utfordrermerker vokser ofte motsatt vei.** Vekstmønsteret Sharp beskriver, bredde først og dybde senere, passer etablerte merker. Utfordrermerker bygger ofte tett lojalitet i en nisje først, og utvider gradvis utover. Jobber du for et lite merke med høy interesse, som golfutstyr, spesialverktøy eller nisjemote, kan Sharp mislede strategien din. 
-
+**Utfordrermerker vokser ofte motsatt vei.** Vekstmønsteret Sharp beskriver, bredde først og dybde senere, passer etablerte merker. Utfordrermerker bygger ofte tett lojalitet i en nisje først, og utvider gradvis utover. Jobber du for et lite merke med høy interesse, som golfutstyr, spesialverktøy eller nisjemote, kan Sharp mislede strategien din.
 
 ## Sjekkliste for idévurdering
 

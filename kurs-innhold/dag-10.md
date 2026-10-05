@@ -27,7 +27,7 @@ Sutherlands bok er full av eksempler. Det er en del av sjarmen og en del av frus
 
 Alkemi handler om å forvandle noe vanlig til noe verdifullt. Tre grep dukker ofte opp i Sutherlands eksempler.
 
-**Reframe the problem.** Det instinktivt riktige er å akseptere problemet slik kunden har formulert det. Alkemi begynner med å spørre om problemet egentlig er riktig definert. London Underground eksempelet er godt. Det gjorde ikke ventetiden kortere, men fjernet usikkerheten. Det holdt. 
+**Reframe the problem.** Det instinktivt riktige er å akseptere problemet slik kunden har formulert det. Alkemi begynner med å spørre om problemet egentlig er riktig definert. London Underground eksempelet er godt. Det gjorde ikke ventetiden kortere, men fjernet usikkerheten. Det holdt.
 
 **Endre konteksten– ikke produktet.** Du trenger ikke nødvendigvis å gjøre selve produktet bedre. Det kan være billigere og mer effektivt å endre rammen. En kaffe i porselenskopp, en bok i en pen eske, en bil der døren lukkes med en tilfredsstillende lyd. Sutherland kaller dette «engineering of perception».
 
@@ -38,6 +38,7 @@ Alkemi handler om å forvandle noe vanlig til noe verdifullt. Tre grep dukker of
 Sutherland argumenterer for at alkemi er særlig nyttig der pris og funksjon nesten er identiske mellom konkurrenter. Når produktene er like, er det psykologien som avgjør. Tenk forsikring, bank, telekom. Alt er kategorier hvor små psyko-logiske forskjeller kan gi store kommersielle utslag.
 
 I kategorier hvor produktet faktisk er meningsfullt forskjellig, betyr alkemi mindre. Hvis du selger et nytt medikament som faktisk er bedre, trenger du ikke en alkemisk innpakning — du trenger god dokumentasjon. Men i de fleste reklame-relevante kategorier er produktene mer like enn de er forskjellige, og alkemi kan være nyttig.
+
 ### Det praktiske spørsmålet
 
 Sutherlands viktigste verktøy er ett enkelt spørsmål: «Hvordan ville den irrasjonelle løsningen sett ut?»
@@ -47,7 +48,7 @@ Spørsmålet tvinger deg ut av regnearket og inn i hva som faktisk får menneske
 Dette handler ikke om  å være tullete, men å lage plass til forslag som ikke ser logiske ut ved første øyekast — fordi det logiske ofte er det forutsigbare.
 
 ::: anders-kommentar
-Det vi gjør i kreativ utvikling kan oversettes til Sutherland-språk slik: vi prøver å finne den ideen som kunden selv ikke ville foreslått. Det er ikke fordi kunden er dum. Det er fordi kunden lever inne i sin egen kategori-logikk, og den er som regel ganske lik logikken til resten av merkene i samme  kategori. 
+Det vi gjør i kreativ utvikling kan oversettes til Sutherland-språk slik: vi prøver å finne den ideen som kunden selv ikke ville foreslått. Det er ikke fordi kunden er dum. Det er fordi kunden lever inne i sin egen kategori-logikk, og den er som regel ganske lik logikken til resten av merkene i samme  kategori.
 
 Det beste med vår jobb er å få  spille rollen som sympatisk fremmed: en som ikke aksepterer kategoriens premisser. Da tør man å foreslå ulogiske løsninger, som virker fordi de bryter mønsteret.
 
@@ -59,6 +60,7 @@ Det fungerer ikke alltid. Noen ganger er kategoriens logikk faktisk riktig. Men 
 **Vanskelig å skille godt brudd fra dårlig brudd.** Ikke alle kontraintuitive grep er gode. Et merke som bryter med kategorikonvensjoner uten god grunn kan oppleves som rart, ikke smart. Sutherland gir lite veiledning på når et brudd er riktig og når det ikke er det.
 
 **Konkurrentene kopierer raskt.** En psyko-logisk innsikt som virker i dag kan være standard i kategorien om to år. Tenk på hvordan hele telekom-Norge nå snakker om å «bruke MINDRE tid på mobilen». Alkemi-grep har kort holdbarhet, og verdien synker når flere bruker det samme grepet.
+
 ## Sjekkliste for idévurdering
 
 Bruk listen når du sitter med en idé som lener seg på alkemi.

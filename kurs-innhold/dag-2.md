@@ -16,21 +16,22 @@ prev:
   title: "Reklameteori – hvordan selge bedre reklame"
 next:
   day: 3
-  title: "60/40-regelen og bevisgrunnlaget"
+  title: "60/40-regelen"
 ---
 
 ## Lesning
 
-Volkswagen kjører to typer reklame samtidig. 
+Volkswagen kjører to typer reklame samtidig.
 
 Den ene er en TV-film om en gutt i Darth Vader-drakt. Det går 40 sekunder før vi ser en bil. Gutten opplever magien i Volkswagens innovasjoner. Lite info, mye følelse.
 
 https://www.youtube.com/watch?v=qpL_DcT6ko8
+
 *Volskwagen Starwars*
 
 Den andre er en Facebook-annonse som sier «0 % rente til 30. juni». Den første selger ikke en eneste bil – i dag. Den andre selger mange, det ser du på statistikken. Men om to år er det gutten i Darth Vader-drakt som gjør at 20% flere vurderer Volkswagen som neste bil.
 
-Eksempelet illustrerer poenget i Les Binet og Peter Fields *The Long and the Short of It*. Den «korte jobben» er å aktivere: gjøre etterspørsel som allerede finnes om til kjøp. 
+Eksempelet illustrerer poenget i Les Binet og Peter Fields *The Long and the Short of It*. Den «korte jobben» er å aktivere: gjøre etterspørsel som allerede finnes om til kjøp.
 
 Den lange jobben er merkebygging: å skape assosiasjoner i hukommelsen som gjør at merket blir vurdert, foretrukket og valgt en gang i framtiden.
 
@@ -42,16 +43,18 @@ Aktivering er lett å forsvare fordi det er konkret og målbart. Du kan «bevise
 
 ### Den lange jobben: merkebygging
 
-Merkebygging er reklame som bygger merket opp over tid i hodet på folk. Målgruppen er alle som kan komme til å kjøpe i kategorien en gang i framtiden — de fleste av dem er ikke i en kjøpssituasjon akkurat nå. 
+Merkebygging er reklame som bygger merket opp over tid i hodet på folk. Målgruppen er alle som kan komme til å kjøpe i kategorien en gang i framtiden — de fleste av dem er ikke i en kjøpssituasjon akkurat nå.
 
 Hvor mange skal egentlig kjøpe en bil eller bytte bank AKKURAT NÅ? Nesten ingen.
 
-Her kan du leke med en kalkulator. Hvor mange skal egentlig kjøpe det du selger AKKURAT nå? 
+Her kan du leke med en kalkulator. Hvor mange skal egentlig kjøpe det du selger AKKURAT nå?
+
 ::: kalkulator-kjopsoyeblikk :::
 
-Heldigvis er hukommelsen tålmodig. En reklame du så for seks måneder siden kan påvirke et valg du tar i dag, uten at du klarer å knytte reklamen direkte til valget. Det er også derfor merkebygging er vanskelig å måle på kort sikt. Den jobben du betaler for lønner seg ikke før lenge etter fakturaen er betalt. 
+Heldigvis er hukommelsen tålmodig. En reklame du så for seks måneder siden kan påvirke et valg du tar i dag, uten at du klarer å knytte reklamen direkte til valget. Det er også derfor merkebygging er vanskelig å måle på kort sikt. Den jobben du betaler for lønner seg ikke før lenge etter fakturaen er betalt.
 
 Den beste reklamen virker utrolig lenge. Zalo-reklame fra 90-tallet gir fortsatt effekt. Selv om både byrå, konsept og alle ansatte i Orkla er byttet ut for lengst.
+
 ### Hvorfor skillet er praktisk viktig
 
 Aktivering er lett å måle og lett å forsvare i et møte. Merkebygging er vanskelig å måle på kort sikt. Over tid flytter penger seg dit rapporteringen er mest nøyaktig. Det betyr at mange merkevarer kutter i merkevarebygging og legger pengene i aktiverende reklame.
@@ -71,7 +74,8 @@ Tyngdekraften trekker mot aktivering, fordi den produserer ryddigst dashboards o
 
 Da kan vi peke på Binet og Field: Merkevarebygging gjør aktivering billigere.
 
-Binet og Fields rammeverk er den raskeste måten å gjøre det skillet konkret på i et møte.:::
+Binet og Fields rammeverk er den raskeste måten å gjøre det skillet konkret på i et møte.
+:::
 
 ## Kritikk av teorien
 
@@ -133,4 +137,3 @@ Bruk listen når du vurderer en idé, for å bli tydelig på hvilken jobb den sk
 - [ ] At merkebygging ikke kan måles, så hele 60/40-tankegangen er ren spekulasjon
 
 > Skillet er nyttig i et møte, men kan bli en tvangstrøye i kreativ utvikling. En film kan både bygge merket og drive et klikk — å kreve at hver enhet velger én jobb gir noen ganger dårligere reklame.
-

@@ -16,7 +16,7 @@ prev:
   title: "Merkebygging og aktivering"
 next:
   day: 4
-  title: "Emosjonell og rasjonell kommunikasjon"
+  title: "Emosjonell eller rasjonell kommunikasjon?"
 ---
 
 ## Lesning
@@ -45,7 +45,7 @@ Det optimale forholdet, når de regnet seg fram til det, lå rundt 60/40 i favø
 
 Tallet er et gjennomsnitt på tvers av kategorier. Binet og Field har selv nyansert det i *Effectiveness in Context* fra 2018: noen kategorier krever mer merkebygging, andre mindre.
 
-B2B og kjøp du bruker mye energi på å vurdere (typ bil): opp mot 70/30 eller 80/20 til fordel for merkebygging. Beslutningssyklusene er lange, og kunden din skal neppe kjøpe noe AKKURAT NÅ, men en gang i fremtiden. 
+B2B og kjøp du bruker mye energi på å vurdere (typ bil): opp mot 70/30 eller 80/20 til fordel for merkebygging. Beslutningssyklusene er lange, og kunden din skal neppe kjøpe noe AKKURAT NÅ, men en gang i fremtiden.
 
 E-handel: nærmere 50/50, kanskje litt lavere på merkebygging. Avstanden mellom reklame og kjøp er kort, og aktiveringsjobben blir tilsvarende større.
 
@@ -58,7 +58,8 @@ Lavprisaktører og nye merker som skal ta posisjon: høyere merkebyggingsandel, 
 
 Men ikke bruk 60/40 som en formel du forsvarer. Bruk det som en referanse å diskutere ut fra. Spørsmålet er ikke «har vi truffet 60/40?», men «hvorfor mener vi at vår fordeling er riktig for vår situasjon, gitt at gjennomsnittet sier 60/40?».
 
-Den letteste måten å bruke tallet feil på er å gå inn i et møte og late som om det er en naturlov.:::
+Den letteste måten å bruke tallet feil på er å gå inn i et møte og late som om det er en naturlov.
+:::
 
 ## Kritikk av teorien
 

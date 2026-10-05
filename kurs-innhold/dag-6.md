@@ -4,7 +4,7 @@ part: "Del 3 · Byron Sharp · How Brands Grow"
 duration: "15 minutter"
 title: "Fysisk tilgjengelighet og distinkte merkemarkører"
 principle: >
- Mental tilgjengelighet i hodet. Fysisk tilgjengelighet i butikken. Distinkte merkemarkører binder det sammen.
+  Mental tilgjengelighet i hodet. Fysisk tilgjengelighet i butikken. Distinkte merkemarkører binder det sammen.
 primary_source:
   title: "How Brands Grow"
   meta: "Byron Sharp, 2010"
@@ -16,7 +16,7 @@ prev:
   title: "Mental tilgjengelighet"
 next:
   day: 7
-  title: "Penetrasjon over lojalitet"
+  title: "Penetrasjon er viktigere enn lojalitet"
 ---
 
 ## Lesning
@@ -32,6 +32,7 @@ Fysisk tilgjengelighet er mer enn butikkhyller. Fysisk tilgjengelighet er alle s
 Et merke er fysisk tilgjengelig når det er enkelt å kjøpe i flest mulig av de øyeblikkene noen er villige til å kjøpe det. Coca-Cola finnes i kiosker, kantiner, restauranter, automater, hotellminibarer osv. Cola er sjelden langt unna en tørst person. Cola har god fysisk tilgjengelighet.
 
 For et online merke er fysisk tilgjengelighet at du står høyt nok i søkeresultatet, at appen er installert eller at betaling er lett å gjennomføre.
+
 ### Distinkte merkemarkører
 
 Det er ikke nok å være tilgjengelig. Folk må også kjenne deg igjen. Distinkte merkemarkører er de visuelle (og andre sanselige) elementene som lar en kunde identifisere merket på et halvt sekund — uten å lese logoen. Her er også Cola et godt eksempel. Du kjenner formen på flasken. Logoen. Fargen.
@@ -43,21 +44,21 @@ Distinkte merkemarkører er på en måte mental tilgjengelighet gjort fysisk. N�
 SETT INN HEINZ-BILDE!
 
 ### Hvorfor roter vi med markørene?
-Mange bytter ut sine egne distinkte merkemarkører jevnlig — ny font, nytt visuelt grep, ny musikk, ny karakter — kanskje fordi noen internt mener det er «på tide med en oppfriskning». 
+
+Mange bytter ut sine egne distinkte merkemarkører jevnlig — ny font, nytt visuelt grep, ny musikk, ny karakter — kanskje fordi noen internt mener det er «på tide med en oppfriskning».
 
 Eierskap til en distinkt merkemarkør bygges over tid, og rives ned på et øyeblikk. Et merke som bytter «look» hvert annet år, ender med å være et merke ingen kan kjenne igjen umiddelbart. Da må reklamen jobbe mye hardere for å oppnå samme effekt.
 
 Jenni Romaniuk (og Sharp) mener den nest vanligste feilen er å gjøre distinkte merkemarkører så subtile at de ikke fungerer. Logoen i hjørnet i tre sekunder på slutten av filmen er ikke en distinkt merkemarkør. Det er en signatur. En distinkt merkemarkør skal være til stede tidlig, ofte og tydelig nok til at hjernen kobler det til merket før kjøpsbeslutningen.
 
 ::: anders-kommentar
-Merkemarkører må tas på alvor. Men det er to fallgruber å være obs på. 
+Merkemarkører må tas på alvor. Men det er to fallgruber å være obs på.
 
-Den ene er å være redd for å gjenta seg selv. Vi som lager reklame har sett vår egen logo og hørt vår egen jingle hundre ganger. Derfor blir den kjedelig for oss lenge før den begynner å fungere for mottakeren. Det er en yrkesskade. En distinkt merkemarkør må gjentas til kjedsommelighet før den begynner å feste seg hos folk. På FINN.no har vi ALLTID lydlogo i reklamen. Vi bruker ALLTID samme blåfarge og ALLTID samme font. Tidligere var også katten ALLTID med, men denne er tonet ned på grunn av utenforliggende greier. 
+Den ene er å være redd for å gjenta seg selv. Vi som lager reklame har sett vår egen logo og hørt vår egen jingle hundre ganger. Derfor blir den kjedelig for oss lenge før den begynner å fungere for mottakeren. Det er en yrkesskade. En distinkt merkemarkør må gjentas til kjedsommelighet før den begynner å feste seg hos folk. På FINN.no har vi ALLTID lydlogo i reklamen. Vi bruker ALLTID samme blåfarge og ALLTID samme font. Tidligere var også katten ALLTID med, men denne er tonet ned på grunn av utenforliggende greier.
 
-Den andre feilen er å utvikle en slags markør-mani. I denne typen reklame blir det *eneste* viktige å få frem en markør. Det kommer i veien for emosjonene og historiefortellingen- som Binet og Field har bevist er avgjørende for effekt. Du starter neppe samtaler med å skrike navnet ditt gjentatte ganger. Markører må som alt annet benyttes med takt og tone. 
+Den andre feilen er å utvikle en slags markør-mani. I denne typen reklame blir det *eneste* viktige å få frem en markør. Det kommer i veien for emosjonene og historiefortellingen- som Binet og Field har bevist er avgjørende for effekt. Du starter neppe samtaler med å skrike navnet ditt gjentatte ganger. Markører må som alt annet benyttes med takt og tone.
 
-Det er ofte rundt dette punktet konflikt kan oppstå mellom kunde og byrå. Å kunne ha en utdannet samtale der begge parter lytter er eneste løsningen. 
-
+Det er ofte rundt dette punktet konflikt kan oppstå mellom kunde og byrå. Å kunne ha en utdannet samtale der begge parter lytter er eneste løsningen.
 :::
 
 ## Kritikk av teorien

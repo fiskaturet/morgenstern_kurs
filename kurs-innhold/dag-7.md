@@ -26,16 +26,15 @@ next:
 Sharps mest provoserende funn, og kanskje det best dokumenterte, er at vekst kommer fra å nå flere kunder — ikke fra å få eksisterende kunder til å kjøpe oftere. Når et merke vokser, vokser det først og fremst gjennom *penetrasjon* - altså hvor stor andel av kundene i markedet som kjøper av nettop deg. Lojalitet følger med på lasset, men er sjelden motoren.
 
 https://www.youtube.com/watch?v=M7FIvfx5J10
+
 *I stedet for å gå presist mot noen tusen beslutningstakere, tok Volvo Trucks tak i et popkulturelt fenomen og lagde en reklame som traff over 100 millioner mennesker.*
-
-
-
 
 ### Double Jeopardy
 
 Andrew Ehrenberg beskrev allerede på 60-tallet et mønster han kalte *Double Jeopardy*. Små merker skades dobbelt: de har færre kunder, og de få kundene de har, kjøper litt sjeldnere enn kundene til store merker. Store merker har det motsatte mønsteret — flere kunder, og litt høyere kjøpsfrekvens.
 
 Konsekvensen er at hvis du vil at merket skal vokse, må du jakte på nye kunder.
+
 ### Hvem driver salget?
 
 Et annet funn fra Sharp og Ehrenberg-Bass-instituttet: i de fleste merker står *lette kunder* — folk som kjøper merket sjelden, kanskje én gang i året — for brorparten av salget. Tunge kunder – altså de som kjøper veldig ofte – er i mindretall.
@@ -55,7 +54,7 @@ Hvis brorparten av salget kommer fra folk som kjøper én gang i året, må merk
 Lojalitetsprogrammer er sjelden en vekstmotor. De kan være en bra kundepleieordning og holde på folk som allerede er kunder. Men de skaper ikke vekst i markedsandel, fordi de ikke når nye kunder.
 
 ::: anders-kommentar
-Dette kapittelet handler mer om marketing enn reklame, men er avgjørende å forstå – også for oss som skal lage ideer. Det er veldig fristende å lage lojalitets-ideer, men i følge Sharp – kanskje sjelden riktig. 
+Dette kapittelet handler mer om marketing enn reklame, men er avgjørende å forstå – også for oss som skal lage ideer. Det er veldig fristende å lage lojalitets-ideer, men i følge Sharp – kanskje sjelden riktig.
 :::
 
 ## Kritikk av teorien

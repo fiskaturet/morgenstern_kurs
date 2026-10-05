@@ -28,6 +28,7 @@ Vi har lært at vi må bygge merkevare. I denne økten handler det om hvordan.
 Binet og Fields funn på dette punktet er like enkelt som det er ubehagelig for mange annonsører: emosjonell reklame slår argumenterende reklame over tid. Og ikke bare litt.
 
 I IPA-databanken har kampanjer med primært emosjonelt innhold cirka dobbelt så stor langsiktig effekt på markedsandel som kampanjer med primært rasjonelt innhold.
+
 ### Hva «emosjonell» faktisk betyr
 
 Det er lett å misforstå hva Binet og Field mener med emosjonell reklame. Det betyr ikke at filmen må få noen til å grine. Det betyr at reklamen får deg til å føle — egentlig hvilken som helst følelse.
@@ -48,14 +49,15 @@ Til sist: emosjonell reklame skiller seg ut. Den som spiller på følelser har l
 
 Rasjonell reklame har sin plass. Vi må bare være bevisst på at den gjør en annen jobb. Aktivering er ofte rasjonell, og skal være det: «0 % rente til 30. juni», «50 % avslag denne uka», «åpent til 22 hele helgen». Du trenger ikke å fremkalle følelser for å selge en is på en sommerdag.
 
-I høyinvolveringsbeslutninger — bil, bolig, B2B-systemer — har rasjonelle argumenter også en plass, men sjelden i den primære reklamen. De hører hjemme på nettsiden, i salgsmøtet, i tilbudsbrevet. Argumentene fungerer på de som allerede vurderer. Massekom-reklame skal få deg til å vurdere. 
+I høyinvolveringsbeslutninger — bil, bolig, B2B-systemer — har rasjonelle argumenter også en plass, men sjelden i den primære reklamen. De hører hjemme på nettsiden, i salgsmøtet, i tilbudsbrevet. Argumentene fungerer på de som allerede vurderer. Massekom-reklame skal få deg til å vurdere.
 
 ::: anders-kommentar
 Reklamen som får deg til å føle funker ofte best.
 
-Likegyldighet er oppmerksomhetens fiende. Og uten oppmerksomhet kan vi ikke skape effekt.  
+Likegyldighet er oppmerksomhetens fiende. Og uten oppmerksomhet kan vi ikke skape effekt.
 
-Husk også at «emosjonell» ikke skal leses som «trist».:::
+Husk også at «emosjonell» ikke skal leses som «trist».
+:::
 
 ## Kritikk av teorien
 
@@ -66,6 +68,7 @@ Husk også at «emosjonell» ikke skal leses som «trist».:::
 **Kategorien har noe å si.** I noen kategorier er kunden genuint på leting etter informasjon. Medisinske produkter, nisjeteknologi — her kan rasjonelle argumenter spille en større rolle, særlig sent i kjøpsreisen. 60/40-regelen og emosjonell-rasjonell-funnet trekker i samme retning, men ikke i alle kategorier like sterkt.
 
 **«Emosjonell reklame virker» er blitt en klisjé.** Mange byråer har de siste ti årene laget reklame som er emosjonell på en bestemt måte: klippet til musikk, slow motion, poetisk voice, et nært menneskelig øyeblikk, en kort tagline. Vi må være originale - ikke bare emosjonelle.
+
 ## Sjekkliste for idévurdering
 
 Bruk listen når du vurderer om en idé spiller riktig på følelser eller argumenter.
