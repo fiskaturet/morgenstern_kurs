@@ -5,6 +5,7 @@ Notion <-> kurs-innhold/*.md
   python notion_sync.py pull      # Notion -> kurs-innhold/dag-N.md (brukes av GitHub Action)
   python notion_sync.py setup ID  # lag «Økter»-databasen + redigeringsguide under Notion-siden ID
   python notion_sync.py import    # kurs-innhold/dag-N.md -> Notion (engangs-migrering)
+  python notion_sync.py bootstrap ID  # setup (om nødvendig) + import
 
 Miljøvariabler:
   NOTION_TOKEN        Notion internal integration secret (databasen må være delt med integrasjonen)
@@ -81,14 +82,16 @@ def db_id():
     global _DB
     if _DB:
         return _DB
-    _DB = os.environ.get('NOTION_DATABASE_ID')
+    _DB = os.environ.get('NOTION_DATABASE_ID') or find_db()
     if not _DB:
-        r = api('POST', '/search', {'query': DB_TITLE, 'filter': {'property': 'object', 'value': 'database'}})
-        hits = [d for d in r['results'] if ''.join(t['plain_text'] for t in d.get('title', [])) == DB_TITLE]
-        if not hits:
-            sys.exit(f'Fant ingen database «{DB_TITLE}». Kjør «python notion_sync.py setup <side-id>» først.')
-        _DB = hits[0]['id']
+        sys.exit(f'Fant ingen database «{DB_TITLE}». Kjør «python notion_sync.py setup <side-id>» først.')
     return _DB
+
+
+def find_db():
+    r = api('POST', '/search', {'query': DB_TITLE, 'filter': {'property': 'object', 'value': 'database'}})
+    hits = [d for d in r['results'] if ''.join(t['plain_text'] for t in d.get('title', [])) == DB_TITLE]
+    return hits[0]['id'] if hits else None
 
 
 # ----------------------------------------------------------------------
@@ -323,6 +326,15 @@ def cmd_setup(parent):
             'Sist endret': {'last_edited_time': {}},
         }})
     print(f"Opprettet databasen «{DB_TITLE}»: {db['id']}")
+    global _DB
+    _DB = db['id']
+
+
+def cmd_bootstrap(parent):
+    """Engangsoppsett: lag databasen hvis den mangler, og importer øktene som ikke finnes."""
+    if not (os.environ.get('NOTION_DATABASE_ID') or find_db()):
+        cmd_setup(parent)
+    cmd_import()
 
 
 # ----------------------------------------------------------------------
@@ -478,5 +490,7 @@ if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'pull'
     if cmd == 'setup':
         cmd_setup(sys.argv[2])
+    elif cmd == 'bootstrap':
+        cmd_bootstrap(sys.argv[2])
     else:
         {'pull': cmd_pull, 'import': cmd_import}[cmd]()

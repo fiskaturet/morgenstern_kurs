@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '*/15 * * * *'   # hvert kvarter
   workflow_dispatch:          # «Run workflow»-knappen i GitHub
+    inputs:
+      oppsett:
+        description: 'Engangsoppsett: lag databasen i Notion og importer øktene fra repoet'
+        type: boolean
+        default: false
   repository_dispatch:
     types: [notion-publish]   # for evt. webhook/knapp senere
 
@@ -27,6 +32,13 @@ jobs:
           python-version: '3.11'
 
       - run: pip install -r requirements.txt
+
+      - name: Engangsoppsett (database + import)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.oppsett }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
+        run: python notion_sync.py bootstrap 3f0630f7034d80358354e4342a3d5155
 
       - name: Hent innhold fra Notion
         env:
