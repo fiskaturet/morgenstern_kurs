@@ -9,7 +9,8 @@ Notion <-> kurs-innhold/*.md
 
 Miljøvariabler:
   NOTION_TOKEN        Notion internal integration secret (databasen må være delt med integrasjonen)
-  NOTION_DATABASE_ID  (valgfri) ID til «Økter»-databasen. Ellers finnes den på navn.
+  NOTION_DATABASE_ID  (valgfri) ID til «Økter»-databasen. Ellers finnes den på kurssiden.
+  NOTION_PARENT_PAGE  (valgfri) ID til kurssiden i Notion. Standard: PARENT_PAGE under.
 
 Format-mapping (Notion-blokk <-> MD):
   heading_2 / heading_3        <->  ## / ###
@@ -41,6 +42,7 @@ NOTION_VERSION = '2022-06-28'
 COMMENT_ICON = '💬'
 DIRECTIVE_ICON = '🧩'
 DB_TITLE = 'Økter'
+PARENT_PAGE = '3f0630f7034d80358354e4342a3d5155'  # «Reklameforståelse – kursinnhold» (Anders Holms område)
 PARTS = ['Del 1 · Fundamentet', 'Del 2 · Les Binet & Peter Field · The Long and the Short of It',
          'Del 3 · Byron Sharp · How Brands Grow', 'Del 4 · Rory Sutherland · Alchemy',
          'Del 5 · Robert Cialdini · Influence', 'Del 6 · Syntese']
@@ -89,6 +91,12 @@ def db_id():
 
 
 def find_db():
+    # Først: let direkte blant blokkene på kurssiden (søkeindeksen i Notion henger etter for nye databaser)
+    parent = (os.environ.get('NOTION_PARENT_PAGE') or PARENT_PAGE).strip()
+    if parent:
+        for b in children(parent):
+            if b['type'] == 'child_database' and b['child_database'].get('title') == DB_TITLE:
+                return b['id']
     r = api('POST', '/search', {'query': DB_TITLE, 'filter': {'property': 'object', 'value': 'database'}})
     hits = [d for d in r['results'] if ''.join(t['plain_text'] for t in d.get('title', [])) == DB_TITLE]
     return hits[0]['id'] if hits else None
