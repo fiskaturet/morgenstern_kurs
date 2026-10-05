@@ -126,8 +126,10 @@ def md_to_rich(s):
                     add(p, bold=True, italic=bool(idx % 2))
         elif m.group(2) is not None:
             add(m.group(2), italic=True)
-        else:
+        elif re.match(r'^(https?://|mailto:)', m.group(4)):
             add(m.group(3), link=m.group(4))
+        else:
+            add(m.group(0))  # relative lenker/bilder beholdes som tekst (Notion godtar bare fulle URL-er)
         pos = m.end()
     if pos < len(s):
         add(s[pos:])
