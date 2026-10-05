@@ -50,7 +50,7 @@ PARTS = ['Del 1 · Fundamentet', 'Del 2 · Les Binet & Peter Field · The Long a
 # HTTP
 # ----------------------------------------------------------------------
 def _token():
-    t = os.environ.get('NOTION_TOKEN')
+    t = (os.environ.get('NOTION_TOKEN') or '').strip()
     if not t:
         sys.exit('NOTION_TOKEN mangler')
     return t
@@ -82,7 +82,7 @@ def db_id():
     global _DB
     if _DB:
         return _DB
-    _DB = os.environ.get('NOTION_DATABASE_ID') or find_db()
+    _DB = (os.environ.get('NOTION_DATABASE_ID') or '').strip() or find_db()
     if not _DB:
         sys.exit(f'Fant ingen database «{DB_TITLE}». Kjør «python notion_sync.py setup <side-id>» først.')
     return _DB
@@ -332,7 +332,7 @@ def cmd_setup(parent):
 
 def cmd_bootstrap(parent):
     """Engangsoppsett: lag databasen hvis den mangler, og importer øktene som ikke finnes."""
-    if not (os.environ.get('NOTION_DATABASE_ID') or find_db()):
+    if not ((os.environ.get('NOTION_DATABASE_ID') or '').strip() or find_db()):
         cmd_setup(parent)
     cmd_import()
 
