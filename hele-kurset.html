@@ -162,7 +162,7 @@
 
   <div class="kalk-result" aria-live="polite">
     <div class="kalk-big"><span id="kalk-pct">5</span>&nbsp;%</div>
-    <p class="kalk-big-label">av nordmenn over 20 år er i markedet dette kvartalet.</p>
+    <p class="kalk-big-label">av nordmenn over 20 år er i markedet denne uka.</p>
     <div class="kalk-dots" id="kalk-dots" aria-hidden="true"></div>
     <ul class="kalk-legend" aria-hidden="true">
       <li><span class="kalk-dot mine"></span>Kjøper fra deg</li>
@@ -173,7 +173,7 @@
     <p class="kalk-rest" id="kalk-rest"></p>
   </div>
 
-  <p class="kalk-footnote">Forenklet regnestykke: Andelen i markedet er tre måneder delt på tiden mellom hvert kjøp. Kjøpene fordeles etter markedsandel. Utgangspunktet er 4,4 millioner nordmenn over 20 år (SSB, 1. januar 2026), og regnestykket antar at alle kan kjøpe i kategorien. Hver prikk er én prosent. Bruk tallene som retning.</p>
+  <p class="kalk-footnote">Forenklet regnestykke: Andelen i markedet er én uke delt på tiden mellom hvert kjøp. Kjøpene fordeles etter markedsandel. Utgangspunktet er 4,4 millioner nordmenn over 20 år (SSB, 1. januar 2026), og regnestykket antar at alle kan kjøpe i kategorien. Hver prikk er én av tusen. Bruk tallene som retning.</p>
 
 </section>
 
@@ -228,8 +228,8 @@
   .kalk-big-label { margin: 0.4rem 0 var(--space-md); font-weight: 500; }
   .kalk-dots {
     display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    gap: 4px;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 2px;
     max-width: 26rem;
     margin-bottom: var(--space-md);
   }
@@ -282,24 +282,24 @@
 <script>
   (function () {
     'use strict';
-    var KVARTAL = 3; // måneder
+    var UKE = 12 / 52; // én uke i måneder
     var VOKSNE = 4388766; // nordmenn 20 år og over, 1. januar 2026 (SSB)
     var chips = document.querySelectorAll('.kalk-chip');
     var dots = document.getElementById('kalk-dots');
     if (!dots) return;
-    for (var i = 0; i < 100; i++) {
+    for (var i = 0; i < 1000; i++) {
       var d = document.createElement('span');
       d.className = 'kalk-dot';
       dots.appendChild(d);
     }
     var fmt = function (n) {
-      return n.toLocaleString('nb-NO', { maximumFractionDigits: n < 10 ? 1 : 0 });
+      return n.toLocaleString('nb-NO', { maximumFractionDigits: n < 1 ? 2 : n < 10 ? 1 : 0 });
     };
     var months = 60;
     var share = document.getElementById('kalk-share');
-    var n0 = function (n) { return Math.round(n).toLocaleString('nb-NO'); };
+    var _n0 = function (n) { return Math.round(n).toLocaleString('nb-NO'); };
     function show() {
-      var pct = Math.min(100, KVARTAL / months * 100);
+      var pct = Math.min(100, UKE / months * 100);
       var sh = parseFloat(share.value) / 100;
       var inMarket = VOKSNE * pct / 100;
       var mine = inMarket * sh;
@@ -310,14 +310,14 @@
       document.getElementById('kalk-pct').textContent = fmt(pct);
       document.getElementById('kalk-share-out').textContent = Math.round(sh * 100) + '\u00a0%';
       document.getElementById('kalk-line').innerHTML =
-        'Av 4,4 millioner nordmenn over 20 år er rundt <strong>' + rund(inMarket) + '</strong> i markedet dette kvartalet. Med ' +
+        'Av 4,4 millioner nordmenn over 20 år er rundt <strong>' + rund(inMarket) + '</strong> i markedet denne uka. Med ' +
         Math.round(sh * 100) + '\u00a0% markedsandel kjøper rundt <strong>' + rund(mine) + '</strong> av dem fra deg.';
       document.getElementById('kalk-rest').textContent = pct >= 100
-        ? 'Her kjøper alle i løpet av kvartalet. Merket må bli husket i hvert eneste kjøp, og det er også merkevarebyggingens jobb.'
+        ? 'Her kjøper alle i løpet av uka. Merket må bli husket i hvert eneste kjøp, og det er også merkevarebyggingens jobb.'
         : 'De andre ' + rund(VOKSNE - inMarket) + ' skal ikke kjøpe noe nå. Merkevarebygging sørger for at de husker deg når de skal.';
       var pctMine = pct * sh;
-      var onDots = pct > 0 ? Math.max(1, Math.round(pct)) : 0;
-      var mineDots = pctMine > 0 ? Math.max(1, Math.round(pctMine)) : 0;
+      var onDots = pct > 0 ? Math.max(1, Math.round(pct * 10)) : 0;
+      var mineDots = pctMine > 0 ? Math.max(1, Math.round(pctMine * 10)) : 0;
       dots.querySelectorAll('.kalk-dot').forEach(function (el, idx) {
         el.classList.toggle('mine', idx < mineDots);
         el.classList.toggle('on', idx >= mineDots && idx < onDots);
