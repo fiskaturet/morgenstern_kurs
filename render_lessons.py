@@ -599,6 +599,7 @@ TOPBAR = '''<header class="topbar">
   <nav class="mainnav" aria-label="Hovednavigasjon">
     <a href="index.html">Forside</a>
     <a href="dag-1.html"{KURS_ACTIVE}>Kurs</a>
+    <a href="hele-kurset.html"{FEED_ACTIVE}>Hele kurset</a>
     <a href="oppslag.html"{OPPSLAG_ACTIVE}>Oppslag</a>
     <a href="index.html#om">Om</a>
   </nav>
@@ -724,7 +725,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
         </li>''')
         quiz_items_str = '\n\n'.join(quiz_items_html)
         quiz_html = f'''
-    <section class="section quiz" data-quiz>
+    <section class="section quiz" id="prove" data-quiz>
       <h2>Prøve <span class="badge">{len(sections['quiz_items'])} spørsmål</span></h2>
       <p>{quiz_intro}</p>
 
@@ -765,7 +766,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
     aside_html = '\n\n'.join(aside_blocks)
 
     # Topbar
-    topbar = TOPBAR.format(KURS_ACTIVE=' class="active"', OPPSLAG_ACTIVE='')
+    topbar = TOPBAR.format(KURS_ACTIVE=' class="active"', OPPSLAG_ACTIVE='', FEED_ACTIVE='')
 
     # Bygg full side
     extra_section = sections.get('extra_html', '')
@@ -879,6 +880,113 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
     return html
 
 
+
+# ----------------------------------------------------------------------
+# Hele kurset som én side (feed)
+# ----------------------------------------------------------------------
+def render_feed(lessons) -> str:
+    """lessons: liste av (day_num, fm, body). Viser lesning, kommentar og kritikk for alle økter."""
+    articles, toc = [], []
+    for day_num, fm, body in lessons:
+        title = fm.get('title', '').strip().strip('"').strip("«»")
+        part_label = fm.get('part', '').strip().strip('"').strip("«»")
+        m = re.match(r'Del (\d+)', part_label)
+        data_part = int(m.group(1)) if m else 1
+        principle = apply_text_changes((fm.get('principle') or '').strip())
+        primary = fm.get('primary_source', {}) or {}
+        src = ', '.join(x for x in [(primary.get('title') or '').strip(), (primary.get('meta') or '').strip()] if x)
+        sections = render_section_blocks(body, data_part)
+        has_quiz = bool(sections['quiz_items'])
+        quiz_link = (f'      <p class="feed-quiz-link"><a class="btn secondary" href="dag-{day_num}.html#prove">Ta prøven for økt {day_num} →</a></p>'
+                     if has_quiz else '')
+        toc.append(f'        <li data-part="{data_part}"><a href="#okt-{day_num}"><span class="num">{day_num:02d}</span> {html_module.escape(title)}</a></li>')
+        articles.append(f'''    <article class="feed-okt" id="okt-{day_num}" data-part="{data_part}">
+      <div class="running-head">
+        <span>{html_module.escape(part_label)}</span>
+        <span><a href="dag-{day_num}.html">Åpne som egen side</a></span>
+      </div>
+      <header>
+        <div class="day-marker"><small>Økt {day_num}</small>{day_num:02d}</div>
+        <h1>{html_module.escape(title)}</h1>
+      </header>
+      <div class="principle">
+        <span class="principle-label">Øktens prinsipp</span>
+        {inline_md(principle)}
+      </div>
+      {f'<p class="feed-source">Hovedkilde: {html_module.escape(src)}</p>' if src else ''}
+      <section class="section reading">
+        <h2>Lesning</h2>
+{sections["reading_html"]}
+      </section>
+      <section class="section critique">
+        <h2>Kritikk av teorien</h2>
+{sections["critique_html"]}
+      </section>
+{quiz_link}
+{sections.get("extra_html", "")}
+    </article>''')
+    topbar = TOPBAR.format(KURS_ACTIVE='', OPPSLAG_ACTIVE='', FEED_ACTIVE=' class="active"')
+    toc_html = '\n'.join(toc)
+    body_html = '\n\n'.join(articles)
+    return f'''<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function () {{
+      try {{
+        if (!localStorage.getItem('reklameforstaelse.user.email')) {{
+          var here = (location.pathname.split('/').pop() || '') + location.search;
+          location.replace('login.html?return=' + encodeURIComponent(here));
+        }}
+      }} catch (e) {{ /* localStorage utilgjengelig */ }}
+    }})();
+  </script>
+  <title>Hele kurset · Reklameforståelse</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+  <meta property="og:title" content="Hele kurset · Reklameforståelse" />
+  <meta property="og:image" content="https://reklameforstaelse.morgenstern.no/og-image.jpg" />
+</head>
+<body data-part="1" class="feed-page">
+
+{topbar}
+
+<main class="lesson feed">
+
+  <div class="lesson-main">
+    <div class="feed-intro">
+      <h1>Hele kurset</h1>
+      <p>Alle {len(lessons)} øktene på én side. Prøvene ligger på hver økt for seg.</p>
+      <details class="feed-toc-mobile">
+        <summary>Innhold</summary>
+        <ol>
+{toc_html}
+        </ol>
+      </details>
+    </div>
+
+{body_html}
+  </div>
+
+  <aside class="lesson-aside feed-toc" aria-label="Innhold">
+    <span class="label">Innhold</span>
+    <ol>
+{toc_html}
+    </ol>
+  </aside>
+
+</main>
+
+{SITE_FOOTER}
+
+<script src="app.js"></script>
+<script src="feedback.js"></script>
+</body>
+</html>
+'''
+
 # ----------------------------------------------------------------------
 # Update MD source (apply text changes, fix typos)
 # ----------------------------------------------------------------------
@@ -932,6 +1040,7 @@ def update_md_source(md_text: str) -> str:
 if __name__ == '__main__':
     md_files = sorted(SRC.glob('dag-*.md'), key=lambda p: int(re.search(r'\d+', p.name).group()))
 
+    feed_lessons = []
     for mdp in md_files:
         day_num = int(re.search(r'\d+', mdp.name).group())
         print(f"\n=== Behandler dag-{day_num} ===")
@@ -951,5 +1060,8 @@ if __name__ == '__main__':
         out_path = DST / f'dag-{day_num}.html'
         out_path.write_text(html_out, encoding='utf-8')
         print(f"  Skrev {out_path.name}")
+        feed_lessons.append((day_num, fm, body))
 
+    (DST / 'hele-kurset.html').write_text(render_feed(feed_lessons), encoding='utf-8')
+    print("  Skrev hele-kurset.html")
     print("\nFerdig.")
