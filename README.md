@@ -1,6 +1,6 @@
 # Reklameforståelse — et krasjkurs fra Morgenstern
 
-Et krasjkurs i reklameforståelse over 13 økter, bygget på Les Binet & Peter Field, Byron Sharp, Rory Sutherland og Robert Cialdini.
+Et krasjkurs i reklameforståelse over 14 økter, bygget på Les Binet & Peter Field, Byron Sharp, Rory Sutherland og Robert Cialdini.
 
 Utviklet av Anders Muurman Holm, kreativ leder i Morgenstern.
 
@@ -10,7 +10,7 @@ Statisk HTML/CSS/JS. Ingen runtime-avhengigheter. Innholdet redigeres i Notion. 
 
 ```
 kurs-innhold/      ← generert fra Notion (ikke rediger direkte)
-  dag-1.md … dag-13.md
+  dag-1.md … dag-14.md
   kurs-tekster.md  ← chrome-tekster (footer, login, navigasjon m.m.)
 
 notion_sync.py     ← Notion → MD (pull) / MD → Notion (import, engangs)
@@ -19,7 +19,7 @@ requirements.txt   ← pyyaml
 .github/workflows/notion-sync.yml  ← synk hvert kvarter + manuell knapp
 
 Resten ved repo-rot:
-  dag-1.html … dag-13.html  ← generert (ikke rediger manuelt)
+  dag-1.html … dag-14.html  ← generert (ikke rediger manuelt)
   index.html  oppslag.html  login.html  ← chrome-sider, redigeres direkte
   kalkulator-kjopsoyeblikk.html  ← drop-in modul
   styles.css  app.js  feedback.js
@@ -29,7 +29,7 @@ Resten ved repo-rot:
 
 ## Slik redigerer du innhold
 
-### Kapittel-innhold (Økt 1–13) — i Notion
+### Kapittel-innhold (Økt 1–14) — i Notion
 
 Rediger i Notion: siden **«Reklameforståelse – kursinnhold»** → databasen **Økter**. Én side per økt.
 
@@ -37,6 +37,8 @@ Rediger i Notion: siden **«Reklameforståelse – kursinnhold»** → databasen
 - Action-en *Synk fra Notion* kjører hvert kvarter, eller manuelt: *Actions → Synk fra Notion → Run workflow*. Den skriver `kurs-innhold/dag-N.md`, rendrer HTML og pusher. Vercel deployer.
 - Forrige/neste-lenker regnes ut fra økt-nummer.
 - `kurs-innhold/*.md` og `dag-N.html` overskrives ved synk — ikke rediger dem direkte.
+
+Ny versjon av hele kurset: legg filene i `kurs-innhold/ny/` og push. Action-en erstatter da innholdet i Notion med filene, sletter mappa og rendrer siden på nytt.
 
 Oppsett: repo-secret `NOTION_TOKEN` (Notion internal integration med tilgang til kursiden). Database-ID kan overstyres med repo-variabelen `NOTION_DATABASE_ID`.
 

@@ -13,6 +13,9 @@ on:
         default: false
   repository_dispatch:
     types: [notion-publish]   # for evt. webhook/knapp senere
+  push:
+    branches: [main]
+    paths: ['kurs-innhold/ny/**']   # ny versjon av kurset: erstatt innholdet i Notion
 
 permissions:
   contents: write
@@ -39,6 +42,15 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
         run: python notion_sync.py bootstrap 3f0630f7034d80358354e4342a3d5155
+
+      - name: Erstatt innhold i Notion med kurs-innhold/ny
+        if: ${{ github.event_name == 'push' && hashFiles('kurs-innhold/ny/dag-*.md') != '' }}
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
+        run: |
+          python notion_sync.py replace
+          git rm -r -q kurs-innhold/ny
 
       - name: Hent innhold fra Notion
         env:

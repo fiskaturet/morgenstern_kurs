@@ -6,6 +6,7 @@ Notion <-> kurs-innhold/*.md
   python notion_sync.py setup ID  # lag «Økter»-databasen + redigeringsguide under Notion-siden ID
   python notion_sync.py import    # kurs-innhold/dag-N.md -> Notion (engangs-migrering)
   python notion_sync.py bootstrap ID  # setup (om nødvendig) + import
+  python notion_sync.py replace   # kurs-innhold/ny/dag-N.md -> Notion (erstatter innholdet i øktene)
 
 Miljøvariabler:
   NOTION_TOKEN        Notion internal integration secret (databasen må være delt med integrasjonen)
@@ -43,9 +44,10 @@ COMMENT_ICON = '💬'
 DIRECTIVE_ICON = '🧩'
 DB_TITLE = 'Økter'
 PARENT_PAGE = '3f0630f7034d80358354e4342a3d5155'  # «Reklameforståelse – kursinnhold» (Anders Holms område)
-PARTS = ['Del 1 · Fundamentet', 'Del 2 · Les Binet & Peter Field · The Long and the Short of It',
-         'Del 3 · Byron Sharp · How Brands Grow', 'Del 4 · Rory Sutherland · Alchemy',
-         'Del 5 · Robert Cialdini · Influence', 'Del 6 · Syntese']
+PARTS = ['Del 1 · Fundamentet', 'Del 2 · Les Binet & Peter Field',
+         'Del 3 · Byron Sharp og Jenni Romaniuk', 'Del 4 · Rory Sutherland',
+         'Del 5 · Robert Cialdini', 'Del 6 · Fra teori til effekt']
+NEW_SRC = SRC / 'ny'
 
 
 # ----------------------------------------------------------------------
@@ -302,6 +304,35 @@ def cmd_import():
         print(f'Importerte økt {day}: {fm["title"]} ({len(blocks)} blokker)')
 
 
+def cmd_replace():
+    """Erstatter egenskaper og innhold i Notion med filene i kurs-innhold/ny/. Lager manglende økter."""
+    files = sorted(NEW_SRC.glob('dag-*.md'), key=lambda p: int(re.search(r'\d+', p.name).group()))
+    if not files:
+        print('Ingen filer i kurs-innhold/ny – ingenting å erstatte')
+        return
+    existing = {int(p['properties']['Økt']['number']): p['id']
+                for p in query_all() if p['properties']['Økt']['number'] is not None}
+    for path in files:
+        fm, body = parse_md(path)
+        day = int(fm['day'])
+        blocks = md_body_to_blocks(body)
+        props = props_from_fm(fm)
+        if day in existing:
+            pid = existing[day]
+            api('PATCH', f'/pages/{pid}', {'properties': props})
+            for b in children(pid):
+                api('DELETE', f"/blocks/{b['id']}")
+            for k in range(0, len(blocks), 100):
+                api('PATCH', f'/blocks/{pid}/children', {'children': blocks[k:k + 100]})
+            print(f'Erstattet økt {day}: {fm["title"]} ({len(blocks)} blokker)')
+        else:
+            page = api('POST', '/pages', {'parent': {'database_id': db_id()},
+                                          'properties': props, 'children': blocks[:100]})
+            for k in range(100, len(blocks), 100):
+                api('PATCH', f"/blocks/{page['id']}/children", {'children': blocks[k:k + 100]})
+            print(f'Opprettet økt {day}: {fm["title"]} ({len(blocks)} blokker)')
+
+
 GUIDE_MD = """**Slik redigerer du kurset.** Hver økt er en side i databasen «Økter». Bare sider med status **Publisert** går ut på nettsiden. Nettsiden oppdateres automatisk innen et kvarter.
 ## Faste seksjoner på hver økt
 - **Lesning**: hovedteksten. Bruk overskrift 3 for mellomtitler.
@@ -503,4 +534,4 @@ if __name__ == '__main__':
     elif cmd == 'bootstrap':
         cmd_bootstrap(sys.argv[2])
     else:
-        {'pull': cmd_pull, 'import': cmd_import}[cmd]()
+        {'pull': cmd_pull, 'import': cmd_import, 'replace': cmd_replace}[cmd]()

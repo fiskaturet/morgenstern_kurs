@@ -9,7 +9,7 @@
   const STORAGE_KEY = userEmail
     ? 'reklameforstaelse.v1.' + userEmail
     : 'reklameforstaelse.v1';
-  const TOTAL_DAYS = 13;
+  const TOTAL_DAYS = 14;
 
   function readState() {
     try {

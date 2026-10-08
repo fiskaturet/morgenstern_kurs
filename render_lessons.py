@@ -86,8 +86,8 @@ def apply_text_changes(text: str, *, is_md_prose: bool = True) -> str:
     # "Vi har vært gjennom 12 dager med teori" → "Vi har vært gjennom 12 økter med teori"
     s = re.sub(r'\b(\d+) dager med teori\b', r'\1 økter med teori', s)
 
-    # "13-dagers krasjkurs" → "krasjkurs over 13 økter"
-    s = re.sub(r'\b13-dagers krasjkurs\b', 'krasjkurs over 13 økter', s)
+    # "13-dagers krasjkurs" → "krasjkurs over 14 økter"
+    s = re.sub(r'\b13-dagers krasjkurs\b', 'krasjkurs over 14 økter', s)
 
     # "Marker dagen som fullført" → "Marker økten som fullført" (lesson-footer button)
     s = re.sub(r'\bMarker dagen som fullført\b', 'Marker økten som fullført', s)
@@ -411,7 +411,7 @@ def render_paragraphs_with_specials(body: str) -> str:
             # Render innholdet som paragrafer
             inner_html = render_inner_paragraphs(inner_lines)
             out.append('      <div class="anders-note">')
-            out.append('        <span class="label">Anders\' kommentar</span>')
+            out.append('        <span class="label">Kommentar fra Anders</span>')
             out.append(inner_html)
             out.append('      </div>')
             continue
@@ -625,12 +625,8 @@ KALKULATOR_HTML = _load_kalkulator()
 # ----------------------------------------------------------------------
 def render_lesson(day_num: int, fm: dict, body: str) -> str:
     title = fm.get('title', '').strip().strip('"').strip("«»")
-    duration = fm.get('duration', '15 minutter').strip().strip('"')
-    # Force "15 minutter"
-    if '30 minutter' in duration:
-        duration = '15 minutter'
-    if '15' not in duration and 'minutter' in duration:
-        duration = '15 minutter'
+    duration = (fm.get('duration') or '').strip().strip('"')
+    duration_html = f'      <span>{html_module.escape(duration)}</span>' if duration else ''
 
     part_label = fm.get('part', '').strip().strip('"').strip("«»")
 
@@ -729,7 +725,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
         quiz_items_str = '\n\n'.join(quiz_items_html)
         quiz_html = f'''
     <section class="section quiz" data-quiz>
-      <h2>Prøve <span class="badge">4 spørsmål</span></h2>
+      <h2>Prøve <span class="badge">{len(sections['quiz_items'])} spørsmål</span></h2>
       <p>{quiz_intro}</p>
 
       <ol class="quiz-list">
@@ -803,14 +799,14 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
   <meta property="og:locale" content="nb_NO" />
   <meta property="og:site_name" content="Reklameforståelse — Morgenstern" />
   <meta property="og:title" content="Økt {day_num} — {html_module.escape(title)} · Reklameforståelse" />
-  <meta property="og:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
+  <meta property="og:description" content="Et krasjkurs i reklameforståelse over 14 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
   <meta property="og:url" content="https://reklameforstaelse.morgenstern.no/dag-{day_num}" />
   <meta property="og:image" content="https://reklameforstaelse.morgenstern.no/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Økt {day_num} — {html_module.escape(title)} · Reklameforståelse" />
-  <meta name="twitter:description" content="Et krasjkurs i reklameforståelse over 13 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
+  <meta name="twitter:description" content="Et krasjkurs i reklameforståelse over 14 økter — bygget på Binet &amp; Field, Sharp, Sutherland og Cialdini. Fra Morgenstern." />
   <meta name="twitter:image" content="https://reklameforstaelse.morgenstern.no/og-image.jpg" />
 </head>
 <body data-part="{data_part}">
@@ -823,7 +819,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
 
     <div class="running-head">
       <span>{html_module.escape(part_label)}</span>
-      <span>{html_module.escape(duration)}</span>
+{duration_html}
     </div>
 
     <header>
@@ -864,7 +860,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
 
     <div class="progress-strip">
       <span class="progress-strip-label">Din progresjon</span>
-      <div class="progress-bar" aria-label="13 økter, nåværende økt {day_num}"></div>
+      <div class="progress-bar" aria-label="14 økter, nåværende økt {day_num}"></div>
     </div>
 
 {aside_html}
