@@ -101,7 +101,7 @@
       <p>Et merke som maksimerer ROI, ender derfor ofte opp med å bruke for lite. Binet anbefaler heller å se på hvor mye ekstra fortjeneste reklamen skaper totalt. I rapporten <em>Go Big or Go Home</em> fra 2026 går han og Will Davis enda lenger og sier at bransjen har begynt å tenke for smått.</p>
 <section class="section vk" data-vk="roi" aria-label="ROI-fellen">
   <h2>ROI-fellen <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Flytt på budsjettet og se hva som skjer med avkastningen per krone og med fortjenesten totalt.</p>
+  <p class="vk-intro">Dra i budsjettet. Følg med på ROI-en, og på pengene du faktisk sitter igjen med.</p>
 
   <div class="vk-row">
     <label>Mediebudsjett</label>
@@ -112,14 +112,14 @@
   <div class="vk-result" aria-live="polite">
     <svg class="vk-svg" viewBox="0 0 600 240" role="img" aria-label="ROI og fortjeneste ved ulike budsjetter" data-svg></svg>
     <ul class="vk-legend">
-      <li><span class="vk-swatch"></span>Ekstra fortjeneste, på kort og lang sikt</li>
-      <li><span class="vk-swatch soft"></span>ROI, avkastning per krone</li>
+      <li><span class="vk-swatch"></span>Fortjeneste fra reklamen</li>
+      <li><span class="vk-swatch soft"></span>ROI</li>
     </ul>
     <p class="vk-text" data-out="line"></p>
     <p class="vk-muted" data-out="rest"></p>
   </div>
 
-  <p class="vk-footnote">Eksempeltall. Fortjenesten tar med både den kortsiktige og den langsiktige effekten av reklamen. Kortsiktige målinger fanger bare opp en del av den, og peker derfor mot et lavere budsjett enn det som lønner seg. Formen på kurvene bygger på Les Binets argument om at ROI nesten alltid er høyest ved små budsjetter.</p>
+  <p class="vk-footnote">Tallene er et eksempel. Fortjenesten tar med både det reklamen gir med en gang og det den gir på sikt. Måler du bare det som skjer på kort sikt, ser du bare en del av effekten. Da ser det ut som om et lavere budsjett lønner seg best. Grafen bygger på Les Binets poeng om at ROI nesten alltid er høyest når budsjettet er lite.</p>
 </section>
 
 <script>
@@ -150,27 +150,27 @@
       svg.innerHTML =
         '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + zero + '" y2="' + zero + '" style="stroke:var(--rule)"/>' +
         '<line x1="' + x(BEST) + '" x2="' + x(BEST) + '" y1="' + T + '" y2="' + (H - B) + '" style="stroke:var(--text-subtle)" stroke-dasharray="3 4"/>' +
-        '<text x="' + (x(BEST) + 6) + '" y="' + (H - B - 6) + '">Mest fortjeneste</text>' +
+        '<text x="' + (x(BEST) + 6) + '" y="' + (H - B - 6) + '">Toppen</text>' +
         '<path d="' + path(roi, yRoi) + '" fill="none" style="stroke:var(--part-color);opacity:.35" stroke-width="3"/>' +
         '<path d="' + path(net, yNet) + '" fill="none" style="stroke:var(--part-color)" stroke-width="3"/>' +
         '<circle cx="' + x(b) + '" cy="' + yNet(net(b)) + '" r="6" style="fill:var(--part-color)"/>' +
         '<circle cx="' + x(b) + '" cy="' + yRoi(roi(b)) + '" r="6" style="fill:var(--part-color);opacity:.45"/>' +
         '<text x="' + L + '" y="' + (H - 8) + '">0</text>' +
-        '<text x="' + (W - R) + '" y="' + (H - 8) + '" text-anchor="end">12 mill. i budsjett</text>';
+        '<text x="' + (W - R) + '" y="' + (H - 8) + '" text-anchor="end">12 mill.</text>';
     }
     function update() {
       var b = parseFloat(input.value);
       root.querySelector('[data-out="budget"]').textContent = f1(b) + ' mill.';
       draw(b);
-      root.querySelector('[data-out="line"]').innerHTML =
-        'Med ' + f1(b) + (b === 1 ? ' million' : ' millioner') + ' er ROI <strong>' + Math.round(roi(b)) + ' %</strong>, ' + (net(b) >= 0
-          ? 'og reklamen gir <strong>' + f1(net(b)) + ' millioner</strong> i ekstra fortjeneste.'
-          : 'og reklamen taper <strong>' + f1(-net(b)) + ' millioner</strong>.');
+      var mill = f1(b) + (b === 1 ? ' million' : ' millioner');
+      root.querySelector('[data-out="line"]').innerHTML = net(b) >= 0
+        ? 'Med ' + mill + ' får du en ROI på <strong>' + Math.round(roi(b)) + ' %</strong> og <strong>' + f1(net(b)) + ' millioner</strong> i fortjeneste.'
+        : 'Med ' + mill + ' får du en ROI på <strong>' + Math.round(roi(b)) + ' %</strong> og taper <strong>' + f1(-net(b)) + ' millioner</strong>.';
       root.querySelector('[data-out="rest"]').textContent = b < BEST - 0.4
-        ? 'ROI ser fin ut, men merket legger penger igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner. Binet mener de fleste merker ligger her, på venstre side av toppen.'
+        ? 'Den ROI-en ser pen ut i en rapport. Men du lar penger ligge igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner. Ifølge Binet er det her de fleste merker havner. De bruker for lite.'
         : b > BEST + 0.4
-          ? 'Her gir hver ekstra krone litt mindre enn den koster. Taket finnes, men det ligger langt unna der de fleste merker er.'
-          : 'Her er fortjenesten størst. ROI er lavere enn ved små budsjetter, og det er helt i orden.';
+          ? 'Nå gir hver ekstra krone litt mindre tilbake enn den koster. Det finnes altså et tak. Men ifølge Binet er det få merker som kommer i nærheten av det.'
+          : 'Her sitter du igjen med mest penger. ROI-en er lavere enn ved små budsjetter, og det er helt greit.';
     }
     input.addEventListener('input', update);
     update();
