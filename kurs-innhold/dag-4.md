@@ -1,7 +1,7 @@
 ---
 day: 4
 part: "Del 2 · Les Binet & Peter Field"
-duration: "15 minutter"
+duration: ""
 title: "Følelser slår argumenter"
 principle: >
   Følelser bygger merkevarer.

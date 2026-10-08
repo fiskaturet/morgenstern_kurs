@@ -1,7 +1,7 @@
 ---
 day: 11
 part: "Del 5 · Robert Cialdini"
-duration: "15 minutter"
+duration: ""
 title: "Overtalelse"
 principle: >
   Syv snarveier hjernen bruker for å slippe å tenke.

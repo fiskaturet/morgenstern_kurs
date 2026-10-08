@@ -1,7 +1,7 @@
 ---
 day: 5
 part: "Del 3 · Byron Sharp og Jenni Romaniuk"
-duration: "15 minutter"
+duration: ""
 title: "Mental tilgjengelighet"
 principle: >
   Merket du husker først, blir valgt oftest.

@@ -1,7 +1,7 @@
 ---
 day: 10
 part: "Del 4 · Rory Sutherland"
-duration: "15 minutter"
+duration: ""
 title: "Kostbare signaler"
 principle: >
   Det reklamen koster, kommuniserer.

@@ -1,7 +1,7 @@
 ---
 day: 3
 part: "Del 2 · Les Binet & Peter Field"
-duration: "15 minutter"
+duration: ""
 title: "60/40 og ESOV"
 principle: >
   Rundt 60 prosent av budsjettet til merkevarebygging og 40 prosent til aktivering. Og mer reklame enn markedsandelen tilsier, hvis du vil vokse.

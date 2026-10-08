@@ -1,7 +1,7 @@
 ---
 day: 7
 part: "Del 3 · Byron Sharp og Jenni Romaniuk"
-duration: "15 minutter"
+duration: ""
 title: "Flere kunder slår mer lojale kunder"
 principle: >
   Merker vokser ved å nå flere kunder. Lojalitet følger størrelse.

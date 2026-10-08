@@ -1,7 +1,7 @@
 ---
 day: 9
 part: "Del 4 · Rory Sutherland"
-duration: "15 minutter"
+duration: ""
 title: "Psyko-logikk"
 principle: >
   Den beste løsningen er ofte den som ser ulogisk ut.

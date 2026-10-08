@@ -1,7 +1,7 @@
 ---
 day: 1
 part: "Del 1 · Fundamentet"
-duration: "15 minutter"
+duration: ""
 title: "Et felles språk"
 principle: >
   Vi trenger et felles språk.

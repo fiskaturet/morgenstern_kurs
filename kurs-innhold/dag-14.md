@@ -1,7 +1,7 @@
 ---
 day: 14
 part: "Del 6 · Fra teori til effekt"
-duration: "15 minutter"
+duration: ""
 title: "Et rammeverk for idévurdering"
 principle: >
   En god idé tåler alt.

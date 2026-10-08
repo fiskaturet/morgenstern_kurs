@@ -479,7 +479,7 @@ def yaml_str(v):
 
 def build_frontmatter(meta, prev, nxt):
     lines = ['---', f"day: {meta['day']}", f"part: {yaml_str(meta['part'])}",
-             f"duration: {yaml_str(meta['duration'] or '15 minutter')}", f"title: {yaml_str(meta['title'])}",
+             f"duration: {yaml_str(meta['duration'] or '')}", f"title: {yaml_str(meta['title'])}",
              'principle: >', '  ' + meta['principle'].replace('\n', ' '),
              'primary_source:', f"  title: {yaml_str(meta['ps_title'])}", f"  meta: {yaml_str(meta['ps_meta'])}"]
     if meta['related']:
