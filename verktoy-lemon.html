@@ -1,6 +1,6 @@
 <section class="section vk" data-vk="lemon" aria-label="Lemon-sjekken">
   <h2>Lemon-sjekken <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Tenk på en reklamefilm, gjerne din egen. Kryss av for trekkene den har. Trekkene er sortert etter hva Orlando Wood fant ga sterkere og svakere respons.</p>
+  <p class="vk-intro">Tenk på en reklamefilm, gjerne en dere har laget selv. Kryss av for det filmen har. Trekkene er sortert etter det Orlando Wood fant ga sterkest og svakest respons.</p>
 
   <div class="vk-checks">
     <div>
@@ -28,7 +28,7 @@
     <p class="vk-text" data-out="line"></p>
   </div>
 
-  <p class="vk-footnote">Bygger på Orlando Wood, Lemon (2019). Sjekken teller trekk og sier ingenting om kvaliteten på håndverket. Bruk den til å starte en samtale.</p>
+  <p class="vk-footnote">Bygger på Orlando Wood, Lemon (2019). Sjekken teller trekk. Den sier ingenting om håndverket, så bruk den til å starte en samtale.</p>
 </section>
 
 <script>
@@ -49,10 +49,10 @@
         '<text x="30" y="60">Flat og forklarende</text>' +
         '<text x="570" y="60" text-anchor="end">Levende og menneskelig</text>';
       var line;
-      if (good + bad === 0) line = 'Kryss av for trekkene filmen har.';
-      else if (score >= 3) line = 'Filmen har <strong>' + good + '</strong> trekk som gir sterkere respons. Den ligger godt an til å bli lagt merke til og husket.';
-      else if (score <= -2) line = 'Filmen har <strong>' + bad + '</strong> trekk som gir svakere respons. Den risikerer å bli oversett. Prøv å bytte noe av forklaringen med mennesker og handling.';
-      else line = 'Filmen er blandet, med <strong>' + good + '</strong> sterke og <strong>' + bad + '</strong> svake trekk. Se om ett av de svake kan byttes ut.';
+      if (good + bad === 0) line = 'Kryss av for det filmen har.';
+      else if (score >= 3) line = 'Filmen har <strong>' + good + '</strong> trekk som gir sterkere respons. Den har gode sjanser til å bli lagt merke til og husket.';
+      else if (score <= -2) line = 'Filmen har <strong>' + bad + '</strong> trekk som gir svakere respons. Den risikerer å gå rett forbi folk. Prøv å bytte ut noe av forklaringen med mennesker og handling.';
+      else line = 'Filmen er litt av begge deler, med <strong>' + good + '</strong> sterke og <strong>' + bad + '</strong> svake trekk. Se om du kan bytte ut ett av de svake.';
       root.querySelector('[data-out="line"]').innerHTML = line;
     }
     boxes.forEach(function (b) { b.addEventListener('change', update); });

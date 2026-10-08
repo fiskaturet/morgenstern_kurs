@@ -1,6 +1,6 @@
 <section class="section vk" data-vk="esov" aria-label="ESOV-kalkulator">
   <h2>ESOV-kalkulator <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Legg inn markedsandelen og andelen av all reklame i kategorien. Da ser du om merket ligger an til å vokse eller krympe.</p>
+  <p class="vk-intro">Legg inn markedsandelen din og hvor stor del av all reklame i kategorien som er din. Så ser du om merket er på vei opp eller ned.</p>
 
   <div class="vk-row">
     <label>Markedsandel</label>
@@ -8,19 +8,19 @@
     <output class="vk-val" data-out="som">12 %</output>
   </div>
   <div class="vk-row">
-    <label>Andel av reklamen i kategorien</label>
+    <label>Din andel av reklamen</label>
     <input type="range" min="0" max="80" step="1" value="8" data-in="sov" aria-label="Andel av reklamen i kategorien i prosent" />
     <output class="vk-val" data-out="sov">8 %</output>
   </div>
 
   <div class="vk-result" aria-live="polite">
     <div class="vk-big" data-out="esov">−4</div>
-    <p class="vk-big-label">poeng ESOV, altså reklameandel minus markedsandel.</p>
+    <p class="vk-big-label">poeng ESOV. Det er reklameandelen minus markedsandelen.</p>
     <p class="vk-text" data-out="line"></p>
     <p class="vk-muted" data-out="rest"></p>
   </div>
 
-  <p class="vk-footnote">Tommelfingerregelen fra IPA-dataene er omtrent 0,5 prosentpoeng endring i markedsandel per år for hvert tiende poeng ESOV. Det er et snitt over mange kategorier, og kreativ kvalitet kan flytte tallet mye begge veier.</p>
+  <p class="vk-footnote">Tommelfingerregelen fra IPA-dataene er rundt 0,5 prosentpoeng i året for hvert tiende poeng ESOV. Det er et snitt. Sterk kreativitet kan flytte tallet mye opp, og svak kreativitet like mye ned.</p>
 </section>
 
 <script>
@@ -37,13 +37,13 @@
       root.querySelector('[data-out="sov"]').textContent = v + ' %';
       root.querySelector('[data-out="esov"]').textContent = (e > 0 ? '+' : e < 0 ? '−' : '') + Math.abs(e);
       root.querySelector('[data-out="line"]').innerHTML = e === 0
-        ? 'Reklameandelen matcher markedsandelen. Da ligger merket an til å holde stillingen.'
-        : 'Forventet endring: <strong>' + (yr > 0 ? '+' : '−') + f1(Math.abs(yr)) + ' prosentpoeng</strong> i året. Om tre år kan markedsandelen være rundt <strong>' + f1(three) + ' %</strong>.';
+        ? 'Du roper akkurat så høyt som størrelsen tilsier. Da holder merket stillingen.'
+        : 'Det gir rundt <strong>' + (yr > 0 ? '+' : '−') + f1(Math.abs(yr)) + ' prosentpoeng</strong> i året. Om tre år kan markedsandelen ligge på rundt <strong>' + f1(three) + ' %</strong>.';
       root.querySelector('[data-out="rest"]').textContent = e < 0
-        ? 'Merket bruker mindre på reklame enn størrelsen tilsier. Over tid er det en invitasjon til konkurrentene.'
+        ? 'Du roper lavere enn størrelsen tilsier. Over tid er det en åpen invitasjon til konkurrentene.'
         : e > 0
-          ? 'Merket roper høyere enn størrelsen tilsier. Det er slik merker vokser.'
-          : 'For å vokse må reklameandelen ligge over markedsandelen.';
+          ? 'Du roper høyere enn størrelsen tilsier. Det er slik merker vokser.'
+          : 'Vil du vokse, må reklameandelen opp over markedsandelen.';
     }
     som.addEventListener('input', update); sov.addEventListener('input', update);
     update();

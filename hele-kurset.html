@@ -403,7 +403,7 @@
       <p>B2B overrasker mange. I <em>The B2B Effectiveness Code</em> fra 2019 fant Binet og Field at den beste fordelingen for B2B lå rundt 46 prosent merkevarebygging og 54 prosent aktivering. Det er litt mindre merkevarebygging enn 60/40. De fleste B2B-merker bruker likevel langt mindre enn 46 prosent i dag, så rådet blir som regel å bruke mer på merket.</p>
 <section class="section vk" data-vk="budsjett" aria-label="Budsjettfordeler">
   <h2>Budsjettfordeler <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Velg type merke, legg inn budsjettet og hvor mye som går til merkevarebygging i dag. Da ser du hvor langt unna snittet fra Binet og Field du ligger.</p>
+  <p class="vk-intro">Velg type merke. Legg inn budsjettet og hvor mye av det som går til merkevarebygging i dag. Så ser du hvor langt du er fra snittet til Binet og Field.</p>
 
   <div class="vk-choices" role="radiogroup" aria-label="Type merke">
     <button type="button" class="vk-chip" data-brand="60" role="radio" aria-checked="true">Forbrukermerke<small>60/40</small></button>
@@ -411,12 +411,12 @@
   </div>
 
   <div class="vk-row">
-    <label>Årsbudsjett for reklame</label>
+    <label>Reklamebudsjett i året</label>
     <input type="range" min="0.5" max="50" step="0.5" value="5" data-in="total" aria-label="Årsbudsjett i millioner kroner" />
     <output class="vk-val" data-out="total">5 mill.</output>
   </div>
   <div class="vk-row">
-    <label>Andel til merkevarebygging i dag</label>
+    <label>Til merkevarebygging i dag</label>
     <input type="range" min="0" max="100" step="5" value="30" data-in="now" aria-label="Andel til merkevarebygging i dag" />
     <output class="vk-val" data-out="now">30 %</output>
   </div>
@@ -424,11 +424,11 @@
   <div class="vk-result" aria-live="polite">
     <div class="vk-bars">
       <div>
-        <div class="vk-bar-label"><span>I dag</span><span data-out="nowtxt"></span></div>
+        <div class="vk-bar-label"><span>Slik er det i dag</span><span data-out="nowtxt"></span></div>
         <div class="vk-bar"><span class="a" data-bar="now-a"></span><span class="b" data-bar="now-b"></span></div>
       </div>
       <div>
-        <div class="vk-bar-label"><span>Snittet fra IPA-dataene</span><span data-out="rectxt"></span></div>
+        <div class="vk-bar-label"><span>Snittet i IPA-dataene</span><span data-out="rectxt"></span></div>
         <div class="vk-bar"><span class="a" data-bar="rec-a"></span><span class="b" data-bar="rec-b"></span></div>
       </div>
     </div>
@@ -439,7 +439,7 @@
     <p class="vk-text" data-out="line"></p>
   </div>
 
-  <p class="vk-footnote">60/40 og 46/54 er snitt over mange kampanjer i IPA-databanken. De gjelder fordelingen over et år, ikke hver enkelt kampanje. Kategorien din kan ha god grunn til å ligge et annet sted.</p>
+  <p class="vk-footnote">60/40 og 46/54 er snitt fra mange kampanjer i IPA-databanken. Tallene gjelder fordelingen over et helt år. Hver enkelt kampanje trenger ikke fordele seg slik. Kategorien din kan også ha gode grunner til å ligge et annet sted.</p>
 </section>
 
 <script>
@@ -461,10 +461,10 @@
       root.querySelector('[data-out="rectxt"]').textContent = f1(t * rec / 100) + ' mill. til merkevarebygging';
       var diff = t * (rec - n) / 100;
       root.querySelector('[data-out="line"]').innerHTML = Math.abs(rec - n) < 5
-        ? 'Fordelingen ligger nær snittet. Spørsmålet nå er om kategorien din tilsier noe annet.'
+        ? 'Du ligger nær snittet. Da er spørsmålet om kategorien din tilsier noe annet.'
         : diff > 0
-          ? 'For å nå snittet må rundt <strong>' + f1(diff) + ' millioner</strong> flyttes fra aktivering til merkevarebygging.'
-          : 'Du bruker rundt <strong>' + f1(-diff) + ' millioner</strong> mer på merkevarebygging enn snittet. Sjekk at aktiveringen får nok til å høste det merket bygger.';
+          ? 'Skal du nå snittet, må rundt <strong>' + f1(diff) + ' millioner</strong> flyttes fra aktivering til merkevarebygging.'
+          : 'Du bruker rundt <strong>' + f1(-diff) + ' millioner</strong> mer på merkevarebygging enn snittet. Sjekk at aktiveringen får nok til å høste det merket har bygget.';
     }
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
@@ -485,7 +485,7 @@
       <p>Har du 12 prosent av markedet og 8 prosent av reklamen i kategorien, kan du forvente å krympe.</p>
 <section class="section vk" data-vk="esov" aria-label="ESOV-kalkulator">
   <h2>ESOV-kalkulator <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Legg inn markedsandelen og andelen av all reklame i kategorien. Da ser du om merket ligger an til å vokse eller krympe.</p>
+  <p class="vk-intro">Legg inn markedsandelen din og hvor stor del av all reklame i kategorien som er din. Så ser du om merket er på vei opp eller ned.</p>
 
   <div class="vk-row">
     <label>Markedsandel</label>
@@ -493,19 +493,19 @@
     <output class="vk-val" data-out="som">12 %</output>
   </div>
   <div class="vk-row">
-    <label>Andel av reklamen i kategorien</label>
+    <label>Din andel av reklamen</label>
     <input type="range" min="0" max="80" step="1" value="8" data-in="sov" aria-label="Andel av reklamen i kategorien i prosent" />
     <output class="vk-val" data-out="sov">8 %</output>
   </div>
 
   <div class="vk-result" aria-live="polite">
     <div class="vk-big" data-out="esov">−4</div>
-    <p class="vk-big-label">poeng ESOV, altså reklameandel minus markedsandel.</p>
+    <p class="vk-big-label">poeng ESOV. Det er reklameandelen minus markedsandelen.</p>
     <p class="vk-text" data-out="line"></p>
     <p class="vk-muted" data-out="rest"></p>
   </div>
 
-  <p class="vk-footnote">Tommelfingerregelen fra IPA-dataene er omtrent 0,5 prosentpoeng endring i markedsandel per år for hvert tiende poeng ESOV. Det er et snitt over mange kategorier, og kreativ kvalitet kan flytte tallet mye begge veier.</p>
+  <p class="vk-footnote">Tommelfingerregelen fra IPA-dataene er rundt 0,5 prosentpoeng i året for hvert tiende poeng ESOV. Det er et snitt. Sterk kreativitet kan flytte tallet mye opp, og svak kreativitet like mye ned.</p>
 </section>
 
 <script>
@@ -522,13 +522,13 @@
       root.querySelector('[data-out="sov"]').textContent = v + ' %';
       root.querySelector('[data-out="esov"]').textContent = (e > 0 ? '+' : e < 0 ? '−' : '') + Math.abs(e);
       root.querySelector('[data-out="line"]').innerHTML = e === 0
-        ? 'Reklameandelen matcher markedsandelen. Da ligger merket an til å holde stillingen.'
-        : 'Forventet endring: <strong>' + (yr > 0 ? '+' : '−') + f1(Math.abs(yr)) + ' prosentpoeng</strong> i året. Om tre år kan markedsandelen være rundt <strong>' + f1(three) + ' %</strong>.';
+        ? 'Du roper akkurat så høyt som størrelsen tilsier. Da holder merket stillingen.'
+        : 'Det gir rundt <strong>' + (yr > 0 ? '+' : '−') + f1(Math.abs(yr)) + ' prosentpoeng</strong> i året. Om tre år kan markedsandelen ligge på rundt <strong>' + f1(three) + ' %</strong>.';
       root.querySelector('[data-out="rest"]').textContent = e < 0
-        ? 'Merket bruker mindre på reklame enn størrelsen tilsier. Over tid er det en invitasjon til konkurrentene.'
+        ? 'Du roper lavere enn størrelsen tilsier. Over tid er det en åpen invitasjon til konkurrentene.'
         : e > 0
-          ? 'Merket roper høyere enn størrelsen tilsier. Det er slik merker vokser.'
-          : 'For å vokse må reklameandelen ligge over markedsandelen.';
+          ? 'Du roper høyere enn størrelsen tilsier. Det er slik merker vokser.'
+          : 'Vil du vokse, må reklameandelen opp over markedsandelen.';
     }
     som.addEventListener('input', update); sov.addEventListener('input', update);
     update();
@@ -586,7 +586,7 @@
       <p>Wood fant at reklamen har beveget seg bort fra karakterer og historier siden midten av 2000-tallet. I samme periode falt effekten. Den typiske «emosjonelle» filmen har stemning, men mangler ofte både karakterer, dialog og historie.</p>
 <section class="section vk" data-vk="lemon" aria-label="Lemon-sjekken">
   <h2>Lemon-sjekken <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Tenk på en reklamefilm, gjerne din egen. Kryss av for trekkene den har. Trekkene er sortert etter hva Orlando Wood fant ga sterkere og svakere respons.</p>
+  <p class="vk-intro">Tenk på en reklamefilm, gjerne en dere har laget selv. Kryss av for det filmen har. Trekkene er sortert etter det Orlando Wood fant ga sterkest og svakest respons.</p>
 
   <div class="vk-checks">
     <div>
@@ -614,7 +614,7 @@
     <p class="vk-text" data-out="line"></p>
   </div>
 
-  <p class="vk-footnote">Bygger på Orlando Wood, Lemon (2019). Sjekken teller trekk og sier ingenting om kvaliteten på håndverket. Bruk den til å starte en samtale.</p>
+  <p class="vk-footnote">Bygger på Orlando Wood, Lemon (2019). Sjekken teller trekk. Den sier ingenting om håndverket, så bruk den til å starte en samtale.</p>
 </section>
 
 <script>
@@ -635,10 +635,10 @@
         '<text x="30" y="60">Flat og forklarende</text>' +
         '<text x="570" y="60" text-anchor="end">Levende og menneskelig</text>';
       var line;
-      if (good + bad === 0) line = 'Kryss av for trekkene filmen har.';
-      else if (score >= 3) line = 'Filmen har <strong>' + good + '</strong> trekk som gir sterkere respons. Den ligger godt an til å bli lagt merke til og husket.';
-      else if (score <= -2) line = 'Filmen har <strong>' + bad + '</strong> trekk som gir svakere respons. Den risikerer å bli oversett. Prøv å bytte noe av forklaringen med mennesker og handling.';
-      else line = 'Filmen er blandet, med <strong>' + good + '</strong> sterke og <strong>' + bad + '</strong> svake trekk. Se om ett av de svake kan byttes ut.';
+      if (good + bad === 0) line = 'Kryss av for det filmen har.';
+      else if (score >= 3) line = 'Filmen har <strong>' + good + '</strong> trekk som gir sterkere respons. Den har gode sjanser til å bli lagt merke til og husket.';
+      else if (score <= -2) line = 'Filmen har <strong>' + bad + '</strong> trekk som gir svakere respons. Den risikerer å gå rett forbi folk. Prøv å bytte ut noe av forklaringen med mennesker og handling.';
+      else line = 'Filmen er litt av begge deler, med <strong>' + good + '</strong> sterke og <strong>' + bad + '</strong> svake trekk. Se om du kan bytte ut ett av de svake.';
       root.querySelector('[data-out="line"]').innerHTML = line;
     }
     boxes.forEach(function (b) { b.addEventListener('change', update); });
@@ -762,7 +762,7 @@
       <p>En markør som er både kjent og unik, kan brukes alene i stedet for logoen. En kjent markør som konkurrentene deler, bør aldri stå alene. En unik markør som få kjenner, er verdt å investere i.</p>
 <section class="section vk" data-vk="markorer" aria-label="Markørrutenett">
   <h2>Markørrutenett <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Legg inn merkemarkørene dine. Kjennskap er andelen kategorikjøpere som kobler markøren til merket. Unikhet er hvor sjelden den kobles til konkurrentene. Tallene får du fra Romaniuks test, men et anslag holder for å komme i gang.</p>
+  <p class="vk-intro">Legg inn merkemarkørene dine. Kjennskap er hvor mange i kategorien som kobler markøren til merket ditt. Unikhet er hvor sjelden den blir koblet til konkurrentene. Har du ikke tall fra en markørtest, holder et anslag for å komme i gang.</p>
 
   <div data-rows></div>
 
@@ -771,7 +771,7 @@
     <ul class="vk-list" data-out="list"></ul>
   </div>
 
-  <p class="vk-footnote">Rutenettet bygger på Jenni Romaniuk, Building Distinctive Brand Assets (2018). Grensen går ved rundt 50 prosent på begge akser.</p>
+  <p class="vk-footnote">Rutenettet er hentet fra Jenni Romaniuks Building Distinctive Brand Assets (2018). Grensen går ved rundt 50 prosent på begge aksene.</p>
 </section>
 
 <script>
@@ -784,10 +784,10 @@
     { n: 'Lydlogo', f: 20, u: 30 }
   ];
   var RAD = {
-    bruk: 'Bruk alene. Den kan stå i stedet for logoen.',
-    unngaa: 'Ikke bruk den alene. Konkurrentene deler den.',
-    invester: 'Invester. Den er din, men for få kjenner den ennå.',
-    vurder: 'Vurder den. Test den eller la den gå.'
+    bruk: 'Bruk den alene. Den kan stå i stedet for logoen.',
+    unngaa: 'Ikke la den stå alene. Folk kobler den til konkurrentene også.',
+    invester: 'Invester i den. Den er din, men for få kjenner den ennå.',
+    vurder: 'Test den, eller la den gå.'
   };
   function felt(m) { return m.f >= 50 ? (m.u >= 50 ? 'bruk' : 'unngaa') : (m.u >= 50 ? 'invester' : 'vurder'); }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
@@ -889,14 +889,14 @@
       <p>En kampanje som bare snakker til fansen, treffer for få. Det er et slag i ansiktet på reklameinstinktet om å snakke intimt til en målgruppe man kjenner. Sharps råd er å snakke bredt til alle som kan finne på å kjøpe deg.</p>
 <section class="section vk" data-vk="kjopere" aria-label="Lette og tunge kjøpere">
   <h2>Hvem står for salget? <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Tenk på merket ditt. Hvor stor del av salget tror du kommer fra de 20 prosentene som kjøper mest? Sett din gjetning, og se fasiten.</p>
+  <p class="vk-intro">Tenk på merket ditt. Hvor mye av salget tror du kommer fra de 20 prosentene som kjøper mest? Gjett, og trykk på fasit.</p>
 
   <div class="vk-row">
     <label>Din gjetning</label>
     <input type="range" min="20" max="100" step="5" value="80" data-in="guess" aria-label="Andel av salget fra de 20 prosentene som kjøper mest" />
     <output class="vk-val" data-out="guess">80 %</output>
   </div>
-  <p><button type="button" class="vk-btn" data-reveal>Vis fasiten</button></p>
+  <p><button type="button" class="vk-btn" data-reveal>Vis fasit</button></p>
 
   <div class="vk-result" aria-live="polite" data-result hidden>
     <div class="vk-bars">
@@ -905,7 +905,7 @@
         <div class="vk-bar"><span class="a" data-bar="g-a"></span><span class="b" data-bar="g-b"></span></div>
       </div>
       <div>
-        <div class="vk-bar-label"><span>Typisk funn</span><span>60 % fra de tunge, 40 % fra de lette</span></div>
+        <div class="vk-bar-label"><span>Fasit</span><span>60 % fra de tunge, 40 % fra de lette</span></div>
         <div class="vk-bar"><span class="a" style="width:60%"></span><span class="b" style="width:40%"></span></div>
       </div>
     </div>
@@ -914,10 +914,10 @@
       <li><span class="vk-swatch soft"></span>De 80 % som kjøper sjelden</li>
     </ul>
     <p class="vk-text" data-out="line"></p>
-    <p class="vk-muted">De som kjøper sjelden, står altså for rundt 40 prosent av salget. Det er dem merket må nå for å vokse.</p>
+    <p class="vk-muted">Folk som kjøper sjelden, står altså for rundt 40 prosent av salget. Det er dem merket må nå for å vokse.</p>
   </div>
 
-  <p class="vk-footnote">Byron Sharp, Jenni Romaniuk og Cathy Graham sjekket mange merker og kategorier i 2019. De 20 prosentene som kjøper mest, står typisk for rundt 60 prosent av salget.</p>
+  <p class="vk-footnote">Byron Sharp, Jenni Romaniuk og Cathy Graham sjekket et stort antall merker og kategorier i 2019. De 20 prosentene som kjøpte mest, sto typisk for rundt 60 prosent av salget.</p>
 </section>
 
 <script>
@@ -933,10 +933,10 @@
       root.querySelector('[data-bar="g-b"]').style.width = (100 - v) + '%';
       root.querySelector('[data-out="gtxt"]').textContent = v + ' % fra de tunge, ' + (100 - v) + ' % fra de lette';
       root.querySelector('[data-out="line"]').innerHTML = v > 65
-        ? 'Du gjettet <strong>' + v + ' %</strong>. Det gjør de fleste, fordi 80/20-regelen sitter godt. Virkeligheten er nærmere 60/40.'
+        ? 'Du gjettet <strong>' + v + ' %</strong>. Det gjør de fleste, for 80/20-regelen sitter godt i oss. Virkeligheten ligger nærmere 60/40.'
         : v < 55
-          ? 'Du gjettet <strong>' + v + ' %</strong>. Det er lavere enn det typiske funnet. De tunge kjøperne betyr mye, men ikke alt.'
-          : 'Du gjettet <strong>' + v + ' %</strong>. Det er nær det typiske funnet.';
+          ? 'Du gjettet <strong>' + v + ' %</strong>. Det er lavere enn det forskningen finner. De tunge kjøperne betyr altså litt mer enn du tror.'
+          : 'Du gjettet <strong>' + v + ' %</strong>. Det er nær det forskningen finner. Godt tenkt.';
     }
     g.addEventListener('input', update);
     root.querySelector('[data-reveal]').addEventListener('click', function () { res.hidden = false; update(); });
@@ -1437,7 +1437,7 @@
       <p>En idé som scorer svakt på alle fem punkter, er sjelden god, mens en idé som scorer sterkt på alle fem, sjelden er forferdelig.</p>
 <section class="section vk" data-vk="ide" aria-label="Idévurdering">
   <h2>Vurder en idé <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Skriv inn ideen, velg hovedjobben og svar på de fem spørsmålene. Til slutt får du en oppsummering du kan kopiere og ta med videre.</p>
+  <p class="vk-intro">Gi ideen et navn og velg hovedjobben. Så går du gjennom de fem spørsmålene, og får en oppsummering du kan kopiere.</p>
 
   <input class="vk-input" data-in="name" placeholder="Navn på ideen eller kampanjen" aria-label="Navn på ideen" style="margin-bottom:var(--space-md)" />
 
@@ -1455,7 +1455,7 @@
     <p style="margin-top:var(--space-md)"><button type="button" class="vk-btn secondary" data-copy>Kopier oppsummeringen</button></p>
   </div>
 
-  <p class="vk-footnote">Spørsmålene er fra rammeverket i økt 14. Svarene er ditt skjønn. Målet er å finne svakhetene før kunden gjør det.</p>
+  <p class="vk-footnote">Spørsmålene er fra rammeverket i økt 14, og svarene er ditt skjønn. Poenget er å finne svakhetene før kunden gjør det.</p>
 </section>
 
 <script>
@@ -1463,15 +1463,15 @@
   'use strict';
   var QS = [
     { k: 'jobb', t: '1. Jobben', q: 'Matcher ideen oppgaven?',
-      svak: 'Avklar hovedjobben, og sørg for at målingen passer til den.' },
+      svak: 'Bli enig om hovedjobben, og sørg for at målingen passer til den.' },
     { k: 'mott', t: '2. Mottakeren', q: 'Får reklamen dem som kjøper sjelden, til å handle? Blir den koblet til merket?',
-      svak: 'Sjekk rekkevidden, og om merkemarkørene kommer tidlig og tydelig.' },
+      svak: 'Sjekk at rekkevidden er bred nok, og at merkemarkørene kommer tidlig og tydelig.' },
     { k: 'mek', t: '3. Mekanikken', q: 'Er det irrasjonelt nok? Spiller den på følelser, og hvilket signal sender den?',
-      svak: 'Let etter det opplevde problemet, og se om mennesker og handling kan ta over for forklaringen.' },
+      svak: 'Finn det opplevde problemet. Se om mennesker og handling kan ta over for forklaringen.' },
     { k: 'trykk', t: '4. Trykkpunktet', q: 'Hva får folk til å si ja?',
-      svak: 'Finn ut hvilket av Cialdinis prinsipper ideen bruker, og forsterk det.' },
+      svak: 'Finn ut hvilket av Cialdinis prinsipper ideen bruker, og skru det opp.' },
     { k: 'vilk', t: '5. Vilkårene', q: 'Får ideen tiden og plassen den trenger?',
-      svak: 'Sjekk at budsjett, varighet og rekkevidde holder. Hvis ikke, juster ambisjonen.' }
+      svak: 'Sjekk at budsjettet og varigheten holder. Hvis ikke, må ambisjonen ned.' }
   ];
   var LABEL = { 1: 'Svakt', 2: 'Delvis', 3: 'Sterkt' };
 
@@ -1508,7 +1508,7 @@
       var name = nameIn.value.trim() || 'Ideen';
       var head = root.querySelector('[data-out="head"]'), list = root.querySelector('[data-out="list"]'), rest = root.querySelector('[data-out="rest"]');
       if (done.length < QS.length) {
-        head.textContent = 'Svar på alle fem spørsmålene for å få oppsummeringen. ' + done.length + ' av 5 er besvart.';
+        head.textContent = 'Svar på alle fem for å få oppsummeringen. Du har svart på ' + done.length + '.';
         list.innerHTML = ''; rest.textContent = ''; summary = ''; return;
       }
       var lines = [], weak = 0, strong = 0;
@@ -1518,10 +1518,10 @@
         var txt = q.t + ': ' + LABEL[s] + '.';
         if (s === 1) {
           if (q.k === 'trykk' && job === 'mvb') {
-            txt += ' Det kan være greit. Ideen skal bygge minner og følelser, ikke utløse kjøp i dag.';
+            txt += ' Det kan være greit for en merkevarebyggende idé. Jobben er å bygge minner og følelser.';
           } else { weak++; txt += ' ' + q.svak; }
         } else if (s === 2) {
-          txt += ' Kan styrkes.';
+          txt += ' Her er det rom for mer.';
           if (q.k === 'trykk' && job === 'akt') txt += ' For en aktiveringsidé er dette hele jobben.';
         }
         lines.push(txt);
@@ -1529,10 +1529,10 @@
       head.innerHTML = '<strong>' + name.replace(/[<>&]/g, '') + '</strong> er sterk på ' + strong + ' av 5 spørsmål.';
       list.innerHTML = lines.map(function (l) { return '<li>' + l.replace(/[<>&]/g, '') + '</li>'; }).join('');
       rest.textContent = weak === 0
-        ? 'Ingen svakheter du ikke kan forsvare. Da har du en idé å stå bak.'
+        ? 'Ingen svakheter du ikke kan forsvare. Da har du en idé du kan stå bak.'
         : weak === 1
-          ? 'Én svakhet å jobbe med. Kan du forsvare den, er det greit. Hvis ikke, jobb videre.'
-          : weak + ' svakheter å jobbe med. Det er verdt en runde til før ideen går videre.';
+          ? 'Én svakhet. Kan du forsvare den, er det greit. Hvis ikke, jobb videre.'
+          : weak + ' svakheter. Ta en runde til før ideen går videre.';
       summary = name + ' (' + (job === 'mvb' ? 'merkevarebygging' : 'aktivering') + ')\n' + lines.map(function (l) { return '- ' + l; }).join('\n') + '\n' + rest.textContent;
     }
     root.querySelector('[data-copy]').addEventListener('click', function (e) {

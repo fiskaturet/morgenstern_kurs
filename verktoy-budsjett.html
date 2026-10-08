@@ -1,6 +1,6 @@
 <section class="section vk" data-vk="budsjett" aria-label="Budsjettfordeler">
   <h2>Budsjettfordeler <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Velg type merke, legg inn budsjettet og hvor mye som går til merkevarebygging i dag. Da ser du hvor langt unna snittet fra Binet og Field du ligger.</p>
+  <p class="vk-intro">Velg type merke. Legg inn budsjettet og hvor mye av det som går til merkevarebygging i dag. Så ser du hvor langt du er fra snittet til Binet og Field.</p>
 
   <div class="vk-choices" role="radiogroup" aria-label="Type merke">
     <button type="button" class="vk-chip" data-brand="60" role="radio" aria-checked="true">Forbrukermerke<small>60/40</small></button>
@@ -8,12 +8,12 @@
   </div>
 
   <div class="vk-row">
-    <label>Årsbudsjett for reklame</label>
+    <label>Reklamebudsjett i året</label>
     <input type="range" min="0.5" max="50" step="0.5" value="5" data-in="total" aria-label="Årsbudsjett i millioner kroner" />
     <output class="vk-val" data-out="total">5 mill.</output>
   </div>
   <div class="vk-row">
-    <label>Andel til merkevarebygging i dag</label>
+    <label>Til merkevarebygging i dag</label>
     <input type="range" min="0" max="100" step="5" value="30" data-in="now" aria-label="Andel til merkevarebygging i dag" />
     <output class="vk-val" data-out="now">30 %</output>
   </div>
@@ -21,11 +21,11 @@
   <div class="vk-result" aria-live="polite">
     <div class="vk-bars">
       <div>
-        <div class="vk-bar-label"><span>I dag</span><span data-out="nowtxt"></span></div>
+        <div class="vk-bar-label"><span>Slik er det i dag</span><span data-out="nowtxt"></span></div>
         <div class="vk-bar"><span class="a" data-bar="now-a"></span><span class="b" data-bar="now-b"></span></div>
       </div>
       <div>
-        <div class="vk-bar-label"><span>Snittet fra IPA-dataene</span><span data-out="rectxt"></span></div>
+        <div class="vk-bar-label"><span>Snittet i IPA-dataene</span><span data-out="rectxt"></span></div>
         <div class="vk-bar"><span class="a" data-bar="rec-a"></span><span class="b" data-bar="rec-b"></span></div>
       </div>
     </div>
@@ -36,7 +36,7 @@
     <p class="vk-text" data-out="line"></p>
   </div>
 
-  <p class="vk-footnote">60/40 og 46/54 er snitt over mange kampanjer i IPA-databanken. De gjelder fordelingen over et år, ikke hver enkelt kampanje. Kategorien din kan ha god grunn til å ligge et annet sted.</p>
+  <p class="vk-footnote">60/40 og 46/54 er snitt fra mange kampanjer i IPA-databanken. Tallene gjelder fordelingen over et helt år. Hver enkelt kampanje trenger ikke fordele seg slik. Kategorien din kan også ha gode grunner til å ligge et annet sted.</p>
 </section>
 
 <script>
@@ -58,10 +58,10 @@
       root.querySelector('[data-out="rectxt"]').textContent = f1(t * rec / 100) + ' mill. til merkevarebygging';
       var diff = t * (rec - n) / 100;
       root.querySelector('[data-out="line"]').innerHTML = Math.abs(rec - n) < 5
-        ? 'Fordelingen ligger nær snittet. Spørsmålet nå er om kategorien din tilsier noe annet.'
+        ? 'Du ligger nær snittet. Da er spørsmålet om kategorien din tilsier noe annet.'
         : diff > 0
-          ? 'For å nå snittet må rundt <strong>' + f1(diff) + ' millioner</strong> flyttes fra aktivering til merkevarebygging.'
-          : 'Du bruker rundt <strong>' + f1(-diff) + ' millioner</strong> mer på merkevarebygging enn snittet. Sjekk at aktiveringen får nok til å høste det merket bygger.';
+          ? 'Skal du nå snittet, må rundt <strong>' + f1(diff) + ' millioner</strong> flyttes fra aktivering til merkevarebygging.'
+          : 'Du bruker rundt <strong>' + f1(-diff) + ' millioner</strong> mer på merkevarebygging enn snittet. Sjekk at aktiveringen får nok til å høste det merket har bygget.';
     }
     chips.forEach(function (c) {
       c.addEventListener('click', function () {

@@ -98,7 +98,7 @@
       <p>En markør som er både kjent og unik, kan brukes alene i stedet for logoen. En kjent markør som konkurrentene deler, bør aldri stå alene. En unik markør som få kjenner, er verdt å investere i.</p>
 <section class="section vk" data-vk="markorer" aria-label="Markørrutenett">
   <h2>Markørrutenett <span class="badge">interaktiv</span></h2>
-  <p class="vk-intro">Legg inn merkemarkørene dine. Kjennskap er andelen kategorikjøpere som kobler markøren til merket. Unikhet er hvor sjelden den kobles til konkurrentene. Tallene får du fra Romaniuks test, men et anslag holder for å komme i gang.</p>
+  <p class="vk-intro">Legg inn merkemarkørene dine. Kjennskap er hvor mange i kategorien som kobler markøren til merket ditt. Unikhet er hvor sjelden den blir koblet til konkurrentene. Har du ikke tall fra en markørtest, holder et anslag for å komme i gang.</p>
 
   <div data-rows></div>
 
@@ -107,7 +107,7 @@
     <ul class="vk-list" data-out="list"></ul>
   </div>
 
-  <p class="vk-footnote">Rutenettet bygger på Jenni Romaniuk, Building Distinctive Brand Assets (2018). Grensen går ved rundt 50 prosent på begge akser.</p>
+  <p class="vk-footnote">Rutenettet er hentet fra Jenni Romaniuks Building Distinctive Brand Assets (2018). Grensen går ved rundt 50 prosent på begge aksene.</p>
 </section>
 
 <script>
@@ -120,10 +120,10 @@
     { n: 'Lydlogo', f: 20, u: 30 }
   ];
   var RAD = {
-    bruk: 'Bruk alene. Den kan stå i stedet for logoen.',
-    unngaa: 'Ikke bruk den alene. Konkurrentene deler den.',
-    invester: 'Invester. Den er din, men for få kjenner den ennå.',
-    vurder: 'Vurder den. Test den eller la den gå.'
+    bruk: 'Bruk den alene. Den kan stå i stedet for logoen.',
+    unngaa: 'Ikke la den stå alene. Folk kobler den til konkurrentene også.',
+    invester: 'Invester i den. Den er din, men for få kjenner den ennå.',
+    vurder: 'Test den, eller la den gå.'
   };
   function felt(m) { return m.f >= 50 ? (m.u >= 50 ? 'bruk' : 'unngaa') : (m.u >= 50 ? 'invester' : 'vurder'); }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
