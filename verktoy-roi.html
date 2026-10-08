@@ -4,7 +4,7 @@
 
   <div class="vk-row">
     <label>Mediebudsjett</label>
-    <input type="range" min="0.5" max="15" step="0.5" value="1" data-in="budget" aria-label="Mediebudsjett i millioner kroner" />
+    <input type="range" min="0.5" max="12" step="0.5" value="1" data-in="budget" aria-label="Mediebudsjett i millioner kroner" />
     <output class="vk-val" data-out="budget">1 mill.</output>
   </div>
 
@@ -18,13 +18,13 @@
     <p class="vk-muted" data-out="rest"></p>
   </div>
 
-  <p class="vk-footnote">Eksempeltall: et merke der reklamen kan gi opptil 12 millioner i ekstra fortjeneste, med avtagende effekt jo mer som brukes. Formen på kurvene er poenget. Den bygger på Les Binets argument om at ROI alltid er høyest ved små budsjetter.</p>
+  <p class="vk-footnote">Eksempeltall: ROI på rundt 60 prosent ved små budsjetter og rundt 30 prosent der fortjenesten er størst. Effekten avtar jo mer som brukes. Formen på kurvene er poenget. Den bygger på Les Binets argument om at ROI alltid er høyest ved små budsjetter.</p>
 </section>
 
 <script>
 (function () {
   'use strict';
-  var A = 12, K = 4; // maks ekstra bruttofortjeneste og metningsgrad (mill. kr)
+  var A = 13.2, K = 8; // maks ekstra bruttofortjeneste og metningsgrad (mill. kr)
   var gross = function (b) { return A * (1 - Math.exp(-b / K)); };
   var net = function (b) { return gross(b) - b; };
   var roi = function (b) { return net(b) / b * 100; };
@@ -35,10 +35,10 @@
     if (root.dataset.ready) return; root.dataset.ready = '1';
     var input = root.querySelector('[data-in="budget"]');
     var svg = root.querySelector('[data-svg]');
-    var W = 600, H = 240, L = 40, R = 40, T = 15, B = 30, MAXB = 15;
+    var W = 600, H = 240, L = 40, R = 40, T = 15, B = 30, MAXB = 12;
     var x = function (b) { return L + (b / MAXB) * (W - L - R); };
-    var yNet = function (v) { return T + (1 - (v + 4) / 8) * (H - T - B); };      // -4..4 mill.
-    var yRoi = function (v) { return T + (1 - Math.max(-50, Math.min(250, v)) / 300 - 50 / 300) * (H - T - B); }; // -50..250 %
+    var yNet = function (v) { return T + (1 - (Math.max(-2, Math.min(2, v)) + 2) / 4) * (H - T - B); }; // -2..2 mill.
+    var yRoi = function (v) { return T + (1 - (Math.max(-40, Math.min(80, v)) + 40) / 120) * (H - T - B); }; // -40..80 %
     function path(fn, y) {
       var d = '';
       for (var b = 0.5; b <= MAXB + 0.001; b += 0.25) d += (d ? 'L' : 'M') + x(b).toFixed(1) + ' ' + y(fn(b)).toFixed(1);
@@ -55,15 +55,16 @@
         '<circle cx="' + x(b) + '" cy="' + yNet(net(b)) + '" r="6" style="fill:var(--part-color)"/>' +
         '<circle cx="' + x(b) + '" cy="' + yRoi(roi(b)) + '" r="6" style="fill:var(--part-color);opacity:.45"/>' +
         '<text x="' + L + '" y="' + (H - 8) + '">0</text>' +
-        '<text x="' + (W - R) + '" y="' + (H - 8) + '" text-anchor="end">15 mill. i budsjett</text>';
+        '<text x="' + (W - R) + '" y="' + (H - 8) + '" text-anchor="end">12 mill. i budsjett</text>';
     }
     function update() {
       var b = parseFloat(input.value);
       root.querySelector('[data-out="budget"]').textContent = f1(b) + ' mill.';
       draw(b);
       root.querySelector('[data-out="line"]').innerHTML =
-        'Med ' + f1(b) + ' millioner er ROI <strong>' + Math.round(roi(b)) + ' %</strong>, og reklamen gir <strong>' +
-        f1(net(b)) + ' millioner</strong> i ekstra fortjeneste.';
+        'Med ' + f1(b) + (b === 1 ? ' million' : ' millioner') + ' er ROI <strong>' + Math.round(roi(b)) + ' %</strong>, ' + (net(b) >= 0
+          ? 'og reklamen gir <strong>' + f1(net(b)) + ' millioner</strong> i ekstra fortjeneste.'
+          : 'og reklamen taper <strong>' + f1(-net(b)) + ' millioner</strong>.');
       root.querySelector('[data-out="rest"]').textContent = b < BEST - 0.3
         ? 'ROI ser flott ut, men du legger penger igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner, selv om ROI da er lavere.'
         : b > BEST + 0.3
