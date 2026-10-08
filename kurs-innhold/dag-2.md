@@ -1,7 +1,7 @@
 ---
 day: 2
 part: "Del 2 · Les Binet & Peter Field"
-duration: ""
+duration: "15 minutter"
 title: "Merkevarebygging og aktivering"
 principle: >
   Reklamens to oppgaver. Bygge merket og aktivere salg.

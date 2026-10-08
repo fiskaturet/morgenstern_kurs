@@ -1,7 +1,7 @@
 ---
 day: 13
 part: "Del 6 · Fra teori til effekt"
-duration: ""
+duration: "15 minutter"
 title: "Måling"
 principle: >
   Det som kan måles, blir laget.

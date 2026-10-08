@@ -1,14 +1,13 @@
 ---
 day: 14
 part: "Del 6 · Fra teori til effekt"
-duration: ""
+duration: "15 minutter"
 title: "Et rammeverk for idévurdering"
 principle: >
   En god idé tåler alt.
 primary_source:
   title: "Alle bøkene"
   meta: "Binet & Field, Sharp, Romaniuk, Sutherland, Cialdini og Field"
-related: []
 prev:
   day: 13
   title: "Måling"

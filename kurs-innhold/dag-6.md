@@ -1,7 +1,7 @@
 ---
 day: 6
 part: "Del 3 · Byron Sharp og Jenni Romaniuk"
-duration: ""
+duration: "15 minutter"
 title: "Fysisk tilgjengelighet og merkemarkører"
 principle: >
   Merket må være lett å kjøpe og lett å kjenne igjen.

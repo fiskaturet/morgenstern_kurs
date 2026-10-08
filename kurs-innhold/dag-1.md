@@ -1,14 +1,15 @@
 ---
 day: 1
 part: "Del 1 · Fundamentet"
-duration: ""
+duration: "15 minutter"
 title: "Et felles språk"
 principle: >
   Vi trenger et felles språk.
 primary_source:
   title: "Alle fire bøkene"
   meta: "Binet & Field, Sharp, Sutherland og Cialdini"
-related: []
+prev:
+  day: null
 next:
   day: 2
   title: "Merkevarebygging og aktivering"

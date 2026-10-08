@@ -1,7 +1,7 @@
 ---
 day: 12
 part: "Del 6 · Fra teori til effekt"
-duration: ""
+duration: "15 minutter"
 title: "Kreativitet lønner seg"
 principle: >
   En sterk idé kan gjøre samme budsjett mange ganger så effektivt.

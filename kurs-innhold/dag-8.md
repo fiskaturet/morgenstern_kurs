@@ -1,7 +1,7 @@
 ---
 day: 8
 part: "Del 3 · Byron Sharp og Jenni Romaniuk"
-duration: ""
+duration: "15 minutter"
 title: "Sharp mot Ritson"
 principle: >
   Det ultrakjedelige svaret er: begge deler.
