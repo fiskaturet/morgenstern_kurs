@@ -93,6 +93,70 @@
       <p>Mye emosjonell reklame blir dessverre laget etter samme mal. Musikk og slow motion, en poetisk voice og noen nære, menneskelige øyeblikk. I Norge skal det ofte vises en fjordarm mens en dyp røst spør oss «hva det er med oss i dette lille landet». Orlando Wood forklarer hvorfor slike filmer ofte virker svakere enn de føles.</p>
       <p>Wood satte seg ned og talte trekk i tusenvis av reklamefilmer. Filmer med gjenkjennelige karakterer og dialog ga sterkere respons og bedre langsiktig effekt. Det samme gjaldt filmer med et tydelig sted og en historie som utvikler seg, og filmer med musikk med melodi. Filmer med voiceover som forklarer og tekst på skjermen ga svakere respons. Det samme gjaldt produktet alene i et tomt rom, folk som snakker rett til kamera, eller høye klipperytmer til melodiløse trommespor.</p>
       <p>Wood fant at reklamen har beveget seg bort fra karakterer og historier siden midten av 2000-tallet. I samme periode falt effekten. Den typiske «emosjonelle» filmen har stemning, men mangler ofte både karakterer, dialog og historie.</p>
+<section class="section vk" data-vk="lemon" aria-label="Lemon-sjekken">
+  <h2>Lemon-sjekken <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Tenk på en reklamefilm, gjerne din egen. Kryss av for trekkene den har. Trekkene er sortert etter hva Orlando Wood fant ga sterkere og svakere respons.</p>
+
+  <div class="vk-checks">
+    <div>
+      <p class="vk-col-title">Gir sterkere respons</p>
+      <label><input type="checkbox" data-w="1" />Gjenkjennelige karakterer</label>
+      <label><input type="checkbox" data-w="1" />Dialog mellom folk</label>
+      <label><input type="checkbox" data-w="1" />Et tydelig sted</label>
+      <label><input type="checkbox" data-w="1" />En historie som utvikler seg</label>
+      <label><input type="checkbox" data-w="1" />Musikk med melodi</label>
+      <label><input type="checkbox" data-w="1" />Humor eller lek</label>
+    </div>
+    <div>
+      <p class="vk-col-title">Gir svakere respons</p>
+      <label><input type="checkbox" data-w="-1" />Voiceover som forklarer</label>
+      <label><input type="checkbox" data-w="-1" />Tekst på skjermen</label>
+      <label><input type="checkbox" data-w="-1" />Produktet alene i et tomt rom</label>
+      <label><input type="checkbox" data-w="-1" />Folk som snakker rett til kamera</label>
+      <label><input type="checkbox" data-w="-1" />Høy klipperytme</label>
+      <label><input type="checkbox" data-w="-1" />Trommespor uten melodi</label>
+    </div>
+  </div>
+
+  <div class="vk-result" aria-live="polite">
+    <svg class="vk-svg" viewBox="0 0 600 70" role="img" aria-label="Plassering på skalaen" data-svg></svg>
+    <p class="vk-text" data-out="line"></p>
+  </div>
+
+  <p class="vk-footnote">Bygger på Orlando Wood, Lemon (2019). Sjekken teller trekk og sier ingenting om kvaliteten på håndverket. Bruk den til å starte en samtale.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var boxes = root.querySelectorAll('input[type="checkbox"]'), svg = root.querySelector('[data-svg]');
+    function update() {
+      var good = 0, bad = 0;
+      boxes.forEach(function (b) { if (b.checked) { if (b.getAttribute('data-w') === '1') good++; else bad++; } });
+      var score = good - bad; // -6..6
+      var x = 30 + (score + 6) / 12 * 540;
+      svg.innerHTML =
+        '<rect x="30" y="22" width="540" height="10" rx="5" style="fill:var(--rule)"/>' +
+        '<rect x="300" y="22" width="270" height="10" rx="5" style="fill:var(--part-soft)"/>' +
+        '<circle cx="' + x + '" cy="27" r="11" style="fill:var(--part-color)"/>' +
+        '<text x="30" y="60">Flat og forklarende</text>' +
+        '<text x="570" y="60" text-anchor="end">Levende og menneskelig</text>';
+      var line;
+      if (good + bad === 0) line = 'Kryss av for trekkene filmen har.';
+      else if (score >= 3) line = 'Filmen har <strong>' + good + '</strong> trekk som gir sterkere respons. Den ligger godt an til å bli lagt merke til og husket.';
+      else if (score <= -2) line = 'Filmen har <strong>' + bad + '</strong> trekk som gir svakere respons. Den risikerer å bli oversett. Prøv å bytte noe av forklaringen med mennesker og handling.';
+      else line = 'Filmen er blandet, med <strong>' + good + '</strong> sterke og <strong>' + bad + '</strong> svake trekk. Se om ett av de svake kan byttes ut.';
+      root.querySelector('[data-out="line"]').innerHTML = line;
+    }
+    boxes.forEach(function (b) { b.addEventListener('change', update); });
+    update();
+  }
+  document.querySelectorAll('[data-vk="lemon"]').forEach(init);
+})();
+</script>
+
       <h3>Ekke alltid feil å være rasjonell</h3>
       <p>Rasjonell reklame har sin plass. Den gjør bare en annen jobb. Aktivering er ofte rasjonell. «0 % rente ut juni», «600 km rekkevidde!» Du trenger ikke vekke følelser for å selge is på en sommerdag, si.</p>
       <p>I store beslutninger som bil og B2B-systemer har argumentene også en plass, men sjelden i den brede reklamen. De hører hjemme på nettsiden og i salgsmøtet. Argumentene virker på dem som allerede vurderer. Den brede reklamen skal få deg til å vurdere.</p>

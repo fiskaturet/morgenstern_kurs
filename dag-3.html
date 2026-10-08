@@ -90,10 +90,142 @@
       <h3>Variasjoner av 60/40</h3>
       <p>I <em>Effectiveness in Context</em> fra 2018 viste Binet og Field at balansen varierer med kategorien. Dyre kjøp med lang betenkningstid har godt av mye merkevarebygging. Kategorier med kort vei fra reklame til kjøp kan klare seg med mindre.</p>
       <p>B2B overrasker mange. I <em>The B2B Effectiveness Code</em> fra 2019 fant Binet og Field at den beste fordelingen for B2B lå rundt 46 prosent merkevarebygging og 54 prosent aktivering. Det er litt mindre merkevarebygging enn 60/40. De fleste B2B-merker bruker likevel langt mindre enn 46 prosent i dag, så rådet blir som regel å bruke mer på merket.</p>
+<section class="section vk" data-vk="budsjett" aria-label="Budsjettfordeler">
+  <h2>Budsjettfordeler <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Velg type merke, legg inn budsjettet og hvor mye som går til merkevarebygging i dag. Da ser du hvor langt unna snittet fra Binet og Field du ligger.</p>
+
+  <div class="vk-choices" role="radiogroup" aria-label="Type merke">
+    <button type="button" class="vk-chip" data-brand="60" role="radio" aria-checked="true">Forbrukermerke<small>60/40</small></button>
+    <button type="button" class="vk-chip" data-brand="46" role="radio" aria-checked="false">B2B<small>46/54</small></button>
+  </div>
+
+  <div class="vk-row">
+    <label>Årsbudsjett for reklame</label>
+    <input type="range" min="0.5" max="50" step="0.5" value="5" data-in="total" aria-label="Årsbudsjett i millioner kroner" />
+    <output class="vk-val" data-out="total">5 mill.</output>
+  </div>
+  <div class="vk-row">
+    <label>Andel til merkevarebygging i dag</label>
+    <input type="range" min="0" max="100" step="5" value="30" data-in="now" aria-label="Andel til merkevarebygging i dag" />
+    <output class="vk-val" data-out="now">30 %</output>
+  </div>
+
+  <div class="vk-result" aria-live="polite">
+    <div class="vk-bars">
+      <div>
+        <div class="vk-bar-label"><span>I dag</span><span data-out="nowtxt"></span></div>
+        <div class="vk-bar"><span class="a" data-bar="now-a"></span><span class="b" data-bar="now-b"></span></div>
+      </div>
+      <div>
+        <div class="vk-bar-label"><span>Snittet fra IPA-dataene</span><span data-out="rectxt"></span></div>
+        <div class="vk-bar"><span class="a" data-bar="rec-a"></span><span class="b" data-bar="rec-b"></span></div>
+      </div>
+    </div>
+    <ul class="vk-legend">
+      <li><span class="vk-swatch"></span>Merkevarebygging</li>
+      <li><span class="vk-swatch soft"></span>Aktivering</li>
+    </ul>
+    <p class="vk-text" data-out="line"></p>
+  </div>
+
+  <p class="vk-footnote">60/40 og 46/54 er snitt over mange kampanjer i IPA-databanken. De gjelder fordelingen over et år, ikke hver enkelt kampanje. Kategorien din kan ha god grunn til å ligge et annet sted.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var f1 = function (n) { return n.toLocaleString('nb-NO', { maximumFractionDigits: 1 }); };
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var rec = 60;
+    var total = root.querySelector('[data-in="total"]'), now = root.querySelector('[data-in="now"]');
+    var chips = root.querySelectorAll('.vk-chip');
+    var bar = function (k, w) { root.querySelector('[data-bar="' + k + '"]').style.width = w + '%'; };
+    function update() {
+      var t = parseFloat(total.value), n = parseFloat(now.value);
+      root.querySelector('[data-out="total"]').textContent = f1(t) + ' mill.';
+      root.querySelector('[data-out="now"]').textContent = n + ' %';
+      bar('now-a', n); bar('now-b', 100 - n); bar('rec-a', rec); bar('rec-b', 100 - rec);
+      root.querySelector('[data-out="nowtxt"]').textContent = f1(t * n / 100) + ' mill. til merkevarebygging';
+      root.querySelector('[data-out="rectxt"]').textContent = f1(t * rec / 100) + ' mill. til merkevarebygging';
+      var diff = t * (rec - n) / 100;
+      root.querySelector('[data-out="line"]').innerHTML = Math.abs(rec - n) < 5
+        ? 'Fordelingen ligger nær snittet. Spørsmålet nå er om kategorien din tilsier noe annet.'
+        : diff > 0
+          ? 'For å nå snittet må rundt <strong>' + f1(diff) + ' millioner</strong> flyttes fra aktivering til merkevarebygging.'
+          : 'Du bruker rundt <strong>' + f1(-diff) + ' millioner</strong> mer på merkevarebygging enn snittet. Sjekk at aktiveringen får nok til å høste det merket bygger.';
+    }
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (o) { o.setAttribute('aria-checked', o === c ? 'true' : 'false'); });
+        rec = parseFloat(c.getAttribute('data-brand')); update();
+      });
+    });
+    total.addEventListener('input', update); now.addEventListener('input', update);
+    update();
+  }
+  document.querySelectorAll('[data-vk="budsjett"]').forEach(init);
+})();
+</script>
+
       <h3>Reklameandel og markedsandel</h3>
       <p>Binet og Field har et annet funn som er vel så viktig. Share of voice er merkets andel av all reklame i kategorien. Share of market er merkets andel av salget i kategorien. Differansen kalles excess share of voice, eller ESOV.</p>
       <p>Merker med større andel av reklamen enn av markedet har en tendens til å vokse. Merker med mindre andel av reklamen har en tendens til å krympe. Tommelfingerregelen fra IPA-dataene er omtrent 0,5 prosentpoeng årlig vekst per 10 poeng ESOV.</p>
       <p>Har du 12 prosent av markedet og 8 prosent av reklamen i kategorien, kan du forvente å krympe.</p>
+<section class="section vk" data-vk="esov" aria-label="ESOV-kalkulator">
+  <h2>ESOV-kalkulator <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Legg inn markedsandelen og andelen av all reklame i kategorien. Da ser du om merket ligger an til å vokse eller krympe.</p>
+
+  <div class="vk-row">
+    <label>Markedsandel</label>
+    <input type="range" min="1" max="60" step="1" value="12" data-in="som" aria-label="Markedsandel i prosent" />
+    <output class="vk-val" data-out="som">12 %</output>
+  </div>
+  <div class="vk-row">
+    <label>Andel av reklamen i kategorien</label>
+    <input type="range" min="0" max="80" step="1" value="8" data-in="sov" aria-label="Andel av reklamen i kategorien i prosent" />
+    <output class="vk-val" data-out="sov">8 %</output>
+  </div>
+
+  <div class="vk-result" aria-live="polite">
+    <div class="vk-big" data-out="esov">−4</div>
+    <p class="vk-big-label">poeng ESOV, altså reklameandel minus markedsandel.</p>
+    <p class="vk-text" data-out="line"></p>
+    <p class="vk-muted" data-out="rest"></p>
+  </div>
+
+  <p class="vk-footnote">Tommelfingerregelen fra IPA-dataene er omtrent 0,5 prosentpoeng endring i markedsandel per år for hvert tiende poeng ESOV. Det er et snitt over mange kategorier, og kreativ kvalitet kan flytte tallet mye begge veier.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var f1 = function (n) { return n.toLocaleString('nb-NO', { maximumFractionDigits: 1, minimumFractionDigits: 0 }); };
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var som = root.querySelector('[data-in="som"]'), sov = root.querySelector('[data-in="sov"]');
+    function update() {
+      var m = parseFloat(som.value), v = parseFloat(sov.value), e = v - m;
+      var yr = e * 0.05, three = Math.max(0, m + yr * 3);
+      root.querySelector('[data-out="som"]').textContent = m + ' %';
+      root.querySelector('[data-out="sov"]').textContent = v + ' %';
+      root.querySelector('[data-out="esov"]').textContent = (e > 0 ? '+' : e < 0 ? '−' : '') + Math.abs(e);
+      root.querySelector('[data-out="line"]').innerHTML = e === 0
+        ? 'Reklameandelen matcher markedsandelen. Da ligger merket an til å holde stillingen.'
+        : 'Forventet endring: <strong>' + (yr > 0 ? '+' : '−') + f1(Math.abs(yr)) + ' prosentpoeng</strong> i året. Om tre år kan markedsandelen være rundt <strong>' + f1(three) + ' %</strong>.';
+      root.querySelector('[data-out="rest"]').textContent = e < 0
+        ? 'Merket bruker mindre på reklame enn størrelsen tilsier. Over tid er det en invitasjon til konkurrentene.'
+        : e > 0
+          ? 'Merket roper høyere enn størrelsen tilsier. Det er slik merker vokser.'
+          : 'For å vokse må reklameandelen ligge over markedsandelen.';
+    }
+    som.addEventListener('input', update); sov.addEventListener('input', update);
+    update();
+  }
+  document.querySelectorAll('[data-vk="esov"]').forEach(init);
+})();
+</script>
+
       <div class="anders-note">
         <span class="label">Kommentar fra Anders</span>
         <p>60/40 er allreit fordi det er et konkret tall å starte en diskusjon fra. Det forankrer i det minste at vi må bruke en god sum på merkevarebygging. Som jeg nevnte innledningsvis, er ofte utfordringen å bli enig om hva som egentlig er hva.</p>

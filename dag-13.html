@@ -99,6 +99,85 @@
       <h3>ROI-fellen</h3>
       <p>Les Binet har advart mot å styre etter avkastning per krone, ROI. ROI er nesten alltid høyest når budsjettet er lite, fordi de første kronene treffer de letteste kundene. Jo mer du bruker, jo lavere blir ROI. Samtidig kan totalfortjenesten øke.</p>
       <p>Et merke som maksimerer ROI, ender derfor ofte opp med å bruke for lite. Binet anbefaler heller å se på hvor mye ekstra fortjeneste reklamen skaper totalt. I rapporten <em>Go Big or Go Home</em> fra 2026 går han og Will Davis enda lenger og sier at bransjen har begynt å tenke for smått.</p>
+<section class="section vk" data-vk="roi" aria-label="ROI-fellen">
+  <h2>ROI-fellen <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Flytt på budsjettet og se hva som skjer med avkastningen per krone og med fortjenesten totalt.</p>
+
+  <div class="vk-row">
+    <label>Mediebudsjett</label>
+    <input type="range" min="0.5" max="15" step="0.5" value="1" data-in="budget" aria-label="Mediebudsjett i millioner kroner" />
+    <output class="vk-val" data-out="budget">1 mill.</output>
+  </div>
+
+  <div class="vk-result" aria-live="polite">
+    <svg class="vk-svg" viewBox="0 0 600 240" role="img" aria-label="ROI og fortjeneste ved ulike budsjetter" data-svg></svg>
+    <ul class="vk-legend">
+      <li><span class="vk-swatch"></span>Ekstra fortjeneste i kroner</li>
+      <li><span class="vk-swatch soft"></span>ROI, avkastning per krone</li>
+    </ul>
+    <p class="vk-text" data-out="line"></p>
+    <p class="vk-muted" data-out="rest"></p>
+  </div>
+
+  <p class="vk-footnote">Eksempeltall: et merke der reklamen kan gi opptil 12 millioner i ekstra fortjeneste, med avtagende effekt jo mer som brukes. Formen på kurvene er poenget. Den bygger på Les Binets argument om at ROI alltid er høyest ved små budsjetter.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var A = 12, K = 4; // maks ekstra bruttofortjeneste og metningsgrad (mill. kr)
+  var gross = function (b) { return A * (1 - Math.exp(-b / K)); };
+  var net = function (b) { return gross(b) - b; };
+  var roi = function (b) { return net(b) / b * 100; };
+  var BEST = K * Math.log(A / K);
+  var f1 = function (n) { return n.toLocaleString('nb-NO', { maximumFractionDigits: 1 }); };
+
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var input = root.querySelector('[data-in="budget"]');
+    var svg = root.querySelector('[data-svg]');
+    var W = 600, H = 240, L = 40, R = 40, T = 15, B = 30, MAXB = 15;
+    var x = function (b) { return L + (b / MAXB) * (W - L - R); };
+    var yNet = function (v) { return T + (1 - (v + 4) / 8) * (H - T - B); };      // -4..4 mill.
+    var yRoi = function (v) { return T + (1 - Math.max(-50, Math.min(250, v)) / 300 - 50 / 300) * (H - T - B); }; // -50..250 %
+    function path(fn, y) {
+      var d = '';
+      for (var b = 0.5; b <= MAXB + 0.001; b += 0.25) d += (d ? 'L' : 'M') + x(b).toFixed(1) + ' ' + y(fn(b)).toFixed(1);
+      return d;
+    }
+    function draw(b) {
+      var zero = yNet(0);
+      svg.innerHTML =
+        '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + zero + '" y2="' + zero + '" style="stroke:var(--rule)"/>' +
+        '<line x1="' + x(BEST) + '" x2="' + x(BEST) + '" y1="' + T + '" y2="' + (H - B) + '" style="stroke:var(--text-subtle)" stroke-dasharray="3 4"/>' +
+        '<text x="' + (x(BEST) + 6) + '" y="' + (H - B - 6) + '">Mest fortjeneste</text>' +
+        '<path d="' + path(roi, yRoi) + '" fill="none" style="stroke:var(--part-color);opacity:.35" stroke-width="3"/>' +
+        '<path d="' + path(net, yNet) + '" fill="none" style="stroke:var(--part-color)" stroke-width="3"/>' +
+        '<circle cx="' + x(b) + '" cy="' + yNet(net(b)) + '" r="6" style="fill:var(--part-color)"/>' +
+        '<circle cx="' + x(b) + '" cy="' + yRoi(roi(b)) + '" r="6" style="fill:var(--part-color);opacity:.45"/>' +
+        '<text x="' + L + '" y="' + (H - 8) + '">0</text>' +
+        '<text x="' + (W - R) + '" y="' + (H - 8) + '" text-anchor="end">15 mill. i budsjett</text>';
+    }
+    function update() {
+      var b = parseFloat(input.value);
+      root.querySelector('[data-out="budget"]').textContent = f1(b) + ' mill.';
+      draw(b);
+      root.querySelector('[data-out="line"]').innerHTML =
+        'Med ' + f1(b) + ' millioner er ROI <strong>' + Math.round(roi(b)) + ' %</strong>, og reklamen gir <strong>' +
+        f1(net(b)) + ' millioner</strong> i ekstra fortjeneste.';
+      root.querySelector('[data-out="rest"]').textContent = b < BEST - 0.3
+        ? 'ROI ser flott ut, men du legger penger igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner, selv om ROI da er lavere.'
+        : b > BEST + 0.3
+          ? 'Nå bruker du mer enn det som lønner seg. Hver ekstra krone gir mindre enn den koster.'
+          : 'Her er fortjenesten størst. ROI er lavere enn ved små budsjetter, og det er helt i orden.';
+    }
+    input.addEventListener('input', update);
+    update();
+  }
+  document.querySelectorAll('[data-vk="roi"]').forEach(init);
+})();
+</script>
+
       <h3>Hvordan bruke dette</h3>
       <p>Ingen metode gir hele bildet alene. En god måleplan bruker flere. Sporing følger merket over tid. MMM og eksperimenter viser hva som skaper salg. Og alt bør knyttes til forretningsmål som er håndfaste.</p>
       <p>For oss som lager reklame er det viktigste å avklare målingen før vi starter. Hvis kunden skal vurdere en merkevarebyggende kampanje på klikk etter to uker, ender alle med å se passe teite ut.</p>

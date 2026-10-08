@@ -1,0 +1,79 @@
+<section class="section vk" data-vk="markorer" aria-label="Markørrutenett">
+  <h2>Markørrutenett <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Legg inn merkemarkørene dine. Kjennskap er andelen kategorikjøpere som kobler markøren til merket. Unikhet er hvor sjelden den kobles til konkurrentene. Tallene får du fra Romaniuks test, men et anslag holder for å komme i gang.</p>
+
+  <div data-rows></div>
+
+  <div class="vk-result" aria-live="polite">
+    <svg class="vk-svg" viewBox="0 0 410 345" role="img" aria-label="Rutenett for merkemarkører" data-svg style="max-width:30rem"></svg>
+    <ul class="vk-list" data-out="list"></ul>
+  </div>
+
+  <p class="vk-footnote">Rutenettet bygger på Jenni Romaniuk, Building Distinctive Brand Assets (2018). Grensen går ved rundt 50 prosent på begge akser.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var START = [
+    { n: 'Logo', f: 85, u: 90 },
+    { n: 'Farge', f: 70, u: 35 },
+    { n: 'Karakter', f: 35, u: 80 },
+    { n: 'Lydlogo', f: 20, u: 30 }
+  ];
+  var RAD = {
+    bruk: 'Bruk alene. Den kan stå i stedet for logoen.',
+    unngaa: 'Ikke bruk den alene. Konkurrentene deler den.',
+    invester: 'Invester. Den er din, men for få kjenner den ennå.',
+    vurder: 'Vurder den. Test den eller la den gå.'
+  };
+  function felt(m) { return m.f >= 50 ? (m.u >= 50 ? 'bruk' : 'unngaa') : (m.u >= 50 ? 'invester' : 'vurder'); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var data = START.map(function (m) { return { n: m.n, f: m.f, u: m.u }; });
+    var rows = root.querySelector('[data-rows]');
+    data.forEach(function (m, i) {
+      var div = document.createElement('div');
+      div.className = 'vk-q';
+      div.innerHTML =
+        '<input class="vk-input" value="' + esc(m.n) + '" aria-label="Navn på markør ' + (i + 1) + '" data-k="n" style="margin-bottom:.6rem;max-width:20rem" />' +
+        '<div class="vk-row"><label>Kjennskap</label><input type="range" min="0" max="100" step="5" value="' + m.f + '" data-k="f" aria-label="Kjennskap" /><output class="vk-val">' + m.f + ' %</output></div>' +
+        '<div class="vk-row" style="margin-bottom:0"><label>Unikhet</label><input type="range" min="0" max="100" step="5" value="' + m.u + '" data-k="u" aria-label="Unikhet" /><output class="vk-val">' + m.u + ' %</output></div>';
+      div.querySelectorAll('input').forEach(function (inp) {
+        inp.addEventListener('input', function () {
+          var k = inp.getAttribute('data-k');
+          m[k] = k === 'n' ? inp.value : parseFloat(inp.value);
+          if (k !== 'n') inp.nextElementSibling.textContent = inp.value + ' %';
+          draw();
+        });
+      });
+      rows.appendChild(div);
+    });
+    var svg = root.querySelector('[data-svg]');
+    var L = 50, T = 10, S = 300; // plott 300x300
+    var px = function (u) { return L + u / 100 * S; }, py = function (f) { return T + (1 - f / 100) * S; };
+    function draw() {
+      var q = function (x, y, t) { return '<text x="' + x + '" y="' + y + '" text-anchor="middle" style="font-weight:600;fill:var(--text)">' + t + '</text>'; };
+      var h = '<rect x="' + L + '" y="' + T + '" width="' + S + '" height="' + S + '" style="fill:var(--white);stroke:var(--rule)"/>' +
+        '<rect x="' + px(50) + '" y="' + T + '" width="' + S / 2 + '" height="' + S / 2 + '" style="fill:var(--part-soft)"/>' +
+        '<line x1="' + px(50) + '" x2="' + px(50) + '" y1="' + T + '" y2="' + (T + S) + '" style="stroke:var(--rule)"/>' +
+        '<line x1="' + L + '" x2="' + (L + S) + '" y1="' + py(50) + '" y2="' + py(50) + '" style="stroke:var(--rule)"/>' +
+        q(px(75), T + 20, 'Bruk alene') + q(px(25), T + 20, 'Ikke alene') + q(px(75), T + S - 10, 'Invester') + q(px(25), T + S - 10, 'Vurder') +
+        '<text x="' + (L + S / 2) + '" y="' + (T + S + 22) + '" text-anchor="middle">Unikhet →</text>' +
+        '<text x="' + (L - 12) + '" y="' + (T + S / 2) + '" text-anchor="middle" transform="rotate(-90 ' + (L - 12) + ' ' + (T + S / 2) + ')">Kjennskap →</text>';
+      data.forEach(function (m) {
+        h += '<circle cx="' + px(m.u) + '" cy="' + py(m.f) + '" r="7" style="fill:var(--part-color)"/>' +
+          '<text x="' + (px(m.u) + 10) + '" y="' + (py(m.f) + 4) + '" style="fill:var(--text)">' + esc(m.n) + '</text>';
+      });
+      svg.innerHTML = h;
+      root.querySelector('[data-out="list"]').innerHTML = data.map(function (m) {
+        return '<li><strong>' + esc(m.n || 'Uten navn') + ':</strong> ' + RAD[felt(m)] + '</li>';
+      }).join('');
+    }
+    draw();
+  }
+  document.querySelectorAll('[data-vk="markorer"]').forEach(init);
+})();
+</script>

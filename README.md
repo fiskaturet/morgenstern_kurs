@@ -80,7 +80,7 @@ Hver `dag-N.md` har (Notion-ekvivalent i parentes):
 - **YAML-frontmatter** (database-feltene: Økt, Del, Varighet, Tittel, Prinsipp, Hovedkilde, Relatert)
 - **`## Lesning`** — brødtekst med `### h3`-underseksjoner
 - **`::: anders-kommentar :::`** — egen blokk for Anders-kommentaren (callout med 💬)
-- **`::: kalkulator-kjopsoyeblikk :::`** — drop-in kalkulator (callout med 🧩 og teksten `kalkulator-kjopsoyeblikk`)
+- **`::: kalkulator-kjopsoyeblikk :::`** og **`::: verktoy-… :::`** — interaktive verktøy (callout med 🧩 og filnavnet uten .html). Tilgjengelige: kalkulator-kjopsoyeblikk, verktoy-budsjett, verktoy-esov, verktoy-lemon, verktoy-markorer, verktoy-kjopere, verktoy-roi, verktoy-idevurdering
 - **`## Kritikk av teori(en)`** — kritikk-paragrafer
 - **`## Sjekkliste`** — punkter med `- [ ]` (to-do)
 - **`## Prøve`** — quiz-format (`### Q1.` + `- [ ]`/`- [x]` + `> forklaring`; to-do huket = riktig svar, sitatblokk = forklaring)

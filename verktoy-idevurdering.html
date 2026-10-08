@@ -1,0 +1,112 @@
+<section class="section vk" data-vk="ide" aria-label="Idévurdering">
+  <h2>Vurder en idé <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Skriv inn ideen, velg hovedjobben og svar på de fem spørsmålene. Til slutt får du en oppsummering du kan kopiere og ta med videre.</p>
+
+  <input class="vk-input" data-in="name" placeholder="Navn på ideen eller kampanjen" aria-label="Navn på ideen" style="margin-bottom:var(--space-md)" />
+
+  <div class="vk-choices" role="radiogroup" aria-label="Hovedjobben">
+    <button type="button" class="vk-chip" data-job="mvb" role="radio" aria-checked="true">Merkevarebygging</button>
+    <button type="button" class="vk-chip" data-job="akt" role="radio" aria-checked="false">Aktivering</button>
+  </div>
+
+  <div data-qs></div>
+
+  <div class="vk-result" aria-live="polite" style="margin-top:var(--space-md)">
+    <p class="vk-text" data-out="head"></p>
+    <ul class="vk-list" data-out="list"></ul>
+    <p class="vk-muted" data-out="rest"></p>
+    <p style="margin-top:var(--space-md)"><button type="button" class="vk-btn secondary" data-copy>Kopier oppsummeringen</button></p>
+  </div>
+
+  <p class="vk-footnote">Spørsmålene er fra rammeverket i økt 14. Svarene er ditt skjønn. Målet er å finne svakhetene før kunden gjør det.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var QS = [
+    { k: 'jobb', t: '1. Jobben', q: 'Matcher ideen oppgaven?',
+      svak: 'Avklar hovedjobben, og sørg for at målingen passer til den.' },
+    { k: 'mott', t: '2. Mottakeren', q: 'Får reklamen dem som kjøper sjelden, til å handle? Blir den koblet til merket?',
+      svak: 'Sjekk rekkevidden, og om merkemarkørene kommer tidlig og tydelig.' },
+    { k: 'mek', t: '3. Mekanikken', q: 'Er det irrasjonelt nok? Spiller den på følelser, og hvilket signal sender den?',
+      svak: 'Let etter det opplevde problemet, og se om mennesker og handling kan ta over for forklaringen.' },
+    { k: 'trykk', t: '4. Trykkpunktet', q: 'Hva får folk til å si ja?',
+      svak: 'Finn ut hvilket av Cialdinis prinsipper ideen bruker, og forsterk det.' },
+    { k: 'vilk', t: '5. Vilkårene', q: 'Får ideen tiden og plassen den trenger?',
+      svak: 'Sjekk at budsjett, varighet og rekkevidde holder. Hvis ikke, juster ambisjonen.' }
+  ];
+  var LABEL = { 1: 'Svakt', 2: 'Delvis', 3: 'Sterkt' };
+
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var job = 'mvb', score = {};
+    var wrap = root.querySelector('[data-qs]');
+    QS.forEach(function (q) {
+      var d = document.createElement('div');
+      d.className = 'vk-q';
+      d.innerHTML = '<h4>' + q.t + '</h4><p>' + q.q + '</p><div class="vk-scale" role="radiogroup" aria-label="' + q.t + '">' +
+        [1, 2, 3].map(function (v) { return '<button type="button" class="vk-chip" role="radio" aria-checked="false" data-v="' + v + '">' + LABEL[v] + '</button>'; }).join('') + '</div>';
+      d.querySelectorAll('.vk-chip').forEach(function (b) {
+        b.addEventListener('click', function () {
+          d.querySelectorAll('.vk-chip').forEach(function (o) { o.setAttribute('aria-checked', o === b ? 'true' : 'false'); });
+          score[q.k] = parseInt(b.getAttribute('data-v'), 10); update();
+        });
+      });
+      wrap.appendChild(d);
+    });
+    var jobs = root.querySelectorAll('[data-job]');
+    jobs.forEach(function (c) {
+      c.addEventListener('click', function () {
+        jobs.forEach(function (o) { o.setAttribute('aria-checked', o === c ? 'true' : 'false'); });
+        job = c.getAttribute('data-job'); update();
+      });
+    });
+    var nameIn = root.querySelector('[data-in="name"]');
+    nameIn.addEventListener('input', update);
+    var summary = '';
+
+    function update() {
+      var done = QS.filter(function (q) { return score[q.k]; });
+      var name = nameIn.value.trim() || 'Ideen';
+      var head = root.querySelector('[data-out="head"]'), list = root.querySelector('[data-out="list"]'), rest = root.querySelector('[data-out="rest"]');
+      if (done.length < QS.length) {
+        head.textContent = 'Svar på alle fem spørsmålene for å få oppsummeringen. ' + done.length + ' av 5 er besvart.';
+        list.innerHTML = ''; rest.textContent = ''; summary = ''; return;
+      }
+      var lines = [], weak = 0, strong = 0;
+      QS.forEach(function (q) {
+        var s = score[q.k];
+        if (s === 3) strong++;
+        var txt = q.t + ': ' + LABEL[s] + '.';
+        if (s === 1) {
+          if (q.k === 'trykk' && job === 'mvb') {
+            txt += ' Det kan være greit. Ideen skal bygge minner og følelser, ikke utløse kjøp i dag.';
+          } else { weak++; txt += ' ' + q.svak; }
+        } else if (s === 2) {
+          txt += ' Kan styrkes.';
+          if (q.k === 'trykk' && job === 'akt') txt += ' For en aktiveringsidé er dette hele jobben.';
+        }
+        lines.push(txt);
+      });
+      head.innerHTML = '<strong>' + name.replace(/[<>&]/g, '') + '</strong> er sterk på ' + strong + ' av 5 spørsmål.';
+      list.innerHTML = lines.map(function (l) { return '<li>' + l.replace(/[<>&]/g, '') + '</li>'; }).join('');
+      rest.textContent = weak === 0
+        ? 'Ingen svakheter du ikke kan forsvare. Da har du en idé å stå bak.'
+        : weak === 1
+          ? 'Én svakhet å jobbe med. Kan du forsvare den, er det greit. Hvis ikke, jobb videre.'
+          : weak + ' svakheter å jobbe med. Det er verdt en runde til før ideen går videre.';
+      summary = name + ' (' + (job === 'mvb' ? 'merkevarebygging' : 'aktivering') + ')\n' + lines.map(function (l) { return '- ' + l; }).join('\n') + '\n' + rest.textContent;
+    }
+    root.querySelector('[data-copy]').addEventListener('click', function (e) {
+      if (!summary) return;
+      var btn = e.currentTarget;
+      try {
+        navigator.clipboard.writeText(summary).then(function () { btn.textContent = 'Kopiert'; setTimeout(function () { btn.textContent = 'Kopier oppsummeringen'; }, 1500); });
+      } catch (err) { /* utilgjengelig */ }
+    });
+    update();
+  }
+  document.querySelectorAll('[data-vk="ide"]').forEach(init);
+})();
+</script>

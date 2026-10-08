@@ -91,6 +91,65 @@
       <p>Paretos 80/20-regel sier at 20 prosent av kundene står for 80 prosent av salget. Sharp, Romaniuk og Graham sjekket dette i et stort antall merker og kategorier i 2019. De fant at de 20 prosentene som kjøper mest, typisk står for rundt 60 prosent av salget.</p>
       <p>Det betyr at de 80 prosentene som kjøper sjelden, står for rundt 40 prosent. Det er mye mer enn 80/20 tilsier. De tunge kundene kjøper dessuten allerede mye, og det er vanskelig å få dem til å kjøpe enda mer. Veksten må derfor komme fra flere lette kunder.</p>
       <p>En kampanje som bare snakker til fansen, treffer for få. Det er et slag i ansiktet på reklameinstinktet om å snakke intimt til en målgruppe man kjenner. Sharps råd er å snakke bredt til alle som kan finne på å kjøpe deg.</p>
+<section class="section vk" data-vk="kjopere" aria-label="Lette og tunge kjøpere">
+  <h2>Hvem står for salget? <span class="badge">interaktiv</span></h2>
+  <p class="vk-intro">Tenk på merket ditt. Hvor stor del av salget tror du kommer fra de 20 prosentene som kjøper mest? Sett din gjetning, og se fasiten.</p>
+
+  <div class="vk-row">
+    <label>Din gjetning</label>
+    <input type="range" min="20" max="100" step="5" value="80" data-in="guess" aria-label="Andel av salget fra de 20 prosentene som kjøper mest" />
+    <output class="vk-val" data-out="guess">80 %</output>
+  </div>
+  <p><button type="button" class="vk-btn" data-reveal>Vis fasiten</button></p>
+
+  <div class="vk-result" aria-live="polite" data-result hidden>
+    <div class="vk-bars">
+      <div>
+        <div class="vk-bar-label"><span>Din gjetning</span><span data-out="gtxt"></span></div>
+        <div class="vk-bar"><span class="a" data-bar="g-a"></span><span class="b" data-bar="g-b"></span></div>
+      </div>
+      <div>
+        <div class="vk-bar-label"><span>Typisk funn</span><span>60 % fra de tunge, 40 % fra de lette</span></div>
+        <div class="vk-bar"><span class="a" style="width:60%"></span><span class="b" style="width:40%"></span></div>
+      </div>
+    </div>
+    <ul class="vk-legend">
+      <li><span class="vk-swatch"></span>De 20 % som kjøper mest</li>
+      <li><span class="vk-swatch soft"></span>De 80 % som kjøper sjelden</li>
+    </ul>
+    <p class="vk-text" data-out="line"></p>
+    <p class="vk-muted">De som kjøper sjelden, står altså for rundt 40 prosent av salget. Det er dem merket må nå for å vokse.</p>
+  </div>
+
+  <p class="vk-footnote">Byron Sharp, Jenni Romaniuk og Cathy Graham sjekket mange merker og kategorier i 2019. De 20 prosentene som kjøper mest, står typisk for rundt 60 prosent av salget.</p>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  function init(root) {
+    if (root.dataset.ready) return; root.dataset.ready = '1';
+    var g = root.querySelector('[data-in="guess"]'), res = root.querySelector('[data-result]');
+    function update() {
+      var v = parseFloat(g.value);
+      root.querySelector('[data-out="guess"]').textContent = v + ' %';
+      root.querySelector('[data-bar="g-a"]').style.width = v + '%';
+      root.querySelector('[data-bar="g-b"]').style.width = (100 - v) + '%';
+      root.querySelector('[data-out="gtxt"]').textContent = v + ' % fra de tunge, ' + (100 - v) + ' % fra de lette';
+      root.querySelector('[data-out="line"]').innerHTML = v > 65
+        ? 'Du gjettet <strong>' + v + ' %</strong>. Det gjør de fleste, fordi 80/20-regelen sitter godt. Virkeligheten er nærmere 60/40.'
+        : v < 55
+          ? 'Du gjettet <strong>' + v + ' %</strong>. Det er lavere enn det typiske funnet. De tunge kjøperne betyr mye, men ikke alt.'
+          : 'Du gjettet <strong>' + v + ' %</strong>. Det er nær det typiske funnet.';
+    }
+    g.addEventListener('input', update);
+    root.querySelector('[data-reveal]').addEventListener('click', function () { res.hidden = false; update(); });
+    update();
+  }
+  document.querySelectorAll('[data-vk="kjopere"]').forEach(init);
+})();
+</script>
+
       <h3>Medier og budskap</h3>
       <p>Sharp forsvarer brede medier som TV og utendørs. Reklame som når mange noen få ganger, virker bedre enn reklame som når få mennesker mange ganger.</p>
       <p>Når mye av salget kommer fra folk som kjøper sjelden, må merket være husket når den ene kjøpsanledningen kommer. De fleste er ikke i markedet for det du selger akkurat nå.</p>

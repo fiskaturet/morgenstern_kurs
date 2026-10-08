@@ -379,15 +379,15 @@ def render_paragraphs_with_specials(body: str) -> str:
             i += 1
             continue
 
-        # ::: kalkulator-kjopsoyeblikk :::
-        if stripped.startswith('::: kalkulator-kjopsoyeblikk'):
-            # Spis evt. avsluttende ::: hvis den finnes på neste/samme linje
-            if not stripped.endswith(':::'):
+        # ::: <verktøy> :::  → limer inn <verktøy>.html (kalkulatorer og andre interaktive verktøy)
+        m_tool = re.match(r'^:::\s*([a-z0-9-]+)', stripped)
+        if m_tool and m_tool.group(1) != 'anders-kommentar' and (ROOT / f'{m_tool.group(1)}.html').exists():
+            if stripped.count(':::') < 2:
                 i += 1
                 while i < len(lines) and lines[i].strip() != ':::':
                     i += 1
             i += 1
-            out.append(KALKULATOR_HTML)
+            out.append((ROOT / f'{m_tool.group(1)}.html').read_text(encoding='utf-8'))
             continue
 
         # ::: anders-kommentar :::
