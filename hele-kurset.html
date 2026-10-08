@@ -143,15 +143,21 @@
 <section class="section kalk" aria-labelledby="kalk-tittel">
 
   <h2 id="kalk-tittel">Hvor mange er i markedet nå? <span class="badge">interaktiv</span></h2>
-  <p class="kalk-intro">Velg hvor ofte en vanlig kjøper i kategorien kjøper, og sett markedsandelen din. Da ser du hvor få som faktisk er i markedet, og hvor mange av dem som velger deg.</p>
+  <p class="kalk-intro">Velg et produkt. Andelen som kjøper i kategorien fylles inn av seg selv, men du kan justere den og markedsandelen. Da ser du hvor få som faktisk er i markedet, og hvor mange av dem som velger deg.</p>
 
-  <div class="kalk-choices" role="radiogroup" aria-label="Hvor ofte kjøper en vanlig kjøper i kategorien">
-    <button type="button" class="kalk-chip" data-months="0.25" role="radio" aria-checked="false">Hver uke<small>Dagligvarer</small></button>
-    <button type="button" class="kalk-chip" data-months="1" role="radio" aria-checked="false">Hver måned<small>Takeaway, klær</small></button>
-    <button type="button" class="kalk-chip" data-months="12" role="radio" aria-checked="false">Hvert år<small>Ferie, forsikring</small></button>
-    <button type="button" class="kalk-chip" data-months="36" role="radio" aria-checked="false">Hvert 3. år<small>Mobiltelefon</small></button>
-    <button type="button" class="kalk-chip" data-months="60" role="radio" aria-checked="true">Hvert 5. år<small>TV, sofa</small></button>
-    <button type="button" class="kalk-chip" data-months="96" role="radio" aria-checked="false">Hvert 8. år<small>Bil</small></button>
+  <div class="kalk-choices" role="radiogroup" aria-label="Velg et produkt">
+    <button type="button" class="kalk-chip" data-months="1.385" data-pen="45" role="radio" aria-checked="false">Leverpostei<small>Kjøpes hver 6. uke</small></button>
+    <button type="button" class="kalk-chip" data-months="2" data-pen="45" role="radio" aria-checked="false">Hjemlevert pizza<small>Kjøpes annenhver måned</small></button>
+    <button type="button" class="kalk-chip" data-months="12" data-pen="50" role="radio" aria-checked="false">Joggesko<small>Kjøpes hvert år</small></button>
+    <button type="button" class="kalk-chip" data-months="36" data-pen="95" role="radio" aria-checked="true">Mobiltelefon<small>Kjøpes hvert 3. år</small></button>
+    <button type="button" class="kalk-chip" data-months="120" data-pen="80" role="radio" aria-checked="false">Sofa<small>Kjøpes hvert 10. år</small></button>
+    <button type="button" class="kalk-chip" data-months="84" data-pen="65" role="radio" aria-checked="false">Bil<small>Kjøpes hvert 7. år</small></button>
+  </div>
+
+  <div class="kalk-row">
+    <label for="kalk-pen">Andel voksne som kjøper i kategorien</label>
+    <input type="range" id="kalk-pen" min="1" max="100" step="1" value="95" />
+    <output for="kalk-pen" class="kalk-val" id="kalk-pen-out">95&nbsp;%</output>
   </div>
 
   <div class="kalk-row">
@@ -173,7 +179,7 @@
     <p class="kalk-rest" id="kalk-rest"></p>
   </div>
 
-  <p class="kalk-footnote">Forenklet regnestykke: Andelen i markedet er én uke delt på tiden mellom hvert kjøp. Kjøpene fordeles etter markedsandel. Utgangspunktet er 4,4 millioner nordmenn over 20 år (SSB, 1. januar 2026), og regnestykket antar at alle kan kjøpe i kategorien. Hver prikk er én av tusen. Bruk tallene som retning.</p>
+  <p class="kalk-footnote">Forenklet regnestykke: voksne nordmenn × andelen som kjøper i kategorien × andelen av dem som kjøper denne uka × markedsandel. Utgangspunktet er 4,4 millioner nordmenn over 20 år (SSB, 1. januar 2026). Tallene for produktene er anslag. Mobil bygger på at nordmenn bytter omtrent hvert tredje år. Bil bygger på 2,9 millioner personbiler i Norge. Leverpostei bygger på at Stabburet solgte over 50 000 bokser om dagen i 2012. Hver prikk er én av tusen. Bruk tallene som retning.</p>
 
 </section>
 
@@ -236,7 +242,7 @@
   .kalk-dot { aspect-ratio: 1; border-radius: 50%; background: var(--rule); }
   .kalk-row {
     display: grid;
-    grid-template-columns: 11rem 1fr 4rem;
+    grid-template-columns: 15rem 1fr 4rem;
     align-items: center;
     gap: var(--space-md);
     margin-bottom: var(--space-lg);
@@ -295,11 +301,14 @@
     var fmt = function (n) {
       return n.toLocaleString('nb-NO', { maximumFractionDigits: n < 1 ? 2 : n < 10 ? 1 : 0 });
     };
-    var months = 60;
+    var months = 36;
     var share = document.getElementById('kalk-share');
+    var pen = document.getElementById('kalk-pen');
     var _n0 = function (n) { return Math.round(n).toLocaleString('nb-NO'); };
     function show() {
-      var pct = Math.min(100, UKE / months * 100);
+      var pn = parseFloat(pen.value) / 100;
+      document.getElementById('kalk-pen-out').textContent = Math.round(pn * 100) + '\u00a0%';
+      var pct = pn * Math.min(100, UKE / months * 100);
       var sh = parseFloat(share.value) / 100;
       var inMarket = VOKSNE * pct / 100;
       var mine = inMarket * sh;
@@ -312,7 +321,7 @@
       document.getElementById('kalk-line').innerHTML =
         'Av 4,4 millioner nordmenn over 20 år er rundt <strong>' + rund(inMarket) + '</strong> i markedet denne uka. Med ' +
         Math.round(sh * 100) + '\u00a0% markedsandel kjøper rundt <strong>' + rund(mine) + '</strong> av dem fra deg.';
-      document.getElementById('kalk-rest').textContent = pct >= 100
+      document.getElementById('kalk-rest').textContent = UKE >= months
         ? 'Her kjøper alle i løpet av uka. Merket må bli husket i hvert eneste kjøp, og det er også merkevarebyggingens jobb.'
         : 'De andre ' + rund(VOKSNE - inMarket) + ' skal ikke kjøpe noe nå. Merkevarebygging sørger for at de husker deg når de skal.';
       var pctMine = pct * sh;
@@ -324,10 +333,12 @@
       });
     }
     share.addEventListener('input', show);
+    pen.addEventListener('input', show);
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
         chips.forEach(function (o) { o.setAttribute('aria-checked', o === c ? 'true' : 'false'); });
         months = parseFloat(c.getAttribute('data-months'));
+        pen.value = c.getAttribute('data-pen');
         show();
       });
     });
