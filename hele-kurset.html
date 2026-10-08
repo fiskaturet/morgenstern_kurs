@@ -1297,27 +1297,27 @@
 
   <div class="vk-row">
     <label>Mediebudsjett</label>
-    <input type="range" min="0.5" max="12" step="0.5" value="1" data-in="budget" aria-label="Mediebudsjett i millioner kroner" />
-    <output class="vk-val" data-out="budget">1 mill.</output>
+    <input type="range" min="0.5" max="12" step="0.5" value="2" data-in="budget" aria-label="Mediebudsjett i millioner kroner" />
+    <output class="vk-val" data-out="budget">2 mill.</output>
   </div>
 
   <div class="vk-result" aria-live="polite">
     <svg class="vk-svg" viewBox="0 0 600 240" role="img" aria-label="ROI og fortjeneste ved ulike budsjetter" data-svg></svg>
     <ul class="vk-legend">
-      <li><span class="vk-swatch"></span>Ekstra fortjeneste i kroner</li>
+      <li><span class="vk-swatch"></span>Ekstra fortjeneste, på kort og lang sikt</li>
       <li><span class="vk-swatch soft"></span>ROI, avkastning per krone</li>
     </ul>
     <p class="vk-text" data-out="line"></p>
     <p class="vk-muted" data-out="rest"></p>
   </div>
 
-  <p class="vk-footnote">Eksempeltall: ROI på rundt 60 prosent ved små budsjetter og rundt 30 prosent der fortjenesten er størst. Effekten avtar jo mer som brukes. Formen på kurvene er poenget. Den bygger på Les Binets argument om at ROI alltid er høyest ved små budsjetter.</p>
+  <p class="vk-footnote">Eksempeltall. Fortjenesten tar med både den kortsiktige og den langsiktige effekten av reklamen. Kortsiktige målinger fanger bare opp en del av den, og peker derfor mot et lavere budsjett enn det som lønner seg. Formen på kurvene bygger på Les Binets argument om at ROI nesten alltid er høyest ved små budsjetter.</p>
 </section>
 
 <script>
 (function () {
   'use strict';
-  var A = 13.2, K = 8; // maks ekstra bruttofortjeneste og metningsgrad (mill. kr)
+  var A = 18.7, K = 10.7; // maks ekstra bruttofortjeneste på kort og lang sikt, og metningsgrad (mill. kr)
   var gross = function (b) { return A * (1 - Math.exp(-b / K)); };
   var net = function (b) { return gross(b) - b; };
   var roi = function (b) { return net(b) / b * 100; };
@@ -1330,8 +1330,8 @@
     var svg = root.querySelector('[data-svg]');
     var W = 600, H = 240, L = 40, R = 40, T = 15, B = 30, MAXB = 12;
     var x = function (b) { return L + (b / MAXB) * (W - L - R); };
-    var yNet = function (v) { return T + (1 - (Math.max(-2, Math.min(2, v)) + 2) / 4) * (H - T - B); }; // -2..2 mill.
-    var yRoi = function (v) { return T + (1 - (Math.max(-40, Math.min(80, v)) + 40) / 120) * (H - T - B); }; // -40..80 %
+    var yNet = function (v) { return T + (1 - (Math.max(-0.5, Math.min(2.5, v)) + 0.5) / 3) * (H - T - B); }; // -0,5..2,5 mill.
+    var yRoi = function (v) { return T + (1 - (Math.max(-10, Math.min(80, v)) + 10) / 90) * (H - T - B); }; // -10..80 %
     function path(fn, y) {
       var d = '';
       for (var b = 0.5; b <= MAXB + 0.001; b += 0.25) d += (d ? 'L' : 'M') + x(b).toFixed(1) + ' ' + y(fn(b)).toFixed(1);
@@ -1358,10 +1358,10 @@
         'Med ' + f1(b) + (b === 1 ? ' million' : ' millioner') + ' er ROI <strong>' + Math.round(roi(b)) + ' %</strong>, ' + (net(b) >= 0
           ? 'og reklamen gir <strong>' + f1(net(b)) + ' millioner</strong> i ekstra fortjeneste.'
           : 'og reklamen taper <strong>' + f1(-net(b)) + ' millioner</strong>.');
-      root.querySelector('[data-out="rest"]').textContent = b < BEST - 0.3
-        ? 'ROI ser flott ut, men du legger penger igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner, selv om ROI da er lavere.'
-        : b > BEST + 0.3
-          ? 'Nå bruker du mer enn det som lønner seg. Hver ekstra krone gir mindre enn den koster.'
+      root.querySelector('[data-out="rest"]').textContent = b < BEST - 0.4
+        ? 'ROI ser fin ut, men merket legger penger igjen på bordet. Fortjenesten er størst ved rundt ' + f1(BEST) + ' millioner. Binet mener de fleste merker ligger her, på venstre side av toppen.'
+        : b > BEST + 0.4
+          ? 'Her gir hver ekstra krone litt mindre enn den koster. Taket finnes, men det ligger langt unna der de fleste merker er.'
           : 'Her er fortjenesten størst. ROI er lavere enn ved små budsjetter, og det er helt i orden.';
     }
     input.addEventListener('input', update);
