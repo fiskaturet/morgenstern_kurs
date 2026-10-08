@@ -13,7 +13,7 @@
     <button type="button" class="kalk-chip" data-months="1" role="radio" aria-checked="false">Hver måned<small>Takeaway, klær</small></button>
     <button type="button" class="kalk-chip" data-months="12" role="radio" aria-checked="false">Hvert år<small>Ferie, forsikring</small></button>
     <button type="button" class="kalk-chip" data-months="36" role="radio" aria-checked="false">Hvert 3. år<small>Mobiltelefon</small></button>
-    <button type="button" class="kalk-chip" data-months="60" role="radio" aria-checked="true">Hvert 5. år<small>B2B-system</small></button>
+    <button type="button" class="kalk-chip" data-months="60" role="radio" aria-checked="true">Hvert 5. år<small>TV, sofa</small></button>
     <button type="button" class="kalk-chip" data-months="96" role="radio" aria-checked="false">Hvert 8. år<small>Bil</small></button>
   </div>
 
@@ -25,7 +25,7 @@
 
   <div class="kalk-result" aria-live="polite">
     <div class="kalk-big"><span id="kalk-pct">5</span>&nbsp;%</div>
-    <p class="kalk-big-label">av kjøperne i kategorien er i markedet dette kvartalet.</p>
+    <p class="kalk-big-label">av nordmenn over 20 år er i markedet dette kvartalet.</p>
     <div class="kalk-dots" id="kalk-dots" aria-hidden="true"></div>
     <ul class="kalk-legend" aria-hidden="true">
       <li><span class="kalk-dot mine"></span>Kjøper fra deg</li>
@@ -36,7 +36,7 @@
     <p class="kalk-rest" id="kalk-rest"></p>
   </div>
 
-  <p class="kalk-footnote">Forenklet regnestykke: Andelen i markedet er tre måneder delt på tiden mellom hvert kjøp. Kjøpene fordeles etter markedsandel. Hver prikk er ti av 1 000 kjøpere. Bruk tallene som retning.</p>
+  <p class="kalk-footnote">Forenklet regnestykke: Andelen i markedet er tre måneder delt på tiden mellom hvert kjøp. Kjøpene fordeles etter markedsandel. Utgangspunktet er 4,4 millioner nordmenn over 20 år (SSB, 1. januar 2026), og regnestykket antar at alle kan kjøpe i kategorien. Hver prikk er én prosent. Bruk tallene som retning.</p>
 
 </section>
 
@@ -146,6 +146,7 @@
   (function () {
     'use strict';
     var KVARTAL = 3; // måneder
+    var VOKSNE = 4388766; // nordmenn 20 år og over, 1. januar 2026 (SSB)
     var chips = document.querySelectorAll('.kalk-chip');
     var dots = document.getElementById('kalk-dots');
     if (!dots) return;
@@ -163,18 +164,23 @@
     function show() {
       var pct = Math.min(100, KVARTAL / months * 100);
       var sh = parseFloat(share.value) / 100;
-      var inMarket = pct * 10;          // av 1 000 kjøpere
+      var inMarket = VOKSNE * pct / 100;
       var mine = inMarket * sh;
+      var rund = function (n) {
+        var r = n >= 100000 ? 10000 : n >= 10000 ? 1000 : 100;
+        return (Math.round(n / r) * r).toLocaleString('nb-NO');
+      };
       document.getElementById('kalk-pct').textContent = fmt(pct);
       document.getElementById('kalk-share-out').textContent = Math.round(sh * 100) + '\u00a0%';
       document.getElementById('kalk-line').innerHTML =
-        'Av 1 000 kjøpere i kategorien er <strong>' + n0(inMarket) + '</strong> i markedet. Med ' +
-        Math.round(sh * 100) + '\u00a0% markedsandel kjøper <strong>' + n0(mine) + '</strong> av dem fra deg.';
+        'Av 4,4 millioner nordmenn over 20 år er rundt <strong>' + rund(inMarket) + '</strong> i markedet dette kvartalet. Med ' +
+        Math.round(sh * 100) + '\u00a0% markedsandel kjøper rundt <strong>' + rund(mine) + '</strong> av dem fra deg.';
       document.getElementById('kalk-rest').textContent = pct >= 100
         ? 'Her kjøper alle i løpet av kvartalet. Merket må bli husket i hvert eneste kjøp, og det er også merkevarebyggingens jobb.'
-        : 'De andre ' + n0(1000 - inMarket) + ' skal ikke kjøpe noe nå. Merkevarebygging sørger for at de husker deg når de skal.';
-      var onDots = inMarket > 0 ? Math.max(1, Math.round(inMarket / 10)) : 0;
-      var mineDots = mine > 0 ? Math.max(1, Math.round(mine / 10)) : 0;
+        : 'De andre ' + rund(VOKSNE - inMarket) + ' skal ikke kjøpe noe nå. Merkevarebygging sørger for at de husker deg når de skal.';
+      var pctMine = pct * sh;
+      var onDots = pct > 0 ? Math.max(1, Math.round(pct)) : 0;
+      var mineDots = pctMine > 0 ? Math.max(1, Math.round(pctMine)) : 0;
       dots.querySelectorAll('.kalk-dot').forEach(function (el, idx) {
         el.classList.toggle('mine', idx < mineDots);
         el.classList.toggle('on', idx >= mineDots && idx < onDots);
