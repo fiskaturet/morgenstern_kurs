@@ -65,6 +65,32 @@ Skal vi følge Sharps syn på vekst, vil den type kampanjer gi lite vekst, samme
 Og så er det viktig å påpeke at Sharp ikke ber oss drite i kundene våre. Vi må åpenbart behandle dem bra, ellers mister vi dem. Og vips, ikke bare vokser vi ikke, vi krymper.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Old Spice, «The Man Your Man Could Smell Like»
+
+*USA 2010 · Wieden+Kennedy*
+
+Kampanjen snakket til kvinner, fordi de som oftest står for innkjøp av dusjsåpe til menn. Salget økte 107 prosent etter bare én måned, ifølge Nielsen.
+
+https://www.youtube.com/watch?v=owGykVbfgUE
+
+*The Man Your Man Could Smell Like. YouTube, Old Spice.*
+
+Kilder: [Old Spice sales up 107 percent](https://www.adweek.com/?p=12422) (Adweek)
+
+### ice
+
+*Grand Prix og to sølv · ANFO Effekt 2023 · Gull i Vekst · ANFO Effekt 2025*
+
+Fra varemerke til en million kunder i et marked uten vekst. Grand Prixet i 2023 er delt med Nord DDB, Publicis Starcom og Elg.
+
+Juryen: «Langsiktig og helhetlig markedsarbeid faktisk kan flytte posisjoner.» ([kom24, 19. mars 2026](https://www.kom24.no/anfo-anfo-effekt-prisutdeling/anfo-effekt-her-er-arets-vinnere/903953))
+
+Kilder: [Vinnere ANFO Effekt 2023](https://anfo.no/anfo-effekt-2023-vinnere/) (ANFO) · [ice dropper Nord DDB, går for Morgenstern](https://www.kom24.no/carina-lla-eddie-dsa-ice/ice-dropper-nord-ddb-gar-for-morgenstern/600092) (kom24, 2023) · [Nytt byrå klar med 5G-reklame for ice](https://kampanje.com/reklame/2023/09/nytt-byra-klar-med-5g-reklame-for-ice/) (Kampanje, september 2023)
+
 ## Kritikk av teorien
 
 Lojalitet er viktigere i noen kategorier. I kategorier med høye byttekostnader er en lojal kunde verdt mer, som i bank og forsikring. Mønsteret Sharp beskriver, gjelder også der. Men kundene bytter sjeldnere, og det kan lønne seg å holde godt på dem.

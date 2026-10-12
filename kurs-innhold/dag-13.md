@@ -87,6 +87,26 @@ Men ganske ofte føler jeg at vi måler mer enn vi markedsfører. Jeg tror veldi
 Salgsmodellering er en slags svart boks. Ingen har helt klart å forklare meg hvordan en modell kan vise at utendørs bidro til å løfte basesalget 2 prosent, mens radio økte det med 7 prosent. På samme kunde har vi i løpet av en toårsperiode fått høre at a) radio ikke gir effekt, b) utendørs er det mest effektive, c) radio funker best og d) vi ikke ser særlig effekt av utendørs som flate.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Uber
+
+*USA 2017*
+
+Uber skrudde av rundt tre firedeler av den digitale annonseringen uten merkbar effekt.
+
+Kilder: [Uber burned through $100 million thanks to digital ad fraud](https://www.inverse.com/input/culture/uber-burned-through-100-million-thanks-to-digital-ad-fraud) (Inverse) · [Uber sues ad firm](https://www.theregister.com/2017/09/19/uber_sues_ad_firm/) (The Register, september 2017)
+
+### Procter & Gamble
+
+*Global 2017*
+
+P&G kuttet 200 millioner dollar i digital annonsering. Det første kuttet merket de knapt.
+
+Kilder: [P&G slashes digital ad waste by $200m](https://www.thedrum.com/news/2018/03/02/pg-slashes-digital-ad-waste-200m-marketing-pivot) (The Drum, mars 2018)
+
 ## Kritikk av teorien
 
 MMM er en modell og ikke en sannhet. Resultatet avhenger av antagelsene som er lagt inn. To byråer kan få ulike svar fra samme data.

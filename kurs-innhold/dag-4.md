@@ -69,6 +69,40 @@ Likegyldighet er oppmerksomhetens fiende. Og uten oppmerksomhet kan vi ikke skap
 Du kan jo selv prøve å huske noe fint som skjedde deg i 2023, men som ikke fikk deg til å føle noe som helst. Lykke til!
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### TV 2 Danmark, «All That We Share»
+
+*Danmark 2017 · &Co.*
+
+En film om det vi har til felles. Etter få måneder koblet 68 prosent av danskene den nye posisjonen til TV 2.
+
+https://www.youtube.com/watch?v=jD8tjhVO1Tc
+
+*All That We Share. YouTube, TV 2 Play.*
+
+Kilder: [All that we share](https://www.andco.dk/cases/all-that-we-share) (&Co., byråets case-side. Tallene er byråets egne)
+
+### Ronseal, «Does exactly what it says on the tin»
+
+*Storbritannia 1994 · HHCL & Partners*
+
+Det rasjonelle motstykket. Kjøperne var usikre på hva de skulle velge, og trengte en enkel forklaring.
+
+Kilder: [Does exactly what it says on the tin](https://www.creativereview.co.uk/does-exactly-what-it-says-on-the-tin/) (Creative Review)
+
+### FINN reise, «Granka, Granka, Granka!»
+
+*Grand Prix og gull i Smart Singel · ANFO Effekt 2019 · Mediebyå Red Dentsu X*
+
+Målet med kampanjen var å vinne reisende tilbake fra utenlandske bookingsider. Ordet «Granka» i en av filmene startet en debatt, og FINN brukte debatten til å lage nytt innhold i form av en låt med tilhørende musikkvideo. «Granka, granka, granka» ble den mest populære norske reklamefilmen på YouTube i 2019.
+
+Juryen: «Årets Grand Prix-vinner gikk til en aktør som leverer utsøkt markedsarbeid og veldokumenterte resultater.» ([Kampanje, 13. februar 2020](https://www.kampanje.com/premium/grand-grand-grand-prix-til-finn-og-morgenstern-for-granka-granka-granka/332624))
+
+Kilder: [Granka](https://www.morgenstern.no/arbeider/granka) (Morgenstern. YouTube-tallet er Morgensterns eget) · [Den beste unnskyldningen er å være bortreist](https://kreativtforum.no/arbeid/2019/01/den-beste-unnskyldningen-er-a-vare-bortreist) (Kreativt Forum, 3. januar 2019. Omtale ved lansering) · [Vinnere ANFO Effekt 2019](https://anfo.no/2020/02/14/vinnere-anfo-effekt-2019/) (ANFO) · [Den første filmen](https://vimeo.com/314445994) (Vimeo. Lenken er hentet fra Morgensterns side, ikke åpnet) · [Musikkvideoen](https://vimeo.com/683280974) (Vimeo. Lenken er hentet fra Morgensterns side, ikke åpnet) · [Granka, Granka, Granka](https://www.finn.no/reise/artikler/aktuelt/granka-granka-granka) (FINN reise)
+
 ## Kritikk av teorien
 
 Skillet er ikke glassklart. En god reklame kan være både emosjonell og rasjonell. En film kan vise et morsomt øyeblikk og samtidig si noe konkret om produktet. Motsatt er emosjoner og oppmerksomhet relativt verdiløse om de ikke kobles tett nok på avsender.

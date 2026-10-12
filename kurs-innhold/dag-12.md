@@ -69,6 +69,22 @@ Eivind Moe, tidligere rådgiver i Morgenstern og levende legende, var streng på
 Uansett hvor «lyst» alle har til å lage reklame, så må mediebudsjettet og strategien kunne hjelpe den til å bli en suksess.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Volvo Trucks, Live Test Series
+
+*Sverige 2013–14 · Forsman & Bodenfors*
+
+Grand Prix i Creative Effectiveness i Cannes 2015, året etter Grand Prix i Film.
+
+https://www.youtube.com/watch?v=7N87uxyDQT0
+
+*The Hamster Stunt. YouTube, Volvo Trucks.*
+
+Kilder: [Grand Prix for Creative Effectiveness](https://br.adforum.com/agency/5487/press-releases/47339/grand-prix-for-creative-effectiveness) (Adforum)
+
 ## Kritikk av teorien
 
 Priser er et grovt mål på kreativitet. Field bruker kreative priser som mål. Priser sier noe om hva juryer liker, og de får ikke med seg alle gode ideer. Det finnes plenty prisvinnere som aldri har funka.

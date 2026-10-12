@@ -79,6 +79,18 @@ Og det er egentlig hele hensikten med dette kurset: å gjøre oss tryggere. Håp
 Ok, nå begynner jeg å bli utålmodig her. La oss få laga noe reklame, a!
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Snickers gjennom de fem spørsmålene
+
+*Global 2010 · BBDO*
+
+Jobben var å få veksten tilbake, og mottakeren var alle som kjøper sjokolade. Mekanikken var sult som kjøpssituasjon, med humor og sympati som trykkpunkt.
+
+Kilder: [Snickers: You're not you when you're hungry](https://ipa.co.uk/knowledge/case-studies/snickers-you-re-not-you-when-you-re-hungry/) (IPA, gull 2012)
+
 ## Kritikk av teorien
 
 Rammeverket er en forenkling. Fem spørsmål fanger ikke alt som avgjør om en idé virker. Håndverk, timing og flaks har også mye å si. Bruk spørsmålene til å finne svakheter, ikke til å gi ideer karakter.

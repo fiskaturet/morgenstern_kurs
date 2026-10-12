@@ -41,6 +41,42 @@ Robert Cialdinis *Influence* spør hva som får mennesker til å si ja. Han utfo
 
 Bøkene er ikke enige om alt. Men uenighetene kan vi bruke til å skjerpe egen dømmekraft. I tillegg til hovedbøkene refereres det innimellom til nyere forskning for å nyansere.
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Volvo Trucks, «The Epic Split»
+
+*Sverige 2013 · Forsman & Bodenfors*
+
+Filmene fikk over 100 millioner visninger og har vunnet en rekke effekt-priser. Mer om det senere.
+
+https://www.youtube.com/watch?v=M7FIvfx5J10
+
+*The Epic Split. YouTube, Volvo Trucks.*
+
+Kilder: [Epic triumph for Volvo Trucks campaign at Cannes Lions](https://www.volvotrucks.nl/nl-nl/news/press-releases/2014/Jun/epic-triumph-for-volvo-trucks-campaign-at-cannes-lions.html) (Volvo Trucks, juni 2014. Tallene er merkets egne)
+
+### Cadbury, «Gorilla»
+
+*Storbritannia 2007 · Fallon London*
+
+En gorilla som spiller trommer. Ikke et eneste produktargument. Salget snudde etter en lenger periode med fall.
+
+https://www.youtube.com/watch?v=1oFfs359ODE
+
+*Gorilla. YouTube, The Creative Voice. Uoffisiell kanal.*
+
+Kilder: [Primate boosts Cadbury profits](https://www.warc.com/newsandopinion/news/primate-boosts-cadbury-profits/en-gb/22670) (WARC) · [Cadbury: how a drumming gorilla beat a path back to profitable growth](https://www.warc.com/content/article/ipa/cadbury--how-a-drumming-gorilla-beat-a-path-back-to-profitable-growth-a-real-time-effectiveness-case-study/88470) (IPA via WARC. Bak betalingsmur)
+
+### Rory Sutherland, «Life lessons from an ad man»
+
+*TED 2009*
+
+God fornøyelse.
+
+Kilder: [Life lessons from an ad man](https://www.ted.com/talks/rory_sutherland_life_lessons_from_an_ad_man) (TED)
+
 ## Kritikk av teorien
 
 Før vi begynner: Teorier er ikke oppskrifter. En idé kan være dårlig selv om du gjør alt riktig.

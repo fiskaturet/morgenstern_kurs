@@ -69,6 +69,66 @@ Dette eksemplet viser også at den mest relevante inngangsporten kan fremstå ky
 Tendensen til å vise det ordinære i stedet for noe interessant oppstår når vi ikke fullt ut forstår mental tilgjengelighet. Kjedelig reklame er dårlig reklame, fordi den overses. Det blir ingen mental tilgjengelighet om vi ikke engang følger med.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Kvikk Lunsj, «Tursjokoladen»
+
+*Norge · SMFB*
+
+En av verdens tydeligste koblinger mellom et merke og en kjøpssituasjon. Fire av de ni Kvikk Lunsjene nordmenn spiser hvert år, gomles i påsken.
+
+https://www.youtube.com/watch?v=zmxN971aTIE
+
+*Kvikk Lunsj. YouTube, SMFB Oslo. Byråets kanal. Årstall ikke funnet.*
+
+Kilder: [Kvikk Lunsj](https://en.wikipedia.org/wiki/Kvikk_Lunsj) (Wikipedia (engelsk). Kilde for tallene om påsken. Bør sjekkes mot Freia)
+
+### OLW, «Fredagsmys»
+
+*Sverige · Åkestam Holst (filmen fra 2012)*
+
+Chipsmerket knyttet seg til fredagskvelden og hjalp ordet inn i språket. Avisomtalene av «fredagsmys» økte fra 459 i 2008 til 2 948 i 2013. I Norge kjenner vi kampanjen som «Ingen Kims, ingen kos».
+
+https://www.youtube.com/watch?v=-Xc1aYcI8Ik
+
+*OLW Fredagsmys (2012). YouTube, Åkestam Holst Archive.*
+
+Kilder: [Fram med chipsen – fredagsmys fyller 20](https://www.svt.se/nyheter/inrikes/fram-med-chips-fredagsmys-fyller-20) (SVT)
+
+### Snickers, «You're not you when you're hungry»
+
+*Global 2010 · BBDO*
+
+Sult som inngangsport. Snickers vokste 15,9 prosent globalt det første året og økte markedsandelen sin i 56 av 58 markeder.
+
+https://www.youtube.com/watch?v=qgjjKGfWP54
+
+*Snickers, Betty White. YouTube, System1 Group.*
+
+Kilder: [Snickers: You're not you when you're hungry](https://ipa.co.uk/knowledge/case-studies/snickers-you-re-not-you-when-you-re-hungry/) (IPA, gull 2012) · [Case study: How fame made Snickers' campaign a success](https://www.campaignlive.com/article/case-study-fame-made-snickers-youre-not-when-youre-hungry-campaign-success/1413554) (Campaign)
+
+### FINN jobb, «Bli venn med Mandag»
+
+*Gull i Smart Tjeneste · ANFO Effekt 2023 · Mediebyå dentsu X*
+
+Mandag er dagen folk tenker på ny jobb. Kampanjen knytter FINN jobb til den situasjonen. Tre TV-filmer pluss TikTok og sosiale medier.
+
+Juryen: «Med veldig godt innsiktsarbeid har de skapt et konsept som treffer så godt.» ([ANFO](https://anfo.no/anfo-effekt-2023-vinnere/))
+
+Kilder: [Mandag](https://www.morgenstern.no/arbeider/mandag) (Morgenstern) · [Bli venn med Mandag i FINNs nye jobbkampanje](https://www.kreativtforum.no/arbeider/bli-venn-med-mandag-i-finns-nye-jobbkampanje) (Kreativt Forum, 30. august 2022. Omtale ved lansering) · [FINN jobb, Mandag 2024](https://www.morgenstern.no/arbeider/finn-jobb---mandag) (Morgenstern)
+
+### Widerøe, «Hjelp vi har mistet vår merkevare»
+
+*Bronse i Smart Tjeneste · ANFO Effekt 2022 · med Brist*
+
+Widerøes første TV-konsept på åtte år, med et uttalt mål om å være «top of mind».
+
+Juryen: «Meget godt stykke håndverk innen merkevarebygging, som gir ønsket effekt.» ([ANFO](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/))
+
+Kilder: [Widerøe går på lufta med nytt reklamekonsept](https://kampanje.com/reklame/2021/03/wideroe-gar-pa-lufta-med-nytt-reklamekonsept---vil-vare-top-of-mind-hos-kundene/) (Kampanje, 25. mars 2021. Omtale ved lansering)
+
 ## Kritikk av teorien
 
 Sharps rammeverk bygger på flere tiår med kjøpsdata. Det er en styrke, men også en begrensning.

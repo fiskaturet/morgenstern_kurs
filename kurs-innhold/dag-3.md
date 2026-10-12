@@ -67,6 +67,36 @@ Har du 12 prosent av markedet og 8 prosent av reklamen i kategorien, kan du forv
 ESOV-poenget er viktig, særlig for etablerte merker. Følelsen av å dominere markedet sniker seg på, og styret finner det fristende å skru igjen krana og spare litt penger. Forståelig, men da kan vi forvente at det ikke går altfor lang tid før det kommer en konkurrent og stjeler andeler.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Peter Field om reklame i resesjon
+
+*IPA, analyse av 2008–09*
+
+Merkene som holdt share of voice oppe i 2008 og 2009, kom sterkest ut av krisen.
+
+Kilder: [Peter Field's seven lessons for advertising during a recession](https://ipa.co.uk/news/peter-field-s-seven-lessons-for-advertising-during-a-recession/) (IPA)
+
+### Aldi UK, «Like Brands. Only Cheaper»
+
+*Storbritannia, IPA-gull 2012*
+
+En utfordrer som tok mer plass enn størrelsen tilsa. Markedsandelen økte med over 40 prosent.
+
+Kilder: [Aldi: The Like Brands campaign](https://www.warc.com/en/article/aldi%3A-the-like-brands-campaign-74d334cec6c94302b018cb0277123cbd) (WARC. Delvis bak betalingsmur. Tallet står i den åpne delen)
+
+### PowerOffice, «Å vinne oppmerksomhet uten å vinne budsjettkrigen»
+
+*Gull i B2B · ANFO Effekt 2025 · med Brist*
+
+Gullet gjaldt å vinne oppmerksomhet uten det største budsjettet. Passer under «Reklameandel og markedsandel», og fyller hullet etter et nordisk ESOV-case.
+
+Juryen: «Denne aktøren [viser] at det går an å vinne både oppmerksomhet og markedsandeler.» ([kom24, 19. mars 2026](https://www.kom24.no/anfo-anfo-effekt-prisutdeling/anfo-effekt-her-er-arets-vinnere/903953))
+
+Kilder: [Utvider: To minutter har truffet en nerve](https://www.kampanje.com/reklame/utvider-to-minutter-har-truffet-en-nerve/990224) (Kampanje, 19. mars 2026)
+
 ## Kritikk av teorien
 
 60/40 er et gjennomsnitt. Få merker er gjennomsnittlige. B2B-merker og nye utfordrere har gode grunner til å ligge et annet sted. Å behandle 60/40 som en lov er fordummende.

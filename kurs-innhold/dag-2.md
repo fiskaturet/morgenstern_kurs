@@ -81,6 +81,40 @@ Rammeverket til Binet og Field er en rask måte å gjøre skillet konkret på i 
 Hvis du kjenner etter, sånn inni deg, gir teorien også mening. Jeg er helt sikker på at dine erfaringer som forbruker matcher dette funnet. Du kjøper også merkevarer. Du handler ikke kun på «mest attraktive aktivering». Enten det er sportsutstyr, gulost eller regnskapssystem, står merkene i hodene våre sterkere enn de som bare finnes på display.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### ICA-reklamen med ICA-Stig
+
+*Sverige fra 2001 · King*
+
+Guinness kåret dette til verdens lengste reklameserie. Filmene bygger merket, og mange av dem aktiverer tilbud samtidig. Et eksempel på at begge deler er mulig.
+
+https://www.youtube.com/watch?v=dOOHOd8H0eU
+
+*ICA-reklamen. YouTube, ICA.*
+
+Kilder: [Hans Mosesson slutar som ICA-Stig](https://www.icagruppen.se/arkiv/pressmeddelandearkiv/2015/hans-mosesson-slutar-som-ica-stig) (ICA Gruppen, 2015)
+
+### Adidas
+
+*Global 2019*
+
+Adidas brukte 80 prosent på performance og 20 prosent på merkevare. Salgsmodellering viste at merkevarearbeidet drev 65 prosent av salget. Selskapet innrømte selv at de hadde overinvestert i performance.
+
+Kilder: [Adidas: We over-invested in digital advertising](https://www.marketingweek.com/adidas-marketing-effectiveness/) (Marketing Week, 2019)
+
+### PowerOffice, «Har du 2 minutter?»
+
+*Gull i B2B · ANFO Effekt 2024 · med Brist*
+
+Konseptet tok over etter superheltene i 2024. Erlend Westnes var regissør. Kampanje omtaler økt omsetning og sterk kundevekst, uten tall.
+
+Juryen: «Har årets vinner jobbet langsiktig og strategisk med å bygge merkevaren.» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
+
+Kilder: [Har du to minutter](https://www.morgenstern.no/arbeider/har-du-to-minutter) (Morgenstern) · [Har du to minutter? spør PowerOffice i nytt reklamekonsept](https://www.kreativtforum.no/arbeider/har-du-to-minutter-spor-poweroffice-i-nytt-reklamekonsept) (Kreativt Forum, 12. april 2024. Omtale ved lansering) · [PowerOffice fortsetter reklamesuksessen over all forventning](https://www.kampanje.com/reklame/poweroffice-fortsetter-reklamesuksessen-over-all-forventning/472062) (Kampanje)
+
 ## Kritikk av teorien
 
 Rammeverket har vært dominerende i over ti år, men tåler nyansering.

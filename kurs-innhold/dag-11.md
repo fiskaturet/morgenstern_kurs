@@ -119,6 +119,26 @@ Briefene vi jobber på er ofte utålmodige etter å få frem et konkret budskap.
 Morgenstern-reklame er, helt ubevisst, en refleksjon av dette. «Hvordan kan vi komme med en relevant innsikt målgruppen kjenner seg igjen i?» er ofte et godt utgangspunkt for reklame som bruker pre-suasion.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Hotellhåndklærne
+
+*Goldstein, Cialdini og Griskevicius 2008*
+
+Sosial validering. Beskjeden om at de fleste gjester gjenbruker håndklærne, løftet gjenbruken fra 35 til 44 prosent.
+
+Kilder: [Hotel guests may be persuaded to reuse towels](https://www.sciencedaily.com/releases/2008/08/080822160338.htm) (ScienceDaily, august 2008. Omtale av studien i Journal of Consumer Research)
+
+### Skattebrevene i Storbritannia
+
+*HMRC*
+
+Setningen «9 av 10 betaler skatten i tide» ga 15 prosentpoeng flere som betalte før fristen.
+
+Kilder: [How behavioral science can improve tax policy](https://dmarron.com/2012/07/09/how-behavioral-science-can-improve-tax-policy/) (Donald Marron, 2012. Annenhåndskilde)
+
 ## Kritikk av teorien
 
 Mye av forskningen er svakere enn antatt. Flere av studiene Cialdini bygget på har vist seg vanskelige å gjenta. Hovedmønstrene står seg, men effektene er ofte mindre enn man trodde. Du kjøper ikke alltid osten som blir samplet på Meny.

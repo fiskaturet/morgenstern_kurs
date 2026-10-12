@@ -71,6 +71,38 @@ Det beste med jobben vår er å få spille den sympatiske fremmede, en som ikke 
 Obs: Det funker ikke alltid. Noen ganger har kategorien rett. Å vite når, er erfaringsbasert.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Volkswagen, pianotrappen
+
+*Stockholm 2009 · DDB Stockholm*
+
+Folk tok trappen fordi den var morsom. Effekt-tallene kommer fra case-filmen, så la oss være varsomme med troverdigheten.
+
+https://www.youtube.com/watch?v=2lXh2n0aPyw
+
+*Piano Staircase. YouTube, Rolighetsteorin. Effekttallet er ikke bekreftet av en uavhengig kilde.*
+
+### Eurostar-eksempelet
+
+*The Spectator 2008*
+
+Sutherlands egen tekst om milliardene som gikk med til å kutte reisetiden.
+
+Kilder: [The Wiki Man](https://www.spectator.com/article/the-wiki-man-19-april-2008/) (The Spectator, 19. april 2008)
+
+### FINN torget, «Fiks ferdig»
+
+*Bronse i NY · ANFO Effekt 2022 · Mediebyå RED dentsu X*
+
+Kampanjen overdrev friksjonen folk opplevde, fremfor å bare forklare produktet. Trafikken på Torget økte 12 prosent, og det ble 745 000 Fiks ferdig-handler år én.
+
+Juryen: «Vinneren har evnet å forstå smertepunktene til kundene sine.» ([ANFO](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/))
+
+Kilder: [FINN torget – Fiks ferdig](https://www.kreativtforum.no/gullblyanten/finn-torget-fiks-ferdig) (Kreativt Forum, Gullblyanten. Kilde for tallene)
+
 ## Kritikk av teorien
 
 Metoden er løs. Sutherland er en mesterformidler, og bøkene hans er fulle av gode anekdoter. «Finn en psyko-logisk innsikt» er likevel ikke en oppskrift. Sutherland ville innvendt at det er hele poenget, men vi må være ærlige på at rammeverket er vanskelig å lære bort.

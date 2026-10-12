@@ -57,6 +57,26 @@ Dette er jo egentlig en litt antiklimaktisk greie. «Alle har litt rett» er fry
 Litt på siden, men debattene vi har, på LinkedIn eller i Kampanje, er sterkt farget av hva den som skriver selger selv. Og ingen vil jo uansett lese et innlegg om at alle har litt rett. Så da blir det å hogge løs på hverandre uten at vi kommer noen vei.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Avis, «We try harder»
+
+*USA 1962 · Doyle Dane Bernbach*
+
+Ren differensiering. Avis gikk fra underskudd til overskudd på ett år.
+
+Kilder: [How to make someone feel bad for being number 1](https://www.jalopnik.com/how-to-make-someone-feel-bad-for-being-number-1-1113718949/) (Jalopnik)
+
+### Mark Ritson om bothism
+
+*Kildetekster*
+
+To tekster der Ritson selv forklarer hvor han er enig og uenig med Sharp.
+
+Kilder: [Mark Ritson on bothism](https://business.google.com/us/think/search-and-video/mark-ritson-bothism/) (Think with Google) · [We should thank Byron Sharp](https://www.marketingweek.com/mark-ritson-thank-byron-sharp/) (Marketing Week, 2017)
+
 ## Kritikk av teorien
 
 Bothism kan bli en unnskyldning for å ikke velge. «Begge deler» er et godt utgangspunkt, men en strategi må fortsatt prioritere. Noen ganger er svaret at det ene skal veie tyngst.

@@ -85,6 +85,22 @@ Det er en del av grunnen til at vi som regel argumenterer for å bygge store kam
 I Morgenstern tror vi på signaler, og at disse signalene skades hardt om ikke produksjonen av reklamen innebærer noen som helst kostnad (ikke bare i penger, men i tid, innsats, håndverk og talent). Derfor er vi skeptiske til å bygge merkevarer med KI. At teknologien kan bidra til å gjøre produksjonen billigere, er ubestridt. Men at noe blir billigere, har ironisk nok en skjult kostnad: svakere signaler.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### John Lewis, julefilmene
+
+*Storbritannia · adam&eveDDB*
+
+Kostbar produksjon år etter år. Over 8 pund i fortjeneste per pund brukt. IPA Grand Prix i 2016.
+
+https://www.youtube.com/watch?v=lq9d5M4Sii4
+
+*The Long Wait (2011). YouTube, FabYuleOus. Uoffisiell kanal.*
+
+Kilder: [10 lessons for marketers from John Lewis' ongoing success](https://www.thinkbox.tv/Case-studies/Brand-films/10-lessons-for-marketers-from-John-Lewis-ongoing-success) (Thinkbox)
+
 ## Kritikk av teorien
 
 Signal og innhold er vanskelige å skille. Det er krevende å måle effekten av signalet adskilt fra effekten av budskapet. Noen vil innvende at Sutherland lener seg for mye på naturanalogier og økonomisk teori. Studiene på reklame er få, og flere av dem er gamle.

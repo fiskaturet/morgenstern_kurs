@@ -73,6 +73,34 @@ I motsatt ende finner vi en slags markør-mani. Da blir det eneste viktige å f�
 Det er ofte litt konfliktfylt mellom kunde og byrå når den ene parten ønsker mer markør, og den andre er opptatt av å ikke forkludre en historie. En god samtale der begge parter lytter, er eneste løsning. Gjerne før det er to timer til kampanjen MÅ sendes til TV 2.
 :::
 
+## Eksempler
+
+Annonser og kampanjer som viser poenget i praksis.
+
+### Fazer, «Blue Season»
+
+*Finland 2023 · SEK*
+
+En forsideannonse med bare Fazer-blått, uten logo og uten produkt. Fargen er varemerkebeskyttet i Finland.
+
+Kilder: [Blue Season](https://www.adsoftheworld.com/campaigns/blue-season) (Ads of the World) · [Fazer Blue](https://en.wikipedia.org/wiki/Fazer_Blue) (Wikipedia (engelsk))
+
+### VR, grønnfargen
+
+*Finland 2026*
+
+Det finske jernbaneselskapet fikk varemerkebeskyttet grønnfargen etter 17 år med konsekvent bruk. 82 prosent kobler grønt til VR. Et sterkt bevis på Romaniuks poeng om tid.
+
+Kilder: [VR's green color granted trademark protection in Finland](https://www.vr.fi/en/news/2026/08/26/vrs-green-color-granted-trademark-protection-in-finland) (VR, 26. august 2026)
+
+### Absolut Vodka, flaskekampanjen
+
+*Sverige og USA fra 1981 · TBWA*
+
+Over 1 500 annonser bygget rundt formen på flasken. Salget i USA økte fra rundt 10 000 kasser i 1980 til 4,5 millioner kasser i 2000.
+
+Kilder: [The longest-running print ad campaign in history](https://www.smartinsights.com/online-brand-strategy/international-marketing/campaign-of-the-week-the-longest-running-print-ad-marketing-campaign-in-history/) (Smart Insights)
+
 ## Kritikk av teorien
 
 Gjenkjennelig er ikke alltid nok. Sharp og Romaniuk mener markører ikke trenger å bety noe, bare være lette å kjenne igjen. I et kjent sitat går de så langt som å si at det er bedre å være «meningsløst distinkt enn meningsfullt annerledes». Kritikere mener det gir en for tynn forståelse av visuell identitet. En markør som også står for noe, virker trolig bedre enn en som bare er gjenkjennelig.
