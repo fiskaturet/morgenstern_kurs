@@ -215,6 +215,7 @@ def render_section_blocks(body: str, day_part: int) -> dict:
         'quiz_intro': '',
         'quiz_items': [],
         'extra_html': '',  # for «Det du tar med deg videre» og «Avslutning» (kun dag 13)
+        'examples_html': '',  # «## Eksempler»: annonser og caser, vises etter Lesning
     }
 
     # Splitt på h2 (## )
@@ -234,6 +235,8 @@ def render_section_blocks(body: str, day_part: int) -> dict:
             sections['checklist_intro'], sections['checklist_items'] = render_checklist(part)
         elif part.startswith('## Prøve'):
             sections['quiz_intro'], sections['quiz_items'] = render_quiz(part)
+        elif part.startswith('## Eksempler'):
+            sections['examples_html'] = render_extra(part).replace('class="section reading"', 'class="section reading examples"', 1)
         elif part.startswith('## Det du tar med deg videre') or part.startswith('## Avslutning'):
             sections['extra_html'] += render_extra(part)
         else:
@@ -841,6 +844,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
 
 {sections["reading_html"]}
     </section>
+{sections["examples_html"]}
 
     <section class="section critique">
       <h2>Kritikk av teorien</h2>
@@ -918,6 +922,7 @@ def render_feed(lessons) -> str:
         <h2>Lesning</h2>
 {sections["reading_html"]}
       </section>
+{sections["examples_html"]}
       <section class="section critique">
         <h2>Kritikk av teorien</h2>
 {sections["critique_html"]}
