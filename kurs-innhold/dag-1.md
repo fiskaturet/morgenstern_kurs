@@ -69,18 +69,6 @@ https://www.youtube.com/watch?v=1oFfs359ODE
 
 Kilder: [Primate boosts Cadbury profits](https://www.warc.com/newsandopinion/news/primate-boosts-cadbury-profits/en-gb/22670) (WARC) · [Cadbury: how a drumming gorilla beat a path back to profitable growth](https://www.warc.com/content/article/ipa/cadbury--how-a-drumming-gorilla-beat-a-path-back-to-profitable-growth-a-real-time-effectiveness-case-study/88470) (IPA via WARC. Bak betalingsmur)
 
-### Rory Sutherland, «Life lessons from an ad man»
-
-*TED 2009*
-
-God fornøyelse.
-
-https://www.youtube.com/watch?v=audakxABYUc
-
-*Life lessons from an ad man. YouTube, TED.*
-
-Kilder: [Life lessons from an ad man](https://www.ted.com/talks/rory_sutherland_life_lessons_from_an_ad_man) (TED)
-
 ## Kritikk av teorien
 
 Før vi begynner: Teorier er ikke oppskrifter. En idé kan være dårlig selv om du gjør alt riktig.

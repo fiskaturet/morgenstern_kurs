@@ -113,8 +113,6 @@ Kilder: [Adidas: We over-invested in digital advertising](https://www.marketingw
 
 *Gull i B2B · ANFO Effekt 2024 · med Brist*
 
-Konseptet tok over etter superheltene i 2024. Erlend Westnes var regissør. Kampanje omtaler økt omsetning og sterk kundevekst, uten tall.
-
 Juryen: «Har årets vinner jobbet langsiktig og strategisk med å bygge merkevaren.» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
 
 https://www.youtube.com/watch?v=acmG2SCSrTc
