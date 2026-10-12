@@ -89,6 +89,10 @@ Fra varemerke til en million kunder i et marked uten vekst. Grand Prixet i 2023 
 
 Juryen: «Langsiktig og helhetlig markedsarbeid faktisk kan flytte posisjoner.» ([kom24, 19. mars 2026](https://www.kom24.no/anfo-anfo-effekt-prisutdeling/anfo-effekt-her-er-arets-vinnere/903953))
 
+https://www.youtube.com/watch?v=rFhMbe5H6xw
+
+*Bare når det regner. YouTube, ice Norge.*
+
 Kilder: [Vinnere ANFO Effekt 2023](https://anfo.no/anfo-effekt-2023-vinnere/) (ANFO) · [ice dropper Nord DDB, går for Morgenstern](https://www.kom24.no/carina-lla-eddie-dsa-ice/ice-dropper-nord-ddb-gar-for-morgenstern/600092) (kom24, 2023) · [Nytt byrå klar med 5G-reklame for ice](https://kampanje.com/reklame/2023/09/nytt-byra-klar-med-5g-reklame-for-ice/) (Kampanje, september 2023)
 
 ## Kritikk av teorien

@@ -67,15 +67,23 @@ Annonser og kampanjer som viser poenget i praksis.
 
 Ren differensiering. Avis gikk fra underskudd til overskudd på ett år.
 
+![Avis, «We try harder»](assets/eksempler/a-avis.jpg)
+
+*Avis-plakat: «Avis is only No.2 in rent a cars. So we try harder.»*
+
 Kilder: [How to make someone feel bad for being number 1](https://www.jalopnik.com/how-to-make-someone-feel-bad-for-being-number-1-1113718949/) (Jalopnik)
 
 ### Mark Ritson om bothism
 
-*Kildetekster*
+*Think with Google 2026 · Marketing Week 2017*
 
-To tekster der Ritson selv forklarer hvor han er enig og uenig med Sharp.
+Mark Ritson er tidligere markedsføringsprofessor og står bak Mini MBA in Marketing. Han skriver fast i Marketing Week og er en av Sharps tydeligste motstemmer. Ritson har gitt navn til «bothism», tanken om at de beste markedsførerne velger både og. Bildet er fra Cannes Lions 2026.
 
-Kilder: [Mark Ritson on bothism](https://business.google.com/us/think/search-and-video/mark-ritson-bothism/) (Think with Google) · [We should thank Byron Sharp](https://www.marketingweek.com/mark-ritson-thank-byron-sharp/) (Marketing Week, 2017)
+![Mark Ritson om bothism](assets/eksempler/a-ritson-bothism.jpg)
+
+*Mark Ritson på Cannes Lions 2026. Foto: Mini MBA in Marketing.*
+
+Kilder: [Mark Ritson on bothism](https://business.google.com/us/think/search-and-video/mark-ritson-bothism/) (Think with Google) · [We should thank Byron Sharp](https://www.marketingweek.com/mark-ritson-thank-byron-sharp/) (Marketing Week, 2017) · [Mark Ritson is let loose at Cannes Lions 2026](https://minimba.com/articles/mark-ritson-is-let-loose-at-cannes-lions-2026) (Mini MBA in Marketing. Kilde for bildet)
 
 ## Kritikk av teorien
 

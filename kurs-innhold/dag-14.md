@@ -89,6 +89,10 @@ Annonser og kampanjer som viser poenget i praksis.
 
 Jobben var å få veksten tilbake, og mottakeren var alle som kjøper sjokolade. Mekanikken var sult som kjøpssituasjon, med humor og sympati som trykkpunkt.
 
+https://www.youtube.com/watch?v=wVXiZoQsvEs
+
+*Snickers, Diva (2010). YouTube, FT Depot.*
+
 Kilder: [Snickers: You're not you when you're hungry](https://ipa.co.uk/knowledge/case-studies/snickers-you-re-not-you-when-you-re-hungry/) (IPA, gull 2012)
 
 ## Kritikk av teorien

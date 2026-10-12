@@ -91,6 +91,10 @@ https://www.youtube.com/watch?v=2lXh2n0aPyw
 
 Sutherlands egen tekst om milliardene som gikk med til å kutte reisetiden.
 
+https://www.youtube.com/watch?v=audakxABYUc
+
+*Life lessons from an ad man. YouTube, TED.*
+
 Kilder: [The Wiki Man](https://www.spectator.com/article/the-wiki-man-19-april-2008/) (The Spectator, 19. april 2008)
 
 ### FINN torget, «Fiks ferdig»
@@ -100,6 +104,10 @@ Kilder: [The Wiki Man](https://www.spectator.com/article/the-wiki-man-19-april-2
 Kampanjen overdrev friksjonen folk opplevde, fremfor å bare forklare produktet. Trafikken på Torget økte 12 prosent, og det ble 745 000 Fiks ferdig-handler år én.
 
 Juryen: «Vinneren har evnet å forstå smertepunktene til kundene sine.» ([ANFO](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/))
+
+https://www.youtube.com/watch?v=YAwF6oldJ-I
+
+*Funker den i motbakke? YouTube, FINN.*
 
 Kilder: [FINN torget – Fiks ferdig](https://www.kreativtforum.no/gullblyanten/finn-torget-fiks-ferdig) (Kreativt Forum, Gullblyanten. Kilde for tallene)
 

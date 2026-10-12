@@ -91,6 +91,10 @@ Kilder: [All that we share](https://www.andco.dk/cases/all-that-we-share) (&Co.,
 
 Det rasjonelle motstykket. Kjøperne var usikre på hva de skulle velge, og trengte en enkel forklaring.
 
+![Ronseal, «Does exactly what it says on the tin»](assets/eksempler/a-ronseal.jpg)
+
+*Ronseal-boksen, med linjen på emballasjen.*
+
 Kilder: [Does exactly what it says on the tin](https://www.creativereview.co.uk/does-exactly-what-it-says-on-the-tin/) (Creative Review)
 
 ### FINN reise, «Granka, Granka, Granka!»
@@ -100,6 +104,10 @@ Kilder: [Does exactly what it says on the tin](https://www.creativereview.co.uk/
 Målet med kampanjen var å vinne reisende tilbake fra utenlandske bookingsider. Ordet «Granka» i en av filmene startet en debatt, og FINN brukte debatten til å lage nytt innhold i form av en låt med tilhørende musikkvideo. «Granka, granka, granka» ble den mest populære norske reklamefilmen på YouTube i 2019.
 
 Juryen: «Årets Grand Prix-vinner gikk til en aktør som leverer utsøkt markedsarbeid og veldokumenterte resultater.» ([Kampanje, 13. februar 2020](https://www.kampanje.com/premium/grand-grand-grand-prix-til-finn-og-morgenstern-for-granka-granka-granka/332624))
+
+https://www.youtube.com/watch?v=bZ3IT_M52ig
+
+*Granka, granka, granka! YouTube, FINN.*
 
 Kilder: [Granka](https://www.morgenstern.no/arbeider/granka) (Morgenstern. YouTube-tallet er Morgensterns eget) · [Den beste unnskyldningen er å være bortreist](https://kreativtforum.no/arbeid/2019/01/den-beste-unnskyldningen-er-a-vare-bortreist) (Kreativt Forum, 3. januar 2019. Omtale ved lansering) · [Vinnere ANFO Effekt 2019](https://anfo.no/2020/02/14/vinnere-anfo-effekt-2019/) (ANFO) · [Den første filmen](https://vimeo.com/314445994) (Vimeo. Lenken er hentet fra Morgensterns side, ikke åpnet) · [Musikkvideoen](https://vimeo.com/683280974) (Vimeo. Lenken er hentet fra Morgensterns side, ikke åpnet) · [Granka, Granka, Granka](https://www.finn.no/reise/artikler/aktuelt/granka-granka-granka) (FINN reise)
 

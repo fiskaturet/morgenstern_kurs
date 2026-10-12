@@ -117,6 +117,10 @@ Mandag er dagen folk tenker på ny jobb. Kampanjen knytter FINN jobb til den sit
 
 Juryen: «Med veldig godt innsiktsarbeid har de skapt et konsept som treffer så godt.» ([ANFO](https://anfo.no/anfo-effekt-2023-vinnere/))
 
+https://www.youtube.com/watch?v=QYKWvMWuxZU
+
+*Mandag på lørdag. YouTube, FINN.*
+
 Kilder: [Mandag](https://www.morgenstern.no/arbeider/mandag) (Morgenstern) · [Bli venn med Mandag i FINNs nye jobbkampanje](https://www.kreativtforum.no/arbeider/bli-venn-med-mandag-i-finns-nye-jobbkampanje) (Kreativt Forum, 30. august 2022. Omtale ved lansering) · [FINN jobb, Mandag 2024](https://www.morgenstern.no/arbeider/finn-jobb---mandag) (Morgenstern)
 
 ### Widerøe, «Hjelp vi har mistet vår merkevare»
@@ -126,6 +130,10 @@ Kilder: [Mandag](https://www.morgenstern.no/arbeider/mandag) (Morgenstern) · [B
 Widerøes første TV-konsept på åtte år, med et uttalt mål om å være «top of mind».
 
 Juryen: «Meget godt stykke håndverk innen merkevarebygging, som gir ønsket effekt.» ([ANFO](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/))
+
+https://www.youtube.com/watch?v=Mr3m4ljLTRI
+
+*Velkommen til Kristiansand! YouTube, Widerøe.*
 
 Kilder: [Widerøe går på lufta med nytt reklamekonsept](https://kampanje.com/reklame/2021/03/wideroe-gar-pa-lufta-med-nytt-reklamekonsept---vil-vare-top-of-mind-hos-kundene/) (Kampanje, 25. mars 2021. Omtale ved lansering)
 

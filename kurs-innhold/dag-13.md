@@ -97,15 +97,11 @@ Annonser og kampanjer som viser poenget i praksis.
 
 Uber skrudde av rundt tre firedeler av den digitale annonseringen uten merkbar effekt.
 
+![Uber](assets/eksempler/a-uber.jpg)
+
+*Skjermbilde fra Inverse, 4. januar 2021.*
+
 Kilder: [Uber burned through $100 million thanks to digital ad fraud](https://www.inverse.com/input/culture/uber-burned-through-100-million-thanks-to-digital-ad-fraud) (Inverse) · [Uber sues ad firm](https://www.theregister.com/2017/09/19/uber_sues_ad_firm/) (The Register, september 2017)
-
-### Procter & Gamble
-
-*Global 2017*
-
-P&G kuttet 200 millioner dollar i digital annonsering. Det første kuttet merket de knapt.
-
-Kilder: [P&G slashes digital ad waste by $200m](https://www.thedrum.com/news/2018/03/02/pg-slashes-digital-ad-waste-200m-marketing-pivot) (The Drum, mars 2018)
 
 ## Kritikk av teorien
 

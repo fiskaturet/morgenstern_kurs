@@ -129,6 +129,10 @@ Annonser og kampanjer som viser poenget i praksis.
 
 Sosial validering. Beskjeden om at de fleste gjester gjenbruker håndklærne, løftet gjenbruken fra 35 til 44 prosent.
 
+https://www.youtube.com/watch?v=cFdCzN7RYbw
+
+*Science of Persuasion. YouTube, Team Cialdini.*
+
 Kilder: [Hotel guests may be persuaded to reuse towels](https://www.sciencedaily.com/releases/2008/08/080822160338.htm) (ScienceDaily, august 2008. Omtale av studien i Journal of Consumer Research)
 
 ### Skattebrevene i Storbritannia
@@ -137,7 +141,11 @@ Kilder: [Hotel guests may be persuaded to reuse towels](https://www.sciencedaily
 
 Setningen «9 av 10 betaler skatten i tide» ga 15 prosentpoeng flere som betalte før fristen.
 
-Kilder: [How behavioral science can improve tax policy](https://dmarron.com/2012/07/09/how-behavioral-science-can-improve-tax-policy/) (Donald Marron, 2012. Annenhåndskilde)
+![Skattebrevene i Storbritannia](assets/eksempler/a-skattebrev.jpg)
+
+*Skjermbilde fra Accountancy Age, 6. oktober 2014.*
+
+Kilder: [How behavioral science can improve tax policy](https://dmarron.com/2012/07/09/how-behavioral-science-can-improve-tax-policy/) (Donald Marron, 2012. Annenhåndskilde) · [HMRC turns to psychologists to inspire guilt in taxpayers](https://accountancyage.com/2014/10/06/hmrc-turns-to-psychologists-to-inspire-guilt-in-taxpayers/) (Accountancy Age, 6. oktober 2014)
 
 ## Kritikk av teorien
 

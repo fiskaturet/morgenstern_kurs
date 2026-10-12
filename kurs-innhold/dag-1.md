@@ -75,6 +75,10 @@ Kilder: [Primate boosts Cadbury profits](https://www.warc.com/newsandopinion/new
 
 God fornøyelse.
 
+https://www.youtube.com/watch?v=audakxABYUc
+
+*Life lessons from an ad man. YouTube, TED.*
+
 Kilder: [Life lessons from an ad man](https://www.ted.com/talks/rory_sutherland_life_lessons_from_an_ad_man) (TED)
 
 ## Kritikk av teorien

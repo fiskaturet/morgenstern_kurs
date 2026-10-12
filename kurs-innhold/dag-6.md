@@ -83,6 +83,10 @@ Annonser og kampanjer som viser poenget i praksis.
 
 En forsideannonse med bare Fazer-blått, uten logo og uten produkt. Fargen er varemerkebeskyttet i Finland.
 
+![Fazer, «Blue Season»](assets/eksempler/a-fazer-blue.jpg)
+
+*«Blue Season»: bare Fazer-blått og teksten «Jaa sininen hetki».*
+
 Kilder: [Blue Season](https://www.adsoftheworld.com/campaigns/blue-season) (Ads of the World) · [Fazer Blue](https://en.wikipedia.org/wiki/Fazer_Blue) (Wikipedia (engelsk))
 
 ### VR, grønnfargen
@@ -91,6 +95,10 @@ Kilder: [Blue Season](https://www.adsoftheworld.com/campaigns/blue-season) (Ads 
 
 Det finske jernbaneselskapet fikk varemerkebeskyttet grønnfargen etter 17 år med konsekvent bruk. 82 prosent kobler grønt til VR. Et sterkt bevis på Romaniuks poeng om tid.
 
+![VR, grønnfargen](assets/eksempler/a-vr-gronn.jpg)
+
+*Pressebilde fra VR, 26. august 2026.*
+
 Kilder: [VR's green color granted trademark protection in Finland](https://www.vr.fi/en/news/2026/08/26/vrs-green-color-granted-trademark-protection-in-finland) (VR, 26. august 2026)
 
 ### Absolut Vodka, flaskekampanjen
@@ -98,6 +106,10 @@ Kilder: [VR's green color granted trademark protection in Finland](https://www.v
 *Sverige og USA fra 1981 · TBWA*
 
 Over 1 500 annonser bygget rundt formen på flasken. Salget i USA økte fra rundt 10 000 kasser i 1980 til 4,5 millioner kasser i 2000.
+
+![Absolut Vodka, flaskekampanjen](assets/eksempler/a-absolut.jpg)
+
+*«Absolut L.A.», en av annonsene i flaskekampanjen.*
 
 Kilder: [The longest-running print ad campaign in history](https://www.smartinsights.com/online-brand-strategy/international-marketing/campaign-of-the-week-the-longest-running-print-ad-marketing-campaign-in-history/) (Smart Insights)
 

@@ -103,6 +103,10 @@ Kilder: [Hans Mosesson slutar som ICA-Stig](https://www.icagruppen.se/arkiv/pres
 
 Adidas brukte 80 prosent på performance og 20 prosent på merkevare. Salgsmodellering viste at merkevarearbeidet drev 65 prosent av salget. Selskapet innrømte selv at de hadde overinvestert i performance.
 
+![Adidas](assets/eksempler/a-adidas.jpg)
+
+*Skjermbilde fra Marketing Week, 17. oktober 2019.*
+
 Kilder: [Adidas: We over-invested in digital advertising](https://www.marketingweek.com/adidas-marketing-effectiveness/) (Marketing Week, 2019)
 
 ### PowerOffice, «Har du 2 minutter?»
@@ -112,6 +116,10 @@ Kilder: [Adidas: We over-invested in digital advertising](https://www.marketingw
 Konseptet tok over etter superheltene i 2024. Erlend Westnes var regissør. Kampanje omtaler økt omsetning og sterk kundevekst, uten tall.
 
 Juryen: «Har årets vinner jobbet langsiktig og strategisk med å bygge merkevaren.» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
+
+https://www.youtube.com/watch?v=acmG2SCSrTc
+
+*Har du to minutter? YouTube, PowerOffice.*
 
 Kilder: [Har du to minutter](https://www.morgenstern.no/arbeider/har-du-to-minutter) (Morgenstern) · [Har du to minutter? spør PowerOffice i nytt reklamekonsept](https://www.kreativtforum.no/arbeider/har-du-to-minutter-spor-poweroffice-i-nytt-reklamekonsept) (Kreativt Forum, 12. april 2024. Omtale ved lansering) · [PowerOffice fortsetter reklamesuksessen over all forventning](https://www.kampanje.com/reklame/poweroffice-fortsetter-reklamesuksessen-over-all-forventning/472062) (Kampanje)
 
