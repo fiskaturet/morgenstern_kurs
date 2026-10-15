@@ -61,8 +61,6 @@ Romaniuk har laget en enkel test i *Building Distinctive Brand Assets*. Du viser
 
 En markør som er både kjent og unik, kan brukes alene i stedet for logoen. En kjent markør som konkurrentene deler, bør aldri stå alene. En unik markør som få kjenner, er verdt å investere i.
 
-::: verktoy-markorer :::
-
 ::: anders-kommentar
 Merkemarkører må tas på alvor. Både fordelene og de potensielle ulempene.
 
