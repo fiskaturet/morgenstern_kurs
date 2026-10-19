@@ -25,11 +25,15 @@ def main(mappe: str) -> None:
         kode = str(d.get('kode', '')).strip().lower()
         if not kode or d.get('sperret'):
             continue
-        koder.append({
+        oppf = {
             'id': f.stem,
             'hash': hashlib.sha256((salt + kode).encode('utf-8')).hexdigest(),
             'utloper': d.get('utloper') or '',
-        })
+        }
+        domener = [str(x).strip().lower().lstrip('@') for x in (d.get('domener') or []) if str(x).strip()]
+        if domener:
+            oppf['domener'] = domener
+        koder.append(oppf)
     if not koder:
         sys.exit('Ingen aktive koder. Avbryter, ellers stenges alle ute.')
     UT.write_text(json.dumps({'salt': salt, 'koder': koder}, indent=1) + '\n', encoding='utf-8')

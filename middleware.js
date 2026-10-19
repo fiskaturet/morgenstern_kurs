@@ -30,6 +30,13 @@ function gyldig(k) {
   return Boolean(k) && !k.sperret && !utlopt(k);
 }
 
+// Noen koder gjelder bare for e-poster på bestemte domener, f.eks. den interne koden.
+function riktigDomene(k, epost) {
+  if (!k || !Array.isArray(k.domener) || !k.domener.length) return true;
+  const domene = epost.split('@')[1] || '';
+  return k.domener.includes(domene);
+}
+
 function lesCookie(req, navn) {
   const raw = req.headers.get('cookie') || '';
   for (const del of raw.split(';')) {
@@ -58,12 +65,13 @@ export default async function middleware(req) {
     const form = await req.formData();
     const kode = String(form.get('kode') || '').trim().toLowerCase().replace(/\s+/g, '-');
     const retur = tryggRetur(form.get('return'));
+    const epost = String(form.get('epost') || '').trim().toLowerCase();
     const hash = await sha256((TILGANG.salt || '') + kode);
     const k = finn(hash);
-    if (gyldig(k)) {
+    if (gyldig(k) && riktigDomene(k, epost)) {
       return videresend(url, retur, `${COOKIE}=${hash}; Path=/; Max-Age=${NITTI_DAGER}; HttpOnly; Secure; SameSite=Lax`);
     }
-    const feil = k && utlopt(k) ? 'utlopt' : '1';
+    const feil = k && utlopt(k) ? 'utlopt' : k && !riktigDomene(k, epost) ? 'domene' : '1';
     return videresend(url, '/login?feil=' + feil + '&return=' + encodeURIComponent(retur));
   }
 

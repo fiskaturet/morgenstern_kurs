@@ -47,9 +47,12 @@
     document.getElementById('return').value = ret;
     var errorEl = document.getElementById('login-error');
     if (params.get('feil')) {
-      errorEl.textContent = params.get('feil') === 'utlopt'
+      var f = params.get('feil');
+      errorEl.textContent = f === 'utlopt'
         ? 'Tilgangskoden har utløpt. Ta kontakt med Morgenstern.'
-        : 'Vi fant ikke den tilgangskoden. Sjekk at den er skrevet riktig.';
+        : f === 'domene'
+          ? 'Denne koden gjelder bare for e-poster i Morgenstern. Sjekk e-posten du skrev inn.'
+          : 'Vi fant ikke den tilgangskoden. Sjekk at den er skrevet riktig.';
       errorEl.hidden = false;
     }
     try { var saved = localStorage.getItem(KEY); if (saved) document.getElementById('email').value = saved; } catch (e) {}

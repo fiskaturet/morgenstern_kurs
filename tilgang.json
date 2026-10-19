@@ -14,7 +14,11 @@
   {
    "id": "morgenstern-internt",
    "hash": "779af70f98d04f50666f11ab412c33c89a02915599b18e7987cfb4c557c0bc39",
-   "utloper": ""
+   "utloper": "",
+   "domener": [
+    "mrgn.no",
+    "morgenstern.no"
+   ]
   }
  ]
 }
