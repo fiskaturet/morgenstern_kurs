@@ -2,6 +2,16 @@
  "salt": "1a37793c9c54defc4b90cb6044dfa9f4",
  "koder": [
   {
+   "id": "hglo5pga6cdmpxv9ystu",
+   "hash": "1abb27df2cb1031b2f9a007f2b5e665101b807ac0481b30df671b10d48f4cfeb",
+   "utloper": "2027-10-19"
+  },
+  {
+   "id": "hi9a4kdjzpvqi3vxeb8p",
+   "hash": "1449cfc9ce93de67deda2c9274ce27fc64257f9d6564f7a72cbcbd1c9047156b",
+   "utloper": "2027-10-19"
+  },
+  {
    "id": "morgenstern-internt",
    "hash": "779af70f98d04f50666f11ab412c33c89a02915599b18e7987cfb4c557c0bc39",
    "utloper": ""
