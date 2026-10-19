@@ -23,20 +23,16 @@
     <h1>Reklameforståelse</h1>
     <p class="login-sub">— et krasjkurs fra Morgenstern</p>
 
-    <form id="login-form" class="login-form" novalidate>
-      <label for="email">Logg inn med din e-post. Ingen passord kreves</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        required
-        autocomplete="email"
-        autofocus
-        placeholder="navn@morgenstern.no"
-      />
+    <form id="login-form" class="login-form" method="post" action="/logginn">
+      <label for="email">E-post</label>
+      <input type="email" id="email" name="epost" required autocomplete="email" autofocus placeholder="navn@firma.no" />
+      <label for="kode">Tilgangskode</label>
+      <input type="text" id="kode" name="kode" required autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="ord-ord-1234" />
+      <input type="hidden" id="return" name="return" value="/" />
       <button type="submit" class="btn">Logg inn</button>
       <div id="login-error" class="login-error" hidden></div>
     </form>
+    <p class="login-foot">Mangler du kode? Ta kontakt med Morgenstern.</p>
 
   </div>
 </main>
@@ -44,44 +40,22 @@
 <script>
   (function () {
     'use strict';
-    var ALLOWED = /@(mrgn|morgenstern)\.no$/i;
     var KEY = 'reklameforstaelse.user.email';
-    var form = document.getElementById('login-form');
-    var input = document.getElementById('email');
+    var params = new URLSearchParams(window.location.search);
+    var ret = params.get('return') || '/';
+    if (ret.charAt(0) !== '/' || ret.indexOf('//') === 0) ret = '/';
+    document.getElementById('return').value = ret;
     var errorEl = document.getElementById('login-error');
-
-    function getReturnUrl() {
-      var params = new URLSearchParams(window.location.search);
-      var ret = params.get('return') || 'index.html';
-      // Sikkerhetsnett — bare relative URL-er
-      if (/^https?:/i.test(ret) || ret.indexOf('//') === 0) ret = 'index.html';
-      return ret;
+    if (params.get('feil')) {
+      errorEl.textContent = params.get('feil') === 'utlopt'
+        ? 'Tilgangskoden har utløpt. Ta kontakt med Morgenstern.'
+        : 'Vi fant ikke den tilgangskoden. Sjekk at den er skrevet riktig.';
+      errorEl.hidden = false;
     }
-
-    // Allerede logget inn? Send rett videre.
-    if (localStorage.getItem(KEY)) {
-      window.location.replace(getReturnUrl());
-      return;
-    }
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var email = (input.value || '').trim().toLowerCase();
-      if (!ALLOWED.test(email)) {
-        errorEl.textContent = 'Beklager, du har ikke tilgang til dette kurset. Ta kontakt med Morgenstern.';
-        errorEl.hidden = false;
-        input.focus();
-        input.select();
-        return;
-      }
-      try {
-        localStorage.setItem(KEY, email);
-      } catch (err) {
-        errorEl.textContent = 'Klarte ikke å lagre innloggingen i nettleseren. Sjekk at du ikke kjører i privat modus.';
-        errorEl.hidden = false;
-        return;
-      }
-      window.location.replace(getReturnUrl());
+    try { var saved = localStorage.getItem(KEY); if (saved) document.getElementById('email').value = saved; } catch (e) {}
+    document.getElementById('login-form').addEventListener('submit', function () {
+      var email = (document.getElementById('email').value || '').trim().toLowerCase();
+      try { localStorage.setItem(KEY, email); } catch (e) {}
     });
   })();
 </script>
