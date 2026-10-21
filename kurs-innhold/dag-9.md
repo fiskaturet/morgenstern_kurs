@@ -75,31 +75,45 @@ Obs: Det funker ikke alltid. Noen ganger har kategorien rett. Å vite når, er e
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Volkswagen, pianotrappen
+### Coop Extra, «Omvendt psykologi»
 
-*Stockholm 2009 · DDB Stockholm*
+*Norge 2025 · WAL · Sølv i Smart produkt/handel, ANFO Effekt 2025 · Gullblyanten*
 
-Folk tok trappen fordi den var morsom. Effekt-tallene kommer fra case-filmen, så la oss være varsomme med troverdigheten.
+Extra ba barn om å droppe fisken. Det ga ny januarrekord i fiskesalg, 1,5 millioner organiske visninger og 25 000 delinger.
 
-https://www.youtube.com/watch?v=2lXh2n0aPyw
+![Coop Extra, «Omvendt psykologi»](assets/eksempler/n-extra-fisk.jpg)
 
-*Piano Staircase. YouTube, Rolighetsteorin. Effekttallet er ikke bekreftet av en uavhengig kilde.*
+*Klistremerkene i butikken. Bilde: Kreativt Forum.*
 
-### Eurostar-eksempelet
+Kilder: [Extra går viralt på TikTok](https://kampanje.com/reklame/2025/02/extra-gar-viralt-pa-tiktok---helt-utrolige-tall/) (Kampanje, 5. februar 2025. Oppgir ikke salgstall) · [Extra oppfordrer barn til å droppe fisken](https://www.kreativtforum.no/arbeider/extra-oppfordrer-barn-til-a-droppe-fisken) (Kreativt Forum) · [Vinnerne i ANFO Effekt 2025](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/) (ANFO)
 
-*The Spectator 2008*
+### Q-meieriene, «Det store datoeksperimentet»
 
-Sutherlands egen tekst om milliardene som gikk med til å kutte reisetiden.
+*Norge 2017 · Geelmuyden Kiese · Gull i Smart singel, ANFO Effekt 2018*
 
-https://www.youtube.com/watch?v=audakxABYUc
+Q lot melken være som den var og endret merkingen til «Best før, men ikke dårlig etter». I en blindtest fant 107 forbrukere ingen forskjell på fersk melk og melk fem dager over datoen. Q økte på «utfordrer» og «innovatør», og TINE innførte raskt samme merking.
 
-*Life lessons from an ad man. YouTube, TED.*
+https://www.youtube.com/watch?v=dc4H5hxSGsk
 
-Kilder: [The Wiki Man](https://www.spectator.com/article/the-wiki-man-19-april-2008/) (The Spectator, 19. april 2008)
+*Q-Meieriene presenterer: Det store datoeksperimentet. YouTube, Q-Meieriene, 22. november 2017.*
+
+Kilder: [Det store datoeksperimentet](https://byraguiden.kampanje.com/byraguiden/det-store-datoeksperimentet/335898) (Kampanje Byråguiden) · [Vinnere ANFO Effekt 2018](https://anfo.no/2019/02/08/vinnere-anfo-effekt-2018/) (ANFO)
+
+### Skatteetaten, hjelpebokser i skattemeldingen
+
+*Norge 2021 · Skatteetaten og NHH*
+
+Små hjelpebokser i skattemeldingen endret hva folk rapporterte. Andelen som oppga verdi på fritidsbolig gikk fra 15 til 53 prosent, og formuesgrunnlaget økte med rundt 4,5 milliarder kroner. Feilaktige trekk for feriepenger falt fra 29 til 11 prosent.
+
+![Skatteetaten, hjelpebokser i skattemeldingen](assets/eksempler/n-skatt-dult.jpg)
+
+*Hjelpeboksen om fritidsbolig i skattemeldingen. Bilde: Skatteetaten.*
+
+Kilder: [Dulting i skattemeldingen hjelper folk til å rapportere riktig](https://www.skatteetaten.no/om-skatteetaten/analyse-og-rapporter/analysenytt/dulting-i-skattemeldingen-hjelper-folk-til-a-rapportere-riktig/) (Skatteetaten, 16. desember 2021) · [Grep fra atferdsøkonomi reduserer skattesnusk](https://www.nhh.no/nhh-bulletin/artikkelarkiv/2022/desember/grep-fra-atferdsokonomi-reduserer-skattesnusk) (NHH)
 
 ### FINN torget, «Fiks ferdig»
 
-*Bronse i NY · ANFO Effekt 2022 · Mediebyå RED dentsu X*
+*Bronse i Ny · ANFO Effekt 2022 · Mediebyrå RED dentsu X*
 
 Kampanjen overdrev friksjonen folk opplevde, fremfor å bare forklare produktet. Trafikken på Torget økte 12 prosent, og det ble 745 000 Fiks ferdig-handler år én.
 

@@ -123,29 +123,43 @@ Morgenstern-reklame er, helt ubevisst, en refleksjon av dette. «Hvordan kan vi 
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Hotellhåndklærne
+### Røde Kors, «Blø for drakta»
 
-*Goldstein, Cialdini og Griskevicius 2008*
+*Norge 2023 · Morgenstern · Gull i Smart tjeneste, ANFO Effekt 2024 · Gullblyanten i Effekt og Veldedig*
 
-Sosial validering. Beskjeden om at de fleste gjester gjenbruker håndklærne, løftet gjenbruken fra 35 til 44 prosent.
+Røde Kors brukte supporterrivalisering til å rekruttere blodgivere. Nye givere krysser av for klubben sin, og klubbene konkurrerer på en tabell på giblod.no. Målet var 4 000 nye givere. Målet ble raskt knust.
 
-https://www.youtube.com/watch?v=cFdCzN7RYbw
+Juryen: «bemerkelsesverdige … sett opp mot budsjettet» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
 
-*Science of Persuasion. YouTube, Team Cialdini.*
+https://www.youtube.com/watch?v=4r_w2hIhDp4
 
-Kilder: [Hotel guests may be persuaded to reuse towels](https://www.sciencedaily.com/releases/2008/08/080822160338.htm) (ScienceDaily, august 2008. Omtale av studien i Journal of Consumer Research)
+*Blør du for drakta? YouTube, Røde Kors.*
 
-### Skattebrevene i Storbritannia
+Kilder: [Blodtabellen](https://www.morgenstern.no/arbeider/blodtabellen) (Morgenstern) · [Blø for drakta, gi blod](https://www.kreativtforum.no/arbeider/blo-for-drakta-gi-blod) (Kreativt Forum) · [Blodtabellen](https://www.kreativtforum.no/gullblyanten/blodtabellen) (Kreativt Forum, Gullblyanten)
 
-*HMRC*
+### Trygg Trafikk og Volvo, «Ta vare på gutta»
 
-Setningen «9 av 10 betaler skatten i tide» ga 15 prosentpoeng flere som betalte før fristen.
+*Norge 2025 · Trigger · Kantars innsiktspris, ANFO Effekt 2025*
 
-![Skattebrevene i Storbritannia](assets/eksempler/a-skattebrev.jpg)
+Unge menn responderer dårlig på moralisme. Avsendere de likte derimot, som innholdsskaperen MankeGard, dem hører de på. Kampanjen fikk over ti millioner visninger. Opinion målte 42 prosent uhjulpen erindring og 75 prosent troverdighet. Prinsippet er sympati.
 
-*Skjermbilde fra Accountancy Age, 6. oktober 2014.*
+https://www.youtube.com/watch?v=A_ZJnuKOfVo
 
-Kilder: [How behavioral science can improve tax policy](https://dmarron.com/2012/07/09/how-behavioral-science-can-improve-tax-policy/) (Donald Marron, 2012. Annenhåndskilde) · [HMRC turns to psychologists to inspire guilt in taxpayers](https://accountancyage.com/2014/10/06/hmrc-turns-to-psychologists-to-inspire-guilt-in-taxpayers/) (Accountancy Age, 6. oktober 2014)
+*Ta vare på gutta. YouTube, Trigger Oslo.*
+
+Kilder: [Ta vare på gutta](https://www.trigger.no/arbeider/ta-vare-paa-gutta) (Trigger. Kilde for tallene)
+
+### DNB, #huninvesterer
+
+*Norge · TRY · Diplom i Vekst, ANFO Effekt 2022*
+
+DNB viste kvinner andre kvinner som investerer. Prinsippene "fellesskap og sosialt bevis" er kampanjens psykologiske styrke.
+
+https://www.youtube.com/watch?v=A_pfLvkgJLQ
+
+*Fremtidens kvinner trenger flere forbilder. YouTube, DNB.*
+
+Kilder: [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO)
 
 ## Kritikk av teorien
 

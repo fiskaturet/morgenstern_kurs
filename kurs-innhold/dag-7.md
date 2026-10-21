@@ -69,17 +69,17 @@ Og så er det viktig å påpeke at Sharp ikke ber oss drite i kundene våre. Vi 
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Old Spice, «The Man Your Man Could Smell Like»
+### ice, fra null til én million kunder
 
-*USA 2010 · Wieden+Kennedy*
+*Norge · Publicis Starcom og Morgenstern (fra 2023) · Gull i Vekst, ANFO Effekt 2025*
 
-Kampanjen snakket til kvinner, fordi de som oftest står for innkjøp av dusjsåpe til menn. Salget økte 107 prosent etter bare én måned, ifølge Nielsen.
+ice har vokst ved å hente nye kunder i et mobilmarked som står stille. Utviklingen kan følges i ANFO Effekt: 700 000 kunder i 2022, 800 000 og Grand Prix i 2023, og én million og gull i Vekst i 2025. Ifølge Kampanje fikk ice 100 000 nye kunder i 2023.
 
-https://www.youtube.com/watch?v=owGykVbfgUE
+https://www.youtube.com/watch?v=lyyjOTsCOFI
 
-*The Man Your Man Could Smell Like. YouTube, Old Spice.*
+*5G til det du bruker 5G til. YouTube, ice Norge. Fra Nord DDB-perioden.*
 
-Kilder: [Old Spice sales up 107 percent](https://www.adweek.com/?p=12422) (Adweek)
+Kilder: [Kraftig vekst sender ice til topps blant norske annonsører](https://www.kampanje.com/premium/kraftig-vekst-sender-ice-til-topps-blant-norske-annonsorer-vi-har-satt-oss-en-ny-milepael/501551) (Kampanje, 14. mars 2024) · [ice vant Grand Prix på ANFO Effekt](https://www.kom24.no/anfo-effekt-ice-mobil-jannicken-lampe/ice-vant-grand-prix-pa-anfo-effekt-jeg-er-helt-skjelven/701591) (kom24, 14. mars 2024) · [Vinnerne i ANFO Effekt 2025](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/) (ANFO)
 
 ## Kritikk av teorien
 

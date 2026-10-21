@@ -71,17 +71,45 @@ ESOV-poenget er viktig, særlig for etablerte merker. Følelsen av å dominere m
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Aldi UK, «Like Brands. Only Cheaper»
+### Gjensidige, lavere budsjett og høyere andel
 
-*Storbritannia, IPA-gull 2012*
+*Norge 2024 · NoA | Anorak og OMD · ANFO Effekt 2024*
 
-En utfordrer som tok mer plass enn størrelsen tilsa. Markedsandelen økte med over 40 prosent.
+Gjensidige kuttet mediebudsjettet og økte likevel salg og markedsandel i et fallende marked. Et slagord som folk allerede kjente, gjorde hver krone mer verdt.
 
-https://www.youtube.com/watch?v=tR9arN2J8lk
+https://www.youtube.com/watch?v=CY_crVowbUk
 
-*Like Brands. Only Cheaper. YouTube, kanalen «awards».*
+*Fra hest og kjerre til elbil. YouTube, Gjensidige i Norge.*
 
-Kilder: [Aldi: The Like Brands campaign](https://www.warc.com/en/article/aldi%3A-the-like-brands-campaign-74d334cec6c94302b018cb0277123cbd) (WARC. Delvis bak betalingsmur. Tallet står i den åpne delen)
+Kilder: [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
+
+### Widerøe, fra performance til merkevare
+
+*Norge 2021 · Morgenstern og Brist · Bronse i Smart tjeneste, ANFO Effekt 2022*
+
+Fra 2014 til 2020 satset Widerøe på datadrevet performance. Salgsinntektene sank, sakte men sikkert. Med kampanjen «For noen er vi hverdagen. For andre er vi eventyret» la selskapet om til sterkere merkevarebygging. Ingen annonser skulle måles på konvertering, bare på seertid. Caset vant ANFO Effekt året etter, da trenden helt tydelig snudde.
+
+Juryen: «Selskapet har de siste årene vært performance drevet, men vrir nå over til en mer emosjonell kommunikasjon.» ([ANFO](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/))
+
+https://www.youtube.com/watch?v=ZPjq9yoDYPg
+
+*Velkommen til eventyrlige Bergen! YouTube, Widerøe.*
+
+Kilder: [Widerøe](https://www.morgenstern.no/arbeider/wideroe-vinterdvale) (Morgenstern. Kilde for sitatene om 2014–2020) · [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO) · [Velkommen til verdens vakreste sted](https://www.kreativtforum.no/arbeider/velkommen-til-verdens-vakreste-sted) (Kreativt Forum, 2021)
+
+### ice bedrift, utfordreren mot telekomgigantene
+
+*Norge 2024–2025 · Morgenstern og Publicis Starcom · Bronse i B2B, ANFO Effekt 2024 og 2025*
+
+ice bedrift er en liten aktør mot Telenor og Telia, i en kategori med lange beslutninger og lojale kunder. Kampanjene, blant dem «Redd kjeksen», kombinerte langsiktig merkebygging med kortsiktig aktivering. Salget økte 41 prosent, og juryen oppgir at veksten var 147 prosent høyere enn hos nærmeste konkurrent.
+
+Juryen: «Ved å kombinere langsiktig merkevarebygging med kortsiktig aktivering ga det flere leads og økt salg.» ([ANFO](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/))
+
+https://vimeo.com/1109032412/93dc1921e6
+
+*Redd kjeksen, 30 sekunder. Vimeo, Morgenstern.*
+
+Kilder: [ice bedrift redder kjeksen](https://www.morgenstern.no/arbeider/ice-bedrift-redder-kjeksen) (Morgenstern) · [Vinnerne i ANFO Effekt 2025](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/) (ANFO. Kilde for 41 og 147 prosent) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
 
 ## Kritikk av teorien
 

@@ -91,17 +91,17 @@ Salgsmodellering er en slags svart boks. Ingen har helt klart å forklare meg hv
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Uber
+### Skatteetaten, et ekte forsøk
 
-*USA 2017*
+*Norge 2021 · Skatteetaten og NHH*
 
-Uber skrudde av rundt tre firedeler av den digitale annonseringen uten merkbar effekt.
+Skatteetaten testet hjelpeboksene i et randomisert forsøk. Kontrollgruppen ble trukket ut fra et siffer i personnummeret. Derfor kan de si sikkert at det var boksene som endret svarene.
 
-![Uber](assets/eksempler/a-uber.jpg)
+![Skatteetaten, et ekte forsøk](assets/eksempler/n-skatt-rct.jpg)
 
-*Skjermbilde fra Inverse, 4. januar 2021.*
+*Slik var forsøket satt opp. Figur: Skatteetaten.*
 
-Kilder: [Uber burned through $100 million thanks to digital ad fraud](https://www.inverse.com/input/culture/uber-burned-through-100-million-thanks-to-digital-ad-fraud) (Inverse) · [Uber sues ad firm](https://www.theregister.com/2017/09/19/uber_sues_ad_firm/) (The Register, september 2017)
+Kilder: [Dulting i skattemeldingen hjelper folk til å rapportere riktig](https://www.skatteetaten.no/om-skatteetaten/analyse-og-rapporter/analysenytt/dulting-i-skattemeldingen-hjelper-folk-til-a-rapportere-riktig/) (Skatteetaten, 16. desember 2021)
 
 ## Kritikk av teorien
 

@@ -75,41 +75,55 @@ Det er ofte litt konfliktfylt mellom kunde og byrå når den ene parten ønsker 
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Fazer, «Blue Season»
+### Lano, «Vask de henda»
 
-*Finland 2023 · SEK*
+*Norge 2012, relansert 2024 · TRY · Gull i Smart produkt/handel, ANFO Effekt 2024*
 
-En forsideannonse med bare Fazer-blått, uten logo og uten produkt. Fargen er varemerkebeskyttet i Finland.
+Melodien er merkemarkøren. Filmen fra 2012 ble tatt fram igjen i 2024, og markedsandelen økte raskt. Året etter ble den shortlistet i Kantar Creative Effectiveness Awards for både kortsiktige og langsiktige effekter.
 
-![Fazer, «Blue Season»](assets/eksempler/a-fazer-blue.jpg)
+https://vimeo.com/43662471
 
-*«Blue Season»: bare Fazer-blått og teksten «Jaa sininen hetki».*
+*Lano, Vask de henda! Vimeo, Hocus Focus, juni 2012.*
 
-Kilder: [Blue Season](https://www.adsoftheworld.com/campaigns/blue-season) (Ads of the World) · [Fazer Blue](https://en.wikipedia.org/wiki/Fazer_Blue) (Wikipedia (engelsk))
+Kilder: [12 år gammel reklame shortlistet til internasjonal pris](https://www.kampanje.com/reklame/12-ar-gammel-reklame-shortlistet-til-internasjonal-pris-en-fjaer-i-hatten/573581) (Kampanje, 10. april 2025) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
 
-### VR, grønnfargen
+### OMO, «Kjell & Tore – et vaskeekte konsept»
 
-*Finland 2026*
+*Norge 2025 · TRY og Gimpville · Bronse i Vekst, ANFO Effekt 2025*
 
-Det finske jernbaneselskapet fikk varemerkebeskyttet grønnfargen etter 17 år med konsekvent bruk. 82 prosent kobler grønt til VR. Et sterkt bevis på Romaniuks poeng om tid.
+To faste karakterer, regissert av Harald Zwart, snudde et fall i markedsandel. Faste figurer blir ofte sterke merkemarkører. (Men er det litt mange av dem nå, eller?)
 
-![VR, grønnfargen](assets/eksempler/a-vr-gronn.jpg)
+https://www.youtube.com/watch?v=S2PT7kWdono
 
-*Pressebilde fra VR, 26. august 2026.*
+*Kjell & Tore. YouTube, OMO Norge.*
 
-Kilder: [VR's green color granted trademark protection in Finland](https://www.vr.fi/en/news/2026/08/26/vrs-green-color-granted-trademark-protection-in-finland) (VR, 26. august 2026)
+Kilder: [Vinnerne i ANFO Effekt 2025](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/) (ANFO)
 
-### Absolut Vodka, flaskekampanjen
+### FINN torget, «Fiks ferdig»-musikalen
 
-*Sverige og USA fra 1981 · TBWA*
+*Norge 2024 · Morgenstern og dentsu X · Diplom i Smart tjeneste, ANFO Effekt 2024*
 
-Over 1 500 annonser bygget rundt formen på flasken. Salget i USA økte fra rundt 10 000 kasser i 1980 til 4,5 millioner kasser i 2000.
+Musikalen tok med seg figurene fra de tidligere Torget-filmene. Juryen trakk fram bruken av kjente merkemarkører og rekorder for en etablert markedsleder.
 
-![Absolut Vodka, flaskekampanjen](assets/eksempler/a-absolut.jpg)
+Juryen: «Juryen lot seg begeistre over det kreative konseptet, og fremragende bruk av kjente merkemarkører.» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
 
-*«Absolut L.A.», en av annonsene i flaskekampanjen.*
+https://www.youtube.com/watch?v=56FGFo0FTSk
 
-Kilder: [The longest-running print ad campaign in history](https://www.smartinsights.com/online-brand-strategy/international-marketing/campaign-of-the-week-the-longest-running-print-ad-marketing-campaign-in-history/) (Smart Insights)
+*FINN – The Musical. YouTube, FINN, 8. oktober 2024.*
+
+Kilder: [FINN, Fiks ferdig-musikal](https://www.morgenstern.no/arbeider/finn---fiks-ferdig-musikal) (Morgenstern) · [Musikal skal øke bruktsalget](https://www.kreativtforum.no/arbeider/musikal-skal-oke-bruktsalget) (Kreativt Forum, 10. oktober 2024) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
+
+### Byggmakker, «Babompibom» tilbake
+
+*Norge 2022 · Try og RED dentsu X*
+
+En merkeanalyse viste sterk kobling mellom Babompibom og Byggmakker. Det kunne du kanskje ha gjettet, forøvrig. Stor suksess å hente denne tilbake etter en tid i dvale.
+
+![Byggmakker, «Babompibom» tilbake](assets/eksempler/n-byggmakker-lyd.jpg)
+
+*Fra filmen «Vekker Babompibom Byggmakker til live» (2022). Bilde: KampanjeTV.*
+
+Kilder: [Forrige reklamefilm ble for generisk, nå relanserer Byggmakker gammel lydlogo](https://www.kampanje.com/reklame/forrige-reklamefilm-ble-for-generisk-na-relanserer-byggmaker-gammel-lydlogo/898916) (Kampanje, 16. februar 2022)
 
 ## Kritikk av teorien
 

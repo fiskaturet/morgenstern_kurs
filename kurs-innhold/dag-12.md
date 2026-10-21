@@ -73,17 +73,43 @@ Uansett hvor «lyst» alle har til å lage reklame, så må mediebudsjettet og s
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Volvo Trucks, Live Test Series
+### Bufdir, «Den utenkelige overgangen»
 
-*Sverige 2013–14 · Forsman & Bodenfors*
+*Norge 2024 · Atyp · Grand Prix og gull i Bærekraft, ANFO Effekt 2024*
 
-Grand Prix i Creative Effectiveness i Cannes 2015, året etter Grand Prix i Film.
+Bufdir trengte flere fosterhjem og ville nå menn. I filmen gir en fotballsupporter opp lagtroskapen for fosterbarnet sitt. Kampanjen endret inntrykk, holdning og atferd hos menn og familier, ifølge juryen i ANFO.
 
-https://www.youtube.com/watch?v=7N87uxyDQT0
+Juryen: «skikkelig bra håndverk» ([kom24](https://www.kom24.no/anfo-anfo-effekt-prisutdeling/her-er-vinnerne/801372))
 
-*The Hamster Stunt. YouTube, Volvo Trucks.*
+https://www.youtube.com/watch?v=PdzCwltufUY
 
-Kilder: [Grand Prix for Creative Effectiveness](https://br.adforum.com/agency/5487/press-releases/47339/grand-prix-for-creative-effectiveness) (Adforum)
+*Er du klar for et nytt kapittel i livet? YouTube, Bufdir, 23. desember 2023.*
+
+Kilder: [Den utenkelige overgangen](https://www.kreativtforum.no/arbeider/den-utenkelige-overgangen) (Kreativt Forum, 26. januar 2024) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO) · [Bufdir's change of heart](https://shots.net/news/view/bufdirs-change-of-heart) (shots)
+
+### Elkjøp, «Urban Miner»
+
+*Norge · Nord DDB · Gull i Bærekraft, ANFO Effekt 2023*
+
+Elkjøp brukte Minecraft til å få folk til å levere inn gammel elektronikk. ANFO-juryen trakk fram at kampanjen endret atferd målbart: mer elektronikk ble levert inn.
+
+https://www.youtube.com/watch?v=AKj8Ea9Pxgg
+
+*Urban Miner. YouTube, Nord DDB Oslo.*
+
+Kilder: [ANFO Effekt 2023, vinnere](https://anfo.no/anfo-effekt-2023-vinnere/) (ANFO)
+
+### Lano, en idé som har levert i tolv år
+
+*Norge 2012 · TRY*
+
+Filmen vant effektpris 11 år etter at den ble laget. En sterk kreativ idé kan brukes om igjen lenge etter at markedsavdelingen er lei.
+
+https://vimeo.com/43662471
+
+*Lano, Vask de henda! Vimeo, Hocus Focus, juni 2012.*
+
+Kilder: [12 år gammel reklame shortlistet til internasjonal pris](https://www.kampanje.com/reklame/12-ar-gammel-reklame-shortlistet-til-internasjonal-pris-en-fjaer-i-hatten/573581) (Kampanje, 10. april 2025)
 
 ## Kritikk av teorien
 

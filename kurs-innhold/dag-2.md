@@ -85,33 +85,23 @@ Hvis du kjenner etter, sånn inni deg, gir teorien også mening. Jeg er helt sik
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### ICA-reklamen med ICA-Stig
+### Coop Extra, «Gjør det tydelig!»
 
-*Sverige fra 2001 · King*
+*Norge · WAL og PHD · Grand Prix og gull i Vekst, ANFO Effekt 2022*
 
-Guinness kåret dette til verdens lengste reklameserie. Filmene bygger merket, og mange av dem aktiverer tilbud samtidig. Et eksempel på at begge deler er mulig.
+Extra bygger merket over tid med de spareglade naboene, og aktiverer med tydelige priser i de samme flatene.
 
-https://www.youtube.com/watch?v=dOOHOd8H0eU
+https://www.youtube.com/watch?v=DnnI60xCjTk
 
-*ICA-reklamen. YouTube, ICA.*
+*Gjør det billig! YouTube, Coop Extra.*
 
-Kilder: [Hans Mosesson slutar som ICA-Stig](https://www.icagruppen.se/arkiv/pressmeddelandearkiv/2015/hans-mosesson-slutar-som-ica-stig) (ICA Gruppen, 2015)
-
-### Adidas
-
-*Global 2019*
-
-Adidas brukte 80 prosent på performance og 20 prosent på merkevare. Salgsmodellering viste at merkevarearbeidet drev 65 prosent av salget. Selskapet innrømte selv at de hadde overinvestert i performance.
-
-![Adidas](assets/eksempler/a-adidas.jpg)
-
-*Skjermbilde fra Marketing Week, 17. oktober 2019.*
-
-Kilder: [Adidas: We over-invested in digital advertising](https://www.marketingweek.com/adidas-marketing-effectiveness/) (Marketing Week, 2019)
+Kilder: [Får Grand Prix for Extra-effektiv reklame](https://www.kampanje.com/premium/far-grand-prix-for-extra-effektiv-reklame-et-forbilde-for-alle-som-jobber-med-markedsforing/782934) (Kampanje, 16. mars 2023) · [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO)
 
 ### PowerOffice, «Har du 2 minutter?»
 
 *Gull i B2B · ANFO Effekt 2024 · med Brist*
+
+Folk bytter regnskapssystem sjelden. Men når de gjør det, har de nok to minutter til å lese litt ekstra om PowerOffice.
 
 Juryen: «Har årets vinner jobbet langsiktig og strategisk med å bygge merkevaren.» ([ANFO](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/))
 
@@ -119,7 +109,31 @@ https://www.youtube.com/watch?v=acmG2SCSrTc
 
 *Har du to minutter? YouTube, PowerOffice.*
 
-Kilder: [Har du to minutter](https://www.morgenstern.no/arbeider/har-du-to-minutter) (Morgenstern) · [Har du to minutter? spør PowerOffice i nytt reklamekonsept](https://www.kreativtforum.no/arbeider/har-du-to-minutter-spor-poweroffice-i-nytt-reklamekonsept) (Kreativt Forum, 12. april 2024. Omtale ved lansering) · [PowerOffice fortsetter reklamesuksessen over all forventning](https://www.kampanje.com/reklame/poweroffice-fortsetter-reklamesuksessen-over-all-forventning/472062) (Kampanje)
+Kilder: [Har du to minutter](https://www.morgenstern.no/arbeider/har-du-to-minutter) (Morgenstern) · [Har du to minutter? spør PowerOffice i nytt reklamekonsept](https://www.kreativtforum.no/arbeider/har-du-to-minutter-spor-poweroffice-i-nytt-reklamekonsept) (Kreativt Forum, 12. april 2024) · [PowerOffice fortsetter reklamesuksessen over all forventning](https://www.kampanje.com/reklame/poweroffice-fortsetter-reklamesuksessen-over-all-forventning/472062) (Kampanje)
+
+### SpareBank 1, «Alt-i-ett» / «#fondforalle»
+
+*Norge 2024 · Morgenstern og OMD · Gull i Ny, ANFO Effekt 2024*
+
+Denne kampanjen skulle få flere til å spare i fond. ANFO skrev at «juryen anerkjenner dette caset som smart, godt gjennomført og solid dokumentert.» Det er vel omtrent så vakkert man får konkurrenter til å uttale seg.
+
+https://www.youtube.com/watch?v=qLD0b5O3mSI
+
+*Fond for alle! YouTube, SpareBank 1.*
+
+Kilder: [#fondforalle fra SpareBank 1](https://www.morgenstern.no/arbeider/fondforalle-fra-sparebank-1) (Morgenstern) · [#fondforalle fra SpareBank 1](https://www.kreativtforum.no/arbeider/fondforalle-fra-sparebank-1) (Kreativt Forum, 11. januar 2024) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
+
+### Codan Forsikring, «En liten utfordrer i stor vekst»
+
+*Norge 2015–2019 · PHD og Los & Co · Diplom i Vekst og Bauer Medias Merkevarepris, ANFO Effekt 2019*
+
+Codan gikk fra kortsiktig salgsreklame til langsiktig merkebygging med mer TV, uten å selge mindre. Juryen likte at caset tenkte både kort og lang sikt i en bransje der pris styrer mye.
+
+https://www.youtube.com/watch?v=87D_mRFfZ7A
+
+*Codan Forsikring, Bilforsikring (2019). YouTube, Codan Forsikring Norge.*
+
+Kilder: [Vinnere ANFO Effekt 2019](https://anfo.no/2020/02/14/vinnere-anfo-effekt-2019/) (ANFO, 14. februar 2020) · [Codan Forsikring utfordrer med endringshistorie](https://www.kreativtforum.no/arbeider/codan-forsikring-utfordrer-med-endringshistorie) (Kreativt Forum, 16. mars 2018)
 
 ## Kritikk av teorien
 

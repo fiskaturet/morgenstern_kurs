@@ -45,29 +45,41 @@ Bøkene er ikke enige om alt. Men uenighetene kan vi bruke til å skjerpe egen d
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Volvo Trucks, «The Epic Split»
+### Gjensidige, «Tiden går, Gjensidige består»
 
-*Sverige 2013 · Forsman & Bodenfors*
+*Norge 2024 · NoA | Anorak og OMD · Sølv i B2B og Smart tjeneste, ANFO Effekt 2024*
 
-Filmene fikk over 100 millioner visninger og har vunnet en rekke effekt-priser. Mer om det senere.
+Slagordet er fra 1932 og hadde ligget i skuffen nesten 20 år. Likevel kjente to av tre nordmenn det igjen i en måling fra Opinion i januar 2024. Gjensidige hentet det frem, og økte salg og markedsandel i et fallende marked, med lavere mediebudsjett.
 
-https://www.youtube.com/watch?v=M7FIvfx5J10
+https://www.youtube.com/watch?v=CY_crVowbUk
 
-*The Epic Split. YouTube, Volvo Trucks.*
+*Fra hest og kjerre til elbil. YouTube, Gjensidige i Norge.*
 
-Kilder: [Epic triumph for Volvo Trucks campaign at Cannes Lions](https://www.volvotrucks.nl/nl-nl/news/press-releases/2014/Jun/epic-triumph-for-volvo-trucks-campaign-at-cannes-lions.html) (Volvo Trucks, juni 2014. Tallene er merkets egne)
+Kilder: [Gjensidige børster støv av kjent slagord](https://www.kreativtforum.no/artikler/nyheter/gjensidige-borster-stov-av-kjent-slagord) (Kreativt Forum, 6. mars 2024) · [Tiden går, uhell langs veien består](https://www.kreativtforum.no/arbeider/tiden-gar-uhell-langs-veien-bestar) (Kreativt Forum, 2. april 2024) · [Vinnerne i ANFO Effekt 2024](https://anfo.no/2025/03/06/vinnerne-i-anfo-effekt-2024/) (ANFO)
 
-### Cadbury, «Gorilla»
+### Vipps, lanseringen
 
-*Storbritannia 2007 · Fallon London*
+*Norge 2015 · POL for DNB · Grand Prix, ANFO Effekt 2018*
 
-En gorilla som spiller trommer. Ikke et eneste produktargument. Salget snudde etter en lenger periode med fall.
+Vipps fikk over tre millioner brukere på tre år, og merkenavnet ble raskt et verb.
 
-https://www.youtube.com/watch?v=1oFfs359ODE
+Juryen: «Med Vipps har det blitt moro å betale.» ([ANFO](https://anfo.no/2019/02/08/vinnere-anfo-effekt-2018/))
 
-*Gorilla. YouTube, The Creative Voice. Uoffisiell kanal.*
+![Vipps, lanseringen](assets/eksempler/n-vipps-lansering.jpg)
 
-Kilder: [Primate boosts Cadbury profits](https://www.warc.com/newsandopinion/news/primate-boosts-cadbury-profits/en-gb/22670) (WARC) · [Cadbury: how a drumming gorilla beat a path back to profitable growth](https://www.warc.com/content/article/ipa/cadbury--how-a-drumming-gorilla-beat-a-path-back-to-profitable-growth-a-real-time-effectiveness-case-study/88470) (IPA via WARC. Bak betalingsmur)
+*Vipps-lanseringen. Bilde: Kreativt Forum.*
+
+Kilder: [Vipps feirer Grand Prix-seier](https://www.kampanje.com/reklame/vipps-feirer-grand-prix-seier-i-natt-karet-til-landets-mest-effektive-reklamejobb/382236) (Kampanje, 7. februar 2019) · [Lansering av Vipps](https://www.kreativtforum.no/arbeider/lansering-av-vipps) (Kreativt Forum)
+
+### Freia, «Et lite stykke Norge»
+
+*Norge · Freia*
+
+Et av de mest kjente slagordene i norsk reklame. De fleste av oss kan det utenat, til tross for at det er en stund siden vi har sett det i bruk.
+
+https://www.youtube.com/watch?v=vTehlMGb3Uk
+
+*Freia Melkesjokolade (2014). YouTube, Freia.*
 
 ## Kritikk av teorien
 

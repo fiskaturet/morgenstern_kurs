@@ -73,29 +73,55 @@ Du kan jo selv prøve å huske noe fint som skjedde deg i 2023, men som ikke fik
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### TV 2 Danmark, «All That We Share»
+### ice, «Bare når det regner»
 
-*Danmark 2017 · &Co.*
+*Norge 2024 · Morgenstern · Gullfisken (årets reklamefilm) og Gullbranson 2024*
 
-En film om det vi har til felles. Etter få måneder koblet 68 prosent av danskene den nye posisjonen til TV 2.
+Filmen gjør narr av unnskyldningene foreldre bruker for å begrense skjermtid, som at nettbrettet bare virker når det regner. Den er laget som en trailer for en amerikansk oppvekstfilm, med mye nostalgi. Produktet er iceJunior, et gratis abonnement med 1 GB data. Seerne stemte den fram som årets reklamefilm.
 
-https://www.youtube.com/watch?v=jD8tjhVO1Tc
+https://www.youtube.com/watch?v=rFhMbe5H6xw
 
-*All That We Share. YouTube, TV 2 Play.*
+*Bare når det regner. YouTube, ice Norge, 25. juni 2024.*
 
-Kilder: [All that we share](https://www.andco.dk/cases/all-that-we-share) (&Co., byråets case-side. Tallene er byråets egne)
+Kilder: [ice tar på seg skylda](https://kampanje.com/reklame/2024/06/ice-tar-pa-seg-skylda-ny-kampanje---vil-redusere-barns-skjermbruk/) (Kampanje, 20. juni 2024) · [Bare når det regner](https://www.kreativtforum.no/arbeider/bare-nar-det-regner) (Kreativt Forum, 20. juni 2024) · [ice-filmen «Bare når det regner» ble årets reklamefilm under Gullbranson](https://www.kreativtforum.no/artikler/nyheter/ice-filmen-bare-nar-det-regner-ble-arets-reklamefilm-under-gullbranson) (Kreativt Forum, 6. november 2024)
 
-### Ronseal, «Does exactly what it says on the tin»
+### Bulder Bank, «Bulder Utfordrer»
 
-*Storbritannia 1994 · HHCL & Partners*
+*Norge · Trigger · Sølv i Vekst, ANFO Effekt 2022*
 
-Det rasjonelle motstykket. Kjøperne var usikre på hva de skulle velge, og trengte en enkel forklaring.
+Et rasjonelt motstykke. Bulder selger en ren produktfordel: renten går automatisk ned etter hvert som lånet blir nedbetalt. Det ga flere lånekunder. Rasjonell reklame virker best når produktet har en fordel folk lett forstår.
 
-![Ronseal, «Does exactly what it says on the tin»](assets/eksempler/a-ronseal.jpg)
+https://www.youtube.com/watch?v=3_vWB4yZf60
 
-*Ronseal-boksen, med linjen på emballasjen.*
+*Boliglån med automatisk lavere rente. YouTube, Bulder.*
 
-Kilder: [Does exactly what it says on the tin](https://www.creativereview.co.uk/does-exactly-what-it-says-on-the-tin/) (Creative Review)
+Kilder: [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO)
+
+### Gjensidige, «Uflaks? Heldigvis har du Gjensidige!»
+
+*Norge 2021 · Morgenstern og iProspect · Diplom i Smart singel, ANFO Effekt 2021*
+
+Forsikring er noe folk helst vil slippe å tenke på. Korte filmer om små uhell gjorde det til noe man smiler av. Merkepreferansen økte 48 prosent blant potensielle kunder. Året etter fikk Gjensidige et nytt diplom i ANFO for å gjenbruke det som virket.
+
+Juryen: «Juryen ønsker spesielt å trekke frem den gode gjennomføringen på hvordan begeistre ved å spille på det emosjonelle på noe som i utgangspunktet anses som lav-interesse og en hygienefaktor.» ([ANFO](https://anfo.no/2022/03/17/vinnere-anfo-effekt-2021/))
+
+https://www.youtube.com/watch?v=ruoUElG7oms
+
+*Bilforsikring, Bilvask. YouTube, Gjensidige i Norge.*
+
+Kilder: [Heldigvis har du Gjensidige](https://www.morgenstern.no/arbeider/heldigvis-har-du-gjensidige) (Morgenstern. Kilde for 48 prosent) · [Vinnere ANFO Effekt 2021](https://anfo.no/2022/03/17/vinnere-anfo-effekt-2021/) (ANFO, 17. mars 2022) · [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO. Diplom for smart gjenbruk)
+
+### Byggmakker, filmen folk likte, men ikke husket
+
+*Norge 2021–2022 · Try og RED dentsu X*
+
+Filmen «Slipp løs håndverkeren i deg» kom på andreplass for liking i Reklamebørsen, men bare på sjetteplass for oppmerksomhet. Byggmakkers egne målinger viste at for få koblet den til Byggmakker. Markedsdirektøren sa at filmen var «for generisk i kategorien, og for lite Byggmakker». Året etter kom den gamle lydlogoen tilbake.
+
+https://www.youtube.com/watch?v=Mzk-t3qe2T8
+
+*Slipp løs håndverkeren i deg. YouTube, Byggmakker, 23. mars 2021.*
+
+Kilder: [Forrige reklamefilm ble for generisk, nå relanserer Byggmakker gammel lydlogo](https://www.kampanje.com/reklame/forrige-reklamefilm-ble-for-generisk-na-relanserer-byggmaker-gammel-lydlogo/898916) (Kampanje, 16. februar 2022)
 
 ## Kritikk av teorien
 

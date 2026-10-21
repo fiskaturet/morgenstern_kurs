@@ -61,23 +61,35 @@ Litt på siden, men debattene vi har, på LinkedIn eller i Kampanje, er sterkt f
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Avis, «We try harder»
+### Coop Extra, både distinkt og differensiert
 
-*USA 1962 · Doyle Dane Bernbach*
+*Norge · WAL · Grand Prix, ANFO Effekt 2022*
 
-Ren differensiering. Avis gikk fra underskudd til overskudd på ett år.
+Sparenaboene gjør reklamen lett å kjenne igjen. Herman Mueller Stormyr i WAL sier at de samtidig «spisset posisjonen på lavpris». Extra har både en distinkt figur og en tydelig posisjon.
 
-![Avis, «We try harder»](assets/eksempler/a-avis.jpg)
+https://www.youtube.com/watch?v=DnnI60xCjTk
 
-*Avis-plakat: «Avis is only No.2 in rent a cars. So we try harder.»*
+*Gjør det billig! YouTube, Coop Extra.*
 
-Kilder: [How to make someone feel bad for being number 1](https://www.jalopnik.com/how-to-make-someone-feel-bad-for-being-number-1-1113718949/) (Jalopnik)
+Kilder: [Får Grand Prix for Extra-effektiv reklame](https://www.kampanje.com/premium/far-grand-prix-for-extra-effektiv-reklame-et-forbilde-for-alle-som-jobber-med-markedsforing/782934) (Kampanje, 16. mars 2023)
+
+### Bulder Bank, utfordrer med en konkret fordel
+
+*Norge · Trigger · Sølv i Vekst, ANFO Effekt 2022*
+
+Tonen er utfordrerens, og den gjør Bulder lett å skille fra de store bankene. Produktet har en konkret fordel: renten går ned av seg selv.
+
+https://www.youtube.com/watch?v=Wjryrza6K_4
+
+*#bulderutfordrer. YouTube, Bulder.*
+
+Kilder: [Vinneroversikt ANFO Effekt 2022](https://anfo.no/2023/03/16/vinneroversikt-anfo-effekt-2022/) (ANFO)
 
 ### Mark Ritson om bothism
 
 *Think with Google 2026 · Marketing Week 2017*
 
-Mark Ritson er tidligere markedsføringsprofessor og står bak Mini MBA in Marketing. Han skriver fast i Marketing Week og er en av Sharps tydeligste motstemmer. Ritson har gitt navn til «bothism», tanken om at de beste markedsførerne velger både og. Bildet er fra Cannes Lions 2026.
+Mark Ritson er tidligere markedsføringsprofessor og står bak Mini MBA in Marketing. Han skriver fast i Marketing Week og er en av Sharps tydeligste motstemmer. Ritson har gitt navn til «bothism», tanken om at de beste markedsførerne velger både og (også kjent som verdens kanskje kjedeligste teori, selv om den sikkert stemmer). Bildet er fra Cannes Lions 2026.
 
 ![Mark Ritson om bothism](assets/eksempler/a-ritson-bothism.jpg)
 

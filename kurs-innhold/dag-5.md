@@ -73,47 +73,35 @@ Tendensen til å vise det ordinære i stedet for noe interessant oppstår når v
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### Kvikk Lunsj, «Tursjokoladen»
+### Fjordland, «Godt å bare få det servert»
 
-*Norge · SMFB*
+*Norge · Atyp, Publicis Starcom og State · Sølv i Vekst, ANFO Effekt 2025*
 
-En av verdens tydeligste koblinger mellom et merke og en kjøpssituasjon. Fire av de ni Kvikk Lunsjene nordmenn spiser hvert år, gomles i påsken.
+Kampanjen er bygget rundt situasjoner der folk kjøper ferdigmat, og hver annonse kobler merket til en slik situasjon. Innsikten var at Fjordland-kunden trengte en unnskyldning for å kjøpe ferdigmat. Det gjorde ikke Grandiosa-kunden. Atyp oppgir 12,1 prosent salgsvekst og at markedsandelen økte fra 44,7 til 50 prosent.
+
+![Fjordland, «Godt å bare få det servert»](assets/eksempler/n-fjordland.jpg)
+
+*Fra Fjordland-filmen (2021). Bilde: Kreativt Forum.*
+
+Kilder: [Godt å bare få det servert](https://atyp.no/arbeider/godt-a-bare-fa-det-servert-2/) (Atyp. Kilde for tallene, målt av ACNielsen) · [Vinnerne i ANFO Effekt 2025](https://anfo.no/2026/03/20/vinnerne-i-anfo-effekt-2025/) (ANFO) · [ANFO Effekt 2023, vinnere](https://anfo.no/anfo-effekt-2023-vinnere/) (ANFO. Gull Smart produkt og Kantars innsiktspris, trolig samme case)
+
+### Kvikk Lunsj, «Du angrer aldri på en tur»
+
+*Norge 2013 · SMFB · Bronse i Håndverk, Gullblyanten 2013*
+
+Kvikk Lunsj eier påsketuren. Briefen her var å gjøre sjokoladen relevant for flere turer enn skituren i påsken, altså å utvide fra én kjøpssituasjon til mange. Kommentar fra Anders: er dette med å vanne ut, eller styrke Kvikk Lunsj som merke for din del, kjære leser?
 
 https://www.youtube.com/watch?v=zmxN971aTIE
 
-*Kvikk Lunsj. YouTube, SMFB Oslo. Byråets kanal. Årstall ikke funnet.*
+*Du angrer aldri på en tur. YouTube, SMFB Oslo.*
 
-Kilder: [Kvikk Lunsj](https://en.wikipedia.org/wiki/Kvikk_Lunsj) (Wikipedia (engelsk). Kilde for tallene om påsken. Bør sjekkes mot Freia)
-
-### OLW, «Fredagsmys»
-
-*Sverige · Åkestam Holst (filmen fra 2012)*
-
-Chipsmerket knyttet seg til fredagskvelden og hjalp ordet inn i språket. Avisomtalene av «fredagsmys» økte fra 459 i 2008 til 2 948 i 2013. I Norge kjenner vi kampanjen som «Ingen Kims, ingen kos».
-
-https://www.youtube.com/watch?v=-Xc1aYcI8Ik
-
-*OLW Fredagsmys (2012). YouTube, Åkestam Holst Archive.*
-
-Kilder: [Fram med chipsen – fredagsmys fyller 20](https://www.svt.se/nyheter/inrikes/fram-med-chips-fredagsmys-fyller-20) (SVT)
-
-### Snickers, «You're not you when you're hungry»
-
-*Global 2010 · BBDO*
-
-Sult som inngangsport. Snickers vokste 15,9 prosent globalt det første året og økte markedsandelen sin i 56 av 58 markeder.
-
-https://www.youtube.com/watch?v=qgjjKGfWP54
-
-*Snickers, Betty White. YouTube, System1 Group.*
-
-Kilder: [Snickers: You're not you when you're hungry](https://ipa.co.uk/knowledge/case-studies/snickers-you-re-not-you-when-you-re-hungry/) (IPA, gull 2012) · [Case study: How fame made Snickers' campaign a success](https://www.campaignlive.com/article/case-study-fame-made-snickers-youre-not-when-youre-hungry-campaign-success/1413554) (Campaign)
+Kilder: [Du angrer aldri på en tur](https://www.kreativtforum.no/gullblyanten/du-angrer-aldri-pa-en-tur) (Kreativt Forum, Gullblyanten 2013)
 
 ### FINN jobb, «Bli venn med Mandag»
 
-*Gull i Smart Tjeneste · ANFO Effekt 2023 · Mediebyå dentsu X*
+*Gull i Smart Tjeneste · ANFO Effekt 2023 · Mediebyrå dentsu X*
 
-Mandag er dagen folk tenker på ny jobb. Kampanjen knytter FINN jobb til den situasjonen. Tre TV-filmer pluss TikTok og sosiale medier.
+Mandag er dagen flest folk besøker FINN jobb.
 
 Juryen: «Med veldig godt innsiktsarbeid har de skapt et konsept som treffer så godt.» ([ANFO](https://anfo.no/anfo-effekt-2023-vinnere/))
 
@@ -121,7 +109,7 @@ https://www.youtube.com/watch?v=QYKWvMWuxZU
 
 *Mandag på lørdag. YouTube, FINN.*
 
-Kilder: [Mandag](https://www.morgenstern.no/arbeider/mandag) (Morgenstern) · [Bli venn med Mandag i FINNs nye jobbkampanje](https://www.kreativtforum.no/arbeider/bli-venn-med-mandag-i-finns-nye-jobbkampanje) (Kreativt Forum, 30. august 2022. Omtale ved lansering) · [FINN jobb, Mandag 2024](https://www.morgenstern.no/arbeider/finn-jobb---mandag) (Morgenstern)
+Kilder: [Mandag](https://www.morgenstern.no/arbeider/mandag) (Morgenstern) · [Bli venn med Mandag i FINNs nye jobbkampanje](https://www.kreativtforum.no/arbeider/bli-venn-med-mandag-i-finns-nye-jobbkampanje) (Kreativt Forum, 30. august 2022) · [FINN jobb, Mandag 2024](https://www.morgenstern.no/arbeider/finn-jobb---mandag) (Morgenstern)
 
 ### Widerøe, «Hjelp vi har mistet vår merkevare»
 
@@ -135,7 +123,31 @@ https://www.youtube.com/watch?v=Mr3m4ljLTRI
 
 *Velkommen til Kristiansand! YouTube, Widerøe.*
 
-Kilder: [Widerøe går på lufta med nytt reklamekonsept](https://kampanje.com/reklame/2021/03/wideroe-gar-pa-lufta-med-nytt-reklamekonsept---vil-vare-top-of-mind-hos-kundene/) (Kampanje, 25. mars 2021. Omtale ved lansering)
+Kilder: [Widerøe går på lufta med nytt reklamekonsept](https://kampanje.com/reklame/2021/03/wideroe-gar-pa-lufta-med-nytt-reklamekonsept---vil-vare-top-of-mind-hos-kundene/) (Kampanje, 25. mars 2021)
+
+### Boots apotek, «Husk solkrem på UV-serveringen»
+
+*Norge 2026 · Morgenstern*
+
+Boots koblet solkrem til en situasjon der folk glemmer den: uteserveringen. Uteserveringer i Oslo delte ut klistremerker med UV-indikator og gratis solkrem, Nytti, som bare selges hos Boots.
+
+https://vimeo.com/1237246189/377d01886f
+
+*UV-servering. Vimeo, Morgenstern.*
+
+Kilder: [Husk solkrem på UV-serveringen](https://www.morgenstern.no/arbeider/husk-solkrem-pa-uv-serveringen) (Morgenstern)
+
+### Boots apotek, «Solkrem: En utakknemlig jobb»
+
+*Norge 2024 · Morgenstern*
+
+Markedssjef Karine Blystad sa at målet var å gjøre Boots Apotek «litt mer tilgjengelig i folks hoder og hjerter når de først skal kjøpe solkrem». Det er mental tilgjengelighet med andre ord.
+
+https://vimeo.com/951870066/c0d7c78136
+
+*Strand, 30 sekunder. Vimeo, Morgenstern.*
+
+Kilder: [Boots gjør klart til sommeren med solkrem-hyllest og nye filmer i kjent konsept](https://www.kampanje.com/reklame/2024/04/boots-gjor-klart-til-sommeren-med-solkrem-hyllest-og-nye-filmer-i-kjent-konsept/) (Kampanje, 8. april 2024. Kilde for sitatet) · [Solkrem: En utakknemlig jobb](https://www.morgenstern.no/arbeider/solkrem-en-utakknemlig-jobb) (Morgenstern)
 
 ## Kritikk av teorien
 

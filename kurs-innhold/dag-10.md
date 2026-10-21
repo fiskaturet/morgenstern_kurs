@@ -89,17 +89,41 @@ I Morgenstern tror vi på signaler, og at disse signalene skades hardt om ikke p
 
 Annonser og kampanjer som viser poenget i praksis.
 
-### John Lewis, julefilmene
+### Posten, «When Harry Met Santa»
 
-*Storbritannia · adam&eveDDB*
+*Norge 2021 · POL · Gull i Film, Cannes Lions 2022 · Grand Prix i Gullblyanten*
 
-Kostbar produksjon år etter år. Over 8 pund i fortjeneste per pund brukt. IPA Grand Prix i 2016.
+En firminutters julefilm der Harry forelsker seg i julenissen. Filmen sier ingenting om porto eller pakker. Den koster mye å lage og vise, og det merker folk. Forretningseffekten er ikke dokumentert, så filmen egner seg godt til å diskutere forskjellen på berømt reklame og reklame som beviselig virker.
 
-https://www.youtube.com/watch?v=lq9d5M4Sii4
+https://vimeo.com/648516544
 
-*The Long Wait (2011). YouTube, FabYuleOus. Uoffisiell kanal.*
+*When Harry Met Santa. Vimeo, B-Reel Films.*
 
-Kilder: [10 lessons for marketers from John Lewis' ongoing success](https://www.thinkbox.tv/Case-studies/Brand-films/10-lessons-for-marketers-from-John-Lewis-ongoing-success) (Thinkbox)
+Kilder: [POL og Posten mottok filmgull i Cannes Lions](https://www.kreativtforum.no/artikler/nyheter/pol-og-posten-mottok-filmgull-i-cannes-lions-for-when-harry-met-santa) (Kreativt Forum, 24. juni 2022)
+
+### Storebrand, «Skrekksenga»
+
+*Norge 2024 · Per Høj · Grand Prix, Gullblyanten 2024*
+
+Storebrand stilte ut en hotellseng med veggedyr på Gardermoen. Et stunt som tydelig har kostet noe, sier at avsenderen mener alvor.
+
+![Storebrand, «Skrekksenga»](assets/eksempler/n-storebrand-seng.jpg)
+
+*Skrekksenga på Gardermoen. Bilde: Kreativt Forum.*
+
+Kilder: [Grand Prix i Gullblyanten 2024 til Skrekksenga](https://www.kreativtforum.no/artikler/nyheter/grand-prix-i-gullblyanten-2024-til-skrekksenga) (Kreativt Forum)
+
+### Widerøe, gratis flyreise til alle som fyller 90
+
+*Norge 2024 · Morgenstern · Sølv og bronse, Epica Awards 2024*
+
+Widerøe feiret 90 år ved å gi alle nordmenn som fylte 90 i 2024 en gratis reise. Det gjaldt over 15 000 personer. Et jubileum feiret med et ekte produkt koster mer enn en annonse, og det merker folk.
+
+https://www.youtube.com/watch?v=GzvVksgf-JA
+
+*Flukten fra gamlehjemmet. YouTube, Widerøe.*
+
+Kilder: [Widerøe 90 år](https://www.morgenstern.no/arbeider/wideroe-90-ar) (Morgenstern) · [I år flyr alle 90-åringer gratis med Widerøe](https://www.kreativtforum.no/arbeider/i-ar-flyr-alle-90-aringer-gratis-med-wideroe) (Kreativt Forum, 31. januar 2024. Kilde for 15 000) · [6 priser i Epica Awards](https://www.morgenstern.no/arbeider/6-priser-i-epica-awards) (Morgenstern)
 
 ## Kritikk av teorien
 
