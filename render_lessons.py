@@ -276,19 +276,32 @@ YT_PATTERNS = [
 ]
 
 
+VIMEO_PATTERN = re.compile(r'^https?://(?:www\.)?vimeo\.com/(\d{5,})(?:/([0-9a-f]{6,}))?/?(?:\?[^\s]*)?$')
+
+
 def parse_youtube_url(line: str):
-    """Returner video-ID hvis linja er en bar YouTube-URL, ellers None."""
+    """Returner video-ID hvis linja er en bar YouTube- eller Vimeo-URL, ellers None.
+
+    Vimeo returneres som «vimeo:ID» eller «vimeo:ID:HASH» (ulistede filmer har en hash i lenken).
+    """
     line = line.strip()
     for pat in YT_PATTERNS:
         m = pat.match(line)
         if m:
             return m.group(1)
+    m = VIMEO_PATTERN.match(line)
+    if m:
+        return 'vimeo:' + m.group(1) + (':' + m.group(2) if m.group(2) else '')
     return None
 
 
 def render_video_embed(video_id: str, caption: str = '') -> str:
     """Bygg responsiv iframe + valgfri figcaption."""
-    src = f'https://www.youtube-nocookie.com/embed/{video_id}'
+    if video_id.startswith('vimeo:'):
+        _, vid, *rest = video_id.split(':')
+        src = f'https://player.vimeo.com/video/{vid}?dnt=1' + (f'&h={rest[0]}' if rest else '')
+    else:
+        src = f'https://www.youtube-nocookie.com/embed/{video_id}'
     parts = ['      <figure class="video-embed">']
     parts.append(
         f'        <div class="video-frame">'

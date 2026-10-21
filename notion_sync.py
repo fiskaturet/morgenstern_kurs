@@ -179,7 +179,7 @@ def rich_to_md(rich):
 # ----------------------------------------------------------------------
 # MD -> Notion blocks (import)
 # ----------------------------------------------------------------------
-YT_RE = re.compile(r'^https?://(www\.)?(youtube\.com/watch\?v=|youtu\.be/)\S+$')
+YT_RE = re.compile(r'^https?://(www\.)?(youtube\.com/watch\?v=|youtu\.be/|vimeo\.com/\d)\S+$')
 IMG_RE = re.compile(r'^!\[[^\]]*\]\([^)\s]+\)$')
 NOTE_PREFIXES = ('(CLAUDE:', '(CALUDE:', '(SETT INN', '(Embed', '(SETT_INN')
 
@@ -342,7 +342,7 @@ GUIDE_MD = """**Slik redigerer du kurset.** Hver økt er en side i databasen «�
 ## Spesialblokker
 - **Anders-kommentar**: en callout med 💬-ikon.
 - **Kalkulator**: en callout med 🧩-ikon og teksten kalkulator-kjopsoyeblikk.
-- **YouTube-video**: lim inn lenken alene på en linje (kursiv linje rett under blir bildetekst).
+- **YouTube- eller Vimeo-video**: lim inn lenken alene på en linje (kursiv linje rett under blir bildetekst).
 - **Bilde fra nettsiden**: skriv ![alt-tekst](assets/filnavn.svg) alene på en linje.
 - **Notater som ikke skal publiseres**: start linjen med (CLAUDE: …)."""
 
