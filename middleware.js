@@ -19,11 +19,12 @@ async function sha256(tekst) {
 }
 
 let buffer = { data: null, tid: 0 };
+let kilde = 'ukjent';
 
 // Henter kodene fra Edge Config. Svaret holdes i 15 sekunder per instans.
 async function hentTilgang() {
   const tilkobling = process.env.EDGE_CONFIG;
-  if (!tilkobling) return RESERVE;
+  if (!tilkobling) { kilde = 'reserve: EDGE_CONFIG mangler'; return RESERVE; }
   if (buffer.data && Date.now() - buffer.tid < 15000) return buffer.data;
   try {
     const u = new URL(tilkobling);
@@ -34,11 +35,15 @@ async function hentTilgang() {
       const data = await svar.json();
       if (data && data.salt && Array.isArray(data.koder) && data.koder.length) {
         buffer = { data, tid: Date.now() };
+        kilde = 'edge-config';
         return data;
       }
+      kilde = 'reserve: tomt svar fra Edge Config';
+    } else {
+      kilde = 'reserve: Edge Config svarte ' + svar.status;
     }
   } catch (e) {
-    // Faller tilbake under.
+    kilde = 'reserve: ' + String((e && e.message) || e).slice(0, 80);
   }
   return buffer.data || RESERVE;
 }
@@ -105,6 +110,14 @@ export default async function middleware(req) {
 
   if (sti === '/loggut') {
     return videresend(url, '/login', `${COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`);
+  }
+
+  // Viser hvor kodene hentes fra. Ingen koder eller hasher, bare kilde og antall.
+  if (sti === '/tilgang-status') {
+    const t = await hentTilgang();
+    return new Response(JSON.stringify({ kilde: buffer.data === t ? 'edge-config' : kilde, antall: (t.koder || []).length, oppdatert: t.oppdatert || null }), {
+      headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
+    });
   }
 
   if (sti === '/login' || sti === '/login.html') return;
