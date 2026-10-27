@@ -1,6 +1,6 @@
 // Tilgangskontroll for kurset.
 // Alle sider krever en gyldig tilgangskode. Kodene ligger som saltet hash i Vercel Edge Config
-// (nøkkelen «tilgang»), som tilgangsoversikten skriver til hver gang noe endres.
+// (nøkkelen «tilgang», koblet til prosjektet som GLOBAL_CONFIG), som tilgangsoversikten skriver til hver gang noe endres.
 // tilgang.json i repoet er reserve hvis Edge Config ikke svarer eller ikke er koblet til.
 // Utløpte og sperrede koder slipper ikke inn.
 import RESERVE from './tilgang.json';
@@ -23,14 +23,15 @@ let kilde = 'ukjent';
 
 // Henter kodene fra Edge Config. Svaret holdes i 15 sekunder per instans.
 async function hentTilgang() {
-  const tilkobling = process.env.EDGE_CONFIG;
-  if (!tilkobling) { kilde = 'reserve: EDGE_CONFIG mangler'; return RESERVE; }
+  // Vercel kaller variabelen GLOBAL_CONFIG når Edge Config kobles til i dashbordet.
+  const tilkobling = process.env.GLOBAL_CONFIG || process.env.EDGE_CONFIG;
+  if (!tilkobling) { kilde = 'reserve: GLOBAL_CONFIG mangler'; return RESERVE; }
   if (buffer.data && Date.now() - buffer.tid < 15000) return buffer.data;
   try {
     const u = new URL(tilkobling);
     const id = u.pathname.replace(/^\//, '');
     const token = u.searchParams.get('token');
-    const svar = await fetch(`https://edge-config.vercel.com/${id}/item/tilgang?token=${token}`, { cache: 'no-store' });
+    const svar = await fetch(`${u.origin}/${id}/item/tilgang?token=${token}`, { cache: 'no-store' });
     if (svar.ok) {
       const data = await svar.json();
       if (data && data.salt && Array.isArray(data.koder) && data.koder.length) {
