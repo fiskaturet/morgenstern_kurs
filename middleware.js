@@ -1,7 +1,9 @@
 // Tilgangskontroll for kurset.
-// Alle sider krever en gyldig tilgangskode. Kodene ligger som hash i tilgang.json,
-// som oppdateres fra tilgangsoversikten. Utløpte og sperrede koder slipper ikke inn.
-import TILGANG from './tilgang.json';
+// Alle sider krever en gyldig tilgangskode. Kodene ligger som saltet hash i Vercel Edge Config
+// (nøkkelen «tilgang»), som tilgangsoversikten skriver til hver gang noe endres.
+// tilgang.json i repoet er reserve hvis Edge Config ikke svarer eller ikke er koblet til.
+// Utløpte og sperrede koder slipper ikke inn.
+import RESERVE from './tilgang.json';
 
 export const config = {
   // Alt unntatt filene innloggingssiden trenger, og bildet som vises når lenken deles.
@@ -16,8 +18,33 @@ async function sha256(tekst) {
   return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
-function finn(hash) {
-  return (TILGANG.koder || []).find((k) => k.hash === hash) || null;
+let buffer = { data: null, tid: 0 };
+
+// Henter kodene fra Edge Config. Svaret holdes i 15 sekunder per instans.
+async function hentTilgang() {
+  const tilkobling = process.env.EDGE_CONFIG;
+  if (!tilkobling) return RESERVE;
+  if (buffer.data && Date.now() - buffer.tid < 15000) return buffer.data;
+  try {
+    const u = new URL(tilkobling);
+    const id = u.pathname.replace(/^\//, '');
+    const token = u.searchParams.get('token');
+    const svar = await fetch(`https://edge-config.vercel.com/${id}/item/tilgang?token=${token}`, { cache: 'no-store' });
+    if (svar.ok) {
+      const data = await svar.json();
+      if (data && data.salt && Array.isArray(data.koder) && data.koder.length) {
+        buffer = { data, tid: Date.now() };
+        return data;
+      }
+    }
+  } catch (e) {
+    // Faller tilbake under.
+  }
+  return buffer.data || RESERVE;
+}
+
+function finn(tilgang, hash) {
+  return (tilgang.koder || []).find((k) => k.hash === hash) || null;
 }
 
 function utlopt(k) {
@@ -66,8 +93,9 @@ export default async function middleware(req) {
     const kode = String(form.get('kode') || '').trim().toLowerCase().replace(/\s+/g, '-');
     const retur = tryggRetur(form.get('return'));
     const epost = String(form.get('epost') || '').trim().toLowerCase();
-    const hash = await sha256((TILGANG.salt || '') + kode);
-    const k = finn(hash);
+    const tilgang = await hentTilgang();
+    const hash = await sha256((tilgang.salt || '') + kode);
+    const k = finn(tilgang, hash);
     if (gyldig(k) && riktigDomene(k, epost)) {
       return videresend(url, retur, `${COOKIE}=${hash}; Path=/; Max-Age=${NITTI_DAGER}; HttpOnly; Secure; SameSite=Lax`);
     }
@@ -81,7 +109,7 @@ export default async function middleware(req) {
 
   if (sti === '/login' || sti === '/login.html') return;
 
-  if (gyldig(finn(lesCookie(req, COOKIE)))) return;
+  if (gyldig(finn(await hentTilgang(), lesCookie(req, COOKIE)))) return;
 
   return videresend(url, '/login?return=' + encodeURIComponent(sti + url.search));
 }
