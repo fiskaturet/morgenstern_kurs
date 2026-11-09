@@ -891,6 +891,7 @@ def render_lesson(day_num: int, fm: dict, body: str) -> str:
 
 <script src="app.js"></script>
 <script src="feedback.js"></script>
+<script src="spor.js" defer></script>
 </body>
 </html>
 '''
@@ -1001,6 +1002,7 @@ def render_feed(lessons) -> str:
 
 <script src="app.js"></script>
 <script src="feedback.js"></script>
+<script src="spor.js" defer></script>
 </body>
 </html>
 '''

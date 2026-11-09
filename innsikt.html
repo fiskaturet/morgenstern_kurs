@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Innsikt · Reklameforståelse</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png" />
+  <style>
+    .ins { max-width: 1180px; margin: 0 auto; padding: 32px 16px 80px; color: var(--text); }
+    .ins h1 { font-size: 1.9rem; margin: 0 0 4px; }
+    .ins h2 { font-size: 1.15rem; margin: 40px 0 6px; }
+    .ins .sub { color: var(--text-muted); margin: 0 0 12px; font-size: 0.92rem; }
+    .ins .topp { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+    .ins button { font: inherit; font-size: 0.85rem; padding: 6px 12px; border: 1px solid var(--rule-strong); background: var(--white); border-radius: 4px; cursor: pointer; }
+    .ins .melding { padding: 16px; border-left: 3px solid var(--coral); background: #fbf7f1; margin: 24px 0; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-top: 24px; }
+    .tile { border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; }
+    .tile .tall { font-size: 1.9rem; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+    .tile .lbl { font-size: 0.82rem; color: var(--text-muted); margin-top: 4px; }
+
+    /* Frafall */
+    .legend { display: flex; gap: 16px; font-size: 0.82rem; color: var(--text-muted); margin: 4px 0 10px; flex-wrap: wrap; }
+    .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -1px; margin-right: 6px; }
+    .fall { display: grid; grid-template-columns: minmax(150px, 260px) 1fr; gap: 6px 12px; align-items: center; font-size: 0.86rem; }
+    .fall .navn { color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .fall .spor { position: relative; height: 22px; margin-right: 64px; }
+    .fall .bar { position: absolute; left: 0; height: 10px; border-radius: 0 4px 4px 0; }
+    .fall .bar.a { top: 0; background: #86b6ef; }
+    .fall .bar.b { top: 12px; background: #1c5cab; }
+    .fall .tall { position: absolute; top: 2px; font-size: 0.78rem; color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+    /* Varmekart */
+    .skroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; }
+    table.kart { border-collapse: separate; border-spacing: 2px; font-size: 0.8rem; min-width: 100%; }
+    table.kart th { font-weight: 500; color: var(--text-muted); padding: 6px 4px; text-align: center; white-space: nowrap; }
+    table.kart th.person, table.kart td.person { text-align: left; position: sticky; left: 0; background: var(--white); padding: 4px 10px 4px 8px; white-space: nowrap; max-width: 240px; overflow: hidden; text-overflow: ellipsis; }
+    table.kart td.celle { width: 44px; height: 30px; text-align: center; border-radius: 3px; font-variant-numeric: tabular-nums; cursor: default; }
+    table.kart td.tom { background: #f4f2ee; color: transparent; }
+    table.kart td.ekstra { color: var(--text-muted); padding: 0 8px; white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+    .ok { font-size: 0.7rem; display: block; line-height: 1; }
+
+    /* Prøver */
+    .ins table.quiz { border-collapse: collapse; font-size: 0.86rem; width: 100%; border: 0; margin: 0; }
+    .ins table.quiz th, .ins table.quiz td { border-left: 0; border-right: 0; border-top: 0; background: none; }
+    table.quiz th, table.quiz td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    table.quiz th { font-weight: 500; color: var(--text-muted); }
+    table.quiz td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .svake { color: var(--text-muted); }
+
+    #tips { position: fixed; pointer-events: none; background: var(--black); color: var(--white); font-size: 0.8rem; padding: 8px 10px; border-radius: 4px; line-height: 1.45; max-width: 280px; display: none; z-index: 10; }
+    .personvern { margin-top: 48px; font-size: 0.82rem; color: var(--text-subtle); }
+  </style>
+</head>
+<body>
+<main class="ins">
+  <div class="topp">
+    <div>
+      <h1>Innsikt</h1>
+      <p class="sub">Hvem leser hva i Reklameforståelse. Bare synlig for Morgenstern.</p>
+    </div>
+    <div><span class="sub" id="hentet"></span> <button id="oppdater">Oppdater</button></div>
+  </div>
+
+  <div id="melding"></div>
+  <div class="tiles" id="tiles"></div>
+
+  <h2>Hvor langt deltakerne kommer</h2>
+  <p class="sub">Antall deltakere per økt.</p>
+  <div class="legend"><span><i style="background:#86b6ef"></i>Åpnet økten</span><span><i style="background:#1c5cab"></i>Lest minst 75 % av siden</span></div>
+  <div class="fall" id="fall"></div>
+
+  <h2>Deltakere</h2>
+  <p class="sub">Tallet i ruten er hvor langt ned på siden deltakeren har kommet. Mørkere farge betyr lenger. ✓ betyr at økten er markert som fullført. Hold musen over en rute for tid og prøvesvar.</p>
+  <div class="skroll"><table class="kart" id="kart"></table></div>
+
+  <h2>Prøvene</h2>
+  <p class="sub">Siste forsøk per deltaker. Spørsmålene som færrest svarer riktig på står øverst i hver økt.</p>
+  <div id="quiz"></div>
+
+  <p class="personvern">Deltakerne får beskjed om sporingen på innloggingssiden. Dataene ligger i Upstash Redis i prosjektets Vercel-konto.</p>
+</main>
+<div id="tips"></div>
+
+<script>
+(function () {
+  'use strict';
+  var OKTER = ['Et felles språk', 'Merkevarebygging og aktivering', '60/40 og ESOV', 'Følelser slår argumenter',
+    'Mental tilgjengelighet', 'Fysisk tilgjengelighet og merkemarkører', 'Flere kunder slår mer lojale kunder',
+    'Sharp mot Ritson', 'Psyko-logikk', 'Kostbare signaler', 'Overtalelse', 'Kreativitet lønner seg', 'Måling',
+    'Et rammeverk for idévurdering'];
+  var SIDER = OKTER.map(function (_, i) { return 'dag-' + (i + 1); });
+  // Sekvensiell blå, lys til mørk.
+  var RAMPE = ['#cde2fb', '#b7d3f6', '#9ec5f4', '#86b6ef', '#6da7ec', '#5598e7', '#3987e5', '#2a78d6', '#256abf', '#1c5cab', '#184f95'];
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function n(v) { return Number(v) || 0; }
+  function minutter(sek) { sek = n(sek); if (!sek) return '–'; var m = Math.round(sek / 60); return m < 60 ? m + ' min' : Math.floor(m / 60) + ' t ' + (m % 60) + ' min'; }
+  function dato(iso) { if (!iso) return '–'; var d = new Date(iso); return d.toLocaleDateString('nb-NO', { day: 'numeric', month: 'short' }) + ' ' + d.toLocaleTimeString('nb-NO', { hour: '2-digit', minute: '2-digit' }); }
+  function farge(p) { return RAMPE[Math.min(RAMPE.length - 1, Math.floor(p / 100 * (RAMPE.length - 1)))]; }
+  function navn(d) { return d.id.indexOf('kode:') === 0 ? 'Ukjent (kode ' + d.id.slice(5) + ')' : d.id; }
+  function poeng(q) { var r = 0; (q.svar || []).forEach(function (s) { if (s.valgt && s.valgt === s.riktig) r++; }); return { riktig: r, av: (q.svar || []).length }; }
+
+  function tiles(dl) {
+    var uke = Date.now() - 7 * 864e5, aktive = 0, tid = 0, fullfort = 0;
+    dl.forEach(function (d) {
+      if (d.info.sist && new Date(d.info.sist).getTime() > uke) aktive++;
+      for (var s in d.tid) tid += n(d.tid[s]);
+      fullfort += Object.keys(d.fullfort).filter(function (s) { return SIDER.indexOf(s) >= 0; }).length;
+    });
+    var t = [
+      [dl.length, 'deltakere har vært innom'],
+      [aktive, 'aktive siste 7 dager'],
+      [dl.length ? (fullfort / dl.length).toFixed(1).replace('.', ',') : '0', 'fullførte økter i snitt'],
+      [minutter(tid), 'samlet lesetid']
+    ];
+    $('tiles').innerHTML = t.map(function (x) { return '<div class="tile"><div class="tall">' + esc(x[0]) + '</div><div class="lbl">' + esc(x[1]) + '</div></div>'; }).join('');
+  }
+
+  function frafall(dl) {
+    var maks = Math.max(1, dl.length);
+    $('fall').innerHTML = SIDER.map(function (s, i) {
+      var apnet = 0, lest = 0;
+      dl.forEach(function (d) { if (n(d.visninger[s]) || n(d.dybde[s])) apnet++; if (n(d.dybde[s]) >= 75) lest++; });
+      var a = apnet / maks * 100, b = lest / maks * 100;
+      return '<div class="navn" title="' + esc(OKTER[i]) + '">' + (i + 1) + '. ' + esc(OKTER[i]) + '</div>' +
+        '<div class="spor"><div class="bar a" style="width:' + a + '%"></div><div class="bar b" style="width:' + b + '%"></div>' +
+        '<span class="tall" style="left:calc(' + a + '% + 6px)">' + apnet + ' / ' + lest + '</span></div>';
+    }).join('');
+  }
+
+  function kart(dl) {
+    var hode = '<tr><th class="person">Deltaker</th>' + SIDER.map(function (s, i) { return '<th title="' + esc(OKTER[i]) + '">' + (i + 1) + '</th>'; }).join('') +
+      '<th>Lesetid</th><th>Sist aktiv</th></tr>';
+    var rader = dl.map(function (d) {
+      var tid = 0; for (var s in d.tid) tid += n(d.tid[s]);
+      var celler = SIDER.map(function (s, i) {
+        var p = d.dybde[s] !== undefined ? n(d.dybde[s]) : null;
+        var q = d.quiz[s] ? poeng(d.quiz[s]) : null;
+        var tips = '<b>' + esc(navn(d)) + '</b><br>Økt ' + (i + 1) + ': ' + esc(OKTER[i]) + '<br>' +
+          (p === null && !n(d.visninger[s]) ? 'Ikke åpnet' :
+            'Kom ' + (p || 0) + ' % ned på siden<br>Tid: ' + minutter(d.tid[s]) + '<br>Åpnet ' + n(d.visninger[s]) + ' ganger' +
+            (q ? '<br>Prøve: ' + q.riktig + ' av ' + q.av + ' riktig' : '') +
+            (d.fullfort[s] ? '<br>Fullført ' + esc(dato(d.fullfort[s])) : ''));
+        if (p === null && !n(d.visninger[s])) return '<td class="celle tom" data-tips="' + esc(tips) + '">·</td>';
+        p = p || 0;
+        var bg = farge(p), lys = p < 55;
+        return '<td class="celle" data-tips="' + esc(tips) + '" style="background:' + bg + ';color:' + (lys ? '#1A1A1A' : '#fff') + '">' + p +
+          (d.fullfort[s] ? '<span class="ok">✓</span>' : '') + '</td>';
+      }).join('');
+      return '<tr><td class="person" title="' + esc(navn(d)) + '">' + esc(navn(d)) + '</td>' + celler +
+        '<td class="ekstra">' + minutter(tid) + '</td><td class="ekstra">' + esc(dato(d.info.sist)) + '</td></tr>';
+    }).join('');
+    $('kart').innerHTML = hode + rader;
+  }
+
+  function quiz(dl) {
+    var html = '';
+    SIDER.forEach(function (s, i) {
+      var forsok = dl.filter(function (d) { return d.quiz[s]; });
+      if (!forsok.length) return;
+      var sum = 0, av = 0, perSp = {};
+      forsok.forEach(function (d) {
+        d.quiz[s].svar.forEach(function (x) {
+          av++; if (x.valgt && x.valgt === x.riktig) sum++;
+          var p = perSp[x.q] || (perSp[x.q] = { riktig: 0, totalt: 0, valg: {} });
+          p.totalt++; if (x.valgt && x.valgt === x.riktig) p.riktig++;
+          var v = x.valgt || 'blankt'; p.valg[v] = (p.valg[v] || 0) + 1;
+        });
+      });
+      var sp = Object.keys(perSp).sort(function (a, b) { return perSp[a].riktig / perSp[a].totalt - perSp[b].riktig / perSp[b].totalt; });
+      html += '<tr><td><b>Økt ' + (i + 1) + '</b><br><span class="svake">' + esc(OKTER[i]) + '</span></td>' +
+        '<td class="num">' + forsok.length + ' deltakere<br><span class="svake">' + Math.round(sum / Math.max(1, av) * 100) + ' % riktig</span></td><td>' +
+        sp.map(function (q) {
+          var p = perSp[q];
+          var valg = Object.keys(p.valg).sort().map(function (v) { return v + ': ' + p.valg[v]; }).join(', ');
+          return 'Spørsmål ' + esc(q.replace(/^q/, '')) + ': ' + p.riktig + ' av ' + p.totalt + ' riktig <span class="svake">(' + esc(valg) + ')</span>';
+        }).join('<br>') + '</td></tr>';
+    });
+    $('quiz').innerHTML = html ? '<table class="quiz"><tr><th>Økt</th><th>Svar</th><th>Per spørsmål</th></tr>' + html + '</table>'
+      : '<p class="sub">Ingen prøvesvar ennå.</p>';
+  }
+
+  function vis(data) {
+    var dl = (data.deltakere || []).slice().sort(function (a, b) { return String(b.info.sist || '').localeCompare(String(a.info.sist || '')); });
+    $('hentet').textContent = data.hentet ? 'Hentet ' + dato(data.hentet) : '';
+    $('melding').innerHTML = dl.length ? '' : '<div class="melding">Ingen data ennå. Tallene kommer når deltakerne åpner kurset.</div>';
+    tiles(dl); frafall(dl); kart(dl); quiz(dl);
+  }
+
+  function hent() {
+    $('hentet').textContent = 'Henter …';
+    fetch('/innsikt/data', { credentials: 'same-origin', cache: 'no-store' })
+      .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.feil || ('Feil ' + r.status)); return j; }); })
+      .then(vis)
+      .catch(function (e) { $('hentet').textContent = ''; $('melding').innerHTML = '<div class="melding">' + esc(e.message) + '</div>'; });
+  }
+
+  var tipsEl = $('tips');
+  document.addEventListener('mousemove', function (e) {
+    var t = e.target.closest && e.target.closest('[data-tips]');
+    if (!t) { tipsEl.style.display = 'none'; return; }
+    tipsEl.innerHTML = t.getAttribute('data-tips');
+    tipsEl.style.display = 'block';
+    var x = e.clientX + 14, y = e.clientY + 14;
+    if (x + 290 > innerWidth) x = e.clientX - 290;
+    if (y + tipsEl.offsetHeight > innerHeight) y = e.clientY - tipsEl.offsetHeight - 10;
+    tipsEl.style.left = x + 'px'; tipsEl.style.top = y + 'px';
+  });
+
+  $('oppdater').addEventListener('click', hent);
+  hent();
+})();
+</script>
+</body>
+</html>
