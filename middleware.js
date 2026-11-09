@@ -257,8 +257,16 @@ export default async function middleware(req) {
   }
 
   // Innsikt er bare for Morgenstern, altså den interne koden.
-  if (sti === '/innsikt' || sti === '/innsikt.html' || sti === '/innsikt/data') {
+  if (sti === '/innsikt' || sti === '/innsikt.html' || sti.startsWith('/innsikt/')) {
     if (k.id !== INTERN) return new Response('Ikke tilgang', { status: 403 });
+    // Sletter alt som er lagret om én deltaker, f.eks. når noen ber om det.
+    if (sti === '/innsikt/slett' && req.method === 'POST') {
+      const id = String((await req.text()) || '').trim().slice(0, 200);
+      if (!id) return json({ feil: 'Mangler deltaker' }, 400);
+      const nokler = ['brukerinfo', 'visninger', 'tid', 'quiz', 'quizforsok', 'fullfort', 'dybde'].map((f) => f + ':' + id);
+      try { await redis([['SREM', 'brukere', id], ['DEL', ...nokler]]); } catch (e) { return json({ feil: String(e.message || e) }, 502); }
+      return json({ slettet: id });
+    }
     if (sti === '/innsikt/data') {
       if (!redisOppsett()) return json({ feil: 'Databasen er ikke koblet til ennå.' }, 503);
       try { return json(await hentInnsikt()); } catch (e) { return json({ feil: String(e.message || e) }, 502); }

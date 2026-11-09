@@ -50,6 +50,8 @@
     .svake { color: var(--text-muted); }
 
     #tips { position: fixed; pointer-events: none; background: var(--black); color: var(--white); font-size: 0.8rem; padding: 8px 10px; border-radius: 4px; line-height: 1.45; max-width: 280px; display: none; z-index: 10; }
+    .ins button.slett { font-size: 0.7rem; padding: 1px 6px; margin-left: 6px; border-color: var(--rule); color: var(--text-subtle); }
+    .ins button.slett:hover { color: var(--quiz-wrong); border-color: var(--quiz-wrong); }
     .personvern { margin-top: 48px; font-size: 0.82rem; color: var(--text-subtle); }
   </style>
 </head>
@@ -79,7 +81,7 @@
   <p class="sub">Siste forsøk per deltaker. Spørsmålene som færrest svarer riktig på står øverst i hver økt.</p>
   <div id="quiz"></div>
 
-  <p class="personvern">Deltakerne får beskjed om sporingen på innloggingssiden. Dataene ligger i Upstash Redis i prosjektets Vercel-konto.</p>
+  <p class="personvern">Deltakerne får beskjed om sporingen på innloggingssiden. Dataene ligger i Upstash Redis (Frankfurt) i prosjektets Vercel-konto. Slett-knappen fjerner alt som er lagret om én deltaker.</p>
 </main>
 <div id="tips"></div>
 
@@ -150,7 +152,7 @@
         return '<td class="celle" data-tips="' + esc(tips) + '" style="background:' + bg + ';color:' + (lys ? '#1A1A1A' : '#fff') + '">' + p +
           (d.fullfort[s] ? '<span class="ok">✓</span>' : '') + '</td>';
       }).join('');
-      return '<tr><td class="person" title="' + esc(navn(d)) + '">' + esc(navn(d)) + '</td>' + celler +
+      return '<tr><td class="person" title="' + esc(navn(d)) + '">' + esc(navn(d)) + ' <button class="slett" data-slett="' + esc(d.id) + '" title="Slett alt som er lagret om denne deltakeren">Slett</button></td>' + celler +
         '<td class="ekstra">' + minutter(tid) + '</td><td class="ekstra">' + esc(dato(d.info.sist)) + '</td></tr>';
     }).join('');
     $('kart').innerHTML = hode + rader;
@@ -208,6 +210,17 @@
     if (x + 290 > innerWidth) x = e.clientX - 290;
     if (y + tipsEl.offsetHeight > innerHeight) y = e.clientY - tipsEl.offsetHeight - 10;
     tipsEl.style.left = x + 'px'; tipsEl.style.top = y + 'px';
+  });
+
+  // Sletting, f.eks. når en deltaker ber om å få dataene sine fjernet.
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-slett]');
+    if (!b) return;
+    var id = b.getAttribute('data-slett');
+    if (!window.confirm('Slette alt som er lagret om ' + id + '? Dette kan ikke angres.')) return;
+    fetch('/innsikt/slett', { method: 'POST', body: id, credentials: 'same-origin' })
+      .then(function (r) { if (!r.ok) throw new Error('Kunne ikke slette (' + r.status + ')'); hent(); })
+      .catch(function (err) { $('melding').innerHTML = '<div class="melding">' + esc(err.message) + '</div>'; });
   });
 
   $('oppdater').addEventListener('click', hent);
