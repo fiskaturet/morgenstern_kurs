@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Logg inn · Reklameforståelse</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .kode-felt { position: relative; }
+    .kode-felt input { padding-right: 4rem; margin-bottom: 0; }
+    .login-form button.vis-kode { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: auto; padding: 0.3rem 0.6rem; font-size: 0.8rem; background: transparent; color: var(--text-muted); border: 0; }
+    .login-form button.vis-kode:hover { color: var(--text); filter: none; }
+    .login-hint { font-size: 0.82rem; color: var(--text-subtle); margin: 0.5rem 0 1rem; }
+  </style>
 
   <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png" />
@@ -25,9 +32,13 @@
 
     <form id="login-form" class="login-form" method="post" action="/logginn">
       <label for="email">E-post</label>
-      <input type="email" id="email" name="epost" required autocomplete="email" autofocus placeholder="navn@firma.no" />
+      <input type="email" id="email" name="epost" required autocomplete="username" autofocus placeholder="navn@firma.no" />
       <label for="kode">Tilgangskode</label>
-      <input type="text" id="kode" name="kode" required autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="ord-ord-1234" />
+      <div class="kode-felt">
+        <input type="password" id="kode" name="kode" required autocomplete="current-password" autocapitalize="none" spellcheck="false" placeholder="ord-ord-1234" />
+        <button type="button" class="vis-kode" id="vis-kode" aria-controls="kode" aria-pressed="false">Vis</button>
+      </div>
+      <p class="login-hint">Du forblir innlogget på denne enheten. Nettleseren kan også lagre koden for deg.</p>
       <input type="hidden" id="return" name="return" value="/" />
       <button type="submit" class="btn">Logg inn</button>
       <div id="login-error" class="login-error" hidden></div>
@@ -57,6 +68,13 @@
       errorEl.hidden = false;
     }
     try { var saved = localStorage.getItem(KEY); if (saved) document.getElementById('email').value = saved; } catch (e) {}
+    var kodeEl = document.getElementById('kode'), visEl = document.getElementById('vis-kode');
+    visEl.addEventListener('click', function () {
+      var vis = kodeEl.type === 'password';
+      kodeEl.type = vis ? 'text' : 'password';
+      visEl.textContent = vis ? 'Skjul' : 'Vis';
+      visEl.setAttribute('aria-pressed', String(vis));
+    });
     document.getElementById('login-form').addEventListener('submit', function () {
       var email = (document.getElementById('email').value || '').trim().toLowerCase();
       try { localStorage.setItem(KEY, email); } catch (e) {}

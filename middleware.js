@@ -12,7 +12,8 @@ export const config = {
 
 const COOKIE = 'rf_tilgang';
 const BRUKER = 'rf_bruker';
-const NITTI_DAGER = 60 * 60 * 24 * 90;
+// Innloggingen varer i 400 dager, som er det lengste nettleserne godtar, og fornyes hver gang deltakeren åpner en side.
+const LEVETID = 60 * 60 * 24 * 400;
 const INTERN = 'morgenstern-internt';
 const SIDE = /^(forside|dag-\d{1,2}|hele-kurset|oppslag)$/;
 
@@ -201,6 +202,19 @@ function tryggRetur(verdi) {
   return s.startsWith('/') && !s.startsWith('//') ? s : '/';
 }
 
+function informasjonskapsler(hash, epost) {
+  const c = [`${COOKIE}=${hash}; Path=/; Max-Age=${LEVETID}; HttpOnly; Secure; SameSite=Lax`];
+  if (epost) c.push(`${BRUKER}=${encodeURIComponent(epost)}; Path=/; Max-Age=${LEVETID}; HttpOnly; Secure; SameSite=Lax`);
+  return c;
+}
+
+// Slipper forespørselen videre til siden og fornyer innloggingen, så den ikke går ut så lenge deltakeren er aktiv.
+function slippIgjennomOgForny(req, hash) {
+  const headers = new Headers({ 'x-middleware-next': '1' });
+  for (const c of informasjonskapsler(hash, lesCookie(req, BRUKER))) headers.append('Set-Cookie', c);
+  return new Response(null, { headers });
+}
+
 function videresend(url, sted, cookie) {
   const headers = new Headers({ Location: new URL(sted, url).toString() });
   for (const c of [].concat(cookie || [])) headers.append('Set-Cookie', c);
@@ -220,10 +234,7 @@ export default async function middleware(req) {
     const hash = await sha256((tilgang.salt || '') + kode);
     const k = finn(tilgang, hash);
     if (gyldig(k) && riktigDomene(k, epost)) {
-      return videresend(url, retur, [
-        `${COOKIE}=${hash}; Path=/; Max-Age=${NITTI_DAGER}; HttpOnly; Secure; SameSite=Lax`,
-        `${BRUKER}=${encodeURIComponent(epost)}; Path=/; Max-Age=${NITTI_DAGER}; HttpOnly; Secure; SameSite=Lax`,
-      ]);
+      return videresend(url, retur, informasjonskapsler(hash, epost));
     }
     const feil = k && utlopt(k) ? 'utlopt' : k && !riktigDomene(k, epost) ? 'domene' : '1';
     return videresend(url, '/login?feil=' + feil + '&return=' + encodeURIComponent(retur));
@@ -246,7 +257,8 @@ export default async function middleware(req) {
 
   if (sti === '/login' || sti === '/login.html') return;
 
-  const k = finn(await hentTilgang(), lesCookie(req, COOKIE));
+  const hash = lesCookie(req, COOKIE);
+  const k = finn(await hentTilgang(), hash);
   if (!gyldig(k)) {
     if (sti === '/spor') return new Response(null, { status: 401 });
     return videresend(url, '/login?return=' + encodeURIComponent(sti + url.search));
@@ -273,5 +285,8 @@ export default async function middleware(req) {
     }
     return;
   }
+
+  // Sidevisninger fornyer innloggingen. Filer som skript og bilder slipper bare gjennom.
+  if (req.method === 'GET' && (!/\.[a-z0-9]+$/i.test(sti) || sti.endsWith('.html'))) return slippIgjennomOgForny(req, hash);
 }
 
