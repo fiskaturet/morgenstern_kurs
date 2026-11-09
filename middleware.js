@@ -169,8 +169,9 @@ function somObjekt(liste) {
 }
 
 async function hentInnsikt() {
-  const [brukere] = await redis([['SMEMBERS', 'brukere']]);
-  if (!brukere || !brukere.length) return { deltakere: [] };
+  const [brukere, pam] = await redis([['SMEMBERS', 'brukere'], ['HGETALL', 'paminnelser']]);
+  const paminnelser = somObjekt(pam);
+  if (!brukere || !brukere.length) return { deltakere: [], paminnelser };
   const felt = ['brukerinfo', 'visninger', 'tid', 'quiz', 'quizforsok', 'fullfort'];
   const kom = [];
   for (const uid of brukere) {
@@ -194,7 +195,7 @@ async function hentInnsikt() {
       dybde: somObjekt(r[6]),
     };
   });
-  return { deltakere, hentet: new Date().toISOString() };
+  return { deltakere, paminnelser, hentet: new Date().toISOString() };
 }
 
 function tryggRetur(verdi) {
@@ -278,6 +279,13 @@ export default async function middleware(req) {
       const nokler = ['brukerinfo', 'visninger', 'tid', 'quiz', 'quizforsok', 'fullfort', 'dybde'].map((f) => f + ':' + id);
       try { await redis([['SREM', 'brukere', id], ['DEL', ...nokler]]); } catch (e) { return json({ feil: String(e.message || e) }, 502); }
       return json({ slettet: id });
+    }
+    // Noterer at en deltaker har fått påminnelse på e-post, så samme person ikke får flere for samme fravær.
+    if (sti === '/innsikt/paminnet' && req.method === 'POST') {
+      const id = String((await req.text()) || '').trim().toLowerCase().slice(0, 200);
+      if (!EPOST.test(id)) return json({ feil: 'Mangler e-post' }, 400);
+      try { await redis([['HSET', 'paminnelser', id, new Date().toISOString()]]); } catch (e) { return json({ feil: String(e.message || e) }, 502); }
+      return json({ paminnet: id });
     }
     if (sti === '/innsikt/data') {
       if (!redisOppsett()) return json({ feil: 'Databasen er ikke koblet til ennå.' }, 503);
